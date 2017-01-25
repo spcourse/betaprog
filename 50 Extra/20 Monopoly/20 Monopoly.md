@@ -173,8 +173,9 @@ Het lijkt logisch dat de speler die als eerste begint een voordeel heeft. Maar h
 
 b) Bepaal zodra alle straten verkocht zijn de volgende vragen:
 
-    - hoeveel huizen heeft speler 1 gemiddeld meer dan speler 2 ?
-    - wat is de fractie van spelletjes waarin speler 2 meer straten huizen heeft dan speler 1 ? 
+- hoeveel huizen heeft speler 1 gemiddeld meer dan speler 2 ?
+
+- wat is de fractie van spelletjes waarin speler 2 meer straten huizen heeft dan speler 1 ? 
 
 
 De vraag is nu hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je 
