@@ -20,6 +20,9 @@ hebben we nog wat suggesties voor extra opgaves gemaakt.
 
 ![](MonopolyBordInternationaal.jpg)
 
+
+
+
 ## Opdracht 1: rondlopen op het bord (1 speler, Trump mode)
 
 We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem 
