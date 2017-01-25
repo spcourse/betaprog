@@ -23,19 +23,30 @@ blabla2
 
 ## Random integers
 
-Het enige nieuwe Python element dat we nodig hebben is 
-
-
-
+Het enige nieuwe Python element dat we nodig hebben is een manier om een dobbelsteen te 
+gooien. Een random geheel getal tussen de 1 en de 6 dus. Dat zouden we zelf kunnen 
+'bouwen' met behulp van de random() functie die we eerder hebben leren kennen, maar er 
+is een speciale functie voor in Python, namelijk 'randint()'.
 
 {: .language-python}
-    # This function consists of 4 lines of code and
-	# 2 lines of commenting.
-    def sum(arrayOfNumbers):
-        result = 0
-        # This for loop contains exactly 1 line that is repeated.
-        # The next line after is unindented.
-        for number in arrayOfNumbers:
-            result = result + number
-        return result
+	# from random import *
+	dobbelsteen = randint(1,6) 
+	
+### opgave 1: rare worpen met twee dobbelstenen
 
+Met Monopoly gooi je met twee dobbelstenen. Schrijf een Python programma `Opdracht1` waarbij 
+je een groot aantal worpen maakt en voor elke worp steeds twee dobbelstenen gooit. Zorgt dat 
+op het scherm voor elke worp het aantal ogen geprint wordt en maak duidelijk aan de gebruiker 
+als er een zogenaamde 'dubbel' gegooid wordt (het aantal ogen op beide dobbelstenen is gelijk).
+
+{: .language-python}
+	worp 1: totaal van 2 dobbelstenen = 13
+	worp 2: totaal van 2 dobbelstenen =  8
+	worp 3: totaal van 2 dobbelstenen = 12
+	        Dubbel: 6+6
+	
+
+
+	
+	
+	
