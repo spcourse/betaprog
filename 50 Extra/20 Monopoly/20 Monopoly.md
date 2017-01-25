@@ -18,7 +18,6 @@ Omdat we niet veel tijd hebben zullen we dit stap voor stap opbouwen. Voor degen
 de smaak te pakken heeft en nu al droomt van een baan op de Risk analysis van JP Morgen 
 hebben we nog wat suggesties voor extra opgaves gemaakt.
 
-blabla2
 
 
 ## Random integers
@@ -59,6 +58,8 @@ We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten
 straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, 
 er is geen concurrentie.
 
+![](MonopolyBordInternationaal.jpg)
+		
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
 zijn verkocht. Schrijf in een bestand `Monopoly.py` een functie waarin je  
 
@@ -66,6 +67,7 @@ zijn verkocht. Schrijf in een bestand `Monopoly.py` een functie waarin je
 	Monopoly simulator: 1 speler, Trump mode 
     We hebben XXX potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor alle straten waren bezocht / verkocht
+	
 	
 Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen door te nemen.
 
@@ -139,23 +141,10 @@ spel maar net op het laatst overgebleven veld terecht moet komen.
 
 Simuleer 1000 (of 10000) potjes en maak een grafiek (histogram) van het aantal worpen dat nodig 
 was om alle straten in het bezit te krijgen. Bepaal vervolgens ook het gemiddeld aantal worpen 
-dat nodig was.
+dat nodig was en print het op het scherm in het format dat bovenaan de opgave gespecificeerd is
 
- Print op het scherm zodra je alles in je bezit hebt.
-{: .language-python}
-    We hebben XXX potjes Monopoly gesimuleerd
-    Gemiddeld heeft de speler na XXX worpen alle straten in zijn bezit
   
 
-
-
-
-
-
-Verzin en manier om bij te houden of een 
-
-
-![](MonopolyBordInternationaal.png)
 
 
 
