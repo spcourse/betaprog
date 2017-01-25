@@ -27,7 +27,7 @@ straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft onei
 er is geen concurrentie.
 		
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
-zijn verkocht. Schrijf in een bestand `Monopoly.py` een functie waarin je  
+zijn verkocht. Schrijf in een bestand `Monopoly_opdracht1.py` een functie waarin je  
 
 {: .language-python}
 	Monopoly simulator: 1 speler, Trump mode 
@@ -162,6 +162,32 @@ minder startgeld. Print dat op het scherm.
 
 
 ## Opdracht 3: Realisme toevoegen: twee spelers
+
+In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om te 
+bepalen wat het voordeel is van de speler die als eerste begint. Voeg een tweede speler toe in 
+je simulaties. 
+
+a) Bepaal hoeveel worpen er nodig zijn voordat alle huizen verkocht zijn.
+
+Het lijkt logisch dat de speler die als eerste begint een voordeel heeft. Maar hoeveel ? 
+
+b) Bepaal zodra alle straten verkocht zijn de volgende vragen:
+
+    - hoeveel huizen heeft speler 1 gemiddeld meer dan speler 2 ?
+    - wat is de fractie van spelletjes waarin speler 2 meer straten huizen heeft dan speler 1 ? 
+
+
+De vraag is nu hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je 
+aan kan draaien is de hoeveelheid startgeld. Wat is de hoeveelheid extra startgeld die we aan 
+speler 2 moeten geven zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 
+op het moment dat alle straten verdeeld zijn. 
+
+
+## Samenvatting
+
+Het soort simulaties die we hier gedaan hebben zijn een versimpelde versie van de vaak zeer complexe 
+modellen waarmee grote financiele partijen risico's inschatten en strategieen bepalen, maar ook die 
+waarmee politieke partijen de effecten van hun keuzes doorrekenen.
 
 
 
