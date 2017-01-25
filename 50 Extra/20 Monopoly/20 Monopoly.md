@@ -116,17 +116,19 @@ en elke keer als je op een nieuwe positie komt kan je nu nagaan:
     a) is er op die positie een straat of iets anders om te kopen ?
     b) zo ja, heb ik dat al in mijn bezit of is het nog 'op de markt' ?
    
-Als je bijvoorbeeld na worp 1 op plek 3 komt dan ziet L_bezit er als volgt uit.
+Als je bijvoorbeeld na worp 1 op plek 3 komt dan ziet je ijst met bezittingen er als volgt uit.
 
 {: .language-python}
     L_bezit = [0,0,1,0,.....,0,0]
 
 Als er op de positie niks te kopen is of als je de straat al in je bezit hebt dan gooi je opnieuw en 
-wandelen we verder. Door elke keer dat je een nieuwe straat in je bezit krijgt te kijken hoeveel straten 
-je hebt kan je uitzoeken of je 'alles' in je bezit hebt. Je weet namelijk hoeveel velden er te koop zijn 
-in het spel.
+wandelen we verder. Zorg dat je na elke worp waarbij je op een veld komt dat nog te koop is het op 
+het scherm geprint wordt en ook gelijk hoeveel velden je in totaal in je bezit hebt na die aankoop.
 
-Print op het scherm zodra je alles in je bezit hebt.
+Omdat je weet hoeveel straten er in totaal te koop zijn in het spel weet je nu ook wanneer je alle 
+straten in je bezit hebt. Stop mhet spel als dat gebeurt en print op het scherm hoeveel beurten je 
+nodig had:
+
 {: .language-python}
     Monopoly is afgelopen: na worp XXX had de speler alle straten in zijn bezit
 
@@ -138,7 +140,8 @@ spel maar net op het laatst overgebleven veld terecht moet komen.
 
 Simuleer 1000 (of 10000) potjes en maak een grafiek (histogram) van het aantal worpen dat nodig 
 was om alle straten in het bezit te krijgen. Bepaal vervolgens ook het gemiddeld aantal worpen 
-dat nodig was en print het op het scherm in het format dat bovenaan de opgave gespecificeerd is
+dat nodig was om alle straten te verkopen en print het op het scherm in het format dat bovenaan 
+de opgave gespecificeerd is.
 
   
 
