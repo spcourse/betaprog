@@ -113,9 +113,8 @@ is van de speler. Of niet. Die lijst begint als een lijst met 40 nullen.
 
 en elke keer als je op een nieuwe positie komt kan je nu nagaan:
 
-   a) is er op die positie een straat of iets anders om te kopen
-   
-   b) zo ja, heb ik dat al in mijn bezit of is het nog 'op de markt'
+    - a) is er op die positie een straat of iets anders om te kopen ?
+    - b) zo ja, heb ik dat al in mijn bezit of is het nog 'op de markt' ?
    
 Als je bijvoorbeeld na worp 1 op plek 3 komt dan ziet L_bezit er als volgt uit.
 
