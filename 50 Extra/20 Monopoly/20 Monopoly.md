@@ -23,7 +23,7 @@ hebben we nog wat suggesties voor extra opgaves gemaakt.
 
 
 
-## Opdracht 1: rondlopen op het bord (1 speler, Trump mode)
+## Opdracht 1: Trump mode: 1 speler met oneindig veel geld
 
 We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem 
 straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, 
@@ -35,11 +35,11 @@ zijn verkocht. Schrijf in een bestand `Monopoly.py` een functie waarin je
 {: .language-python}
 	Monopoly simulator: 1 speler, Trump mode 
     We hebben XXX potjes gesimuleerd
-    Gemiddeld duurde het XXX worpen voor alle straten waren bezocht / verkocht
+    Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 	
 Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen door te nemen.
 
-### tussenstap 1: random integers
+### Tussenstap 1: dobbelsten in Python - random integers
 
 Het enige nieuwe Python element dat we nodig hebben is een manier om een dobbelsteen te 
 gooien. Een random geheel getal tussen de 1 en de 6 dus. Dat zouden we zelf kunnen 
@@ -69,9 +69,7 @@ Hou het aantal 'dubbelen' bij en print dat aan het eind van het programma op het
 
     print "Het percentage dubbele worpen = xx,xx procent"	
 
-
-
-### tussenstap 2: Enkel potje: rondlopen op leeg bord
+### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
 We gaan eerst rondlopen op het Monopolybord. Gooi steeds met twee dobbelstenen en hou de plek bij 
 waar de speler staat op het bord. Print dat op het scherm. Hierbij is start positie 0, de gevangenis 
@@ -84,8 +82,7 @@ al heb je meerdere rondjes gemaakt.
 	Na worp 3: positie 17
     Na worp 4: ...
 
-
-### tussenstap 3: Enkel potje: rondlopen op het 'echte' bord
+### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (kijken)
 
 Niet elke positie op het correspondeert met een straat. Niet alleen de hoekpunten natuurlijk, maar ook 
 de Kans en Algemeen fonds kaarten en de belastingen. Maak een array (lengte 40) waarbij je voor elke 
@@ -95,7 +92,7 @@ zijn dan:
 {: .language-python}
    L_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 100, 0, ......]
 
-Voor elke positie op het bord kan je dan gelijk checken of je op een  
+Voor elke positie op het bord kan je dan gelijk
 
 {: .language-python}
 	Na worp 1: positie  6 (straat)
@@ -103,20 +100,21 @@ Voor elke positie op het bord kan je dan gelijk checken of je op een
 	Na worp 3: positie 17 (leeg)
 	Na worp 4: ...
 	
-### tussenstap 4: Enkel potje: rondlopen op het 'echte' bord - bijhouden wat al verkocht is
+### tussenstap 4: Enkel potje: rondlopen op het 'echte' bord (kopen)
 
 We stappen over het bord als Donald Trump, dus kunnen alles kopen wat we willen en hebben geen haast. 
-We wandelen net zo lang door tot we alles in ons bezit hebben. De vraag is hoe lang dit duurt.
-
-We moeten dus bijhouden wat in ons bezit is. Ook dat kan je doen met behulp van een lijst waarbij je 
-voor elke plek op het bord bijhoudt of hij in je bezit is of niet. Die lijst (lengte 40) begint als 
-een lijst waarin 40 nullen staan. 
+We wandelen net zo lang door tot we alles in ons bezit hebben. De vraag is hoe lang dit duurt. Het is dus 
+belangrijk dat we bijhouden hoeveel straten (en welke) we al in ons bezit hebben. Dit kunnen we doen met 
+behulp van een lijst (weer lengte 40) waarbij je voor elke plek op het bord bijhoudt of hij in je bezit 
+is van de speler. Of niet. Die lijst begint als een lijst met 40 nullen. 
 
 {: .language-python}
     L_bezit = [0,0,0,0,.....,0,0]
 
-Elke keer als je op een nieuwe positie komt kan je nu nagaan:
+en elke keer als je op een nieuwe positie komt kan je nu nagaan:
+
    a) is er op die positie een straat of iets anders om te kopen
+   
    b) zo ja, heb ik dat al in mijn bezit of is het nog 'op de markt'
    
 Als je bijvoorbeeld na worp 1 op plek 3 komt dan ziet L_bezit er als volgt uit.
