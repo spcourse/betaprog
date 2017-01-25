@@ -177,12 +177,13 @@ b) Bepaal zodra alle straten verkocht zijn de volgende vragen:
 
 - wat is de fractie van spelletjes waarin speler 2 meer straten huizen heeft dan speler 1 ? 
 
-
 De vraag is nu hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je 
-aan kan draaien is de hoeveelheid startgeld. Wat is de hoeveelheid extra startgeld die we aan 
-speler 2 moeten geven zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 
-op het moment dat alle straten verdeeld zijn. 
+aan kan draaien is de hoeveelheid startgeld. 
 
+c) Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het 
+spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat 
+alle straten verdeeld zijn ? Probeer het antwoord dat je vindt te relateren aan je antwoord op 
+vraag 2.
 
 ## Samenvatting
 
