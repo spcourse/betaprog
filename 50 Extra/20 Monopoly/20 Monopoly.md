@@ -142,17 +142,24 @@ dat nodig was om alle straten te verkopen en print het op het scherm in het form
 de opgave gespecificeerd is.
 
 
-## Opdracht 2: Realisme toevoegen: 1500 euro startgeld
+## Opdracht 2: Realisme toevoegen: effect van startgeld
 
 In een gewoon potje Monopoly heeft elke speler 1500 euro startgeld. Elke keer dat de speler start 
 voorbij gaat krijgt hij er 200 euro bij. Neem dit stuk realisme mee en bekijk dus elke keer dat je 
-op een straat terechtkomt die te koop staat of je wel genoeg geld hebt om het te kopen.
+op een straat terechtkomt die te koop staat of je wel genoeg geld hebt om het te kopen. Bepaal het 
+gemiddelde aantal worpen dat je nu nodig hebt om als speler alle straten te kopen en vergelijk het 
+met het geval waarin je oneindig veel geld had. 
 
-Bepaal het gemiddelde aantal worpen dat je nu nodig hebt om als speler alle straten te kopen. 
+Maak een grafiek van het gemiddeld aantal worpen dat je nodig hebt om alle huizen te kopen als 
+functie van de hoeveelheid startgeld dat je krijgt. 
 
-Je kan testen of jet programma werkt door met een kleine hoeveelheid geld te beginnen (500 euro bijvoorbeeld) 
-waardoor je zeker in de problemen komt. Probeer een inschatting te maken van de hoeveelheid geld dat 
-correspondeert met gemiddeld 1 worp minder.
+Neem als hoeveelheid startgeld: 0, 500, 1000, 1500, 2000, 2500, 3000 en 3500 euro. Simuleer voor 
+elke keuze van het startgeld 25000 potjes om zo nauwkeurig mogelijk het gemiddeld aantal worpen 
+te bepalen dat nodig is om alle huizen te kopen. 
+
+In het officiele Monopolyspel krijgt elke speler 1500 euro. Gebruik de waardes uit de grafiek om 
+een inschatting te maken hoeveel meer 'worpen' er gedaan moeten worden voor elke 100 euro meer of 
+minder startgeld. Print dat op het scherm. 
 
 
 ## Opdracht 3: Realisme toevoegen: twee spelers
