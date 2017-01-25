@@ -18,7 +18,7 @@ Omdat we niet veel tijd hebben zullen we dit stap voor stap opbouwen. Voor degen
 de smaak te pakken heeft en nu al droomt van een baan op de Risk analysis van JP Morgen 
 hebben we nog wat suggesties voor extra opgaves gemaakt.
 
-blabla
+blabla2
 
 
 ## Random integers
