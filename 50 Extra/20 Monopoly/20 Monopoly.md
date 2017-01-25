@@ -1,5 +1,7 @@
 # Monopoly #
 
+![](MonopolyBordInternationaal.jpg){:.inline}{: style="width:50%"}
+
 Bij banken, verzekeraars en het centraal planbureau worden modellen opgesteld die 
 onze economie beschrijven. Alle facetten die een rol spelen krijgen een plek en met 
 behulp van een computer worden verschillende scenario's doorgerekend (gesimuleerd) 
@@ -17,9 +19,6 @@ We zullen in deze module een simpel voorbeeld doorrekenen: Monopoly met twee spe
 Omdat we niet veel tijd hebben zullen we dit stap voor stap opbouwen. Voor degene die 
 de smaak te pakken heeft en nu al droomt van een baan op de Risk analysis van JP Morgen 
 hebben we nog wat suggesties voor extra opgaves gemaakt.
-
-![](MonopolyBordInternationaal.jpg)
-
 
 ## Opdracht 1: Trump mode: 1 speler met oneindig veel geld
 
