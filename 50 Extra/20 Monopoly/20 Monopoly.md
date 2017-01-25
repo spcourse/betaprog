@@ -21,8 +21,6 @@ hebben we nog wat suggesties voor extra opgaves gemaakt.
 ![](MonopolyBordInternationaal.jpg)
 
 
-
-
 ## Opdracht 1: Trump mode: 1 speler met oneindig veel geld
 
 We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem 
@@ -143,9 +141,21 @@ was om alle straten in het bezit te krijgen. Bepaal vervolgens ook het gemiddeld
 dat nodig was om alle straten te verkopen en print het op het scherm in het format dat bovenaan 
 de opgave gespecificeerd is.
 
-  
+
+## Opdracht 2: Realisme toevoegen: 1500 euro startgeld
+
+In een gewoon potje Monopoly heeft elke speler 1500 euro startgeld. Elke keer dat de speler start 
+voorbij gaat krijgt hij er 200 euro bij. Neem dit stuk realisme mee en bekijk dus elke keer dat je 
+op een straat terechtkomt die te koop staat of je wel genoeg geld hebt om het te kopen.
+
+Bepaal het gemiddelde aantal worpen dat je nu nodig hebt om als speler alle straten te kopen. 
+
+Je kan testen of jet programma werkt door met een kleine hoeveelheid geld te beginnen (500 euro bijvoorbeeld) 
+waardoor je zeker in de problemen komt. Probeer een inschatting te maken van de hoeveelheid geld dat 
+correspondeert met gemiddeld 1 worp minder.
 
 
+## Opdracht 3: Realisme toevoegen: twee spelers
 
 
 
