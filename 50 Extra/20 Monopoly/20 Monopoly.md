@@ -145,11 +145,14 @@ de opgave gespecificeerd is.
 
 ![](GoldenDollar.png){:.inline}{: style="width:20%"}
 
-In een gewoon potje Monopoly heeft elke speler 1500 euro startgeld. Elke keer dat de speler start 
-voorbij gaat krijgt hij er 200 euro bij. Neem dit stuk realisme mee en bekijk dus elke keer dat je 
-op een straat terechtkomt die te koop staat of je wel genoeg geld hebt om het te kopen. Bepaal het 
-gemiddelde aantal worpen dat je nu nodig hebt om als speler alle straten te kopen en vergelijk het 
-met het geval waarin je oneindig veel geld had. 
+In een gewoon potje Monopoly krijg je 1500 euro startgeld en verdient je 200 euro voor elke   
+keer datje START passeert. De eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee 
+straten gekocht kunnen worden. In deze opgave gaan kijken welke invloed dit precies heeft.
+
+Hou bij hoeveel geld je hebt op elk moment en bekijk dus elke keer dat je op een straat 
+terechtkomt die nog te koop staat of je wel genoeg geld heeft om het te kopen. Bepaal het 
+gemiddelde aantal worpen dat je nu nodig hebt om als speler alle straten te kopen en vergelijk 
+het met het geval waarin je oneindig veel geld had. 
 
 Maak een grafiek van het gemiddeld aantal worpen dat je nodig hebt om alle huizen te kopen als 
 functie van de hoeveelheid startgeld dat je krijgt. 
