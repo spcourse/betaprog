@@ -143,7 +143,7 @@ de opgave gespecificeerd is.
 
 ## Opdracht 2: Realisme toevoegen: effect van startgeld
 
-![](GoldenDollar.png){:.inline}{: style="width:50%"}
+![](GoldenDollar.png){:.inline}{: style="width:20%"}
 
 In een gewoon potje Monopoly heeft elke speler 1500 euro startgeld. Elke keer dat de speler start 
 voorbij gaat krijgt hij er 200 euro bij. Neem dit stuk realisme mee en bekijk dus elke keer dat je 
