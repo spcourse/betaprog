@@ -168,22 +168,18 @@ minder startgeld. Print dat op het scherm.
 
 ## Opdracht 3: Realisme toevoegen: twee spelers
 
-In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om te 
-bepalen wat het voordeel is van de speler die als eerste begint. Voeg een tweede speler toe in 
-je simulaties. 
-
-a) Bepaal hoeveel worpen er nodig zijn voordat alle huizen verkocht zijn.
-
-Het lijkt logisch dat de speler die als eerste begint een voordeel heeft. Maar hoeveel ? 
-
-b) Bepaal zodra alle straten verkocht zijn de volgende vragen:
-
-- hoeveel huizen heeft speler 1 gemiddeld meer dan speler 2 ?
-
-- wat is de fractie van spelletjes waarin speler 2 meer straten huizen heeft dan speler 1 ? 
+In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om eerst 
+te evalueren wat het voordeel is van de speler die als eerste begint met gooien en vervolgens te 
+bestuderen hoe we dit nadeel voor speler 2 kunnen herstellen.
+ 
+Voeg een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
+en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle 
+straten verkocht zijn. Neem hiervoor het gemiddelde van 50.000 potjes zodat je een nauwkeurige 
+inschatting hebt.
 
 De vraag is nu hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je 
-aan kan draaien is de hoeveelheid startgeld. 
+aan kan draaien is de hoeveelheid startgeld. Als speler 2 meer startgeld krijgt kan hij iets van 
+zijn achterstandrepareren.
 
 c) Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het 
 spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat 
