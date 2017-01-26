@@ -169,30 +169,35 @@ minder startgeld. Print dat op het scherm.
 ## Opdracht 3: Realisme toevoegen: twee spelers
 
 In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om eerst 
-te evalueren wat het voordeel is van de speler die als eerste begint met gooien en vervolgens te 
-bestuderen hoe we dit nadeel voor speler 2 kunnen herstellen.
+te evalueren wat het voordeel is van de speler die begint met gooien en vervolgens te bestuderen hoe
+we het spel dit nadeel voor speler 2 kunnen herstellen.
  
-![](Balans.png){:.inline}{: style="width:20%"}
+![](Balans.png){:.inline}{: style="width:35%"}
  
-Voeg een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
+Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
 en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle 
-straten verkocht zijn. Neem hiervoor het gemiddelde van 50.000 potjes zodat je een nauwkeurige 
-inschatting hebt.
+straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer 50.000 potjes om een goede 
+schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel 
+heeft op speler 2.
 
-De vraag is nu hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je 
-aan kan draaien is de hoeveelheid startgeld. Als speler 2 meer startgeld krijgt kan hij iets van 
-zijn achterstandrepareren.
+De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' 
+waar je aan kan draaien is dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 
+2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra 
+startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel 
+straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn ? Geef speler 2 
+steeds wat meer geld (kies een paar punten) en bereken steeds het verschil. Als je een paar puten hebt 
+kan je een grafiek zoals hierboven waardoor je een goede afschatting kan maken van de hoeveelheid geld 
+dat het evenwicht hersteld. 
 
-c) Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het 
-spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat 
-alle straten verdeeld zijn ? Probeer het antwoord dat je vindt te relateren aan je antwoord op 
-vraag 2.
+Reproduceer de grafiek en geef zowel in de grafiek als geprint naar het scherm aan hoeveel extra geld 
+speler 2 moet krijgen om het evenwicht te herstellen. Het antwoord moet op 50 euro nauwkeurig zijn.
 
 ## Samenvatting
 
-Het soort simulaties die we hier gedaan hebben zijn een versimpelde versie van de vaak zeer complexe 
-modellen waarmee grote financiele partijen risico's inschatten en strategieen bepalen, maar ook die 
-waarmee politieke partijen de effecten van hun keuzes doorrekenen.
+De simulatie die we hier gedaan hebben is een versimpelde versie van de vaak zeer complexe 
+modellen waarmee grote financiele partijen risico's inschatten en strategieen bepalen. 
+Tegelijkertijd worden deze simulaties ook gebruikt door politieke partijen om de effecten 
+van hun keuzes door te rekenen in verschillende scenario's.
 
 
 
