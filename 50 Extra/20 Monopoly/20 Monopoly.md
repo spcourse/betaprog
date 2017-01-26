@@ -172,6 +172,8 @@ In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze op
 te evalueren wat het voordeel is van de speler die als eerste begint met gooien en vervolgens te 
 bestuderen hoe we dit nadeel voor speler 2 kunnen herstellen.
  
+![](Balans.png){:.inline}{: style="width:10%"}
+ 
 Voeg een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
 en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle 
 straten verkocht zijn. Neem hiervoor het gemiddelde van 50.000 potjes zodat je een nauwkeurige 
