@@ -64,30 +64,18 @@ deze met 3 decimalen nauweurigheid.
 RMS = test.
 
 
-## opdracht 2: impact van meer metingen
+## opdracht 2: impact van meer metingen op de nauwkeurigheid
 
-Als je in een 
-spreiding
+Als je in een spreiding
 
+Grafiek: 10000 keer 5 vrouwen, 10 vrouwen, 20 vrouwen, 50 vrouwen.
 
-
-
-### Voorbereiding: metingen simuleren in Python - een random getal trekken uit een normaalverdeling
+Bepaal ook de RMS rond het gemiddelde steeds.
 
 
-Het enige nieuwe Python element dat we nodig hebben is een manier om een dobbelsteen te 
+## Theorie: fitten
 
-
-
-Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
-zijn verkocht. Schrijf in een bestand `Monopoly_opdracht1.py` een functie waarin je  
-
-{: .language-python}
-	Monopoly simulator: 1 speler, Trump mode 
-    We hebben XXX potjes gesimuleerd
-    Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
-	
-Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen door te nemen.
+Hier het stuk over de Chi2.
 
 ### Tussenstap 1: dobbelsten in Python - random integers
 
