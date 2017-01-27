@@ -42,8 +42,8 @@ We hebben eerder gezien hoe je een random getal trekt in Python tussen 0 en 1. H
 om een random getal te trekken uit een bepaalde verdeling. In dit geval een normaalverdeling.
 
 {: .language-python}
-    mean = 184
-    sigma = 7.0
+    x_mean = 184
+    x_sigma = 7.0
     x = numpy.random.normal(mean,sigma)
 
 Het is niet 
