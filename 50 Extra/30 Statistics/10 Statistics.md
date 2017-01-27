@@ -12,25 +12,32 @@ of niet een afhankelijkheid van je studiesucces als functie van het aantal studi
 waarmee je een huis deelt?
  
 
-## Opdracht 1: de normaalverdeling en het effect van het aantal metingen
+## Theorie: de normaalverdeling en het effect van het aantal metingen
 
-In de natuur komt overal variatie voor en de afwijkingen van het gemiddelde wordt voor vaak 
-beschreven volgens de zogenaamde normaalverdeling:
+In de natuur komt overal variatie voor: de lengte van mensen in een land, het aantal 
+eitjes van een zeepaardje of het gewicht van apen in een populatie om er maar een paar 
+te noemen. De afwijkingen van het gemiddelde wordt voor vaak beschreven volgens de 
+zogenaamde normaalverdeling:
 
-$$ f(x,|\mu,\sigma)$$ 
+$$ f(x,|\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} exp^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^2}$$
 
-$$ = \frac{1}{\sigma\sqrt{2\pi}}$$
+Het is een functie die beschrijft wat de relatieve frequentie is waarmee waarde $$x$$ 
+voorkomt in de populatie van metingen. Het prettige aan deze verdeling is dat hij 
+gekarakteriseerd wordt door maar twee parameters: het gemiddelde ($$\mu$$) en de maat 
+voor de spreiding ($$\sigma$$). Er geldt dat ongeveer 68%(95%) van de waarden in het gebied 
+$$\mu \pm 1(2) \sigma$$ liggen.
 
-$$ exp^{\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^2}  $$
-
-Het prettige aan deze verdeling is dat hij gekarakteriseerd wordt door maar 2 parameters: 
-
+### voorbeeld: 
 
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
-normaalverdeling met gemiddelde = () en sigma = 
+normaalverdeling met een gemiddelde = 184.0(170.6) cm en sigma = 7.0(6.5) cm. De 
+(genormeerde) grafieken van de twee verdelingen staan in grafiek.
 
+![](ExampleLengte.png){:.inline}{: style="width:35%"}
 
- We zijn niet allemaal pre-cies even lang, we het KNMI heeft het 
+## opdracht 1: 
+
+We zijn niet allemaal pre-cies even lang, we het KNMI heeft het 
 
 
 ### Voorbereiding: de normaalverdeling in de statistiek
