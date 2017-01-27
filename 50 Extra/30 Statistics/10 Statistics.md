@@ -59,10 +59,16 @@ hebben. Hou bij het trekken van de random lengtes welk percentage vrouwen een le
 die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. Print 
 deze met 3 decimalen nauweurigheid.
 
+## Theorie: spreiding
+
+RMS = test.
+
 
 ## opdracht 2: impact van meer metingen
 
 Als je in een 
+spreiding
+
 
 
 
