@@ -17,8 +17,11 @@ waarmee je een huis deelt?
 In de natuur komt overal variatie voor en de afwijkingen van het gemiddelde wordt voor vaak 
 beschreven volgens de zogenaamde normaalverdeling:
 
-$$ f(\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}$$
+$$ f(x,|\mu,\sigma)$$ 
 
+$$ = \frac{1}{\sigma\sqrt{2\pi}}$$
+
+$$ exp^{\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^2}  $$
 
 Het prettige aan deze verdeling is dat hij gekarakteriseerd wordt door maar 2 parameters: 
 
