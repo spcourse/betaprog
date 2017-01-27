@@ -27,13 +27,12 @@ gekarakteriseerd wordt door maar twee parameters: het gemiddelde ($$\mu$$) en de
 voor de spreiding ($$\sigma$$). Er geldt dat ongeveer 68%(95%) van de waarden in het gebied 
 $$\mu \pm 1(2) \sigma$$ liggen.
 
-### voorbeeld: 
+![](ExampleLengte.png){:.inline}{: style="width:35%"}
 
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
 normaalverdeling met een gemiddelde = 184.0(170.6) cm en sigma = 7.0(6.5) cm. De 
 (genormeerde) grafieken van de twee verdelingen staan in grafiek.
 
-![](ExampleLengte.png){:.inline}{: style="width:35%"}
 
 ## opdracht 1: 
 
