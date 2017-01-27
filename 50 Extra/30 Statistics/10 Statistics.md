@@ -33,7 +33,20 @@ $$\mu \pm 1(2) \sigma$$ liggen.
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
 normaalverdeling met een gemiddelde = 184.0 (170.6) cm en sigma = 7.0 (6.5) cm. De 
 (genormeerde) grafieken van de twee verdelingen staan in grafiek. Dit betekent dat 
-34% van de mannen langer is dan 191 cm en dan 2.5% van de vrouwen kleiner is dan 164.1 cm.
+34% van de mannen langer is dan 191 cm en dan 2.5% van de vrouwen kleiner is dan 
+157.6 cm.
+
+## Python: trekken van random getallen uit een normaalverdeling 
+
+We hebben eerder gezien hoe je een random getal trekt in Python tussen 0 en 1. Het is ook mogelijk 
+om een random getal te trekken uit een bepaalde verdeling. In dit geval een normaalverdeling.
+
+{: .language-python}
+    mean = 184
+    sigma = 7.0
+    x = numpy.random.normal(mean,sigma)
+
+Het is niet 
 
 
 ## opdracht 1: 
