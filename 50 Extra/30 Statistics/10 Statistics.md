@@ -39,23 +39,30 @@ normaalverdeling met een gemiddelde = 184.0 (170.6) cm en sigma = 7.0 (6.5) cm. 
 ## Python: trekken van random getallen uit een normaalverdeling 
 
 We hebben eerder gezien hoe je een random getal trekt in Python tussen 0 en 1. Het is ook mogelijk 
-om een random getal te trekken uit een bepaalde verdeling. In dit geval een normaalverdeling.
+om een random getal te trekken uit een bepaalde verdeling. Omdat de normaalverdeling zo'n prominente 
+plek inneemt is er een standaard functie in Python. 
 
 {: .language-python}
-    x_mean = 184
-    x_sigma = 7.0
-    x = numpy.random.normal(mean,sigma)
+    x_mean = 170.6
+    x_sigma = 6.5
+    lengte = numpy.random.normal(mean,sigma)
 
-Het is niet 
+Als je dit heel vaak herhaalt zullen de waardes van $$x$$ verdeeld zijn volgens de rode grafiek 
+hierboven.
+
+## opdracht 1: verdeling lengtes van alle vrouwen.
+
+Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt uit de 
+normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
+al deze random lengtes met behulp van een histogram met bins die elk breedte van 0.5 cm 
+hebben. Hou bij het trekken van de random lengtes welk percentage vrouwen een lengte hebben 
+die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. Print 
+deze met 3 decimalen nauweurigheid.
 
 
-## opdracht 1: 
+## opdracht 2: impact van meer metingen
 
-We zijn niet allemaal pre-cies even lang, we het KNMI heeft het 
-
-
-### Voorbereiding: de normaalverdeling in de statistiek
-
+Als je in een 
 
 
 
