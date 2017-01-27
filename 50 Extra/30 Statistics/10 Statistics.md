@@ -31,8 +31,9 @@ $$\mu \pm 1(2) \sigma$$ liggen.
 
 
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
-normaalverdeling met een gemiddelde = 184.0(170.6) cm en sigma = 7.0(6.5) cm. De 
-(genormeerde) grafieken van de twee verdelingen staan in grafiek.
+normaalverdeling met een gemiddelde = 184.0 (170.6) cm en sigma = 7.0 (6.5) cm. De 
+(genormeerde) grafieken van de twee verdelingen staan in grafiek. Dit betekent dat 
+34% van de mannen langer is dan 191 cm en dan 2.5% van de vrouwen kleiner is dan 164.1 cm.
 
 
 ## opdracht 1: 
