@@ -83,14 +83,13 @@ onderzoeken.
 Een maat voor de spreiding van de individuele metingen in de data-set is de zogenaamde standaard 
 deviatie:
 
-$$ \sigma = \sqrt{ \frac{1}{N}  \sum_{i=1}^{n} (x-\mu)^2   }$$, waarbij $$\mu$$ het gemiddelde is van 
-de data.
+$$ \sigma = \sqrt{ \frac{1}{N}  \sum_{i=1}^{n} (x_i-\mu)^2   }$$, waarbij $$\mu$$ het gemiddelde is van 
+de data-set.
 
 Voorbeeld: Stel dat we een kleine steekproef hebben genomen en van 5 vrouwen de lengte hebben gemeten.
 x = {1.75, 1.69, 1,81, 1.76, 1.79}. Voor deze data-set geldt: 
-$$ \mu = 1.76 $$ en $$ \sigma = 0.041 $$.
-
-Reken dit na zodat je zeker weet dat de formule duidelijk is. 
+$$ \mu = 1.76 $$ en $$ \sigma = 0.041 $$. Reken dit na zodat je zeker weet dat de formule 
+duidelijk is. 
 
 
 
