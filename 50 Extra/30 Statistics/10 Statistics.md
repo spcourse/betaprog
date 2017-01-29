@@ -95,7 +95,8 @@ duidelijk is.
 
 ### opdracht 2: impact van meer metingen op de nauwkeurigheid
 
-Als je in een spreiding
+Schrijf een programma `Statistiek2.py` dat Wat is de opdracht 
+
 
 Grafiek: 10000 keer 5 vrouwen, 10 vrouwen, 20 vrouwen, 50 vrouwen.
 
