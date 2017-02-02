@@ -139,7 +139,7 @@ model. Voor elke keuze van de parameters in je model verandert de afstand van el
 tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
 gewoon een getal.
 
-### De beste waarde van je model en de onzekerheid
+#### Theorie: de beste waarde van je model-parameters en de onzekerheid daarop
 
 De beste waarde van je model ($$\alpha_{best}$$) en de onzekerheid daarop ($$\Delta_{alpha}$$).
 
