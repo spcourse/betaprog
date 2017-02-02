@@ -128,9 +128,9 @@ waren zes thermometer die de temperatuur tot op 1 graad Celcius nauwkeurig konde
 en vier die dat konden met een hogere precisie, namelijk 0.5 graden. De lijst met 
 metingen is de volgende:
 
-groepnummer (x)         |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
-gemeten kookpunt (y)    | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
-$$\sigma$$ (fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
+groepnummer (x)                 |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
+gemeten kookpunt (y)            | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
+meetnauwkeurigheid $$\sigma$$(fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
 
 
 #### Model en doel van de exercitie
@@ -139,37 +139,84 @@ natuurconstante en hangt niet af van et groepje studenten dat de meting verricht
 proberen we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming 
 is met de gemeten punten. 
 
-Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ of 81$$^\circ$$ , maar 
-wat is nou precies de 'beste' waarde?
+Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ en 79$$^\circ$$ een betere 
+dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Wat is het gemiddelde van de hele klas?
 
-#### $$\chi^2$$: de metriek voor 'hoe goed' het model de data beschrijft 
+#### Een maat voor 'hoe goed' het model de data beschrijft: $$\chi^2$$: 
 
-Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de
-*goedheid* van de fit beschrijft. We doen dat hier met de $$\chi^2$$-maat: de
-som van de gemiddelde afwijking van de meetpunten tot het model gewogen met hun
-fout. Voor elk punt bepalen we dus de volgende vraag: *"Wat is de afstand van de meting 
-(uitgedrukt in de meetfout op het punt) tot de waarde die het model voorspelt op die plek?"*
+Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van 
+de fit beschrijft. We doen dat hier met de zogenaamde $$\chi^2$$-maat: de som van de 
+gemiddelde afwijking van de meetpunten tot het model gewogen met hun fout. Voor elk 
+punt bepalen we de afstand van de meting (uitgedrukt in de meetfout op het punt) tot 
+de waarde die het model voorspelt op die plek. De som die afwijkingen voor elk meetpunt 
+noemen we de $$\chi^2$$.
 
 Iets formeler:
-$$\chi^2 = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i|\vec{\alpha}) }{\sigma_i}\right)^2$$
+$$\chi^2(\vec{\alpha}) = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i|\vec{\alpha}) }{\sigma_i}\right)^2$$
 
 In deze uitdrukking is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je
 model. Voor elke keuze van de parameters in je model verandert de afstand van elk meetpunt 
 tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
 gewoon een getal.
 
-#### De beste waarde van je model-parameters en de onzekerheid daarop
+In ons model is het model simpel. Er is meer 1 vrije parameter, $$T^{\rm kook}_{alc}$$, 
+het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = c$$, met $$c$$ 
+een constante.
+
+#### De beste waarde van je model-parameters bepalen
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
-de kleinste $$\chi^2$$ opleveren. Dat zijn namelijk de 'beste' waardes van het
-model omdat met die waarde van de parameters je model de data het best
-beschrijft.
+de kleinste $$\chi^2$$ oplevert. Dat zijn namelijk de 'beste' waardes van het
+model omdat met die waarde van de parameters de meetpunten het dichtst bij het 
+model in de buurt liggen. 
+
+We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de
+$$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$c=78$$ nemen dan hoort daar
+de volgende $$\chi^2$$ bij:
+
+gemeten kookpunt (y)    | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
+$$\sigma$$ (fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
+
+$$
+\begin{eqnarray}
+   \chi^2(c=78)&=&    
+   \tiny{
+   \left( \frac{(78.2-78.0)}{1.0} \right)^2+
+   \left( \frac{(80.2-78.0)}{1.0} \right)^2+
+   \left( \frac{(78.7-78.0)}{1.0} \right)^2+
+   \left( \frac{(78.9-78.0)}{0.5} \right)^2+
+   \left( \frac{(77.5-78.0)}{1.0} \right)^2+
+   \left( \frac{(79.7-78.0)}{1.0} \right)^2+
+   \left( \frac{(78.1-78.0)}{0.5} \right)^2+
+   \left( \frac{(79.0-78.0)}{0.5} \right)^2+
+   \left( \frac{(79.6-78.0)}{1.0} \right)^2+
+   \left( \frac{(78.4-78.0)}{0.5} \right)^2
+   }\\
+   &=&47.07
+\end{eqnarray}
+$$
+
+Je kan nu verschillende waardes van $$c$$ proberen en voor elk de $$\chi^2$$
+berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
+duidelijk minimum zichtbaar: bij $$c=78.2$$ is de $$\chi^2$$ minimaal, namelijk
+$$\chi^2_{min} = 8.07$$. De waarde $$c=78.2$$ beschrijft de data het best.
+
+#### De onzekerheid (foutenmarge) op de parameters in je model
 
 Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
 met de data betekent). Het verschil tussen de waarde van de $$\alpha$$ waarbij
 de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{best}$$ noemen we de
 onzekerheid.
+ 
+
+Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
+minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
+zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
+
+Het resultaat van de fit van ons model aan de data is als volgt:
+percentage goede passes = $$ 60.3 \pm1.5$$
+
 
 Het resultaat van je fit presenteer je dan als volgt:
 
@@ -180,66 +227,7 @@ altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout
 afzonderlijk door te kijken hoe de $$\chi^2$$ verandert als je de parameters
 respectievelijk kleiner en groter maakt.
 
-### Voorbeeld: Wesley Sneijder
 
-Iemand heeft heel keurig het percentage goede passes ($$y$$-waarde) bepaald die
-Wesley Sneijder heeft gegeven tijdens de verschillende wedstrijden
-($$x$$-waarde) tijdens de kwalificatie voor het WK voetbal. Omdat de
-nauwkeurigheid waarmee het percentage bepaald wordt afhangt van het aantal
-passes in een wedstrijd is de fout erop niet voor elke wedstrijd hetzelfde.
-
-wedstrijdnummer (x)     |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 
-$$f_{goed}$$ (y)        | 55 | 50 | 39 | 58 | 54 | 57 | 78 | 66 | 62 | 82 
-$$\sigma$$ (fout op y)  |  5 |  4 |  9 |  4 |  5 |  5 |  7 |  3 |  6 | 6
-
-![](FitExampleCombined.png)
-
-De data is weergegeven in de linker plot hieronder. We nemen aan dat zijn
-prestaties constant zijn en nemen daarom aan dat het model dat deze data het
-best beschrijft een constante is. Ons model heeft dus maar 1 parameter:
-$$f(x)=c$$. De vraag is nu: *welke waarde van $$c$$ beschrijft de data het best
-en welke onzekerheid moeten we aan die schatting toekennen?*
-
-#### Wesley Sneijder: het uitrekenen van $$\chi^2$$ voor 1 bepaalde set parameters
-
-We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de
-$$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$c=56$$ nemen dan hoort daar
-de volgende $$\chi^2$$ bij:
-
-$$
-\begin{eqnarray}
-   \chi^2(c=56)&=&    
-   \tiny{
-   \left( \frac{(55-56)}{5} \right)^2+
-   \left( \frac{(50-56)}{4} \right)^2+
-   \left( \frac{(39-56)}{9} \right)^2+
-   \left( \frac{(58-56)}{4} \right)^2+
-   \left( \frac{(54-56)}{5} \right)^2+
-   \left( \frac{(57-56)}{5} \right)^2+
-   \left( \frac{(78-56)}{7} \right)^2+
-   \left( \frac{(66-56)}{3} \right)^2+
-   \left( \frac{(62-56)}{6} \right)^2+
-   \left( \frac{(82-56)}{6} \right)^2
-   }\\
-   &=&47.07
-\end{eqnarray}
-$$
-
-#### Wesley Sneijder: de beste waarde van de vrije parameter in het model
-
-Je kan nu verschillende waardes van $$c$$ proberen en voor elk de $$\chi^2$$
-berekenen. De distributie is getekend in de rechterplot hierboven. Er is een
-duidelijk minimum zichtbaar: bij $$c=60.3$$ is de $$\chi^2$$ minimaal, namelijk
-$$\chi^2_{min} = 38.87$$. De waarde $$c=60.3$$ beschrijft de data het best.
-
-#### Wesley Sneijder: de onzekerheid op de vrije parameter in het model
-
-Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
-minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
-zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
-
-Het resultaat van de fit van ons model aan de data is als volgt:
-percentage goede passes = $$ 60.3 \pm1.5$$
 
 
 ### opdracht 3: Gemiddelde lengte vrouwen in Belgie
