@@ -6,6 +6,8 @@ cruciaal onderdeel omdat het de sleutel is waarmee je inzichten uit gegevens kan
 is de 'waarheid' die verborgen ligt in de data en hoe kunnen verschillende hypotheses tegen 
 elkaar afgewogen worden.
 
+![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
+
 In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen gecorreleerd 
 is het het inkomens van hun ouders toen ze een peuter waren. Een deel van de onderzoekers 
 vindt dat de data suggereert dat er een lineair verband te zien is in de data terwijl een 
