@@ -42,9 +42,9 @@ om een random getal te trekken uit een bepaalde verdeling. Omdat de normaalverde
 plek inneemt is er een standaard functie in Python. 
 
 {: .language-python}
-    x_mean = 170.6
-    x_sigma = 6.5
-    lengte = numpy.random.normal(mean,sigma)
+    gemiddelde = 170.6
+    breedte = 6.5
+    x = numpy.random.normal(gemiddelde,breedte)
 
 Als je dit heel vaak herhaalt zullen de waardes van $$x$$ verdeeld zijn volgens de rode grafiek 
 hierboven.
@@ -53,8 +53,8 @@ hierboven.
 
 Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt uit de 
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
-al deze random lengtes met behulp van een histogram met bins die elk breedte van 0.5 cm 
-hebben. Hou bij het trekken van de random lengtes welk percentage vrouwen een lengte hebben 
+al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een breedte van 
+0.5 cm hebben. Hou bij het trekken van de random lengtes welk percentage vrouwen een lengte hebben 
 die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. Print 
 deze fractie met 3 decimalen nauweurigheid.
 
@@ -63,17 +63,15 @@ deze fractie met 3 decimalen nauweurigheid.
 
 In de echte wereld kunnen we nooit alles weten. We kunnen niet van elke vrouw in Nederland 
 precies achterhalen hoe lang ze is, net zoals Maurice de Hond niet van elke Nederlander weet 
-op welke politieke partij hij of zij zal stemmen. We kunnen met behulp van steekproeven 
-wel een idee krijgen wat de eigenschappen zijn van een gedeelte van de hele populatie: de 
-lengtes van een groep vrouwen of de politieke voorkeuren van een kleine groep Nederlanders. 
-De eigenschappen van de groep worden vervolgens vertaald naar een schatting van de eigenschappen 
-van de volledige populatie.
+op welke politieke partij hij of zij zal stemmen. We kunnen wel met behulp van steekproeven 
+proberen een idee te krijgen van de hele populatie: we bepalen de lengtes van een groep 
+vrouwen of de politieke voorkeuren van een groep Nederlanders en maken daarmee een schatting 
+van de eigenschappen van de volledige populatie.
 
-Er geldt dat hoe groter de steekproef is, hoe groter de nauwkeurigheid van de schatting van de 
-eigenschappen van de populatie en dus een kleinere fout (onzekerheid). We gaan een paar dingen 
-onderzoeken door met behulp van de computer nep-steekproeven te nemen uit de oorspronkelijke 
-distributie en te kijken hoe goed de eigenschappen van een (random) kleine groep representatief 
-is voor de hele populatie. Belangrijk hierin is ook het effect van de grootte van de steekproef.
+Hoe groter de steekproef is, hoe groter de nauwkeurigheid van de schatting en dus een kleinere 
+fout (onzekerheid). We gaan dit onderzoeken door met behulp van de computer nep-steekproeven 
+te nemen uit de oorspronkelijke distributie en te kijken hoe goed de gemiddelde lengte van een 
+kleine groep representatief is voor die van de hele populatie. 
 
 ### opdracht 2: impact van meer metingen op de nauwkeurigheid
 
