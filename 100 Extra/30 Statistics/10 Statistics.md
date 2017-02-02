@@ -220,31 +220,37 @@ groter maakt.
 ![](FitExampleWebsite.png){: style="width:90%"}
 
 
+## [4] Een nieuwe hypothese: fitten van een 
 
+Parameters van je model bepalen uit een serie metingen: fitten
 
 ### opdracht 3: Gemiddelde lengte vrouwen in Belgie
 
-Schrijf een programma `Statistiek3.py()` waarin je 100.000 random getallen trekt uit de 
-normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
+In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen 
+gecorreleerd is het het inkomens van hun ouders toen ze een peuter waren.
 
-## Opgave: fitten van een model aan de data
+Inkomenscategorie(x)        |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
+gemiddelde lengte (y)       | xx.x | xx.x | xx.x | xx.x | xx.x | xx.x | xx.x | xx.x | xx.x | xx.x 
+onzekerheid (fout op y)     |  4   |  4   |  2   |  2   |  2   |  2   |  2   |  2   |  4   |  4
 
-Schrijf een programma **fit.py** dat het bovenstaande resultaat verifieert.
+Er is gekozen voor 10 categorieen en hoewel er geprobeerd is zoveel mogelijk gelijke aantallen 
+vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders in de extremen 
+van de inkomsten van de ouders (erg rijk en erg arm) helaas beperkt. Dit is duidelijk door de 
+grotere fout op de schatting van de gemiddelde lengte.
 
-1. Maak een plot van deze data met fouten
+Schrijf een programma `Statistiek3.py()` waarin je het gemiddelde vindt van de lengte van vrouwen 
+in Denemarken door een fit te maken aan de hierboven gegeven data. Volg hierbij de stappen in 
+het voorbeeld over het maten van het kookpunt van alcohol zoals hierboven is besproken. Zorg dat 
+je programma de data (met fouten) op het scherm weergeeft en ook de beste waarde van de fit die 
+je gevonden hebt. Dus net zoals de linkerplot in het voorbeeld hierboven. Gebruik voor het 
+plotten van de data met fouten de Python functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet 
+op hoe je deze functie moet gebruiken. 
 
-    Tip: gebruik de functie `plt.errorbar(x,y, yerr=yerror)`. 
-
-    Zoek op internet op hoe je deze functie moet gebruiken.
-
-2. Bereken de beste waarde van c en de bijbehorende onzekerheid $$\Delta_c$$
-
-3. Hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt?
+Print je resultaat, met 1 decimaal, op de volgende manier naar het scherm:
+{: .language-python}
+    De fit (vlakke lijn) geeft een gemiddelde lengte van xxx.x cm
 
 
-## Sanity check
-
-Je kunt deze opgaven allemaal maken met de Python-onderdelen die je kent uit modules 1 en 2!
 
 
 ## Extra informatie (niet voor deze cursus)
