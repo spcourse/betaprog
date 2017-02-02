@@ -203,7 +203,6 @@ van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
 met de data betekent). Het verschil tussen de waarde van de $$\alpha$$ waarbij
 de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{\rm best}$$ noemen we de
 onzekerheid op $$\alpha$$. Dit wordt vaak omschreven als $$\Delta \alpha$$. 
-
 Bij het berekenen van de $$\chi^2$$ zien we dat er is het gebied is $$ 78.5 < \alpha <78.9$$ 
 waarvoor de $$\chi^2$$ minder dan 1 unit verschilt van $$\chi^2_{min}$$. Het resultaat 
 van de fit, en dus het result van de gecombineerde schattig van het kookpunt van alcohol 
@@ -215,6 +214,11 @@ door de hele groep  studenten samen wordt gegeve door:
 altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout afzonderlijk 
 door te kijken hoe de $$\chi^2$$ verandert als je de parameters respectievelijk kleiner en 
 groter maakt.
+
+#### voorbeeld [stap 5]: de bijbehorende plots
+
+![](FitExampleWebsite.png){: style="width:35%"}
+
 
 
 
