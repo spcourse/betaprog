@@ -95,14 +95,12 @@ Print de fractie in procenten en gebruik 3 decimalen:
 Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor de verschillende keuzes 
 van de steekproefgroottee. Gebruik hiervoor de histogram methode. Kies zelf een handige bin-grootte.
 
-####Conclusie: 
-hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Voor elk getal, meting of 
-grafiek die je ziet is het cruciaal om te weten wat de onzekerheid op die schatting is. Het maakt nogal 
-uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Een belangrijk onderdeel van 
-je wetenschappelijke opleiding is precies die vragen te stellen voor je (het belang van) de metingen 
-interpreteert. Hoe kleiner de fout/onzekerheid, hoe belangrijker de meting is en hoe 'zwaarder' je de 
-meting moet meewegen als je de verschillende schattingen naast elkaar legt. 
-
+**Conclusie:** Hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Dat klinkt logisch, 
+want het  maakt nogal uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Voor 
+elk getal, meting of grafiek die je ziet in de rest van je leven moet je je goed afvragen wat de 
+onzekerheid op die schatting is. Een getal zonder foutmarge kan je niet op waarde schatten. Hoe 
+kleiner de fout/onzekerheid, hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet 
+meewegen als je verschillende resultaten naast elkaar legt en een conclusie probeert te trekken.
 
 ## [3] Parameters van je model bepalen uit een serie metingen: fitten
 
