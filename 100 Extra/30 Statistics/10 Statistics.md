@@ -120,9 +120,9 @@ of niet een verband) de parameters en hun onzekerheid bepalen. Het is inzichteli
 over de manier waarop je de beste waarde van je parameters bepaald (en de onzekerheid) te voeren 
 aan de hand van een voorbeeld. 
 
-### Voorbeeld: Temperatuur van smeltend 
+### Voorbeeld: Bepalen kookpunt van alcohol tijdens het prakticum
 
-Een groep studenten heeft tijdens een praktikum het kookpunt van alcohol proberen 
+Een groep studenten heeft tijdens een prakticum het kookpunt van alcohol proberen 
 te bepalen. De studenten hadden alleen genoeg tijd om 1 keer een meting te doen. Er 
 waren zes thermometer die de temperatuur tot op 1 graad Celcius nauwkeurig konden bepalen 
 en vier die dat konden met een hogere precisie, namelijk 0.5 graden. De lijst met 
@@ -174,9 +174,6 @@ We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de
 $$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$c=78$$ nemen dan hoort daar
 de volgende $$\chi^2$$ bij:
 
-gemeten kookpunt (y)    | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
-$$\sigma$$ (fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
-
 $$
 \begin{eqnarray}
    \chi^2(c=78)&=&    
@@ -185,6 +182,7 @@ $$
    \left( \frac{(80.2-78.0)}{1.0} \right)^2+
    \left( \frac{(78.7-78.0)}{1.0} \right)^2+
    \left( \frac{(78.9-78.0)}{0.5} \right)^2+
+   &~& 
    \left( \frac{(77.5-78.0)}{1.0} \right)^2+
    \left( \frac{(79.7-78.0)}{1.0} \right)^2+
    \left( \frac{(78.1-78.0)}{0.5} \right)^2+
@@ -192,7 +190,7 @@ $$
    \left( \frac{(79.6-78.0)}{1.0} \right)^2+
    \left( \frac{(78.4-78.0)}{0.5} \right)^2
    }\\
-   &=&47.07
+   &=&19.07
 \end{eqnarray}
 $$
 
