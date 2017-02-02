@@ -220,7 +220,7 @@ groter maakt.
 ![](FitExampleWebsite.png){: style="width:90%"}
 
 
-### opdracht 3: Gemiddelde lengte vrouwen in Belgie
+### opdracht 3: Gemiddelde lengte vrouwen in Denemarken
 
 In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen 
 gecorreleerd is het het inkomens van hun ouders toen ze een peuter waren.
@@ -266,7 +266,6 @@ gaan proberen een
 
 #### Fitten in Python: rechte lijn (1 vrijheidsgraad)
 
-
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
 
@@ -276,8 +275,8 @@ gaan proberen een
 
     # define data and errors
     L_data_x       = [1,2,3,4,5,6,7,8,9,10]
-    L_data_y       = [55,50,39,58,54,57,78,66,62,82]
-    L_data_y_error = [5,4,9,4,5,5,7,3,6,6]
+    L_data_y       = [xx,xx,xx,xx,xx,xx,xx,xx,xx,xx]
+    L_data_y_error = [4,4,2,2,2,2,2,2,4,4]
     
     popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
     print "Best value: f(x) = %5.2f" % popt[0]
@@ -293,14 +292,20 @@ Als je nu in plaats van een constante functie een lineaire functie wilt fitten
 $$f(x) = ax+b$$ en je wilt de resultaten printen dan hoef je maar op 2 plekken een 
 verandering aan te brengen:
 
-1) verander de functie die je aanhoudt als model
-    # Define our model. In our case a constant function: f(x) = a x + b 
+    # import the module that contains the fit-tool
+    from scipy.optimize import curve_fit
+
+    # Define our model. In our case a constant function: f(x) = a*x + b 
     def MyFitFunction(x, a, b):
         return a * x + b
 
-2) verander de regel waarin je het resultaat op het scherm print
+    # define data and errors
+    L_data_x       = [1,2,3,4,5,6,7,8,9,10]
+    L_data_y       = [xx,xx,xx,xx,xx,xx,xx,xx,xx,xx]
+    L_data_y_error = [4,4,2,2,2,2,2,2,4,4]
+    
+    popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
     print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
-
 
 ### opdracht 4: Maak een fit aan de data met behulp van lineair verband
 
@@ -309,6 +314,46 @@ verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven bes
 en plot zowel de data als beide functies op het scherm.
 
 
+## [5] Hypothese testen
+
+Een deel van de onderzoekers vindt dat de data suggereert dat er een lineair verband te 
+zien is in de data terwijl een ander deel vindt dat er geen afhankelijkheid is en dat de 
+geobserveerde lichte afhankelijkheid gewoon toeval is door de steekproeven die genomen zijn. 
+We kunnen wat quantitatieve data toevoegen aan deze discussie. 
+
+De vraag is eigenlijk: **"hoe zeldzaam is dat, gegeven dat er in het echt geen verband bestaat, 
+een serie steekproeven (van deze grootte in elke categorie) een waarde van de richtingscoefficient 
+geeft die net zo groot is als in de data?"** Deze fractie kom je vaak tegen in de literatuur 
+en wordt ook wel de p-waarde genoemd.
+
+### opdracht 5: Simuleer random data-sets en bereken de p-waarde
+
+Schrijf een programma `Statistiek5.py()` waarin je steeds een data-set simuleert, de data fit 
+met een lineair verband. De
+
+   1. Simuleer een random data-set uit een vlakke verdeling
+      Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
+      de waarde heeft die je bijopdracht 3 (of 4) hebt gevonden. Gebruik hiervoor de 
+      voor die geldende onzekerheid als input voor de breedte in de Python functie.      
+   2. Fit een lineaire functie en bepaal de richtingscoefficient (a in f(x) = ax+b).
+   3. Doe bovenstaande een groot aantal keer (100.000 keer bijvoorbeeld). Onthoud voor elke 
+      data set de richtingscoefficient en hou ook bij welke fractie van de gesimuleerde data-sets 
+      een richtingscoefficient heeft die groter is dan die je in de 'echte' data hebt gevonden 
+      (zie opdracht 4).  
+   4. Maak een grafiek (histogram) van alle richtingscoefficenten en geef duidelijk aan wat de 
+      gevonden waarde in de data en de bijbehorende p-waarde. Print de p-waarde ook uit aan het 
+      eind van het programma, in procenten, met 2 decimalen.
+      
+In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 procent we nog van 
+'toeval' spreken. Is de p-waarde groter dan 5% dan zeggen we dat de geobserveerde trend niet goed 
+te verklaren valt met ene vlakke hypothese en dat we bewijs hebben gevonden voor een verband.
+
+*Let op:* Een gevonden verband is nog geen causaal verband. Stel dat er een verband is gevonden 
+(en hou altijd in het achterhoofd dat het geobserveerdeeffect alsnog toeval kan zijn), wat zou 
+dan de onderliggende oorzaak kunnen zijn ? Rijkere mensen: eten gezonder, wonen in huizen die 
+in een buurt liggen met betere luchtkwaliteit, of andersom dat in onze maatschappij de 
+lengte juist zorgt voor een hogere inkomen ? Etc etc. Graven graven graven tot je doordringt tot 
+de kern en iets nieuws ontdekt dat nog niemand voor jou gezien heeft. Dat is wetenschap!
 
 
 
