@@ -58,7 +58,6 @@ al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een bree
 die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. Print 
 deze fractie met 3 decimalen nauweurigheid.
 
-
 ## [2] Steekproeven (metingen) en nauwkeurigheid
 
 In de echte wereld kunnen we nooit alles weten. We kunnen niet van elke vrouw in Nederland 
@@ -117,9 +116,31 @@ doen en tegelijkertijd werken aan een interpretatie van de reden van de correlat
 We gaan in dit stuk van de module de de resultaten van een onderzoek in detail bestuderen: de 
 lengte van vrouwen als functie van het inkomen van haar ouders. Is er nou wel of niet verband 
 te zien in de data? Om dat te bestuderen moeten we eerst van de verschillende hypotheses (wel 
-of niet een verband) de parameters en hun onzekerheid bepalen. 
+of niet een verband) de parameters en hun onzekerheid bepalen. Het is inzichtelijk om de discussie 
+over de manier waarop je de beste waarde van je parameters bepaald (en de onzekerheid) te voeren 
+aan de hand van een voorbeeld. 
 
-### Theorie: het fitten van een model aan de meetpunten 
+### Voorbeeld: Temperatuur van smeltend 
+
+Een groep studenten heeft tijdens een praktikum het kookpunt van alcohol proberen 
+te bepalen. De studenten hadden alleen genoeg tijd om 1 keer een meting te doen. Er 
+waren zes thermometer die de temperatuur tot op 1 graad Celcius nauwkeurig konden bepalen 
+en vier die dat konden met een hogere precisie, namelijk 0.5 graden. De lijst met 
+metingen is de volgende:
+
+groepnummer (x)         |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
+gemeten kookpunt (y)    | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
+$$\sigma$$ (fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
+
+
+#### Model en doel van de exercitie
+In dit geval is het 'model' dat we hebben een vlakke lijn. Het kookpunt van alcohol is een 
+natuurconstante en hangt niet af van et groepje studenten dat de meting verricht. Eigenijk 
+proberen we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming 
+is met de gemeten punten. 
+
+Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ of 81$$^\circ$$ , maar 
+wat is nou precies de 'beste' waarde?
 
 #### $$\chi^2$$: de metriek voor 'hoe goed' het model de data beschrijft 
 
@@ -138,8 +159,6 @@ tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^
 gewoon een getal.
 
 #### De beste waarde van je model-parameters en de onzekerheid daarop
-
-De beste waarde van je model ($$\alpha_{best}$$) en de onzekerheid daarop ($$\Delta_{alpha}$$).
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
 de kleinste $$\chi^2$$ opleveren. Dat zijn namelijk de 'beste' waardes van het
@@ -221,9 +240,6 @@ zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
 
 Het resultaat van de fit van ons model aan de data is als volgt:
 percentage goede passes = $$ 60.3 \pm1.5$$
-
-Uitleg over de fit-procedure en de toepassing in het Wesley Sneijder voorbeeld. 
-![embed](https://player.vimeo.com/video/138378099)
 
 
 ### opdracht 3: Gemiddelde lengte vrouwen in Belgie
