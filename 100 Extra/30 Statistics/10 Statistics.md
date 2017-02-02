@@ -1,7 +1,7 @@
 # Statistiek #
 
 Als er een onderdeel is dat studenten van verschillende opleidingen verbindt is het wel de 
-onterechte vrees voor statistiek. En toch is het in elke (wetenschappelijke) discipline een  
+onterechte vrees voor statistiek. En toch is het in elke (wetenschappelijke) discipline een 
 cruciaal onderdeel omdat het de sleutel is waarmee je inzichten uit gegevens kan halen. Wat 
 is de 'waarheid' die verborgen ligt in de data en hoe kunnen verschillende hypotheses tegen 
 elkaar afgewogen worden.
@@ -95,7 +95,8 @@ Print de fractie in procenten en gebruik 3 decimalen:
 Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor de verschillende keuzes 
 van de steekproefgroottee. Gebruik hiervoor de histogram methode. Kies zelf een handige bin-grootte.
 
-Conclusie: hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Voor elk getal, meting of 
+####Conclusie: 
+hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Voor elk getal, meting of 
 grafiek die je ziet is het cruciaal om te weten wat de onzekerheid op die schatting is. Het maakt nogal 
 uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Een belangrijk onderdeel van 
 je wetenschappelijke opleiding is precies die vragen te stellen voor je (het belang van) de metingen 
