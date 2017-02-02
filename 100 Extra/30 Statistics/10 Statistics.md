@@ -156,21 +156,20 @@ $$\chi^2(\vec{\alpha}) = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i
 In deze uitdrukking is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je
 model. Voor elke keuze van de parameters in je model verandert de afstand van elk meetpunt 
 tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
-gewoon een getal. In ons model is het model simpel. Er is meer 1 vrije parameter, 
-$$T^{\rm kook}_{alc}$$, het kookpunt van alcohol en ons model kunnen we beschrijven 
-als $$f(x) = \alpha_{0}$$, met $$\alpha_{0}$$ een constante.
+gewoon een getal. In ons model is het model simpel. Er is meer 1 vrije parameter, namelijk 
+het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = \alpha_{0}$$, 
+met $$\alpha_{0}$$ een constante.
 
 #### voorbeeld [stap 3]: De beste waarde van de model-parameters vinden
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
-de kleinste $$\chi^2$$ oplevert. Dat zijn namelijk de 'beste' waardes van het
-model omdat met die waarde van de parameters de meetpunten het dichtst bij het 
-model in de buurt liggen. 
-
-We gaan verschillende waardes van $$\alpha_{0}$$ proberen en rekenen voor elke de
-$$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$\alpha_{0}=78.0$$ nemen dan hoort daar
-de volgende $$\chi^2$$ bij:
-
+de kleinste $$\chi^2$$ oplevert omdat met die waarde van de parameters de 
+meetpunten het dichtst bij het model in de buurt liggen. Met behulp van de computer 
+gaan we verschillende waardes van $$\alpha_{0}$$ proberen en voor elk de 
+$$\chi^2$$ uitrekenen.
+ 
+Als we bijvoorbeeld als hypothese $$\alpha_{0}=78.0$$ nemen dan hoort daar de 
+volgende $$\chi^2$$ bij:
 $$
 \begin{eqnarray}
    \chi^2(\alpha_{0}=78.0)&=&    
