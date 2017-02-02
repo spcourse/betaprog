@@ -181,8 +181,9 @@ $$
    \left( \frac{(78.2-78.0)}{1.0} \right)^2+
    \left( \frac{(80.2-78.0)}{1.0} \right)^2+
    \left( \frac{(78.7-78.0)}{1.0} \right)^2+
-   \left( \frac{(78.9-78.0)}{0.5} \right)^2+
+   \left( \frac{(78.9-78.0)}{0.5} \right)^2}
    &~& 
+   \tiny{+
    \left( \frac{(77.5-78.0)}{1.0} \right)^2+
    \left( \frac{(79.7-78.0)}{1.0} \right)^2+
    \left( \frac{(78.1-78.0)}{0.5} \right)^2+
