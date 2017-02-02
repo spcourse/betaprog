@@ -99,10 +99,9 @@ van de steekproefgroottee. Gebruik hiervoor de histogram methode. Kies zelf een 
 
 Conclusie: hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Voor elk getal, meting of 
 grafiek die je ziet is het cruciaal om te weten wat de onzekerheid op die schatting is. Het maakt nogal 
-uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Een belangrijk onderdeel van  
+uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Een belangrijk onderdeel van 
 je wetenschappelijke opleiding is precies die vragen te stellen voor je (het belang van) de metingen 
 interpreteert.
-
 
 
 # Fitten van data en foutenbepaling 
