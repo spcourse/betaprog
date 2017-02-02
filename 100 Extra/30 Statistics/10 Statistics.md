@@ -6,9 +6,14 @@ cruciaal onderdeel omdat het de sleutel is waarmee je inzichten uit gegevens kan
 is de 'waarheid' die verborgen ligt in de data en hoe kunnen verschillende hypotheses tegen 
 elkaar afgewogen worden.
 
-In deze opgave zullen we na een paar korte inleidende oefeningen proberen te achterhalen 
-conclusies we kunnen trekken als we de data van een enkele studie bekijken: is er nou wel 
-of niet een afhankelijkheid ?
+In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen gecorreleerd 
+is het het inkomens van hun ouders toen ze een peuter waren. Een deel van de onderzoekers 
+vindt dat de data suggereert dat er een lineair verband te zien is in de data terwijl een 
+ander deel vindt dat er geen afhankelijkheid is en dat de geobserveerde lichte afhankelijkheid 
+gewoon toeval is door de steekproeven die genomen zijn. 
+
+We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke
+conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
  
 ## [1] De normaalverdeling in de natuur 
 
