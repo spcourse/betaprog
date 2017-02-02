@@ -319,8 +319,9 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
 
 Schrijf een programma `Statistiek4.py()` waarin je zowel een rechte lijn als een lineair 
 verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven beschreven 
-en plot zowel de data als beide functies op het scherm.
-
+en plot zowel de data als beide functies op het scherm. Gebruik als voorbeeld de plot 
+bovenaan de pagina, maar zorg dat de waardes van $$a$$, $$b$$ en $$c$$ netjes op het 
+scherm verschijnen. 
 
 ## [5] Hypothese testen
 
@@ -350,10 +351,12 @@ Gebruik hiervoor de volgende strategie:
       data set de richtingscoefficient en hou ook bij welke fractie van de gesimuleerde data-sets 
       een richtingscoefficient heeft die groter is dan die je in de 'echte' data hebt gevonden 
       (zie opdracht 4).  
-   4. Maak een grafiek (histogram) van alle richtingscoefficenten en geef duidelijk aan wat de 
-      gevonden waarde in de data en de bijbehorende p-waarde. Print de p-waarde ook uit aan het 
-      eind van het programma, in procenten, met 2 decimalen.
+   4. Maak een grafiek (histogram, zie hieronder) van alle richtingscoefficenten en geef duidelijk 
+      aan wat de gevonden waarde in de data en de bijbehorende p-waarde. Print de p-waarde ook uit 
+      aan het eind van het programma, in procenten, met 2 decimalen.
       
+![](ExamplePvalue.png){:.inline}{: style="width:45%"}
+
 In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 procent we nog van 
 'toeval' spreken. Is de p-waarde groter dan 5% dan zeggen we dat de geobserveerde trend niet goed 
 te verklaren valt met ene vlakke hypothese en dat we bewijs hebben gevonden voor een verband.
