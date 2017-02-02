@@ -206,11 +206,11 @@ onzekerheid op $$\alpha$$. Dit wordt vaak omschreven als $$\Delta \alpha$$.
 Bij het berekenen van de $$\chi^2$$ zien we dat er is het gebied is $$ 78.5 < \alpha <78.9$$ 
 waarvoor de $$\chi^2$$ minder dan 1 unit verschilt van $$\chi^2_{min}$$. Het resultaat 
 van de fit, en dus het result van de gecombineerde schattig van het kookpunt van alcohol 
-door de hele groep  studenten samen wordt gegeve door:
+door de hele groep  studenten samen wordt gegeven door:
 
    Kookpunt alcohol = $$78.2 \pm 0.2 ^\circ C$$
    
-*Let op:* Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
+**Let op:** Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
 altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout afzonderlijk 
 door te kijken hoe de $$\chi^2$$ verandert als je de parameters respectievelijk kleiner en 
 groter maakt.
@@ -268,8 +268,7 @@ manier.
     L_data_x       = [1,2,3,4,5,6,7,8,9,10]
     L_data_y       = [55,50,39,58,54,57,78,66,62,82]
     L_data_y_error = [5,4,9,4,5,5,7,3,6,6]
-
-    # do fit (using our own function f(x) = a)
+    
     popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
     print "Best value: f(x) = %5.2f" % popt[0]
 
