@@ -133,7 +133,7 @@ gemeten kookpunt (y)            | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1
 onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
 
 
-#### Model en doel van de exercitie
+#### voorbeeld [stap 1]: Model en doel van de exercitie
 In dit geval is het 'model' dat we hebben een vlakke lijn. Het kookpunt van alcohol is een 
 natuurconstante en hangt niet af van et groepje studenten dat de meting verricht. Eigenijk 
 proberen we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming 
@@ -142,7 +142,7 @@ is met de gemeten punten.
 Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ en 79$$^\circ$$ een betere 
 dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Wat is het gemiddelde van de hele klas?
 
-#### Een maat voor 'hoe goed' het model de data beschrijft: $$\chi^2$$: 
+#### voorbeeld [stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: $$\chi^2$$: 
 
 Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van 
 de fit beschrijft. We doen dat hier met de zogenaamde $$\chi^2$$-maat: de som van de 
@@ -163,7 +163,7 @@ In ons model is het model simpel. Er is meer 1 vrije parameter, $$T^{\rm kook}_{
 het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = c$$, met $$c$$ 
 een constante.
 
-#### De beste waarde van je model-parameters bepalen
+#### voorbeeld [stap 3]: De beste waarde van je model-parameters bepalen
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
 de kleinste $$\chi^2$$ oplevert. Dat zijn namelijk de 'beste' waardes van het
@@ -181,17 +181,17 @@ $$
    \left( \frac{(78.2-78.0)}{1.0} \right)^2+
    \left( \frac{(80.2-78.0)}{1.0} \right)^2+
    \left( \frac{(78.7-78.0)}{1.0} \right)^2+
-   \left( \frac{(78.9-78.0)}{0.5} \right)^2}\\
+   \left( \frac{(78.9-78.0)}{0.5} \right)^2+
+   \left( \frac{(77.5-78.0)}{1.0} \right)^2}\\
    &~& 
    \tiny{+
-   \left( \frac{(77.5-78.0)}{1.0} \right)^2+
-   \left( \frac{(79.7-78.0)}{1.0} \right)^2+
+  +\left( \frac{(79.7-78.0)}{1.0} \right)^2+
    \left( \frac{(78.1-78.0)}{0.5} \right)^2+
    \left( \frac{(79.0-78.0)}{0.5} \right)^2+
    \left( \frac{(79.6-78.0)}{1.0} \right)^2+
    \left( \frac{(78.4-78.0)}{0.5} \right)^2
    }\\
-   &=&19.07
+   &=&19.0
 \end{eqnarray}
 $$
 
@@ -200,7 +200,7 @@ berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
 duidelijk minimum zichtbaar: bij $$c=78.2$$ is de $$\chi^2$$ minimaal, namelijk
 $$\chi^2_{min} = 8.07$$. De waarde $$c=78.2$$ beschrijft de data het best.
 
-#### De onzekerheid (foutenmarge) op de parameters in je model
+#### voorbeeld [stap 4]: De onzekerheid (foutenmarge) op de parameters in je model
 
 Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
