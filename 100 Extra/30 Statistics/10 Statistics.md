@@ -220,10 +220,6 @@ groter maakt.
 ![](FitExampleWebsite.png){: style="width:90%"}
 
 
-## [4] Een nieuwe hypothese: fitten van een 
-
-Parameters van je model bepalen uit een serie metingen: fitten
-
 ### opdracht 3: Gemiddelde lengte vrouwen in Belgie
 
 In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen 
@@ -251,17 +247,25 @@ Print je resultaat, met 1 decimaal, op de volgende manier naar het scherm:
     De fit (vlakke lijn) geeft een gemiddelde lengte van xxx.x cm
 
 
+## [4] Een nieuwe hypothese: fitten van een lineaire afhankelijkheid
+
+Een vlakke lijn fitten is alleen toepasselijk als er geen afhankelijkheid is tussen de variabelen. 
+In de meeste gevallen is dat wel het geval: hoogte zeeniveau als functie van de tijd (sinus), aantal 
+vervallen van een radioactief element (exponent) of de snelheid van planeten als functie van hun afstand 
+tot de zon (wortel). Ook in die gevallen volgen we hetzelfde procede: varieer de parameters tot de 
+$$\chi^2$$ minimaal is. Het fitten van een model aan metingen is een standaard procedure die je als 
+onderzoeker vaak tegen zult komen. Hoewel we in deze cursus deze functionaliteit en alle bijbehorende 
+details zullen gebruiken door gebrek aan tijd willen we hier toch een voorbeeld geven waarin 
+je ziet hoe dat in de praktijk gaat.
+
+Iemand in de onderzoeksgroep heeft geopperd dat er welleens een (lineair) verband zou kunnen zijn tussen 
+de lengte van mensen en het inkomen van hun ouders. Dat zou verschillende oorzaken kunnen hebben. Dat is 
+voor later. De eerste stap in het onderzoek is om eerst te bekijken of er uberhaupt een verband is. We 
+gaan proberen een 
 
 
-## Extra informatie (niet voor deze cursus)
+#### Fitten in Python: rechte lijn (1 vrijheidsgraad)
 
-Het fitten van een model aan metingen is een standaard procedure die je als 
-onderzoeker vaak tegen zult komen. Hoewel we in deze cursus deze functionaliteit
-en alle bijbehorende details zullen gebruiken door gebrek aan tijd willen we 
-hier toch een klein voorbeeld geven waarin je ziet hoe dat in de praktijk gaat. 
-
-Hieronder dezelfde fit die jullie hierboven gedaan hebben, maar dan op de Python 
-manier.
 
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
@@ -283,22 +287,26 @@ parameters van de functie die je aan de data hebt gefit. In ons geval is dat maa
 1 parameter omdat we een constante functie aanhouden als model. Je kan zelf in de 
 documentatie opzoeken hoe je zelf uit *pcov* de onzekerheid op de parameter kan bepalen. 
 
+#### Fitten in Python: lineair verband (2 vrijheidsgraden)
+
 Als je nu in plaats van een constante functie een lineaire functie wilt fitten 
-$$f(x) = ax+b$$ en je wilt de resultaten printen dan hoef je op 2 plekken een 
+$$f(x) = ax+b$$ en je wilt de resultaten printen dan hoef je maar op 2 plekken een 
 verandering aan te brengen:
 
 1) verander de functie die je aanhoudt als model
-
     # Define our model. In our case a constant function: f(x) = a x + b 
     def MyFitFunction(x, a, b):
         return a * x + b
 
 2) verander de regel waarin je het resultaat op het scherm print
-
     print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
 
 
+### opdracht 4: Maak een fit aan de data met behulp van lineair verband
 
+Schrijf een programma `Statistiek4.py()` waarin je zowel een rechte lijn als een lineair 
+verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven beschreven 
+en plot zowel de data als beide functies op het scherm.
 
 
 
