@@ -355,7 +355,7 @@ Gebruik hiervoor de volgende strategie:
       aan wat de gevonden waarde in de data en de bijbehorende p-waarde. Print de p-waarde ook uit 
       aan het eind van het programma, in procenten, met 2 decimalen.
       
-![](ExamplePvalue.png){:.inline}{: style="width:45%"}
+![](ExamplePvalue.png){:.inline}{: style="width:60%"}
 
 In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 procent we nog van 
 'toeval' spreken. Is de p-waarde groter dan 5% dan zeggen we dat de geobserveerde trend niet goed 
