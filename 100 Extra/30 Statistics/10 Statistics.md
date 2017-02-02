@@ -198,28 +198,24 @@ minimaal is noemen we $$\alpha_{0,best}=78.2$$.
 
 #### voorbeeld [stap 4]: De onzekerheid op de parameters in je model
 
-Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde
+Elke waarde van je parameters die anders is dat $$\alpha_{0,best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
 met de data betekent). Het verschil tussen de waarde van de $$\alpha$$ waarbij
 de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{best}$$ noemen we de
-onzekerheid.
+onzekerheid op $$\alpha$$. Dit wordt vaak omschreven als $$\Delta_{\alpha_{0}}$$.
  
-Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
-minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
-zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
-
-Het resultaat van de fit van ons model aan de data is als volgt:
-percentage goede passes = $$ 60.3 \pm1.5$$
-
+Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 78.5 < c <78.9$$ 
+waarvoor de $$\chi^2$$ minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens 
+en rechtergrens in hypotheses van $$\alpha_{0}$$ zijn beide 0.2 van $$\alpha_{0,best}$$ 
+verwijderd. De onzekerheid op $$\alpha_{0}$$ is dus 1.5.
 
 Het resultaat van je fit presenteer je dan als volgt:
+$$\alpha_0 = \alpha_{0,best} \pm \Delta_{alpha}$$
 
-$$\alpha = \alpha_{best} \pm \Delta_{alpha}$$
-
-Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
-altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout
-afzonderlijk door te kijken hoe de $$\chi^2$$ verandert als je de parameters
-respectievelijk kleiner en groter maakt.
+Let op: Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
+altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout afzonderlijk 
+door te kijken hoe de $$\chi^2$$ verandert als je de parameters respectievelijk kleiner en 
+groter maakt.
 
 
 
