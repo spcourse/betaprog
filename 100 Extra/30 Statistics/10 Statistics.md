@@ -137,10 +137,9 @@ onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |
 In dit geval is het 'model' dat we hebben een vlakke lijn. Het kookpunt van alcohol is een 
 natuurconstante en hangt niet af van et groepje studenten dat de meting verricht. Eigenijk 
 proberen we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming 
-is met de gemeten punten. 
-
-Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ en 79$$^\circ$$ een betere 
-dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Wat is het gemiddelde van de hele klas?
+is met de gemeten punten. Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ 
+en 79$$^\circ$$ een betere dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Korton: 
+wat is het gemiddelde van de hele klas?
 
 #### voorbeeld [stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: $$\chi^2$$: 
 
@@ -157,13 +156,11 @@ $$\chi^2(\vec{\alpha}) = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i
 In deze uitdrukking is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je
 model. Voor elke keuze van de parameters in je model verandert de afstand van elk meetpunt 
 tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
-gewoon een getal.
+gewoon een getal. In ons model is het model simpel. Er is meer 1 vrije parameter, 
+$$T^{\rm kook}_{alc}$$, het kookpunt van alcohol en ons model kunnen we beschrijven 
+als $$f(x) = \alpha_{0}$$, met $$c$$ een constante.
 
-In ons model is het model simpel. Er is meer 1 vrije parameter, $$T^{\rm kook}_{alc}$$, 
-het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = c$$, met $$c$$ 
-een constante.
-
-#### voorbeeld [stap 3]: De beste waarde van je model-parameters bepalen
+#### voorbeeld [stap 3]: De beste waarde van de model-parameters vinden
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
 de kleinste $$\chi^2$$ oplevert. Dat zijn namelijk de 'beste' waardes van het
@@ -200,7 +197,7 @@ berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
 duidelijk minimum zichtbaar: bij $$c=78.2$$ is de $$\chi^2$$ minimaal, namelijk
 $$\chi^2_{min} = 8.07$$. De waarde $$c=78.2$$ beschrijft de data het best.
 
-#### voorbeeld [stap 4]: De onzekerheid (foutenmarge) op de parameters in je model
+#### voorbeeld [stap 4]: De onzekerheid op de parameters in je model
 
 Elke waarde van je parameters die anders is dat $$\alpha_{best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
@@ -208,7 +205,6 @@ met de data betekent). Het verschil tussen de waarde van de $$\alpha$$ waarbij
 de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{best}$$ noemen we de
 onzekerheid.
  
-
 Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
 minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
 zijn beide 1.5 van  $$c_{best}$$ verwijderd. De onzekerheid op $$c$$ is dus 1.5.
