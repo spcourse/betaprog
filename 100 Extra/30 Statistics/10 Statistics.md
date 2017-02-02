@@ -104,21 +104,20 @@ meewegen als je verschillende resultaten naast elkaar legt en een conclusie prob
 
 ## [3] Parameters van je model bepalen uit een serie metingen: fitten
 
-Om de onderliggende fenomenen van (natuurkundige) verschijnselen bloot te leggen en 
-(al dan niet causale) verbanden te achterhalen verzamelen wetenschappers data. Dat 
-kan de massa van het Higgs boson zijn, de vervaltijd van radioactieve elementen, maar 
-ook het aantal kinderen in een gezin als functie van de gemiddelde lengte van de 
-ouders. Elk meetpunt komt met een onzekerheid die de precisie aangeeft. Zoals we al 
-gezien hebben: hoe kleiner de fout, hoe nauwkeuriger de meting en hoe 'belangrijker' 
-hij is als je gaat kijken of de meetpunten wel met je model overeenkomen. Als je een 
-goede beschrijving hebt gevonden kan je daarmee vervolgens ook voorspellingen doen 
-en werken aan een interpretatie van de reden van de correlatie.
+Om de onderliggende fenomenen van verschijnselen bloot te leggen en mogelijke verbanden te 
+achterhalen verzamelen wetenschappers data. Dat kan de massa van het Higgs boson zijn, de 
+vervaltijd van radioactieve elementen, maar ook het aantal kinderen in een gezin als functie 
+van de gemiddelde lengte van de ouders of je reistijd per fiets naar de universiteit als 
+functie van het moment op de dag. Elk meetpunt komt met een onzekerheid die de precisie 
+aangeeft. Zoals we al gezien hebben: hoe kleiner de fout, hoe nauwkeuriger de meting en 
+hoe 'belangrijker' het meetpunt is in het bepalen of dat date met je model overeenkomen. 
+Als je eenmaal een goede beschrijving hebt gevonden kan je daarmee vervolgens voorspellingen 
+doen en tegelijkertijd werken aan een interpretatie van de reden van de correlatie.
 
-
-We gaan in dit stuk de de resultaten van een onderzoek in detail bestuderen: de lengte van 
-vrouwen als functie van het inkomen van haar ouders. Is er nou wel of niet verband te zien 
-in de data? Om dat te bestuderen moeten we eerst van de verschillende hypotheses (wel of 
-niet een verband) de parameters en hun onzekerheid bepalen. 
+We gaan in dit stuk van de module de de resultaten van een onderzoek in detail bestuderen: de 
+lengte van vrouwen als functie van het inkomen van haar ouders. Is er nou wel of niet verband 
+te zien in de data? Om dat te bestuderen moeten we eerst van de verschillende hypotheses (wel 
+of niet een verband) de parameters en hun onzekerheid bepalen. 
 
 ### Theorie: het fitten van een model aan de meetpunten 
 
