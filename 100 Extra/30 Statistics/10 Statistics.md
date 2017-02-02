@@ -157,22 +157,22 @@ In deze uitdrukking is $$\vec{\alpha}$$ de vector met de parameters die je gebru
 model. Voor elke keuze van de parameters in je model verandert de afstand van elk meetpunt 
 tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
 gewoon een getal. In ons model is het model simpel. Er is meer 1 vrije parameter, namelijk 
-het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = \alpha_{0}$$, 
-met $$\alpha_{0}$$ een constante.
+het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = \alpha$$, 
+met $$\alpha$$ een constante.
 
 #### voorbeeld [stap 3]: De beste waarde van de model-parameters vinden
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
 de kleinste $$\chi^2$$ oplevert omdat met die waarde van de parameters de 
 meetpunten het dichtst bij het model in de buurt liggen. Met behulp van de computer 
-gaan we verschillende waardes van $$\alpha_{0}$$ proberen en voor elk de 
+gaan we verschillende waardes van $$\alpha$$ proberen en voor elk de 
 $$\chi^2$$ uitrekenen.
  
-Als we bijvoorbeeld als hypothese $$\alpha_{0}=78.0$$ nemen dan hoort daar de 
+Als we bijvoorbeeld als hypothese $$\alpha=78.0$$ nemen dan hoort daar de 
 volgende $$\chi^2$$ bij:
 $$
 \begin{eqnarray}
-   \chi^2(\alpha_{0}=78.0)&=&    
+   \chi^2(\alpha=78.0)&=&    
    \tiny{
    \left( \frac{(78.2-78.0)}{1.0} \right)^2+
    \left( \frac{(80.2-78.0)}{1.0} \right)^2+
@@ -191,28 +191,27 @@ $$
 \end{eqnarray}
 $$
 
-Je kan nu verschillende waardes van $$\alpha_{0}$$ proberen en voor elk de $$\chi^2$$
+Je kan nu verschillende waardes van $$\alpha$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
-duidelijk minimum zichtbaar en de waarde van $$\alpha_{0}$$ waarvoor de $$\chi^2$$ 
-minimaal is noemen we $$\alpha_{0,best}=78.2$$.
+duidelijk minimum zichtbaar en de waarde van $$\alpha$$ waarvoor de $$\chi^2$$ 
+minimaal is noemen we $$\alpha_{\rm best}=78.2$$.
 
 #### voorbeeld [stap 4]: De onzekerheid op de parameters in je model
 
-Elke waarde van je parameters die anders is dat $$\alpha_{0,best}$$ zal de waarde
+Elke waarde van je parameters die anders is dat $$\alpha_{\rm best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
 met de data betekent). Het verschil tussen de waarde van de $$\alpha$$ waarbij
-de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{best}$$ noemen we de
-onzekerheid op $$\alpha$$. Dit wordt vaak omschreven als $$\Delta_{\alpha_{0}}$$.
- 
-Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 78.5 < c <78.9$$ 
-waarvoor de $$\chi^2$$ minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens 
-en rechtergrens in hypotheses van $$\alpha_{0}$$ zijn beide 0.2 van $$\alpha_{0,best}$$ 
-verwijderd. De onzekerheid op $$\alpha_{0}$$ is dus 1.5.
+de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{\rm best}$$ noemen we de
+onzekerheid op $$\alpha$$. Dit wordt vaak omschreven als $$\Delta \alpha$$. 
 
-Het resultaat van je fit presenteer je dan als volgt:
-$$\alpha_0 = \alpha_{0,best} \pm \Delta_{alpha}$$
+Bij het berekenen van de $$\chi^2$$ zien we dat er is het gebied is $$ 78.5 < \alpha <78.9$$ 
+waarvoor de $$\chi^2$$ minder dan 1 unit verschilt van $$\chi^2_{min}$$. Het resultaat 
+van de fit, en dus het result van de gecombineerde schattig van het kookpunt van alcohol 
+door de hele groep  studenten samen wordt gegeve door:
 
-Let op: Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
+   Kookpunt alcohol = $$78.2 \pm 0.2 ^\circ C$$
+   
+**Let op:** Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
 altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout afzonderlijk 
 door te kijken hoe de $$\chi^2$$ verandert als je de parameters respectievelijk kleiner en 
 groter maakt.
