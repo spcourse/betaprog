@@ -290,7 +290,8 @@ documentatie opzoeken hoe je zelf uit *pcov* de onzekerheid op de parameter kan 
 
 Als je nu in plaats van een constante functie een lineaire functie wilt fitten 
 $$f(x) = ax+b$$ en je wilt de resultaten printen dan hoef je maar op 2 plekken een 
-verandering aan te brengen:
+verandering aan te brengen. Op de plek waar je de functie die je fit definieert en 
+op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
 
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
@@ -328,8 +329,10 @@ en wordt ook wel de p-waarde genoemd.
 
 ### opdracht 5: Simuleer random data-sets en bereken de p-waarde
 
-Schrijf een programma `Statistiek5.py()` waarin je steeds een data-set simuleert, de data fit 
-met een lineair verband. De
+Schrijf een programma `Statistiek5.py()` waarin je de zeldzaamheid van de geobserveerde 
+richtingscoefficient bepaalt, de zogenaamde p-waarde.
+
+Gebruik hiervoor de volgende strategie:
 
    1. Simuleer een random data-set uit een vlakke verdeling
       Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
