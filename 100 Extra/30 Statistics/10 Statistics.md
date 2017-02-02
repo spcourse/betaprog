@@ -10,7 +10,7 @@ In deze opgave zullen we na een paar korte inleidende oefeningen proberen te ach
 conclusies we kunnen trekken als we de data van een enkele studie bekijken: is er nou wel 
 of niet een afhankelijkheid ?
  
-## [1] De normaalverdeling
+## [1] De normaalverdeling in de natuur 
 
 ### Theorie: de normaalverdeling en het effect van het aantal metingen
 
@@ -59,8 +59,7 @@ die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm
 deze fractie met 3 decimalen nauweurigheid.
 
 
-
-## Steekproeven (metingen) en nauwkeurigheid
+## [2] Steekproeven (metingen) en nauwkeurigheid
 
 In de echte wereld kunnen we nooit alles weten. We kunnen niet van elke vrouw in Nederland 
 precies achterhalen hoe lang ze is, net zoals Maurice de Hond niet van elke Nederlander weet 
@@ -72,32 +71,38 @@ van de volledige populatie.
 
 Er geldt dat hoe groter de steekproef is, hoe groter de nauwkeurigheid van de schatting van de 
 eigenschappen van de populatie en dus een kleinere fout (onzekerheid). We gaan een paar dingen 
-onderzoeken. 
-
-
-### Theorie: spreiding
-
-Een maat voor de spreiding van de individuele metingen in de data-set is de zogenaamde standaard 
-deviatie:
-
-$$ \sigma = \sqrt{ \frac{1}{N}  \sum_{i=1}^{n} (x_i-\mu)^2   }$$, waarbij $$\mu$$ het gemiddelde is van 
-de data-set.
-
-Voorbeeld: Stel dat we een kleine steekproef hebben genomen en van 5 vrouwen de lengte hebben gemeten.
-x = {1.75, 1.69, 1,81, 1.76, 1.79}. Voor deze data-set geldt: 
-$$ \mu = 1.76 $$ en $$ \sigma = 0.041 $$. Reken dit na zodat je zeker weet dat de formule 
-duidelijk is. 
-
-
+onderzoeken door met behulp van de computer nep-steekproeven te nemen uit de oorspronkelijke 
+distributie en te kijken hoe goed de eigenschappen van een (random) kleine groep representatief 
+is voor de hele populatie. Belangrijk hierin is ook het effect van de grootte van de steekproef.
 
 ### opdracht 2: impact van meer metingen op de nauwkeurigheid
 
-Schrijf een programma `Statistiek2.py` dat Wat is de opdracht 
+Schrijf een programma `Statistiek2.py` die uitrekent hoe vaak een steekproef van $$N$$ waardes 
+meer dan 5 cm afwijkt van het echte gemiddelde. Doe dit voor $$N=2,3,5,10,100$$.
 
+    - trek N random waardes uit de oorspronkelijke verdeling (een steekproef)
+    - bepaal voor elke steekproef het gemiddelde uit van de lengtes van de vrouwen in die 
+      groep en bewaar die
+    - Herhaal dit voor een groot aantal steekproeven (100.000 bijvoorbeeld) en bekijk in hoeveel 
+      steekproeven het gemiddelde in die groep meer dan 5 cm afwijkt van het `echte` 
+      gemiddelde. (170.6 cm).
+      Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm.
+              
+Print de fractie in procenten en gebruik 3 decimalen:
+{: .language-python}
+    Fractie afwijkende steekproeven voor N=2: x.xxx procent 
+    Fractie afwijkende steekproeven voor N=5: x.xxx procent 
+    ...
 
-Grafiek: 10000 keer 5 vrouwen, 10 vrouwen, 20 vrouwen, 50 vrouwen.
+Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor de verschillende keuzes 
+van de steekproefgroottee. Gebruik hiervoor de histogram methode. Kies zelf een handige bin-grootte.
 
-Bepaal ook de RMS rond het gemiddelde steeds.
+Conclusie: hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Voor elk getal, meting of 
+grafiek die je ziet is het cruciaal om te weten wat de onzekerheid op die schatting is. Het maakt nogal 
+uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Een belangrijk onderdeel van  
+je wetenschappelijke opleiding is precies die vragen te stellen voor je (het belang van) de metingen 
+interpreteert.
+
 
 
 # Fitten van data en foutenbepaling 
