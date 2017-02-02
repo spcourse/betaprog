@@ -168,7 +168,7 @@ model omdat met die waarde van de parameters de meetpunten het dichtst bij het
 model in de buurt liggen. 
 
 We gaan verschillende waardes van $$\alpha_{0}$$ proberen en rekenen voor elke de
-$$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$\alpha_{0}=78$$ nemen dan hoort daar
+$$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$\alpha_{0}=78.0$$ nemen dan hoort daar
 de volgende $$\chi^2$$ bij:
 
 $$
@@ -194,8 +194,8 @@ $$
 
 Je kan nu verschillende waardes van $$\alpha_{0}$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
-duidelijk minimum zichtbaar: bij $$\alpha_{0}=78.2$$ is de $$\chi^2$$ minimaal, namelijk
-$$\chi^2_{min} = 8.07$$. De waarde $$\alpha_{0}=78.2$$ beschrijft de data het best.
+duidelijk minimum zichtbaar: bij $$\alpha_{0}=78.2 (=\alpha_{0,{\rm best}})$$ is de 
+$$\chi^2$$ minimaal.
 
 #### voorbeeld [stap 4]: De onzekerheid op de parameters in je model
 
