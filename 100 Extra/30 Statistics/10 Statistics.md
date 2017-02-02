@@ -194,8 +194,8 @@ $$
 
 Je kan nu verschillende waardes van $$\alpha_{0}$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
-duidelijk minimum zichtbaar: bij $$\alpha_{0}=78.2 (=\alpha_{0,{\rm best}})$$ is de 
-$$\chi^2$$ minimaal.
+duidelijk minimum zichtbaar en de waarde van $$\alpha_{0}$$ waarvoor de $$\chi^2$$ 
+minimaal is noemen we $$\alpha_{0,best}=78.2$$.
 
 #### voorbeeld [stap 4]: De onzekerheid op de parameters in je model
 
