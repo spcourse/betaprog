@@ -123,7 +123,9 @@ vrouwen als functie van het inkomen van haar ouders. Is er nou wel of niet verba
 in de data? Om dat te bestuderen moeten we eerst van de verschillende hypotheses (wel of 
 niet een verband) de parameters en hun onzekerheid bepalen. 
 
-### Theorie: metriek voor hoe 'goed' een model de data beschrijft 
+### Theorie: het fitten van een model aan de meetpunten 
+
+#### $$\chi^2$$: de metriek voor 'hoe goed' het model de data beschrijft 
 
 Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de
 *goedheid* van de fit beschrijft. We doen dat hier met de $$\chi^2$$-maat: de
@@ -139,7 +141,7 @@ model. Voor elke keuze van de parameters in je model verandert de afstand van el
 tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
 gewoon een getal.
 
-#### Theorie: de beste waarde van je model-parameters en de onzekerheid daarop
+#### De beste waarde van je model-parameters en de onzekerheid daarop
 
 De beste waarde van je model ($$\alpha_{best}$$) en de onzekerheid daarop ($$\Delta_{alpha}$$).
 
@@ -163,11 +165,6 @@ altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout
 afzonderlijk door te kijken hoe de $$\chi^2$$ verandert als je de parameters
 respectievelijk kleiner en groter maakt.
 
-
-### Uitleg: Fitten van data en foutenbepaling 
-
-
-
 ### Voorbeeld: Wesley Sneijder
 
 Iemand heeft heel keurig het percentage goede passes ($$y$$-waarde) bepaald die
@@ -188,7 +185,7 @@ best beschrijft een constante is. Ons model heeft dus maar 1 parameter:
 $$f(x)=c$$. De vraag is nu: *welke waarde van $$c$$ beschrijft de data het best
 en welke onzekerheid moeten we aan die schatting toekennen?*
 
-## Het uitrekenen van $$\chi^2$$
+#### Wesley Sneijder: het uitrekenen van $$\chi^2$$ voor 1 bepaalde set parameters
 
 We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de
 $$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$c=56$$ nemen dan hoort daar
@@ -213,10 +210,14 @@ $$
 \end{eqnarray}
 $$
 
+#### Wesley Sneijder: de beste waarde van de vrije parameter in het model
+
 Je kan nu verschillende waardes van $$c$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hierboven. Er is een
 duidelijk minimum zichtbaar: bij $$c=60.3$$ is de $$\chi^2$$ minimaal, namelijk
 $$\chi^2_{min} = 38.87$$. De waarde $$c=60.3$$ beschrijft de data het best.
+
+#### Wesley Sneijder: de onzekerheid op de vrije parameter in het model
 
 Bij het berekenen van de $$\chi^2$$ zien we dat er een gebied is $$ 58.8 < c <61.8$$ waarvoor de $$\chi^2$$ 
 minder dan 1 unit verschilt van $$\chi^2_{min}$$. De linkergrens en rechtergrens in hypotheses van $$c$$ 
@@ -228,6 +229,11 @@ percentage goede passes = $$ 60.3 \pm1.5$$
 Uitleg over de fit-procedure en de toepassing in het Wesley Sneijder voorbeeld. 
 ![embed](https://player.vimeo.com/video/138378099)
 
+
+### opdracht 3: Gemiddelde lengte vrouwen in Belgie
+
+Schrijf een programma `Statistiek3.py()` waarin je 100.000 random getallen trekt uit de 
+normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
 
 ## Opgave: fitten van een model aan de data
 
