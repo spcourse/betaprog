@@ -80,10 +80,10 @@ is voor de hele populatie. Belangrijk hierin is ook het effect van de grootte va
 Schrijf een programma `Statistiek2.py` die uitrekent welke fractie van steekproeven meer dan 5 cm 
 afwijkt van het echte gemiddelde. Doe dit voor $$N=2,3,5,10,100$$.
 
-    * trek N random waardes uit de oorspronkelijke verdeling (een steekproef)
-    * bepaal voor elke steekproef het gemiddelde uit van de lengtes van de vrouwen in die 
+  - trek N random waardes uit de oorspronkelijke verdeling (een steekproef)
+  - bepaal voor elke steekproef het gemiddelde uit van de lengtes van de vrouwen in die 
       groep en bewaar die
-    * Herhaal dit voor een groot aantal steekproeven (100.000 bijvoorbeeld) en bekijk in hoeveel 
+  - Herhaal dit voor een groot aantal steekproeven (100.000 bijvoorbeeld) en bekijk in hoeveel 
       steekproeven het gemiddelde in die groep meer dan 5 cm afwijkt van het `echte` 
       gemiddelde. (170.6 cm).
       Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm.
