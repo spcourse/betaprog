@@ -138,7 +138,7 @@ In dit geval is het 'model' dat we hebben een vlakke lijn. Het kookpunt van alco
 natuurconstante en hangt niet af van et groepje studenten dat de meting verricht. Eigenijk 
 proberen we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming 
 is met de gemeten punten. Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ 
-en 79$$^\circ$$ een betere dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Korton: 
+en 79$$^\circ$$ een betere dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Kortom: 
 wat is het gemiddelde van de hele klas?
 
 #### voorbeeld [stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: $$\chi^2$$: 
@@ -158,7 +158,7 @@ model. Voor elke keuze van de parameters in je model verandert de afstand van el
 tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
 gewoon een getal. In ons model is het model simpel. Er is meer 1 vrije parameter, 
 $$T^{\rm kook}_{alc}$$, het kookpunt van alcohol en ons model kunnen we beschrijven 
-als $$f(x) = \alpha_{0}$$, met $$c$$ een constante.
+als $$f(x) = \alpha_{0}$$, met $$\alpha_{0}$$ een constante.
 
 #### voorbeeld [stap 3]: De beste waarde van de model-parameters vinden
 
@@ -167,13 +167,13 @@ de kleinste $$\chi^2$$ oplevert. Dat zijn namelijk de 'beste' waardes van het
 model omdat met die waarde van de parameters de meetpunten het dichtst bij het 
 model in de buurt liggen. 
 
-We gaan verschillende waardes van $$c$$ proberen en rekenen voor elke de
-$$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$c=78$$ nemen dan hoort daar
+We gaan verschillende waardes van $$\alpha_{0}$$ proberen en rekenen voor elke de
+$$\chi^2$$ uit. Als we bijvoorbeeld als hypothese $$\alpha_{0}=78$$ nemen dan hoort daar
 de volgende $$\chi^2$$ bij:
 
 $$
 \begin{eqnarray}
-   \chi^2(c=78)&=&    
+   \chi^2(\alpha_{0}=78.0)&=&    
    \tiny{
    \left( \frac{(78.2-78.0)}{1.0} \right)^2+
    \left( \frac{(80.2-78.0)}{1.0} \right)^2+
@@ -192,10 +192,10 @@ $$
 \end{eqnarray}
 $$
 
-Je kan nu verschillende waardes van $$c$$ proberen en voor elk de $$\chi^2$$
+Je kan nu verschillende waardes van $$\alpha_{0}$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
-duidelijk minimum zichtbaar: bij $$c=78.2$$ is de $$\chi^2$$ minimaal, namelijk
-$$\chi^2_{min} = 8.07$$. De waarde $$c=78.2$$ beschrijft de data het best.
+duidelijk minimum zichtbaar: bij $$\alpha_{0}=78.2$$ is de $$\chi^2$$ minimaal, namelijk
+$$\chi^2_{min} = 8.07$$. De waarde $$\alpha_{0}=78.2$$ beschrijft de data het best.
 
 #### voorbeeld [stap 4]: De onzekerheid op de parameters in je model
 
