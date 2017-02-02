@@ -362,7 +362,7 @@ In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 pro
 te verklaren valt met ene vlakke hypothese en dat we bewijs hebben gevonden voor een verband.
 
 *Let op:* Een gevonden verband is nog geen causaal verband. Stel dat er een verband is gevonden 
-(en hou altijd in het achterhoofd dat het geobserveerdeeffect alsnog toeval kan zijn), wat zou 
+(en hou altijd in het achterhoofd dat het geobserveerde effect alsnog toeval kan zijn), wat zou 
 dan de onderliggende oorzaak kunnen zijn ? Rijkere mensen: eten gezonder, wonen in huizen die 
 in een buurt liggen met betere luchtkwaliteit, of andersom dat in onze maatschappij de 
 lengte juist zorgt voor een hogere inkomen ? Etc etc. Graven graven graven tot je doordringt tot 
