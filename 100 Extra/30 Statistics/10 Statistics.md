@@ -210,15 +210,14 @@ door de hele groep  studenten samen wordt gegeve door:
 
    Kookpunt alcohol = $$78.2 \pm 0.2 ^\circ C$$
    
-**Let op:** Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
+*Let op:* Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
 altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout afzonderlijk 
 door te kijken hoe de $$\chi^2$$ verandert als je de parameters respectievelijk kleiner en 
 groter maakt.
 
 #### voorbeeld [stap 5]: de bijbehorende plots
 
-![](FitExampleWebsite.png){: style="width:35%"}
-
+![](FitExampleWebsite.png){: style="width:90%"}
 
 
 
