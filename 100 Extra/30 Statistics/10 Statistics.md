@@ -10,10 +10,7 @@ In deze opgave zullen we na een paar korte inleidende oefeningen proberen te ach
 conclusies we kunnen trekken als we de data van een enkele studie bekijken: is er nou wel 
 of niet een afhankelijkheid ?
  
- 
-
-## De normaalverdeling
-
+## [1] De normaalverdeling
 
 ### Theorie: de normaalverdeling en het effect van het aantal metingen
 
