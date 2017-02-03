@@ -23,8 +23,6 @@ conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
  
 ## [1] De normaalverdeling in de natuur 
 
-### Theorie: de normaalverdeling en het effect van het aantal metingen
-
 In de natuur komt overal variatie voor: de lengte van mensen in een land, het aantal 
 eitjes van een zeepaardje of het gewicht van apen in een populatie om er maar een paar 
 te noemen. De afwijkingen van het gemiddelde wordt voor vaak beschreven volgens de 
