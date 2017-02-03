@@ -11,12 +11,14 @@ hand van een verzonnen casus een paar van de meest voorkomende technieken bekijk
 
 **De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van volwassen 
 vrouwen gecorreleerd is het het inkomens van hun ouders toen ze op de lagere school zaten. 
-Een deel van de onderzoekers vindt dat de data suggereert dat er een lineair verband te zien 
-is in de data terwijl een ander deel vindt dat er geen afhankelijkheid is en dat de geobserveerde 
-lichte afhankelijkheid gewoon toeval is door de steekproeven die genomen zijn. 
-
-We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke
-conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
+De inkomenscategorieen van ouders lopen van 0(zeer arm) tot 10(zeer rijk) en in elke categorie 
+zijn random een aantal vrouwen geselecteerd van wie de lengte is gemeten. De data is weergegegeven 
+in de grafiek hiernaast. Een deel van de onderzoekers vindt dat de data suggereert dat er een 
+duidelijk lineair verband te zien is terwijl een ander deel van hun collega's vindt dat er 
+helemaal geen afhankelijkheid is. De geobserveerde lichte afhankelijkheid is gewoon het resultaat 
+van de fluctuaties in de lengte van vrouwen die in de steekproeven mee genomen zijn. We gaan in 
+deze module na een paar korte inleidende oefeningen proberen te achterhalen welke conclusies we 
+kunnen trekken: is er nou wel of niet een afhankelijkheid ?
  
 ## [1] De normaalverdeling in de natuur 
 
