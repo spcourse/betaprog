@@ -37,10 +37,10 @@ twee parameters: het gemiddelde ($$\mu$$) en de maat voor de spreiding ($$\sigma
 dat ongeveer 68%(95%) van de waarden in het gebied $$\mu \pm 1\sigma$$ ($$\mu \pm 2\sigma$$) liggen.
 
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
-normaalverdeling met een gemiddelde = 184.0 (170.6) cm en sigma = 7.0 (6.5) cm. De 
-(genormeerde) grafieken van de twee verdelingen staan in grafiek. Dit betekent dat 
-34% van de mannen langer is dan 191 cm en dan 2.5% van de vrouwen kleiner is dan 
-157.6 cm.
+normaalverdeling met een gemiddelde $$\mu$$ = 184.0 (170.6) cm en breedte 
+$$\sigma$$ = 7.0 (6.5) cm. De (genormeerde) grafieken van de twee verdelingen staan 
+in grafiek hiernaast. Dit betekent dat 34% van de mannen langer is dan 191 cm en dan 
+2.5% van de vrouwen kleiner is dan 157.6 cm.
 
 ### Python: trekken van random getallen uit een normaalverdeling 
 
