@@ -46,7 +46,7 @@ in grafiek hiernaast. Dit betekent dat 34% van de mannen langer is dan 191 cm en
 
 We hebben eerder gezien hoe je een random getal trekt in Python tussen 0 en 1. Het is ook mogelijk 
 om een random getal te trekken uit een bepaalde verdeling. Omdat de normaalverdeling zo'n prominente 
-plek inneemt is er een standaard functie in Python. 
+plek inneemt is daar een standaard functie voor in Python met de volgende syntax:
 
 {: .language-python}
     gemiddelde = 170.6
