@@ -9,7 +9,7 @@ hand van een verzonnen casus een paar van de meest voorkomende technieken bekijk
 
 ![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
 
-*De casus:* In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van vrouwen gecorreleerd 
+**De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van vrouwen gecorreleerd 
 is het het inkomens van hun ouders toen ze een peuter waren. Een deel van de onderzoekers 
 vindt dat de data suggereert dat er een lineair verband te zien is in de data terwijl een 
 ander deel vindt dat er geen afhankelijkheid is en dat de geobserveerde lichte afhankelijkheid 
