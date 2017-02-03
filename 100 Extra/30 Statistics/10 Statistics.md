@@ -34,7 +34,7 @@ $$ f(x,|\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} exp^{-\frac{1}{2}\left( \frac{
 
 Deze verdeling, ook wel de Gaussische distributie genoemd, wordt gekarakteriseerd door maar 
 twee parameters: het gemiddelde ($$\mu$$) en de maat voor de spreiding ($$\sigma$$). Er geldt 
-dat ongeveer 68%(95%) van de waarden in het gebied $$\mu \pm 1(2) \sigma$$ liggen.
+dat ongeveer 68%(95%) van de waarden in het gebied $$\mu \pm 1\sigma ($$\mu \pm 2\sigma) liggen.
 
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
 normaalverdeling met een gemiddelde = 184.0 (170.6) cm en sigma = 7.0 (6.5) cm. De 
