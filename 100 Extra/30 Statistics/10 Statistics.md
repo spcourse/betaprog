@@ -110,10 +110,10 @@ gebruikt hebben. Kies zelf een geschikte bin-grootte.
 
 **Conclusie:** Hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Dat klinkt logisch, 
 want het  maakt nogal uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Voor 
-elk getal, meting of grafiek die je ziet in de rest van je leven moet je je goed afvragen wat de 
-onzekerheid op die schatting is. Een getal zonder foutmarge kan je niet op waarde schatten. Hoe 
-kleiner de fout/onzekerheid, hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet 
-meewegen als je verschillende resultaten naast elkaar legt en een conclusie probeert te trekken.
+elk getal, meting of grafiek die je ziet moet je je altijd afvragen wat de onzekerheid op die 
+schatting is. Een getal zonder foutmarge kan je niet op waarde schatten. Hoe kleiner de 
+fout/onzekerheid, hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet meewegen als 
+je verschillende resultaten naast elkaar legt en een conclusie probeert te trekken.
 
 ## [3] Parameters van je model bepalen uit een serie metingen: fitten
 
@@ -123,9 +123,10 @@ vervaltijd van radioactieve elementen, maar ook het aantal kinderen in een gezin
 van de gemiddelde lengte van de ouders of je reistijd per fiets naar de universiteit als 
 functie van het moment op de dag. Elk meetpunt komt met een onzekerheid die de precisie 
 aangeeft. Zoals we al gezien hebben: hoe kleiner de fout, hoe nauwkeuriger de meting en 
-hoe 'belangrijker' het meetpunt is in het bepalen of dat date met je model overeenkomen. 
-Als je eenmaal een goede beschrijving hebt gevonden kan je daarmee vervolgens voorspellingen 
-doen en tegelijkertijd werken aan een interpretatie van de reden van de correlatie.
+hoe 'belangrijker' het meetpunt is in het bepalen of dat data met je verwachtingen (model) 
+overeenkomen. Als je eenmaal een goede beschrijving hebt gevonden van de verzamelde data dan 
+kan je met dat model vervolgens voorspellingen doen in gebieden waar je nog niet gemeten hebt 
+en tegelijkertijd werken aan een interpretatie van de reden van de correlatie.
 
 We gaan in dit stuk van de module de de resultaten van een onderzoek in detail bestuderen: de 
 lengte van vrouwen als functie van het inkomen van haar ouders. Is er nou wel of niet verband 
