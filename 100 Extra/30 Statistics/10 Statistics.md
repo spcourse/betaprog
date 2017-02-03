@@ -132,7 +132,7 @@ We gaan in dit stuk van de module de de resultaten van een onderzoek in detail b
 lengte van vrouwen als functie van het inkomen van haar ouders. Is er nou wel of niet verband 
 te zien in de data? Om dat te bestuderen moeten we eerst van de verschillende hypotheses (wel 
 of niet een verband) de parameters en hun onzekerheid bepalen. Het is inzichtelijk om de discussie 
-over de manier waarop je de beste waarde van je parameters bepaald (en de onzekerheid) te voeren 
+over de manier waarop je de beste waarde van je parameters bepaalt (en de onzekerheid) te voeren 
 aan de hand van een voorbeeld. 
 
 ### Voorbeeld: Bepalen kookpunt van alcohol tijdens het prakticum
