@@ -91,11 +91,11 @@ Volg voor het bepalen van de fractie voor een specifieke waarde van $$N$$ het vo
 stappenplan:
 
   - Trek N random waardes uit de oorspronkelijke verdeling: een steekproef
-  - Bepaal voor elke steekproef het gemiddelde uit van de lengtes van de vrouwen in die 
+  - Bepaal voor elke steekproef het gemiddelde van de lengtes van de vrouwen in die 
       groep en bewaar die
   - Herhaal dit voor een groot aantal steekproeven (100.000 bijvoorbeeld)
   - Hou bij in hoeveel steekproeven het gemiddelde meer dan 5 cm afwijkt 
-    van het `echte` gemiddelde. (170.6 cm).
+    van het `echte` gemiddelde (170.6 cm).
     Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm.
               
 Print de fractie in procenten en gebruik 3 decimalen:
@@ -104,8 +104,9 @@ Print de fractie in procenten en gebruik 3 decimalen:
     Fractie afwijkende steekproeven voor N=5: x.xxx procent 
     ...
 
-Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor de verschillende keuzes 
-van de steekproefgroottee. Gebruik hiervoor de histogram methode. Kies zelf een handige bin-grootte.
+Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor de verschillende 
+keuzes van de steekproefgrootte. Gebruik hiervoor de histogram methode die we ook in opgave 1 
+gebruikt hebben. Kies zelf een geschikte bin-grootte.
 
 **Conclusie:** Hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Dat klinkt logisch, 
 want het  maakt nogal uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Voor 
