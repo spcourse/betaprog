@@ -23,10 +23,9 @@ conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
  
 ## [1] De normaalverdeling in de natuur 
 
-In de natuur komt overal variatie voor: de lengte van mensen in een land, het aantal 
-eitjes van een zeepaardje of het gewicht van apen in een populatie om er maar een paar 
-te noemen. De afwijkingen van het gemiddelde wordt voor vaak beschreven volgens de 
-zogenaamde normaalverdeling:
+In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
+dieren in een populatie om er maar een paar te noemen. De waardes in de populaties zijn 
+verdeeld volgens de zogenaamde normaalverdeling:
 
 $$ f(x,|\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} exp^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^2}$$
 
