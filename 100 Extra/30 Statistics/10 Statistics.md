@@ -1,10 +1,11 @@
 # Statistiek #
 
 Als er een onderdeel is dat studenten van verschillende opleidingen verbindt is het wel de 
-onterechte vrees voor statistiek. En toch is het in elke (wetenschappelijke) discipline een 
-cruciaal onderdeel omdat het de sleutel is waarmee je inzichten uit gegevens kan halen. Wat 
-is de 'waarheid' die verborgen ligt in de data en hoe kunnen verschillende hypotheses tegen 
-elkaar afgewogen worden.
+vrees voor (het gebrek aan kennis over) statistiek. En toch is het in elke wetenschappelijke 
+discipline een cruciaal onderdeel omdat het de sleutel is tot het trekken van conclusies uit 
+verzamelde gegevens. Wat is de 'waarheid' die verborgen ligt in de data en hoe kunnen 
+verschillende hypotheses tegen elkaar afgewogen worden. In deze module zullen we aan de 
+hand van een verzonnen casus een paar van de meest voorkomende technieken bekijken.
 
 ![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
 
