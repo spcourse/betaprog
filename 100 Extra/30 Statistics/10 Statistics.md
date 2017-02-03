@@ -68,22 +68,24 @@ Print aan het eind van het programma de fractie van deze vrouwen met 3 decimalen
 
 ## [2] Steekproeven (metingen) en nauwkeurigheid
 
-In de echte wereld kunnen we nooit alles weten. We kunnen niet van elke vrouw in Nederland 
+In de echte wereld kunnen we vaak helaas niet alles weten. We kunnen niet van elke vrouw in Nederland 
 precies achterhalen hoe lang ze is, net zoals Maurice de Hond niet van elke Nederlander weet 
 op welke politieke partij hij of zij zal stemmen. We kunnen wel met behulp van steekproeven 
 proberen een idee te krijgen van de hele populatie: we bepalen de lengtes van een groep 
 vrouwen of de politieke voorkeuren van een groep Nederlanders en maken daarmee een schatting 
 van de eigenschappen van de volledige populatie.
 
-Hoe groter de steekproef is, hoe groter de nauwkeurigheid van de schatting en dus een kleinere 
-fout (onzekerheid). We gaan dit onderzoeken door met behulp van de computer nep-steekproeven 
-te nemen uit de oorspronkelijke distributie en te kijken hoe goed de gemiddelde lengte van een 
-kleine groep representatief is voor die van de hele populatie. 
+Hoe groter de steekproef is, hoe groter de nauwkeurigheid van de schatting is en hoe kleiner 
+de onzekerheid op de schatting voor de volledige populatie. We gaan dit onderzoeken door met 
+behulp van de computer nep-steekproeven te nemen uit de oorspronkelijke distributie en te 
+kijken hoe goed de gemiddelde lengte van een (steeds grotere) groep representatief is voor 
+die van de hele populatie. 
 
 ### opdracht 2: impact van meer metingen op de nauwkeurigheid
 
-Schrijf een programma `Statistiek2.py` die uitrekent welke fractie van steekproeven meer dan 5 cm 
-afwijkt van het echte gemiddelde. Doe dit voor $$N=2,3,5,10,100$$.
+Schrijf een programma `Statistiek2.py` die uitrekent welke fractie van groepen vrouwen 
+(een steekproef) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
+verschillende groottes van de steekproef: $$N=2,3,5,10,100$$. Voor elke waarde van $$N$$:
 
   - Trek N random waardes uit de oorspronkelijke verdeling: een steekproef
   - Bepaal voor elke steekproef het gemiddelde uit van de lengtes van de vrouwen in die 
