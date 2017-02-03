@@ -46,7 +46,8 @@ in grafiek hiernaast. Dit betekent dat 34% van de mannen langer is dan 191 cm en
 
 We hebben eerder gezien hoe je een random getal trekt in Python tussen 0 en 1. Het is ook mogelijk 
 om een random getal te trekken uit een bepaalde verdeling. Omdat de normaalverdeling zo'n prominente 
-plek inneemt is daar een standaard functie voor in Python met de volgende syntax:
+plek inneemt is daar een standaard functie voor in Python (in de `numpy` bibliotheek) met de volgende 
+syntax:
 
 {: .language-python}
     gemiddelde = 170.6
@@ -61,9 +62,9 @@ hierboven.
 Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt uit de 
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
 al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een breedte van 
-0.5 cm hebben. Hou bij het trekken van de random lengtes welk percentage vrouwen een lengte hebben 
-die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. Print 
-deze fractie met 3 decimalen nauweurigheid.
+0.5 cm hebben. Hou bij het trekken van de random lengtes bij hoeveel vrouwen een lengte 
+hebben die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. 
+Print aan het eind van het programma de fractie van deze vrouwen met 3 decimalen nauwkeurigheid.
 
 ## [2] Steekproeven (metingen) en nauwkeurigheid
 
