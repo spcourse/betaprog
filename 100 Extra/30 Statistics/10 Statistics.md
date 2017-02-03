@@ -138,11 +138,11 @@ opdracht die gerelateerd is aan onze casus.
 
 ### Voorbeeld: Bepalen kookpunt van alcohol tijdens het prakticum
 
-Een groep studenten heeft tijdens een prakticum het kookpunt van alcohol proberen 
-te bepalen. De studenten hadden alleen genoeg tijd om 1 keer een meting te doen. Er 
-waren zes thermometer die de temperatuur tot op 1 graad Celcius nauwkeurig konden bepalen 
-en vier die dat konden met een hogere precisie, namelijk 0.5 graden. De lijst met 
-metingen is de volgende:
+Tijdens een prakticum kregen groepjes studenten de opdracht het kookpunt van alcohol te bepalen. 
+Elk groepje had alleen genoeg tijd om 1 keer een meting te doen. Er waren zes thermometer in de 
+zaal die de temperatuur tot op 1 graad Celcius nauwkeurig konden bepalen en vier die dat konden 
+met een hogere precisie, namelijk 0.5 graden. De lijst met de metingen van de tien groepen studenten 
+is de volgende:
 
 groepnummer (x)                 |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
 gemeten kookpunt (y)            | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
