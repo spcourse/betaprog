@@ -24,18 +24,17 @@ conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
 ## [1] De normaalverdeling in de natuur 
 
 In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
-dieren in een populatie om er maar een paar te noemen. De waardes in de populaties zijn 
-verdeeld volgens de zogenaamde normaalverdeling:
+dieren in een populatie om er maar een paar te noemen. De verdeling die de relatieve frequentie 
+beschrijft waarmee een specifieke waarde $$x$$ voorkomt in de populatie van metingen wordt beschreven 
+volgens de zogenaamde normaalverdeling:
 
 $$ f(x,|\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} exp^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^2}$$
 
 ![](ExampleLengte.png){:.inline}{: style="width:35%"}
 
-Deze verdeling, ook wel de Gaussische distributie genoemd, beschrijft wat de relatieve frequentie 
-is waarmee waarde $$x$$ voorkomt in de populatie van metingen. Het prettige aan deze verdeling is 
-dat hij gekarakteriseerd wordt door maar twee parameters: het gemiddelde ($$\mu$$) en de maat 
-voor de spreiding ($$\sigma$$). Er geldt dat ongeveer 68%(95%) van de waarden in het gebied 
-$$\mu \pm 1(2) \sigma$$ liggen.
+Deze verdeling, ook wel de Gaussische distributie genoemd, wordt gekarakteriseerd door maar 
+twee parameters: het gemiddelde ($$\mu$$) en de maat voor de spreiding ($$\sigma$$). Er geldt 
+dat ongeveer 68%(95%) van de waarden in het gebied $$\mu \pm 1(2) \sigma$$ liggen.
 
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
 normaalverdeling met een gemiddelde = 184.0 (170.6) cm en sigma = 7.0 (6.5) cm. De 
