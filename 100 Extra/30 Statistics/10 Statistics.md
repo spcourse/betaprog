@@ -16,9 +16,10 @@ zijn random een aantal vrouwen geselecteerd van wie de lengte is gemeten. De dat
 in de grafiek hiernaast. Een deel van de onderzoekers vindt dat de data suggereert dat er een 
 duidelijk lineair verband te zien is terwijl een ander deel van hun collega's vindt dat er 
 helemaal geen afhankelijkheid is. De geobserveerde lichte afhankelijkheid is gewoon het resultaat 
-van de fluctuaties in de lengte van vrouwen die in de steekproeven mee genomen zijn. We gaan in 
-deze module na een paar korte inleidende oefeningen proberen te achterhalen welke conclusies we 
-kunnen trekken: is er nou wel of niet een afhankelijkheid ?
+van de fluctuaties in de lengte van vrouwen die in de steekproeven mee genomen zijn. 
+
+We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
+conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
  
 ## [1] De normaalverdeling in de natuur 
 
