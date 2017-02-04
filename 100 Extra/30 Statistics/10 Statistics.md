@@ -384,7 +384,7 @@ de kern en iets nieuws ontdekt dat nog niemand voor jou gezien heeft. Dat is wet
 
 
 
-# Bonusvraag: wis- en natuurkundigen in The City als Quants
+# Bonusvraag: bèta's als bankiers in the City (Quants)
 
 Bij veel banken en verzekeraars werken wis- en natuurkundigen in de zogenaamde risk-analysis departments. 
 Laten dat zelf ook eens proberen door de eindstand van de AEX te voorspellen in het jaar 2000 door gebruik 
