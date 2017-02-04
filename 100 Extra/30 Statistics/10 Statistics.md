@@ -244,9 +244,9 @@ In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen
 gecorreleerd is het het inkomens van hun ouders toen ze een peuter waren.
 171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176
 
-Inkomenscategorie(x)        |  1    |  2    |  3    |  4    |  5    |  6    |  7    |  8    |  9    | 10 
-gemiddelde lengte (y)       | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
-onzekerheid (fout op y)     |  4    |  4    |  2    |  2    |  2    |  2    |  2    |  2    |  4    |  4
+Categorie(x)        |  1    |  2    |  3    |  4    |  5    |  6    |  7    |  8    |  9    | 10 
+Gem. lengte (y)     | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
+Onzekerheid (op y)  |  4    |  4    |  2    |  2    |  2    |  2    |  2    |  2    |  4    |  4
 
 Er is gekozen voor 10 categorieen en hoewel er geprobeerd is zoveel mogelijk gelijke aantallen 
 vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders in de extremen 
@@ -327,7 +327,7 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
     popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
     print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
 
-### opdracht 4: Maak een fit aan de data met behulp van lineair verband
+### opdracht 4: Maak een fit aan de data met als model: f(x) = ax+b 
 
 Schrijf een programma `Statistiek4.py()` waarin je zowel een rechte lijn als een lineair 
 verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven beschreven 
