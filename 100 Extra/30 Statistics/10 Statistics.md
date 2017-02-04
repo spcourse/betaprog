@@ -294,7 +294,7 @@ gaan proberen een
 
     # define data and errors
     L_data_x       = [1,2,3,4,5,6,7,8,9,10]
-    L_data_y       = [xx,xx,xx,xx,xx,xx,xx,xx,xx,xx]
+    L_data_y       = [171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176]
     L_data_y_error = [4,4,2,2,2,2,2,2,4,4]
     
     popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
@@ -321,7 +321,7 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
 
     # define data and errors
     L_data_x       = [1,2,3,4,5,6,7,8,9,10]
-    L_data_y       = [xx,xx,xx,xx,xx,xx,xx,xx,xx,xx]
+    L_data_y       = [171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176]
     L_data_y_error = [4,4,2,2,2,2,2,2,4,4]
     
     popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
