@@ -266,7 +266,7 @@ Print je resultaat, met 1 decimaal, op de volgende manier naar het scherm:
     De fit (vlakke lijn) geeft een gemiddelde lengte van xxx.x cm
 
 
-## [4] Een nieuwe hypothese: fitten van een lineaire afhankelijkheid
+## [4] Een nieuwe hypothese: fitten met twee vrije parameters (lineair)
 
 Een vlakke lijn fitten is alleen toepasselijk als er geen afhankelijkheid is tussen de variabelen. 
 In de meeste gevallen is dat wel het geval: hoogte zeeniveau als functie van de tijd (sinus), aantal 
