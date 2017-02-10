@@ -26,8 +26,15 @@ Als er een onderdeel is dat studenten van verschillende opleidingen verbindt is 
         ax=fig.add_subplot(1,1,1)
         plt.axis([0,100,0,100])
 
-        #--/ plot de positie van de konijnen op het scherm
+        #--/ plot de positie van de konijnen op het scherm (blauwe stip)
         plt.plot(L_konijn_x, L_konijn_y, 'o', color = 'blue')   
+
+        #--/ PR (het oog wil ook wat): cirkels rond de posities van de konijnen
+        for i_konijn in range(Aantal_konijnen):
+            circ1=plt.Circle((L_konijn_x[i_konijn],L_konijn_y[i_konijn]), radius=4, facecolor='blue', edgecolor ='none', alpha = 0.1)
+            circ2=plt.Circle((L_konijn_x[i_konijn],L_konijn_y[i_konijn]), radius=4, facecolor='none', edgecolor ='black') 
+            ax.add_patch(circ1)
+            ax.add_patch(circ2)
         
         #--/ GRAFIEK (2): update frames voor simpele animatie
         plt.draw()        #--/ Update de grafiek
