@@ -51,8 +51,8 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
     #--------------------------
 
          #--/ GRAFIEK (1): definieer een vast assenstelsel (het bos)
-         fig=plt.figure(1)
-         ax=fig.add_subplot(1,1,1)
+         fig=plt.figure()
+         ax=fig.add_subplot()
          plt.axis([0,100,0,100])
 
          #--/ plot de positie van de konijnen (blauwe stip)
