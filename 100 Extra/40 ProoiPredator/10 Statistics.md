@@ -63,10 +63,8 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
          for i_konijn in range(Aantal_konijnen):
              x = L_x[i_konijn]
              y = L_y[i_konijn]
-             circ1=plt.Circle((x,y), radius=4, facecolor='blue', edgecolor ='none', alpha = 0.1)
-             circ2=plt.Circle((x,y), radius=4, facecolor='none', edgecolor ='black') 
+             circ1=plt.Circle((x,y), radius=4, facecolor='blue', edgecolor ='black', alpha = 0.1)
              ax.add_patch(circ1)
-             ax.add_patch(circ2)
         
          #--/ GRAFIEK (2): update frames voor simpele animatie
          plt.draw()        #--/ Update de grafiek
