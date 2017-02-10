@@ -31,8 +31,10 @@ Als er een onderdeel is dat studenten van verschillende opleidingen verbindt is 
 
         #--/ PR (het oog wil ook wat): cirkels rond de posities van de konijnen
         for i_konijn in range(Aantal_konijnen):
-            circ1=plt.Circle((L_konijn_x[i_konijn],L_konijn_y[i_konijn]), radius=4, facecolor='blue', edgecolor ='none', alpha = 0.1)
-            circ2=plt.Circle((L_konijn_x[i_konijn],L_konijn_y[i_konijn]), radius=4, facecolor='none', edgecolor ='black') 
+            x = L_konijn_x[i_konijn]
+            y = L_konijn_y[i_konijn]
+            circ1=plt.Circle((x,y), radius=4, facecolor='blue', edgecolor ='none', alpha = 0.1)
+            circ2=plt.Circle((x,y), radius=4, facecolor='none', edgecolor ='black') 
             ax.add_patch(circ1)
             ax.add_patch(circ2)
         
