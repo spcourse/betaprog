@@ -6,9 +6,11 @@ Als er een onderdeel is dat studenten van verschillende opleidingen verbindt is 
 
 
 
-#### twee konijnen op het scherm (stap 3 - modulair / overzichtelijker)
+#### Startpunt: twee konijnen op het scherm
 
-We beginnen deze module, een beetje tegen de filosofie in, met een voorbeeld waarvan je kan starten.
+We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het volgende stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
+
+Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPredator()`. Deze functie definieert de startpositie van twee konijnen in het bos en neemt stapjes in de tijd. Voor elk stapje in de tijd doen we twee dingn: a) 
 
     #-------------------
     def ProoiPredator():
