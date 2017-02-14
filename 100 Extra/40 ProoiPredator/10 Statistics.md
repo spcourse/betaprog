@@ -39,8 +39,8 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
          #--/ doe elke tijdstap een stapje voor de konijnen (2 naar rechts en 3 naar boven)
          Aantal_konijnen = len(L_x)   
          for i_konijn in range(Aantal_konijnen):
-             L_x[i_konijn] = L_x[i_konijn] + 2 
-             L_y[i_konijn] = L_y[i_konijn] + 3 
+             L_x[i_konijn] = L_x[i_konijn] + 1.2 
+             L_y[i_konijn] = L_y[i_konijn] + 1.6 
   
          #--/ return de ge-update lijsten
          return L_x, L_y
@@ -63,7 +63,8 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
          for i_konijn in range(Aantal_konijnen):
              x = L_x[i_konijn]
              y = L_y[i_konijn]
-             circ1=plt.Circle((x,y), radius=4, facecolor='blue', edgecolor ='black', alpha = 0.1)
+             circ1=plt.Circle((x,y), radius=2, facecolor='blue', edgecolor ='None', alpha = 0.1)  
+             circ2=plt.Circle((x,y), radius=2, facecolor='None', edgecolor ='black', alpha = 1.0)
              ax.add_patch(circ1)
         
          #--/ GRAFIEK (2): update frames voor simpele animatie
@@ -77,9 +78,11 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
 
 
 
+#### Opgave 1: Toevoegen realiteit: random gedrag konijnen
 
+We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) drie stappen naar rechts opschuiven en vier omhoog gaan. je had dit ook kunnen representeren door te stellen dat de konijnen bewegen met een snelheid van 2 meter per seconde bewegen onder een hoek van ongeveer 51 graden met de x-as ($$\alpha = \atan(\frac{1.6}{1.2})$$. Deze representatie is veel logischer omdat we daarmee het konijn ook met een andere snelheid kunnen laten bewegen
 
-
+Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Geef de konijnen allemaal de bovenstaande hoek (atan(1.6/1.2)).
 
 
 
