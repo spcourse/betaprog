@@ -89,7 +89,7 @@ Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid va
        L_konijn_x,L_konijn_y = VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
 
 
-Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor $vx = v \cos(\alpha)$
+Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor $$v_x = v \cos(\alpha)$$
 
 
 ##### deelopdracht (1b): de bosrand
