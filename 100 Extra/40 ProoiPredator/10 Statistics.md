@@ -78,9 +78,11 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
 
 
 
-#### Opgave 1: Toevoegen realiteit: random gedrag konijnen
+#### Opgave 1: Toevoegen realiteit: andere variabelen en de langere termijn
 
-We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) drie stappen naar rechts opschuiven en vier omhoog gaan. je had dit ook kunnen representeren door te stellen dat de konijnen bewegen met een snelheid van 2 meter per seconde bewegen onder een hoek van ongeveer 51 graden met de x-as ($$\alpha = atan(\frac{1.6}{1.2})$$. Deze representatie is veel logischer omdat we daarmee het konijn ook met een andere snelheid kunnen laten bewegen
+We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) drie stappen naar rechts opschuiven en vier omhoog gaan. We hadden dit ook kunnen representeren door te stellen dat de konijnen bewegen met een snelheid van 2 meter per seconde bewegen onder een hoek van ongeveer 51 graden met de x-as. Als we de tijd langer laten doorlopen zullen we ook zien dat onze konijnen het bos uitlopen. Dat is niet de bedoeling. Als de konijnen bij de rand van het bos komen zullen ze weer het bos inlopen. In deze opgave zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code.
+
+#####  [1a]:
 
 Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Geef de konijnen allemaal de bovenstaande hoek (atan(1.6/1.2)). Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
 
