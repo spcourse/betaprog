@@ -106,22 +106,25 @@ In de functie `VerplaatsKonijnen()` reken je de nieuwe positie uit van de konijn
     stop die in de lijst `L_konijn_hoek`. 
    3. Neem een nieuwe stap
    
-Dit moet je herhalen tot het konijn een stap gezet heeft die weer in het bos uitkomt. De structuur die je gaat bouwen heeft dus de volgende structuur:
+Dit moet je herhalen tot het konijn een stap gezet heeft die weer in het bos uitkomt. De structuur die je gaat bouwen heeft dus de onderstaande opzet. 
+
+Voor elk konijn waarvoor je de nieuwe positie uitrekent dus:
 
     NeemNogEenStap = 1
-    while ( NeemNogEenStap == 1 ):
-    
-       # bereken nieuwe x-positie
-       # bereken nieuwe y-positie
+    while ( NeemNogEenStap == 1 ):    
 
-       if( InHetBos ):
-          # zet x terug op de oude positie
-          # zet y terug op de oude positie
-          # kies random hoek en zet die in L_konijn_hoek          
-       else:    
-         NeemNogEenStap = 0    
+          # bereken stap in x en y (mbv L_konijn_hoek)
+          # bereken nieuwe x-positie
+          # bereken nieuwe y-positie
 
-probeer dit te testen door een konijn
+          if( Nieuwe_positie_buiten_het_bos ):
+              # zet x terug op de oude positie
+              # zet y terug op de oude positie
+              # kies random hoek en zet die in L_konijn_hoek          
+          else:    
+              NeemNogEenStap = 0    
+
+probeer dit te testen door een konijn naar rechts te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
 
 
