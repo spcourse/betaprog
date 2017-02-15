@@ -144,14 +144,31 @@ De twee waar we nu mee gewerkt hebben is wel heel erg weinig. Pas het begin van 
 
 ##### deelopdracht (2a): introduceren van wolven
 
-Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vossen (twee) op het scherm verschijnen. Er zijn een paar verschillen tussen de vossen en de konijnen:
+Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vossen (twee) op het scherm verschijnen. Maak een nieuwe functie `VerplaatsWolven()` en pas de functie `Teken_het_bos()` zo aan dat ook de wolven op het scherm getoond worden.
 
-   - teken de vossen in het rood (zelfde grootte als de konijnen, radius = 2)
+Er zijn een paar verschillen tussen de vossen en de konijnen:
+
+   - teken de vossen in rood (zelfde grootte als de konijnen, radius = 2)
    - teken om de vossen ook een rode cirkel met straat r=5.
-     Later in de opgave is dit de circle-of-death voor konijnen
+   
+     Deze cirkel zal fungeren als de "circle-of-death" voor konijnen
    - De vossen bewegen met snelheid 5 i.p.v 2
 
-Zorg dat de vossen beginnen op posities (10,10) en (90,90) en respectievelijk recht omhoog en recht naar beneden starten met lopen. 
+Zorg dat de vossen beginnen op posities (10,10) en (90,90) en respectievelijk recht omhoog en recht naar beneden starten met lopen. Net als de konijnen hebben ook vossen een eigen manier van voortbewegen.
+
+   - De vos staat nooit even stil
+   - Ook de vos zal nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de 
+     konijnen in opgave 1b).
+   - De vos heeft de neiging om in dezelfde richting te blijven bewegen, maar kan daar van afwijken waarbij de 
+     kans steeds verder afneemt naarmate die hoer meer afwijkt van de oorspronkelijke richting. De verdeling van de 
+     kansen volgt een normaalverdeling. Nadat een vos een stap heeft genomen kan je een nieuwe richting voor de 
+     vs kiezen op de volgende manier.
+   
+     new_angle = np.random.normal(L_vos_hoek[i_vos], 0.5)  
+
+     Sla die richting op in `L_vos_hoek`. De vos volgt hiermee een soort random walk waarbij er toch een voorkeur is om 
+     in de oorspronkelijke richting te blijven lopen.
+     
 
 
 
