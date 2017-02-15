@@ -138,6 +138,7 @@ Pas de functie `VerplaatsKonijnen()` zo aan dat er in 5% van de stappen een koni
 De twee waar we nu mee gewerkt hebben is wel heel erg weinig. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden ($$25<x<75$$ en $$25<y<75$$) en ook elk een unieke richting krijgen waarin ze bewegen ($$0<\alpha<\pi$$).
 
 
+![](konijnen.gif){:.inline}{: style="width:50%"}
 
 
 
