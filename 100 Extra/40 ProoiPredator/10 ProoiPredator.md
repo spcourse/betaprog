@@ -137,7 +137,31 @@ Pas de functie `VerplaatsKonijnen()` zo aan dat er in 5% van de stappen een koni
 
 ##### deelopdracht (1d): startsituatie: N konijnen op random posities
 
-De twee waar we nu mee gewerkt hebben is wel heel erg weinig. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden ($$25<x<75$$ en $$25<y<75$$) en ook elk een unieke richting krijgen waarin ze bewegen ($$0<\alpha<\pi$$).
+De twee waar we nu mee gewerkt hebben is wel heel erg weinig. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden ($$25<x<75$$ en $$25<y<75$$) en ook elk een unieke richting krijgen waarin ze bewegen ($$0<\alpha<2\pi$$).
+
+
+#### Opgave 2:Harde realiteit voor de konijnen: vossen
+
+##### deelopdracht (2a): introduceren van wolven
+
+Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vossen (twee) op het scherm verschijnen. Er zijn een paar verschillen tussen de vossen en de konijnen:
+
+   - teken de vossen in het rood (zelfde grootte als de konijnen, radius = 2)
+   - teken om de vossen ook een rode cirkel met straat r=5
+     Als je later in de opgave als konijn binnen die cirkel komt wordt je opgegeten.
+   - De vossen bewegen met snelheid 5 i.p.v 2
+
+Zorg dat de vossen 
+
+
+
+
+
+
+
+
+
+
 
 
 
