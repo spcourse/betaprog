@@ -147,11 +147,11 @@ De twee waar we nu mee gewerkt hebben is wel heel erg weinig. Pas het begin van 
 Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vossen (twee) op het scherm verschijnen. Er zijn een paar verschillen tussen de vossen en de konijnen:
 
    - teken de vossen in het rood (zelfde grootte als de konijnen, radius = 2)
-   - teken om de vossen ook een rode cirkel met straat r=5
-     Als je later in de opgave als konijn binnen die cirkel komt wordt je opgegeten.
+   - teken om de vossen ook een rode cirkel met straat r=5.
+     Later in de opgave is dit de circle-of-death voor konijnen
    - De vossen bewegen met snelheid 5 i.p.v 2
 
-Zorg dat de vossen 
+Zorg dat de vossen beginnen op posities (10,10) en (90,90) en respectievelijk recht omhoog en recht naar beneden starten met lopen. 
 
 
 
