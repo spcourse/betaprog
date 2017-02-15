@@ -175,10 +175,16 @@ Om een nieuwe richting voor de vos te kiezen kan je de volgende syntax gebruikle
 Sla die richting op in `L_vos_hoek`. 
      
 
+### Populatie-dynamica (I): Wolven eten de konijnen op
 
+In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een 
+vos een konijn tegenkomt zal hij de konijn opeten. Schrijf een nieuwe 
+functie `Etenstijd()` die in de hoofdfunctie ProoiPredator wordt aangeroepen 
+voor elke stap in de tijd nadat de konijnen en vossen een stap hebben gemaakt. 
+Deze functie heeft als taak te evalueren voor elk konijn of hij zich in de 
+buurt bevindt van een wolf. Als dat zo is moet hij weggehaald worden uit de lijst.
 
-
-
+**Tip:** slkh;slvkh
 
 
 
