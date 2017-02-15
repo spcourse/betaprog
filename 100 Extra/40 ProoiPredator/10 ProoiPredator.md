@@ -159,15 +159,18 @@ Zorg dat de vossen beginnen op posities (10,10) en (90,90) en respectievelijk re
    - De vos staat nooit even stil
    - Ook de vos zal nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de 
      konijnen in opgave 1b).
-   - De vos heeft de neiging om in dezelfde richting te blijven bewegen, maar kan daar van afwijken waarbij de 
-     kans steeds verder afneemt naarmate die hoer meer afwijkt van de oorspronkelijke richting. De verdeling van de 
-     kansen volgt een normaalverdeling. Nadat een vos een stap heeft genomen kan je een nieuwe richting voor de 
-     vs kiezen op de volgende manier.
-   
-     new_angle = np.random.normal(L_vos_hoek[i_vos], 0.5)  
 
-     Sla die richting op in `L_vos_hoek`. De vos volgt hiermee een soort random walk waarbij er toch een voorkeur is om 
-     in de oorspronkelijke richting te blijven lopen.
+
+##### deelopdracht (2b): specifiek gedrag van wolven
+
+De vos heeft de neiging om bij elk stap ongeveer in dezelfde richting te blijven bewegen. Hij kan daarvan afwijken, maar de kans op de hoek met de oorspronkelijke richting neemt sterk af als de afwijking groter is. De verdeling van de kansen volgt een zogenaamde normaalverdeling (centrale waarde is de huidige richting en de breedte = 0.5 radialen).De vos volgt hiermee een soort random walk waarbij er toch een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
+
+Python input:
+Om een nieuwe richting voor de vos te kiezen kan je de volgende syntax gebruiklen
+   
+     new_angle = numpy.random.normal(L_vos_hoek[i_vos], 0.5)  
+
+Sla die richting op in `L_vos_hoek`. 
      
 
 
