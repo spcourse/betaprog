@@ -129,6 +129,8 @@ probeer dit te testen door een konijn naar rechts te laten bewegen en te kijken 
 
 ##### deelopdracht (1c): random konijnen-gedrag
 
+![](konijnen.gif){:.inline}{: style="width:30%"}
+
 Iedereen die konijnen heeft ziet lopen weet dat het ze op random momenten ineens stilzitten en dan van richting veranderen in een random richting. Die eigenschap gaan we implementeren in de simulatie.
 
 Pas de functie `VerplaatsKonijnen()` zo aan dat er in 5% van de stappen een konijn helemaal geen stap zet, maar waarbij wel de richting waarin het konijn zich voortbeweegt een nieuwe random waarde krijgt (tussen 0 en $$2\pi$$). Een oplossing die je zou kunnen kiezen is om een random getal te trekken (tussen 0 en 1) en de variabele NeemNogEenStap de waarde 0 te geven (zie deelopdracht 1c) als de waarde van het random getal kleiner is dan 0.05.
@@ -138,7 +140,6 @@ Pas de functie `VerplaatsKonijnen()` zo aan dat er in 5% van de stappen een koni
 De twee waar we nu mee gewerkt hebben is wel heel erg weinig. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden ($$25<x<75$$ en $$25<y<75$$) en ook elk een unieke richting krijgen waarin ze bewegen ($$0<\alpha<\pi$$).
 
 
-![](konijnen.gif){:.inline}{: style="width:50%"}
 
 
 
