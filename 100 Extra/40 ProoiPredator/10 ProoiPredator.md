@@ -168,11 +168,12 @@ De vos heeft de neiging om bij elk stap ongeveer in dezelfde richting te blijven
 Python input:
 Om een nieuwe richting voor de vos te kiezen kan je de volgende syntax gebruiklen
    
-     new_angle = numpy.random.normal(L_vos_hoek[i_vos], 0.5)  
+     new_angle = numpy.random.normal(L_vos_hoek[i_vos], 0.2)  
 
 Sla die richting op in `L_vos_hoek`. 
      
 
+![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
 
 
