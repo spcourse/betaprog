@@ -88,7 +88,7 @@ We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in d
 
 Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Geef de konijnen allemaal de bovenstaande hoek (atan(1.6/1.2)). Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
 
-       L_konijn_x,L_konijn_y = VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
+       VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
 
 Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor $$v_x = v \cos(\alpha)$$ en $$v_x = v \sin(\alpha)$$.
 
@@ -98,8 +98,30 @@ Voor de nieuwe positie van elk konijn krijgen we dan ook:
 
 ##### deelopdracht (1b): de bosrand
 
-Zoals we al eerder gemeld hebben zijn konijnen vrij angstige beesten. Onze konijnen zullen nooit vanuit zichzelf het bos verlaten. Vlak voor het moment dat je de nieuwe positie van de konijnen uitrekent weet je al of je het 
+Zoals we al eerder gemeld hebben zijn konijnen vrij angstige beesten. Onze konijnen zullen nooit vanuit zichzelf het bos verlaten. 
+In de functie `VerplaatsKonijnen()` reken je de nieuwe positie uit van de konijnen. Gelijk erna kan je bekijken of je misschien per ongeluk het bos uit bent gestapt. Als dat niet het geval is ben je klaar, maar als dat niet zo is dan weten we dat de stap die je gemaakt hebt in de simulatie 'ongeldig' is. We moeten dan de volgende stappen doorlopen:
 
+   1. neem een stap terug (in zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
+   2. verander de richtjng waarin het konijn beweegt. Kies een random hoek tussen 0 en $$2\pi$$ en 
+    stop die in de lijst `L_konijn_hoek`. 
+   3. Neem een nieuwe stap
+   
+Dit moet je herhalen tot het konijn een stap gezet heeft die weer in het bos uitkomt. De structuur die je gaat bouwen heeft dus de volgende structuur:
+
+    NeemNogEenStap = 1
+    while ( NeemNogEenStap == 1 ):
+    
+       # bereken nieuwe x-positie
+       # bereken nieuwe y-positie
+
+       if( InHetBos ):
+          # zet x terug op de oude positie
+          # zet y terug op de oude positie
+          # kies random hoek en zet die in L_konijn_hoek          
+       else:    
+         NeemNogEenStap = 0    
+
+probeer dit te testen door een konijn
 
 
 
