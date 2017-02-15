@@ -163,6 +163,8 @@ Zorg dat de vossen beginnen op posities (10,10) en (90,90) en respectievelijk re
 
 ##### deelopdracht (2b): specifiek gedrag van wolven
 
+![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
+
 De vos heeft de neiging om bij elk stap ongeveer in dezelfde richting te blijven bewegen. Hij kan daarvan afwijken, maar de kans op de hoek met de oorspronkelijke richting neemt sterk af als de afwijking groter is. De verdeling van de kansen volgt een zogenaamde normaalverdeling (centrale waarde is de huidige richting en de breedte = 0.5 radialen).De vos volgt hiermee een soort random walk waarbij er toch een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
 
 Python input:
@@ -173,7 +175,6 @@ Om een nieuwe richting voor de vos te kiezen kan je de volgende syntax gebruikle
 Sla die richting op in `L_vos_hoek`. 
      
 
-![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
 
 
