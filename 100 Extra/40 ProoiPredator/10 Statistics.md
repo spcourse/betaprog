@@ -33,9 +33,9 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
        return
 
 
-    #------------------------------
+    #--------------------------------------------
     def VerplaatsKonijnen(L_konijn_x,L_konijn_y):
-    #------------------------------
+    #--------------------------------------------
 
          #--/ doe elke tijdstap een stapje voor de konijnen (2 naar rechts en 3 naar boven)
          Aantal_konijnen = len(L_konijn_x)   
