@@ -24,26 +24,27 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
        for i_time in range(10):
 
            #--/ verplaats de konijnen
-           L_konijn_x,L_konijn_y = VerplaatsKonijnen(L_konijn_x,L_konijn_y)    
+           VerplaatsKonijnen(L_konijn_x,L_konijn_y)    
 
            #--/ plot de positie van de konijnen
            Teken_het_bos(L_konijn_x,L_konijn_y)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+            
+       #--/ einde functie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
        return
 
 
     #------------------------------
-    def VerplaatsKonijnen(L_x,L_y):
+    def VerplaatsKonijnen(L_konijn_x,L_konijn_y):
     #------------------------------
 
          #--/ doe elke tijdstap een stapje voor de konijnen (2 naar rechts en 3 naar boven)
-         Aantal_konijnen = len(L_x)   
+         Aantal_konijnen = len(L_konijn_x)   
          for i_konijn in range(Aantal_konijnen):
-             L_x[i_konijn] = L_x[i_konijn] + 1.2 
-             L_y[i_konijn] = L_y[i_konijn] + 1.6 
+             L_konijn_x[i_konijn] = L_konijn_x[i_konijn] + 1.2 
+             L_konijn_y[i_konijn] = L_konijn_y[i_konijn] + 1.6 
   
-         #--/ return de ge-update lijsten
-         return L_x, L_y
+         #--/ einde functie
+         return
 
 
     #--------------------------
@@ -73,6 +74,7 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
          plt.clf()         #--/ Maak grafiek leeg bij elke tijdstap
          plt.show()
  
+         #--/ einde functie
          return
 
 
@@ -88,11 +90,15 @@ Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid va
 
        L_konijn_x,L_konijn_y = VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
 
+Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor $$v_x = v \cos(\alpha)$$ en $$v_x = v \sin(\alpha)$$.
 
-Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor $$v_x = v \cos(\alpha)$$
+Voor de nieuwe positie van elk konijn krijgen we dan ook:
+    L_x[i_konijn] = L_x[i_konijn] + vx
 
 
 ##### deelopdracht (1b): de bosrand
+
+Zoals we al eerder gemeld hebben zijn konijnen vrij angstige beesten. Onze konijnen zullen nooit vanuit zichzelf het bos verlaten. Vlak voor het moment dat je de nieuwe positie van de konijnen uitrekent weet je al of je het 
 
 
 
