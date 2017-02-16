@@ -210,7 +210,7 @@ Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele aanbrengt waarmee
 
 
 ![](konijnenenvossenEtenstijd.gif){: style="width:30%"}
-![](halfwaarde3x.png){: style="width:60%"}
+![](halfwaarde3x.png){: style="width:70%"}
 
 
 
