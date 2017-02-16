@@ -149,7 +149,7 @@ Er zijn een paar verschillen tussen de vossen en de konijnen:
 Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 recht links en vos 2 naar beneden bewegen. Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen.
 <br>
 
-#### deelopdracht (2b): specifiek wandelgedrag van wolven
+#### Deelopdracht (2b): specifiek wandelgedrag van wolven
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
@@ -164,7 +164,7 @@ Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla 
 
 <br><br>
 
-## Populatie-dynamica (I): Wolven eten de konijnen op
+### Opgave 3: populatie-dynamica (I) - vossen eten konijnen
 
 In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een 
 vos een konijn tegenkomt zal hij de konijn opeten. Schrijf een nieuwe 
