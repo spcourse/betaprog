@@ -237,26 +237,21 @@ voort kunnen planten. Elk nestje is goed voor ongeveer 4 konijnen. We gaan kijke
 is van het aantal konijnen als we ook reproductie meenemen in onze simulaties. We gaan hiervoor 
 eerst terug naar een enkele simulatie en visualisatie.
 
-Voeg in de hoofdfunctie `ProoiPredator()` een nieuwe functie toe: `BeschuitMetMuisjes()`. De functie 
-daarvan is om nieuwe konijnen in de simulatie te brengen. Als twee konijnen zich dichter dan een afstand 
-2 bij elkaar in de buurt bevinden zullen ze zich voortplanten en zullen er 4 nieuwe konijnen in het bos 
-verschijnen.
-
-     - begin pas met de reproductie na t = 50 seconden
-       Ze beginnen al erg dicht bij elkaar namelijk
-     - Konijnen kunnen zich voortplanten als onderlinge afstand dr<1.
-       Het circle-of-affection equivalent van de circle-of-death in vraag 3.
-     - Er is 50% kans dat 	zich voortplanten (alleen man-vouw nl).
-     - De 4 nieuwe konijnen moeten op een random plek in het bos verschijnen en 
-       met random bewegingsrichting
+Voeg in de hoofdfunctie `ProoiPredator()` een nieuwe functie toe: `BeschuitMetMuisjes()` die op elke stap 
+in de tijd kijkt of er konijnen dicht bij elkaar zitten ($$\Delta r<1$$) en in dat geval een paar nieuwe 
+konijnen in het bos neerzet.
 
 Ga als volgt te werk:
 
-  1.  Bepaal hoeveel paren zich voort gaan planten (aantal nestjes)
-      Vermijd hierbij dubbeltellen (konijn 3 dicht bij 18 dan niet ook 18 dicht bij 3 meetellen) en let op dat konijnen
-      niet bij zichzelf in de buurt zitten.
-  2.  Vepaal aan het eind hoeveel nieuwe konijnen er verschijnen. Genereer voor elk van de nieuwe konijnen een random 
-      positie in het bos en een bewegingsrichting en voeg de konijnen toe aan de lijst van konijnen.
+  1.  Bepaal eerst hoeveel paren konijnen zich voort gaan planten (aantal nesten)
+      Let op: vermijd hierbij dubbeltellen (konijn 3 dicht bij 18 dan ook 18 dicht bij 3 natuurlijk).
+  2.  Genereer voor elk van de nest 3 nieuwe konijnen: zet ze op een random positie in 
+      het bos en een bewegingsrichting en voeg ze toe aan de lijst van konijnen.
+
+Een aantal parameters die hiervoor van belang zijn:
+
+  - de konijnen begin pas met de reproductie na t = 50 seconden. Roep pas na die tijd de extra 
+    functie aan. De konijnen beginnen al erg dicht bij elkaar namelijk
 
 
 Evenwicht?
