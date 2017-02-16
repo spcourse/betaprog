@@ -147,20 +147,20 @@ Er zijn een paar verschillen tussen de vossen en de konijnen:
      Deze cirkel zal later in de opgave fungeren als "the circle-of-death" voor de konijnen
 
 Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 recht links en vos 2 naar beneden bewegen. Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen.
+<br>
 
-#### deelopdracht (2b): specifiek gedrag van wolven
+#### deelopdracht (2b): specifiek wandelgedrag van wolven
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
-De vos heeft de neiging om bij elk stap ongeveer in dezelfde richting te blijven bewegen. Hij kan daarvan afwijken, maar de kans op de hoek met de oorspronkelijke richting neemt sterk af als de afwijking groter is. De verdeling van de kansen volgt een zogenaamde normaalverdeling (centrale waarde is de huidige richting en de breedte = 0.5 radialen).De vos volgt hiermee een soort random walk waarbij er toch een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
+De vos heeft de neiging om rechtdoor te lopen, maar kan er na elke stap voor kiezen om bij de volgende stap iets naar links en naar rechts te gaan. De kans op een bepaalde verandering ten opzichte van de oorspronkelijke bewegingsrichting neemt sterk af met een groter wordende afwijking. De verdeling van de kansen volgt een zogenaamde normaal-verdeling. De vos volgt hiermee een soort pseudo-random walk waarbij er toch een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
 
-Python input:
-Om een nieuwe richting voor de vos te kiezen kan je de volgende syntax gebruiklen
+Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdeling die gecentreerd is rond de oorspronkelijke bewegingsrichting kan je de volgende syntax gebruiken:
    
      new_angle = numpy.random.normal(L_vos_hoek[i_vos], 0.2)  
 
-Sla die richting op in `L_vos_hoek`. 
-     
+
+Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `L_vos_hoek`. Bij de volgende stap zal de vos dan in deze nieuwe richting gaan bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
 
 <br><br>
 
