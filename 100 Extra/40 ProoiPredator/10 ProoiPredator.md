@@ -92,13 +92,13 @@ Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid va
 
 Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor:
 
-    `v_x = v_konijn * cos($$\alpha$$)
-    `v_y = v_konijn * sin($$\alpha$$)
+    v_x = v_konijn * cos(hoek)
+    v_y = v_konijn * sin(hoek)
     
-Voor de nieuwe positie van elk konijn krijgen we dan ook:
+En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe posities van het konijn uitrekenen:
 
-    L_x[i_konijn] = L_x[i_konijn] + vx
-    L_y[i_konijn] = L_y[i_konijn] + vy
+    L_x[i_konijn] = L_x[i_konijn] + v_x
+    L_y[i_konijn] = L_y[i_konijn] + v_y
 
 ##### deelopdracht (1b): de bosrand 
 
