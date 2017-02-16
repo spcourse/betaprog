@@ -189,6 +189,8 @@ Om een element $$i$$ uit een lijst $$L$$ weg te halen gebruik je de volgende syn
 **Let op:** 
 Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schuiven alle elementen 1 positie op. Element 11 van de oorspronkelijke lijst wordt dan element 10 in de nieuwe lijst etc. De lijst is dan ook ineens 19 posities lang geworden. Een slimme 'truc' om dit op te vangen is om de lijst in omgekeerd volgorde af te lopen. Begin dus bij konijn 20, vervolgens naar konijn 19 etc etc. De lijst wordt dan wel korter, maar je komt nooit in de problemen omdat je nooit element weghaalt die je later nog wilt bekijken.
 
+![](konijnenenvossenEtenstijd.gif){:.inline}{: style="width:30%"}
+
 Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax gebruiken:
 
     for i_konijn in range(19,-1,-1):
@@ -209,7 +211,6 @@ Het laten zien van bewegende en verdwijnende konijnen op het scherm is enorm tij
 Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele aanbrengt waarmee je makkelijk kan kiezen of je wel/niet de functie `Teken_het_bos()` aanroept.
 
 
-![](konijnenenvossenEtenstijd.gif){: style="width:30%"}
 ![](halfwaarde3x.png){: style="width:65%"}
 
 
