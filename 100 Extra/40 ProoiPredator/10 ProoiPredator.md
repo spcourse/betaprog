@@ -242,7 +242,7 @@ Voeg in de hoofdfunctie `ProoiPredator()` een nieuwe functie toe: `BeschuitMetMu
 Ga als volgt te werk:
 
   1.  Bepaal hoeveel paren zich voort gaan planten (aantal nestjes)
-      Vermijdt hierbij dubbeltellen (konijn 3 dicht bij 18 dan niet ook 18 dicht bij 3 meetellen) en let op dat konijnen
+      Vermijd hierbij dubbeltellen (konijn 3 dicht bij 18 dan niet ook 18 dicht bij 3 meetellen) en let op dat konijnen
       niet bij zichzelf in de buurt zitten.
   2.  Vepaal aan het eind hoeveel nieuwe konijnen er verschijnen. Genereer voor elk van de nieuwe konijnen een random 
       positie in het bos en een bewegingsrichting en voeg de konijnen toe aan de lijst van konijnen.
