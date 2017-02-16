@@ -76,11 +76,11 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
 
 
 
-#### Opgave 1: Toevoegen realiteit: andere variabelen en de langere termijn
+### Opgave 1: Toevoegen realiteit: andere variabelen en de langere termijn
 
 We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) drie stappen naar rechts opschuiven en vier omhoog gaan. We hadden dit ook kunnen representeren door te stellen dat de konijnen bewegen met een snelheid van 2 meter per seconde bewegen onder een hoek van ongeveer 51 graden met de x-as. Als we de tijd langer laten doorlopen zullen we ook zien dat onze konijnen het bos uitlopen. Dat is niet de bedoeling. Als de konijnen bij de rand van het bos komen zullen ze weer het bos inlopen. In deze opgave zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code.
 
-##### deelopdracht (1a): nieuwe parametrisatie beweging konijnen
+#### deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
 Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Geef elk van de  konijnen een unieke richting/hoek. Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
 
@@ -96,7 +96,7 @@ En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe
     L_x[i_konijn] = L_x[i_konijn] + v_x
     L_y[i_konijn] = L_y[i_konijn] + v_y
 
-##### deelopdracht (1b): de bosrand 
+#### deelopdracht (1b): de bosrand 
 
 Zoals we al eerder gemeld hebben zijn konijnen vrij angstige beesten. Onze konijnen zullen nooit vanuit zichzelf het bos verlaten en we moeten dat ook in onze simulatie verwerken.
 
@@ -110,7 +110,7 @@ Pas de functie `VerplaatsKonijnen()` zodanig aan dat je weet of het konijn na ee
    
 Probeer dit te testen door een konijn naar rechts te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
-##### deelopdracht (1c): random konijnen-gedrag
+#### deelopdracht (1c): random konijnen-gedrag
 
 ![](konijnen.gif){:.inline}{: style="width:30%"}
 
@@ -118,13 +118,15 @@ Iedereen die konijnen heeft ziet lopen weet dat het ze op random momenten ineens
 
 Pas de functie `VerplaatsKonijnen()` zo aan dat er in 5% van de stappen een konijn helemaal geen stap zet, maar waarbij wel de richting waarin het konijn zich voortbeweegt een nieuwe random waarde krijgt (tussen 0 en $$2\pi$$). Een oplossing die je zou kunnen kiezen is om een random getal te trekken (tussen 0 en 1) en de variabele NeemNogEenStap de waarde 0 te geven (zie deelopdracht 1c) als de waarde van het random getal kleiner is dan 0.05.
 
-##### deelopdracht (1d): startsituatie: N konijnen op random posities
+#### deelopdracht (1d): startsituatie: N konijnen op random posities
 
 Twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden (in een vierkantje dat gegeven wordt door: $$20<(x,y)<30$$) en dat ze allemaal een unieke bewegingsrichting toegewezen krijgen ($$0<\alpha<2\pi$$).
 
-#### Opgave 2:Harde realiteit voor de konijnen: vossen
 
-##### deelopdracht (2a): introduceren van wolven
+
+### Opgave 2:Harde realiteit voor de konijnen: vossen
+
+#### deelopdracht (2a): introduceren van wolven
 
 Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vossen (twee) op het scherm verschijnen. Maak een nieuwe functie `VerplaatsWolven()` en pas de functie `Teken_het_bos()` zo aan dat ook de wolven op het scherm getoond worden. Ook de vos zal nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b).
 
@@ -139,7 +141,7 @@ De vossen beginnen op posities (70,17) en (80,80) en bewegen respectievelijk naa
 
 
 
-##### deelopdracht (2b): specifiek gedrag van wolven
+#### deelopdracht (2b): specifiek gedrag van wolven
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
@@ -153,7 +155,7 @@ Om een nieuwe richting voor de vos te kiezen kan je de volgende syntax gebruikle
 Sla die richting op in `L_vos_hoek`. 
      
 
-### Populatie-dynamica (I): Wolven eten de konijnen op
+## Populatie-dynamica (I): Wolven eten de konijnen op
 
 In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een 
 vos een konijn tegenkomt zal hij de konijn opeten. Schrijf een nieuwe 
