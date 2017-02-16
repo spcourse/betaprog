@@ -1,12 +1,8 @@
-# Prooi predator #
+# Populatiedynamica: prooi-predator model#
 
-Als er een onderdeel is dat studenten van verschillende opleidingen verbindt is het wel de 
+Een van de meest klassieke voorbeelden van een dynamisch systeem is wel het zogenaamde prooi-predator model. In deze module zullen we een aantal aspecten bekijken van een simpele en overzichtelijke wereld, een bos van 100 bij 100 meter waarin konijnen en vossen wonen. 
 
-# Vossen en konijnen
-
-
-
-#### Startpunt: twee konijnen op het scherm
+## Startpunt: twee konijnen op het scherm
 
 We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het volgende stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
 
