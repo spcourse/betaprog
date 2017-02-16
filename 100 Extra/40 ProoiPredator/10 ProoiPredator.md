@@ -133,7 +133,6 @@ Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `
 ### Opgave 2: Harde realiteit voor de konijnen: vossen
 
 Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
-
 <br>
 
 #### Deelopdracht (2a): introduceren van wolven
