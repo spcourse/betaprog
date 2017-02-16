@@ -138,15 +138,15 @@ Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door
 #### Deelopdracht (2a): introduceren van vossen
 
 Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maar eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `VerplaatsWolven()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b). Als laatste moet je ook de functie `Teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
+
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
-   - vossen zijn twee keer zo snel als konijnen: `v_vos = 4` en staan nooit stil
+   - vossen zijn twee keer zo snel als konijnen (`v_vos = 4`) en staan nooit stil
    - teken de vossen in rood (zelfde grootte als de konijnen, radius = 2)
-   - teken om de vossen ook een rode cirkel met straat r=5.   
-     Deze cirkel zal fungeren als de "circle-of-death" voor konijnen
+   - teken om de vossen ook een rode cirkel met straat r=5. 
+     Deze cirkel zal later in de opgave fungeren als "the circle-of-death" voor de konijnen
 
-De vossen beginnen op posities (70,17) en (80,80) en bewegen respectievelijk naar links en naar beneden als ze beginnen met lopen. Net als de konijnen hebben ook vossen een eigen manier van voortbewegen.
-
+Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 recht links en vos 2 naar beneden bewegen. Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen.
 
 #### deelopdracht (2b): specifiek gedrag van wolven
 
