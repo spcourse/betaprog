@@ -113,15 +113,16 @@ Probeer dit te testen door een van de konijnen direct naar de bosrand te laten b
 
 #### deelopdracht (1c): random konijnen-gedrag
 
-![](konijnen.gif){:.inline}{: style="width:30%"}
 
 Iedereen die konijnen heeft ziet lopen weet dat niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan ineens van richting te veranderen. Deze eigenschap moeten we ook implementeren in de simulatie.
 
+![](konijnen.gif){:.inline}{: style="width:30%"}
+
 Pas de functie `VerplaatsKonijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden van een seconde stilzit en daarna in een random richting verder wandelt. Een oplossing die je hiervoor zou kunnen gebruiken is om een random getal te trekken (tussen 0 en 1) en kijken of die waarde kleiner of groter is dan 0.05.
 
-Grote dan 0.05: zet dan gewoon een stap als konijn
+Grote dan 0.05: zet een stap als konijn
 
-Kleiner dan 0.05: zet geen stap, maar kies een nieuwe random hoek (0$$<$$hoek$$<2\pi$$) en stop die in `L_konijn_hoek`.
+Kleiner dan 0.05: geen stap, wel nieuwe hoek (0$$<$$hoek$$<2\pi$$).
 
 
 #### deelopdracht (1d): startsituatie: N konijnen op random posities
@@ -161,6 +162,8 @@ Om een nieuwe richting voor de vos te kiezen kan je de volgende syntax gebruikle
 
 Sla die richting op in `L_vos_hoek`. 
      
+
+<br><br>
 
 ## Populatie-dynamica (I): Wolven eten de konijnen op
 
