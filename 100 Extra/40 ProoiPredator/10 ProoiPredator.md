@@ -248,7 +248,8 @@ Ga als volgt te werk:
 
   2.  Bepaal eerst hoeveel paren konijnen zich voort gaan planten (aantal nesten).
   
-      Let op: vermijd hierbij dubbeltellen (konijn 3 dicht bij 18 dan ook 18 dicht bij 3 natuurlijk).
+      Let op: vermijd hierbij dubbeltellen. 
+
   3.  Genereer voor elk van de nest 3 nieuwe konijnen: zet ze op een random positie in 
       het bos en een bewegingsrichting en voeg ze toe aan de lijst van konijnen.
 
