@@ -86,7 +86,7 @@ We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in d
 
 ##### deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
-Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Geef de konijnen allemaal de bovenstaande hoek (atan(1.6/1.2)). Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
+Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Geef elk van de  konijnen een unieke richting/hoek. Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
 
        VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
 
@@ -103,7 +103,7 @@ Pas de functie `VerplaatsKonijnen()` zodanig aan dat je weet of het konijn na ee
 
    1. neem een stap terug (in zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
    2. zorg dat de hoek waarin het konijn beweegt precies tegenovergesteld is aan zijn oorspronkelijke richting: 
-      $$ \alpha \rightarrow \alpha +\pi$$). Stop deze nieuwe bewegingsrichting (hoek) op in de lijst `L_konijn_hoek`. 
+      hoek_nieuw = hoek + $$\pi$$. Stop deze nieuwe bewegingsrichting (hoek) op in de lijst `L_konijn_hoek`. 
       Bij de volgende stap in de tijd beweegt hij dus weer het bos in. In precies de tegenovergestelde richting 
       waar hij vandaan kwam.    
    
