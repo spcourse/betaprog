@@ -135,10 +135,9 @@ Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `
 Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
 <br>
 
-#### Deelopdracht (2a): introduceren van wolven
+#### Deelopdracht (2a): introduceren van vossen
 
-Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vossen (twee) op het scherm verschijnen. Maak een nieuwe functie `VerplaatsWolven()` en pas de functie `Teken_het_bos()` zo aan dat ook de wolven op het scherm getoond worden. Ook de vos zal nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b).
-
+Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maar eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `VerplaatsWolven()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b). Als laatste moet je ook de functie `Teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
    - vossen zijn twee keer zo snel als konijnen: `v_vos = 4` en staan nooit stil
