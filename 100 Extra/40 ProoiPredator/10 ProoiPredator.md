@@ -78,11 +78,11 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
 
 ### Opgave 1: modelleren van de beweging van de konijnen 
 
-We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) drie stappen naar rechts opschuiven en vier omhoog gaan. We hadden dit ook kunnen representeren door te stellen dat de konijnen bewegen met een snelheid van 2 meter per seconde bewegen onder een hoek van ongeveer 51 graden met de x-as. Als we de tijd langer laten doorlopen zullen we ook zien dat onze konijnen het bos uitlopen. Dat is niet de bedoeling. Als de konijnen bij de rand van het bos komen zullen ze weer het bos inlopen. In deze opgave zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code.
+We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van de realiteit. Konijnen bewegen niet allemaal synchroon in dezelfde richting, ze rennen ook niet in een rechte lijn. Als we de tijd ook langer door zouden laten doorlopen zullen we ook zien dat onze konijnen het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer terug het (veilige) bos inlopen. In opgave 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code.
 
 #### deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
-Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Geef elk van de  konijnen een unieke richting/hoek. Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
+We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze moet dezelfde snelheid bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
 
        VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
 
@@ -96,17 +96,19 @@ En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe
     L_x[i_konijn] = L_x[i_konijn] + v_x
     L_y[i_konijn] = L_y[i_konijn] + v_y
 
+We hebben nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven.
+
 #### deelopdracht (1b): de bosrand 
 
-Zoals we al eerder gemeld hebben zijn konijnen vrij angstige beesten. Onze konijnen zullen nooit vanuit zichzelf het bos verlaten en we moeten dat ook in onze simulatie verwerken.
+Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze per ongeluk een stap buiten het bos doen draaien ze zich pijlsnel om en zullen daarna weer snel het bos inrennen in dezelfde richting al waar ze vandaan kwamen. Pas de functie `VerplaatsKonijnen()` zodanig aan dat de konijnen in het bos blijven rondlopen.
 
-Pas de functie `VerplaatsKonijnen()` zodanig aan dat je weet of het konijn na een stap gezet te hebben buiten het bos is geraakt. Als dat het geval is los dat dan op door de volgende stappen:
+Volg de volgende strategie ls het konijn na een stap gezet te hebben buiten het bos is geraakt:
 
    1. neem een stap terug (in zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
-   2. zorg dat de hoek waarin het konijn beweegt precies tegenovergesteld is aan zijn oorspronkelijke richting: 
-      hoek_nieuw = hoek + $$\pi$$. Stop deze nieuwe bewegingsrichting (hoek) op in de lijst `L_konijn_hoek`. 
-      Bij de volgende stap in de tijd beweegt hij dus weer het bos in. In precies de tegenovergestelde richting 
-      waar hij vandaan kwam.    
+   2. zorg dat het konijn zich omdraait. Zorg dus dat de hoek waarin het konijn beweegt precies tegenovergesteld 
+      is aan zijn oorspronkelijke richting: hoek_nieuw = hoek + $$\pi$$. Stop deze nieuwe bewegingsrichting 
+      (hoek) op in de lijst `L_konijn_hoek`. Bij de volgende stap in de tijd beweegt hij dus weer het bos in. 
+      In precies de tegenovergestelde richting waar hij vandaan kwam.    
    
 Probeer dit te testen door een konijn naar rechts te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
