@@ -107,10 +107,9 @@ Volg de volgende strategie ls het konijn na een stap gezet te hebben buiten het 
    1. neem een stap terug (in zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
    2. zorg dat het konijn zich omdraait. Zorg dus dat de hoek waarin het konijn beweegt precies tegenovergesteld 
       is aan zijn oorspronkelijke richting: hoek_nieuw = hoek + $$\pi$$. Stop deze nieuwe bewegingsrichting 
-      (hoek) op in de lijst `L_konijn_hoek`. Bij de volgende stap in de tijd beweegt hij dus weer het bos in. 
-      In precies de tegenovergestelde richting waar hij vandaan kwam.    
+      (hoek_nieuw) op in de lijst `L_konijn_hoek`. Bij de volgende stap in de tijd rent hij dus weer het bos in. 
    
-Probeer dit te testen door een konijn naar rechts te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
+Probeer dit te testen door een van de konijnen direct naar de bosrand te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
 #### deelopdracht (1c): random konijnen-gedrag
 
