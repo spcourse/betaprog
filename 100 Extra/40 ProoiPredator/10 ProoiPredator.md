@@ -88,13 +88,13 @@ We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te 
 
 Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor:
 
-    v_x = v_konijn * cos(hoek)
-    v_y = v_konijn * sin(hoek)
+       v_x = v_konijn * cos(hoek)
+       v_y = v_konijn * sin(hoek)
     
 En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe posities van het konijn uitrekenen:
 
-    L_x[i_konijn] = L_x[i_konijn] + v_x
-    L_y[i_konijn] = L_y[i_konijn] + v_y
+       L_x[i_konijn] = L_x[i_konijn] + v_x
+       L_y[i_konijn] = L_y[i_konijn] + v_y
 
 We hebben nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven.
 
