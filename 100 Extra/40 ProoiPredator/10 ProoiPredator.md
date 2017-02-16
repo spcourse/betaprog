@@ -243,19 +243,17 @@ konijnen in het bos neerzet.
 
 Ga als volgt te werk:
 
-  1.  Bepaal eerst hoeveel paren konijnen zich voort gaan planten (aantal nesten).
+  1. Roep de functie pas aan na 50 seconden. Roep pas na die tijd de extra functie aan. De konijnen 
+     beginnen al erg dicht bij elkaar namelijk
+
+  2.  Bepaal eerst hoeveel paren konijnen zich voort gaan planten (aantal nesten).
   
       Let op: vermijd hierbij dubbeltellen (konijn 3 dicht bij 18 dan ook 18 dicht bij 3 natuurlijk).
-  2.  Genereer voor elk van de nest 3 nieuwe konijnen: zet ze op een random positie in 
+  3.  Genereer voor elk van de nest 3 nieuwe konijnen: zet ze op een random positie in 
       het bos en een bewegingsrichting en voeg ze toe aan de lijst van konijnen.
 
-Een aantal parameters die hiervoor van belang zijn:
 
-  - de konijnen begin pas met de reproductie na t = 50 seconden. Roep pas na die tijd de extra 
-    functie aan. De konijnen beginnen al erg dicht bij elkaar namelijk
-
-
-Evenwicht?
+De vraag die we nu hebben is: wie gaat er winnen ?
 
 
 
