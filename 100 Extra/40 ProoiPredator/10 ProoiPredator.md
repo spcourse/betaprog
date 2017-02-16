@@ -244,7 +244,7 @@ verschijnen.
 
      - begin pas met de reproductie na t = 50 seconden
        Ze beginnen al erg dicht bij elkaar namelijk
-     - Konijnen kunnen zich voortplanten als ze dichter dan dr = 1 bij elkaar vandaan zitten.
+     - Konijnen kunnen zich voortplanten als onderlinge afstand dr<1.
        Het circle-of-affection equivalent van de circle-of-death in vraag 3.
      - Er is 50% kans dat 	zich voortplanten (alleen man-vouw nl).
      - De 4 nieuwe konijnen moeten op een random plek in het bos verschijnen en 
