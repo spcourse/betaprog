@@ -115,13 +115,18 @@ Probeer dit te testen door een van de konijnen direct naar de bosrand te laten b
 
 ![](konijnen.gif){:.inline}{: style="width:30%"}
 
-Iedereen die konijnen heeft ziet lopen weet dat het ze op random momenten ineens stilzitten en dan van richting veranderen in een random richting. Die eigenschap gaan we implementeren in de simulatie.
+Iedereen die konijnen heeft ziet lopen weet dat niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan ineens van richting te veranderen. Deze eigenschap moeten we ook implementeren in de simulatie.
 
-Pas de functie `VerplaatsKonijnen()` zo aan dat er in 5% van de stappen een konijn helemaal geen stap zet, maar waarbij wel de richting waarin het konijn zich voortbeweegt een nieuwe random waarde krijgt (tussen 0 en $$2\pi$$). Een oplossing die je zou kunnen kiezen is om een random getal te trekken (tussen 0 en 1) en de variabele NeemNogEenStap de waarde 0 te geven (zie deelopdracht 1c) als de waarde van het random getal kleiner is dan 0.05.
+Pas de functie `VerplaatsKonijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden van een seconde stilzit en daarna in een random richting verder wandelt. Een oplossing die je hiervoor zou kunnen gebruiken is om een random getal te trekken (tussen 0 en 1) en kijken of die waarde kleiner of groter is dan 0.05.
+
+Grote dan 0.05: zet dan gewoon een stap als konijn
+
+Kleiner dan 0.05: zet geen stap, maar kies een nieuwe random hoek (0$$<$$hoek$$<2\pi$$) en stop die in `L_konijn_hoek`.
+
 
 #### deelopdracht (1d): startsituatie: N konijnen op random posities
 
-Twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden (in een vierkantje dat gegeven wordt door: $$20<(x,y)<30$$) en dat ze allemaal een unieke bewegingsrichting toegewezen krijgen ($$0<\alpha<2\pi$$).
+Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden (in een vierkantje dat gegeven wordt door: $$20<(x,y)<30$$) en dat ze allemaal een unieke bewegingsrichting toegewezen krijgen ($$0<\alpha<2\pi$$).
 
 
 
