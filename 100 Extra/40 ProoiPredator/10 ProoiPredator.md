@@ -128,9 +128,11 @@ Kleiner dan 0.05: zet geen stap, maar kies een nieuwe random hoek (0$$<$$hoek$$<
 
 Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden (in een vierkantje dat gegeven wordt door: $$20<(x,y)<30$$) en dat ze allemaal een unieke bewegingsrichting toegewezen krijgen ($$0<\alpha<2\pi$$).
 
-
+<br><br>
 
 ### Opgave 2: Harde realiteit voor de konijnen: vossen
+
+Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
 
 #### deelopdracht (2a): introduceren van wolven
 
@@ -144,7 +146,6 @@ Er zijn een paar verschillen tussen de vossen en de konijnen:
      Deze cirkel zal fungeren als de "circle-of-death" voor konijnen
 
 De vossen beginnen op posities (70,17) en (80,80) en bewegen respectievelijk naar links en naar beneden als ze beginnen met lopen. Net als de konijnen hebben ook vossen een eigen manier van voortbewegen.
-
 
 
 #### deelopdracht (2b): specifiek gedrag van wolven
