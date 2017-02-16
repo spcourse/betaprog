@@ -73,6 +73,11 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
          #--/ einde functie
          return
 
+    #==================
+    #== MAIN PROGRAM ==
+    #==================
+    ProoiPredator()
+
 
 
 
@@ -159,29 +164,55 @@ Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdel
    
      new_angle = numpy.random.normal(L_vos_hoek[i_vos], 0.2)  
 
-
 Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `L_vos_hoek`. Bij de volgende stap zal de vos dan in deze nieuwe richting gaan bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
 
 <br><br>
 
-### Opgave 3: populatie-dynamica (I) - vossen eten konijnen
+### Opgave 3: populatie-dynamica (de dood - vossen eten konijnen)
 
-In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een 
-vos een konijn tegenkomt zal hij de konijn opeten. Schrijf een nieuwe 
-functie `Etenstijd()` die in de hoofdfunctie ProoiPredator wordt aangeroepen 
-voor elke stap in de tijd nadat de konijnen en vossen een stap hebben gemaakt. 
-Deze functie heeft als taak te evalueren voor elk konijn of hij zich in de 
-buurt bevindt van een wolf. Als dat zo is moet hij weggehaald worden uit de lijst.
+In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal 
+hij de konijn opeten. 
 
-**Let op:** 
-   - om een element $$i$$ uit een lijst $$L$$ weg te halen gebruik je de volgende syntax:
+#### Deelopdracht (3a): verdwijnende konijnen
+
+Schrijf een nieuwe functie `Etenstijd()` die in de hoofdfunctie `ProoiPredator()` 
+wordt aangeroepen voor elke stap in de tijd nadat de konijnen en de vossen een stap hebben gemaakt. Deze 
+functie heeft als taak te evalueren voor elk konijn of hij zich in de buurt bevindt van een vos. Met 
+'in de buurt' wordt trouwens bedoeld: 'within the circle of death', dus op een afstand van 5 of minder 
+van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst 
+met konijnen.
+
+Om een element $$i$$ uit een lijst $$L$$ weg te halen gebruik je de volgende syntax:
 
      del L[i] 
 
-   - als een konijn opgegeten wordt haal dan het element weg uit alle lijsten: 
-      x-positie, y-positie en hoek)
+**Let op:** 
+Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schuiven alle elementen 1 positie op. Element 11 van de oorspronkelijke lijst wordt dan element 10 in de nieuwe lijst etc. De lijst is dan ook ineens 19 posities lang geworden. Een slimme 'truc' om dit op te vangen is om de lijst in omgekeerd volgorde af te lopen. Begin dus bij konijn 20, vervolgens naar konijn 19 etc etc. De lijst wordt dan wel korter, maar je komt nooit in de problemen omdat je nooit element weghaalt die je later nog wilt bekijken.
 
-   - belangrijkste tip: begin met het loopen over de 
+Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax gebruiken:
+
+    for i_konijn in range(19,-1,-1):
+         print i_konijn         
+
+Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus de x-positie de y-positie en de bewegingsrichting.
+
+Zet ook de puntjes op de i door op elk moment op het scherm te zetten:
+
+    - bij welke tijdstap we zijn
+    - hoeveel konijnen er nog in het bos zitten
+    - hoeveel vossen er nog in het bos zitten
+          
+#### Deelopdracht (3b): halfwaardetijd konijnenpopulatie
+
+Het laten zien van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Als je met de opzet zoals hierboven 100 tijdstapjes wilt doen kan je daar nog op wachten, maar tienduizend stapjes is al niet meer te doen. Door de visualisatie weg te laten kan je enorm veel tijd winnen en het stelt je in staat wat langere scenario's door te rekenen. En toch is het visualiseren van een simulatie enorm belangrijk en meer dan 'gewoon leuk om te zien'. Visualiseren van een bepaald patroon is erg krachtig zoals je waarschijnlijk in de bovenstaande opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van de konijnen aan het implementeren was.
+
+Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele aanbrengt waarmee je makkelijk kan kiezen of je wel/niet de functie `Teken_het_bos()` aanroept.
+
+
+![](konijnenenvossenEtenstijd.gif){: style="width:30%"}
+![](halfwaarde3x.png){: style="width:60%"}
+
+
 
 
 
