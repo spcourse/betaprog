@@ -198,11 +198,7 @@ Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de 
 
 Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus de x-positie de y-positie en de bewegingsrichting.
 
-Zet ook de puntjes op de i door op elk moment op het scherm te zetten:
-
-    - bij welke tijdstap we zijn
-    - hoeveel konijnen er nog in het bos zitten
-    - hoeveel vossen er nog in het bos zitten
+Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en hoeveel vossen en konijnen er zich nog in het bos bevinden.
           
 #### Deelopdracht (3b): halfwaardetijd konijnenpopulatie
 
