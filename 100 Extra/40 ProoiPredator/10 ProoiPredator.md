@@ -76,7 +76,7 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPreda
 
 
 
-### Opgave 1: Toevoegen realiteit: andere variabelen en de langere termijn
+### Opgave 1: modelleren van de beweging van de konijnen 
 
 We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) drie stappen naar rechts opschuiven en vier omhoog gaan. We hadden dit ook kunnen representeren door te stellen dat de konijnen bewegen met een snelheid van 2 meter per seconde bewegen onder een hoek van ongeveer 51 graden met de x-as. Als we de tijd langer laten doorlopen zullen we ook zien dat onze konijnen het bos uitlopen. Dat is niet de bedoeling. Als de konijnen bij de rand van het bos komen zullen ze weer het bos inlopen. In deze opgave zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code.
 
@@ -124,7 +124,7 @@ Twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()
 
 
 
-### Opgave 2:Harde realiteit voor de konijnen: vossen
+### Opgave 2: Harde realiteit voor de konijnen: vossen
 
 #### deelopdracht (2a): introduceren van wolven
 
