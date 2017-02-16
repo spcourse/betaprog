@@ -237,7 +237,8 @@ Voeg in de hoofdfunctie `ProoiPredator()` een nieuwe functie toe: `BeschuitMetMu
 
      - begin pas met de reproductie na t = 50 seconden (ze beginnen al erg dicht bij elkaar)
      - Als 2 konijnen dicht bij elkaar zitten hebben ze 50% om zich voort te planten
-     - De 4 nieuwe konijnen moeten op een random plek in het bos verschijnen en met random bewegingsrichting
+     - De 4 nieuwe konijnen moeten op een random plek in het bos verschijnen en 
+       met random bewegingsrichting
 
 Ga als volgt te werk:
 
