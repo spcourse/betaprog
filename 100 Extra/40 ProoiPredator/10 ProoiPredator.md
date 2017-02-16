@@ -213,13 +213,19 @@ Verander de functie `ProoiPredator()` zodanig dat je aan het eind van de functie
 
 Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `ProoiPredator()` aan te roepen, maar zoals je ziet is er een vrij grote spreiding in de precieze halfwaarde tijd. Om de gemiddelde halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
 
-Schrijf een nieuwe functie `GemiddeldeHalfwaardetijd()` die een groot aantal keer (100) de functie `ProoiPredator()` aanroept en steeds de halfwaarde tijd opslaat in een lijst om uiteindelijk het gemiddelde te berekenen en op het scherm te print. Zorg dat de functie `ProoiPredator()` als return-waarde de halfwaardetijd teruggeeft.
+Schrijf een nieuwe functie `GemiddeldeHalfwaardetijd()` die een groot aantal keer (500) de functie `ProoiPredator()` aanroept en steeds de halfwaarde tijd opslaat in een lijst om uiteindelijk het gemiddelde te berekenen en op het scherm te print. Zorg dat de functie `ProoiPredator()` als return-waarde de halfwaardetijd teruggeeft.
 
 Op het scherm moet dan uiteindelijk verschijnen:
 
     Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 100:
     Gemiddelde halfwaardetijd = x.xx seconde
 
+
+#### Deelopdracht (3c): Strategie konijnen: snelheid aanpassen
+
+We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie vor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood, dus moeten iets bedenken. Discussiepunt onde de konijnen is of ze nu juist beter heel hard kunnen gaan lopen of juist stil moeten gaan zitten en hopen dat de wolven ze niet vinden. Ze kunnen maar 1 keer kiezen en vragen dus aan jou om de optimale strategie te bepalen.
+
+Run de functie `GemiddeldeHalfwaardetijd()` met een aantal waardes van de snelheid voor de konijnen en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Je mag in deze opdracht de snelheid van de konijnen `v_konijn` in de  functie `ProoiPredator()` steeds met de hand veranderen. Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 in stapjes van 0.5 en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je?
 
 
 
