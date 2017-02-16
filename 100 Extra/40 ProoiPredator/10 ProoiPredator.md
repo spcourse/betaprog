@@ -135,6 +135,7 @@ Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `
 Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
 
 <br>
+
 #### Deelopdracht (2a): introduceren van wolven
 
 Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vossen (twee) op het scherm verschijnen. Maak een nieuwe functie `VerplaatsWolven()` en pas de functie `Teken_het_bos()` zo aan dat ook de wolven op het scherm getoond worden. Ook de vos zal nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b).
