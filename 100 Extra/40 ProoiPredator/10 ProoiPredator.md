@@ -199,16 +199,34 @@ Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de 
 Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus de x-positie de y-positie en de bewegingsrichting.
 
 Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en hoeveel vossen en konijnen er zich nog in het bos bevinden.
+<br><br>
           
-#### Deelopdracht (3b): halfwaardetijd konijnenpopulatie
+#### Deelopdracht (3b): Gemiddelde halfwaardetijd konijnenpopulatie
 
 Het laten zien van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Als je met de opzet zoals hierboven 100 tijdstapjes wilt doen kan je daar nog op wachten, maar tienduizend stapjes is al niet meer te doen. Door de visualisatie weg te laten kan je enorm veel tijd winnen en het stelt je in staat wat langere scenario's door te rekenen. En toch is het visualiseren van een simulatie enorm belangrijk en meer dan 'gewoon leuk om te zien'. Visualiseren van een bepaald patroon is erg krachtig zoals je waarschijnlijk in de bovenstaande opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van de konijnen aan het implementeren was.
 
-Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele aanbrengt waarmee je makkelijk kan kiezen of je wel/niet de functie `Teken_het_bos()` aanroept.
+Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele aanbrengt waarmee je makkelijk kan kiezen of je wel/niet de functie `Teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk.
+
+Verander de functie `ProoiPredator()` zodanig dat je aan het eind van de functie weet bij welke tijdstap er voor het eerst minder dan 50% van het oorspronkelijk aantal konijnen nog levend in het bos rondloopt. In navolging van radioactief verval noemen we dit de halfwaardetijd van de konijnen. Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd. probeer deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
+
+ ![](halfwaarde3x.png){: style="width:65%"}
+
+Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `ProoiPredator()` aan te roepen, maar zoals je ziet is er een vrij grote spreiding in de precieze halfwaarde tijd. Om de gemiddelde halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
+
+Schrijf een nieuwe functie `GemiddeldeHalfwaardetijd()` die een groot aantal keer (100) de functie `ProoiPredator()` aanroept en steeds de halfwaarde tijd opslaat in een lijst om uiteindelijk het gemiddelde te berekenen en op het scherm te print. Zorg dat de functie `ProoiPredator()` als return-waarde de halfwaardetijd teruggeeft.
+
+Op het scherm moet dan uiteindelijk verschijnen:
+
+    Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 100:
+    Gemiddelde halfwaardetijd = x.xx seconde
 
 
-![](halfwaarde3x.png){: style="width:65%"}
 
+
+
+
+
+steeds de functie ()
 
 
 
