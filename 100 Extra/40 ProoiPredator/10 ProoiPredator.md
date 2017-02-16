@@ -209,7 +209,7 @@ Het laten zien van bewegende en verdwijnende konijnen op het scherm is enorm tij
 Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele aanbrengt waarmee je makkelijk kan kiezen of je wel/niet de functie `Teken_het_bos()` aanroept.
 
 
-![](konijnenenvossenEtenstijd.gif){: style="width:25%"}
+![](konijnenenvossenEtenstijd.gif){: style="width:30%"}
 ![](halfwaarde3x.png){: style="width:65%"}
 
 
