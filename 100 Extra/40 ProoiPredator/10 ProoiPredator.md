@@ -90,7 +90,7 @@ Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid va
 
        VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
 
-Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor $$v_x = v \cos(\alpha)$$ en $$v_x = v \sin(\alpha)$$.
+Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor $$v_x = v_{\rm konijn} \cos(\alpha)$$ en $$v_x = v_{\rm konijn} \sin(\alpha)$$.
 
 Voor de nieuwe positie van elk konijn krijgen we dan ook:
     L_x[i_konijn] = L_x[i_konijn] + vx
