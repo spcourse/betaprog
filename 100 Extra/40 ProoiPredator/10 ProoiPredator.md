@@ -124,7 +124,7 @@ Pas de functie `VerplaatsKonijnen()` zo aan dat er in 5% van de stappen een koni
 
 ##### deelopdracht (1d): startsituatie: N konijnen op random posities
 
-Twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden ($$20<x<30$$ en $$20<y<30$$) en ook elk een unieke richting krijgen waarin ze bewegen ($$0<\alpha<2\pi$$).
+Twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()`zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden (in een vierkantje dat gegeven wordt door: $$20<(x,y)<30$$) en dat ze allemaal een unieke bewegingsrichting toegewezen krijgen ($$0<\alpha<2\pi$$).
 
 #### Opgave 2:Harde realiteit voor de konijnen: vossen
 
@@ -134,7 +134,7 @@ Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook vosse
 
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
-   - vossen zijn twee keer zo snel als konijnen: `v_vos = 4` en staat nooit stil
+   - vossen zijn twee keer zo snel als konijnen: `v_vos = 4` en staan nooit stil
    - teken de vossen in rood (zelfde grootte als de konijnen, radius = 2)
    - teken om de vossen ook een rode cirkel met straat r=5.   
      Deze cirkel zal fungeren als de "circle-of-death" voor konijnen
