@@ -116,14 +116,13 @@ Probeer dit te testen door een van de konijnen direct naar de bosrand te laten b
 
 Iedereen die konijnen heeft ziet lopen weet dat niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan ineens van richting te veranderen. Deze eigenschap moeten we ook implementeren in de simulatie.
 
-![](konijnen.gif){:.inline}{: style="width:30%"}
-
 Pas de functie `VerplaatsKonijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden van een seconde stilzit en daarna in een random richting verder wandelt. Een oplossing die je hiervoor zou kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en kijken of die waarde kleiner of groter is dan 1/20.
+
+![](konijnen.gif){:.inline}{: style="width:30%"}
 
       $$x<0.05$$: zet een stap als konijn
 
       $$x>0.05$$: geen stap, kien wel nieuwe hoek (0$$<$$hoek$$<2\pi$$).
-
 
 #### deelopdracht (1d): startsituatie: N konijnen op random posities
 
