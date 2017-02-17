@@ -1,18 +1,24 @@
 # Populatiedynamica: prooi-predator model#
 
-Een van de meest klassieke voorbeelden van een dynamisch systeem is wel het zogenaamde prooi-predator model. 
+Een van de meest klassieke voorbeelden van een complex dynamisch systeem is wel het zogenaamde prooi-predator 
+model. De basis van de wiskundige beschrijving van de populaties zijn de bekende 
+[Lotka-Volterra vergelijkingen](https://en.wikipedia.org/wiki/Lotka–Volterra_equations) vergelijkingen. 
+De wiskunde wordt al snel erg complex en het is ook niet altijd makkelijk om van tevoren in te schatten 
+welke effecten een nieuw aspect van het gedrag heeft op de verschillende populaties in het systeem. 
 
-[Lotka-Volterra vergelijkingen](https://en.wikipedia.org/wiki/Lotka–Volterra_equations)
-
-In 
-deze module zullen we een aantal aspecten bekijken van een simpele en overzichtelijke wereld, een bos van 100 bij 
-100 meter waarin konijnen en vossen wonen. 
+In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem wat ons in staat stelt 
+een aantal aspecten te bestuderen: een bos van 100 bij 100 meter waarin 25 konijnen en 2 vossen leven. 
 
 ## Startpunt: twee konijnen op het scherm
 
-We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het volgende stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
+We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met 
+het volgende stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt 
+hebben en we op dezelfde manier stukken code toevoegen.
 
-Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie is `ProoiPredator()`. Deze functie definieert de startpositie van twee konijnen in het bos en neemt stapjes in de tijd. Voor elk stapje in de tijd doen we twee dingn: a) 
+Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aangeroepen vanuit het hoofdprogramma 
+helemaal onderaan, is `ProoiPredator()`. Deze functie definieert de startpositie van twee konijnen en neemt 
+stapjes in de tijd (steeds een seconde) en roept voor elk tijdstip dan twee functies aan: `VerplaatsKonijnen()` 
+die de positie van de konijnen verandert en `Teken_het_bos()` dat de konijnen op het scherm tekent.
 
     #-------------------
     def ProoiPredator():
