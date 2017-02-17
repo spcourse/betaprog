@@ -314,9 +314,17 @@ Op het scherm moet uiteindelijk verschijnen:
 
 #### Deelopdracht (3c): Strategie konijnen: snelheid aanpassen
 
-We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie voor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood, dus moeten iets bedenken. Discussiepunt onde de konijnen is of ze nu juist beter heel hard kunnen gaan lopen of juist stil moeten gaan zitten en hopen dat de wolven ze niet vinden. Ze kunnen maar 1 keer kiezen en vragen dus aan jou om de optimale strategie te bepalen.
+We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie 
+voor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood en moeten iets 
+bedenken. Discussiepunt onder de konijnen is nu of ze juist beter heel hard kunnen gaan lopen of juist 
+stil moeten gaan zitten en hopen dat de wolven ze niet vinden. Aan ons om de optimale strategie te 
+bepalen voor de konijnen.
 
-Run de functie `GemiddeldeHalfwaardetijd()` met een aantal waardes van de snelheid voor de konijnen en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Je mag in deze opdracht de snelheid van de konijnen `v_konijn` in de  functie `ProoiPredator()` steeds met de hand veranderen. Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 in stapjes van 0.5 en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je?
+Run de functie `GemiddeldeHalfwaardetijd()` met een aantal waardes van de snelheid voor de konijnen en 
+maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Je mag in deze opdracht 
+de snelheid van de konijnen `v_konijn` in de  functie `ProoiPredator()` steeds met de hand veranderen. 
+Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 in stapjes van 0.5 en 
+maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je?
 
 <br>
 
