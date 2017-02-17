@@ -159,9 +159,14 @@ hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heen
 #### Deelopdracht (1c): random konijnen-gedrag
 
 
-Iedereen die konijnen heeft ziet lopen weet dat niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan ineens van richting te veranderen. Deze eigenschap moeten we ook implementeren in de simulatie.
+Iedereen die konijnen heeft ziet lopen weet dat niet in een rechte lijn bewegen, maar af en toe ineens 
+stilzitten om dan ineens van richting te veranderen. Deze eigenschap moeten we ook implementeren in de 
+simulatie.
 
-Pas de functie `VerplaatsKonijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden van een seconde stilzit en daarna in een random richting verder wandelt. Een oplossing die je hiervoor zou kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en kijken of die waarde kleiner of groter is dan 1/20.
+Pas de functie `VerplaatsKonijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden een 
+seconde stilzit en daarna in een random richting verder wandelt. Een oplossing die je hiervoor zou 
+kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en kijken of die waarde 
+kleiner of groter is dan 1/20.
 
 ![](konijnen.gif){:.inline}{: style="width:30%"}
 
