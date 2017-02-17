@@ -270,9 +270,11 @@ Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen
  ![](DynamicaWinstVossen.png){: style="width:40%"}
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
-De opdracht luidt als volgt: wat is de winstkans van de konijnen ? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bod ? Run 1000 simulaties en print het antwoord als volgt op het scherm:
+De opdracht luidt als volgt: wat is de winstkans van de konijnen ? Concreter: in welk percentage van de simulaties zijn er na 200 seconden meer dan 45 konijnen in het bod ? 
 
-     Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 1000:     
+Maak een routine die 1000 simulaties draait, hou in hoeveel gevallen de konijnen winnen en print uiteindelijk het antwoord als volgt op het scherm:
+
+     Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 200:     
      In x.xx procent van de gevallen winnen de konijnen
 
 
