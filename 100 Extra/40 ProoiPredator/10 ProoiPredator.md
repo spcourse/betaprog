@@ -165,14 +165,14 @@ simulatie.
 
 Pas de functie `VerplaatsKonijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden een 
 seconde stilzit en daarna in een random richting verder wandelt. Een oplossing die je hiervoor zou 
-kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en kijken of die waarde 
+kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en te kijken of die waarde 
 kleiner of groter is dan 1/20.
 
 ![](konijnen.gif){:.inline}{: style="width:30%"}
 
-      x<0.05: zet een stap als konijn
+      x<0.05: zet een stap 
 
-      x>0.05: geen stap, kien wel nieuwe hoek (0$$<$$hoek$$<2\pi$$).
+      x>0.05: geen stap, kies wel nieuwe hoek (0<hoek<2*pi).
 
 #### Deelopdracht (1d): startsituatie: N konijnen op random posities
 
