@@ -172,7 +172,9 @@ kleiner of groter is dan 1/20.
 
       x<0.05: zet een stap 
 
-      x>0.05: geen stap, kies wel nieuwe hoek (0<hoek<2*pi).
+      x>0.05: geen stap, kies wel nieuwe hoek (0<hoek<2*pi)
+
+<br>
 
 #### Deelopdracht (1d): startsituatie: N konijnen op random posities
 
