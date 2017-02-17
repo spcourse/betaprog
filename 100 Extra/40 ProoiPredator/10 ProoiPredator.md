@@ -240,7 +240,7 @@ aantal konijnen. beide aspecten gaan we meenemen in onze simulatie.
 Voeg in de hoofdfunctie `ProoiPredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die 
 deze fenomenen gaat implementeren.
 
-**Stap 1:** reproducerende muizen met behulp van `BeschuitMetMuisjes()`:
+**Stap 1:** reproducerende muizen
 
 Zorgt dat de functie `BeschuitMetMuisjes()` op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten 
 en vervolgens nieuwe konijnen in het bos neerzet.
@@ -257,21 +257,25 @@ Ga hierbij als volgt te werk:
   3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos en random 
      bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
-Stap 2: `Overbevolking()`: maximum aantal konijnen in het bos
+**Stap 2:** maximum aantal konijnen in het bos
 
-Zorgt dat er op elke stap in de tijd nooit meer dan 70 konijnen in het bos aanwezig zijn. Kijk dus hoe lang de 
-lijst met konijnen is aan het eind van elke stap en verwijder elk element in de lijst van konijnen boven de 70.
-
+De functie `Overbevolking()` heeft als doel te zorgen dat er op moment in de tijd nooit meer dan 50 konijnen in 
+het bos aanwezig zijn. Kijk dus hoe lang de lijst met konijnen is aan het eind van elke stap en verwijder elk 
+element in de lijst van konijnen boven de 50.
 
 #### De opdracht: winstkansen konijnen
 
-Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen winnen (er zijn geen konijnen meer).
+Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen winnen (er zijn geen konijnen meer). De onderstaande grafieken, gemaakt met bijna dezelfde routine die we in opdracht 3b gebruikt hebben, laten het aantal konijnen zien als functie van de tijd voor twee simulaties die elk een extremum gevonden hebben.
 
  ![](DynamicaWinstVossen.png){: style="width:40%"}
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
+De opdracht luidt als volgt: wat is de winstkans van de konijnen ? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bod ? Run 1000 simulaties en print het antwoord als volgt op het scherm:
 
-De opdracht luidt als volgt: wat is de winstkans van de konijnen ? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bod ?
+     Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 1000:     
+     In x.xx procent van de gevallen winnen de konijnen
+
+
 
 
 
