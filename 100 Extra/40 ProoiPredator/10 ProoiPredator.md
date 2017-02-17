@@ -118,7 +118,7 @@ als volgt aangeroepen worden:
 
 Op de plek in de functie `VerplaatsKonijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt 
 moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de 
-x- en y-richting. Gebruik hiervoor, voor konijn $$i_{konijn}$$:
+x- en y-richting. Gebruik hiervoor, voor konijn `i_konijn`:
 
        hoek = L_konijn_hoek[i_konijn]
        v_x = v_konijn * cos(hoek)
@@ -130,7 +130,8 @@ konijn uitrekenen:
        L_x[i_konijn] = L_x[i_konijn] + v_x
        L_y[i_konijn] = L_y[i_konijn] + v_y
 
-We hebben nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven.
+We hebben hiermee nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting 
+te geven.
 
 #### Deelopdracht (1b): de bosrand 
 
