@@ -118,8 +118,9 @@ als volgt aangeroepen worden:
 
 Op de plek in de functie `VerplaatsKonijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt 
 moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de 
-x- en y-richting. Gebruik hiervoor:
+x- en y-richting. Gebruik hiervoor, voor konijn $$i$$:
 
+       hoek = L_konijn_hoek[i]
        v_x = v_konijn * cos(hoek)
        v_y = v_konijn * sin(hoek)
     
