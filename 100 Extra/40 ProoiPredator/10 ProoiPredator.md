@@ -6,8 +6,9 @@ model. De basis van de wiskundige beschrijving van de populaties zijn de bekende
 De wiskunde wordt al snel erg complex en het is ook niet altijd makkelijk om van tevoren in te schatten 
 welke effecten een nieuw aspect van het gedrag heeft op de verschillende populaties in het systeem. 
 
-In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem wat ons in staat stelt 
-een aantal aspecten te bestuderen: een bos van 100 bij 100 meter waarin 25 konijnen en 2 vossen leven. 
+In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem: een bos van 100 
+bij 100 meter waarin 25 konijnen en 2 vossen leven. Door het zelf te programmeren kunnen we nieuwe dingen 
+proberen en met de visualisatie krijgen we ook gelijk feedback en inzicht.
 
 ## Startpunt: twee konijnen op het scherm
 
