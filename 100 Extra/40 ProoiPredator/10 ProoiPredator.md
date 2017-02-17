@@ -96,20 +96,35 @@ die de positie van de konijnen verandert en `Teken_het_bos()` dat de konijnen op
 
 ### Opgave 1: modelleren van de beweging van de konijnen 
 
-We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van de realiteit. Konijnen bewegen niet allemaal synchroon in dezelfde richting, ze rennen ook niet in een rechte lijn. Als we de tijd ook langer door zouden laten doorlopen zullen we ook zien dat onze konijnen het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer terug het (veilige) bos inlopen. In opgave 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code.
+We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) 
+steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van een realistisch 
+systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de 
+tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de 
+bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer snel terug het 
+(veilige) bos inlopen. In opgave 1 zullen we deze eerste stappen op weg naar realistische konijnen 
+doorvoeren in onze code.
 
 #### Deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
-We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze moet dezelfde snelheid bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een extra variabele `v_konijn` toe die de snelheid van de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Pas ook de code zo aan dat op de plek waar de nieuwe positie van de konijnen uitgerekend wordt gebruik wordt gemaakt van deze twee variabelen. In de hoofd code `PooiPredator()` moet dus verschijnen:
+We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze moet 
+dezelfde snelheid bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: 
+ongeveer 51 graden. Voeg in het hoofdprogramma een variabele `v_konijn` toe die de snelheid van 
+de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt 
+onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de 
+konijnen uitgerekend wordt is deze informatie nodig. In de hoofdcode `PooiPredator()` moet die functie 
+als volgt aangeroepen worden:
 
        VerplaatsKonijnen(L_konijn_x,L_konijn_y, L_konijn_hoek, v_konijn)    
 
-Op de plek waar de nieuwe posities van de konijnen uitgerekend worden moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de x- en y-richting. Gebruik hiervoor:
+Op de plek in de functie `VerplaatsKonijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt 
+moet je de snelheid en de hoek waaronder de konijnen bewegen eerst omrekenen naar een  snelheid in de 
+x- en y-richting. Gebruik hiervoor:
 
        v_x = v_konijn * cos(hoek)
        v_y = v_konijn * sin(hoek)
     
-En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe posities van het konijn uitrekenen:
+En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe posities van het 
+konijn uitrekenen:
 
        L_x[i_konijn] = L_x[i_konijn] + v_x
        L_y[i_konijn] = L_y[i_konijn] + v_y
