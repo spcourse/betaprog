@@ -229,32 +229,52 @@ Run de functie `GemiddeldeHalfwaardetijd()` met een aantal waardes van de snelhe
 
 <br><br>
 
-### Opgave 4: populatie-dynamica (het leven - reproducerende konijnen)
+### Opgave 4: Reproducerende konijnen en overbevolking
 
-We hebben in de vorige opgave bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen 
-in het bos rondlopen. Het aantal konijnen kan echter ook toenemen natuurlijk omdat konijnen zich 
-voort kunnen planten. Elk nestje is goed voor ongeveer 4 konijnen. We gaan kijken wat het effect 
-is van het aantal konijnen als we ook reproductie meenemen in onze simulaties. We gaan hiervoor 
-eerst terug naar een enkele simulatie en visualisatie.
+We hebben in de vorige opgave bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. 
+Het aantal konijnen kan echter ook toenemen natuurlijk omdat konijnen zich voort kunnen planten. We gaan kijken wat het 
+effect is van het aantal konijnen als we ook reproductie meenemen in onze simulaties. Daarnaast kan het aantal konijnen 
+ook exploderen. Er is maar een eindige hoeveelheid voedsel in het bos.  
 
-Voeg in de hoofdfunctie `ProoiPredator()` een nieuwe functie toe: `BeschuitMetMuisjes()` die op elke stap 
-in de tijd kijkt of er konijnen dicht bij elkaar zitten ($$\Delta r<1$$) en in dat geval een paar nieuwe 
-konijnen in het bos neerzet.
+Voeg in de hoofdfunctie `ProoiPredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die 
+deze fenomenen gaat implementeren.
 
-Ga als volgt te werk:
 
-  1. Roep de functie pas aan na 50 seconden. Roep pas na die tijd de extra functie aan. De konijnen 
-     beginnen al erg dicht bij elkaar namelijk
+Stap 1: reproducerende muizen met behulp van `BeschuitMetMuisjes()`:
 
-  2.  Bepaal eerst hoeveel paren konijnen zich voort gaan planten (aantal nesten).
+Zorgt dat de functie `BeschuitMetMuisjes()` op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten 
+en vervolgens nieuwe konijnen in het bos neerzet.
+
+Ga hierbij als volgt te werk:
+
+  1. Roep de functie pas aan na 100 seconden. Roep pas na die tijd de extra functie aan. De konijnen 
+     beginnen al erg dicht bij elkaar namelijk en zijn in het begin nog te jong om zicht te reproduceren.
+
+  2. Bepaal nadat de konijnen een stap hebben gezet en nadat de vossen konijnen hebben mogen opeten  
+     eerst hoeveel (paren) konijnen er zijn die dicht bij elkaar zitten (afstand < 1). Dit bepaalt het 
+     aantal nestjes. Let op: vermijd hierbij dubbeltellen. 
+
+  3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos en random 
+     bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
-      Let op: vermijd hierbij dubbeltellen. 
+Stap 2: `Overbevolking()`: maximum aantal konijnen in het bos
 
-  3.  Genereer voor elk van de nest 3 nieuwe konijnen: zet ze op een random positie in 
-      het bos en een bewegingsrichting en voeg ze toe aan de lijst van konijnen.
+Zorgt dat er op elke stap in de tijd nooit meer dan 70 konijnen in het bos aanwezig zijn. Kijk dus hoe lang de 
+lijst met konijnen is aan het eind van elke stap en verwijder elk element in de lijst van konijnen boven de 70.
+
+
+#### De opdracht: winstkansen konijnen
+
+Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen winnen (er zijn geen konijnen meer).
+
+ ![](DynamicaWinstVossen.png){: style="width:45%"}
+ ![](DynamicaWinstKonijnen.png){: style="width:45%"}
 
 
 De vraag die we nu hebben is: wie gaat er winnen ?
+
+
+
 
 
 
