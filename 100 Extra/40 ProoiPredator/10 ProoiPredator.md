@@ -170,9 +170,9 @@ kleiner of groter is dan 1/20.
 
 ![](konijnen.gif){:.inline}{: style="width:30%"}
 
-      $$x<0.05$$: zet een stap als konijn
+      x<0.05: zet een stap als konijn
 
-      $$x>0.05$$: geen stap, kien wel nieuwe hoek (0$$<$$hoek$$<2\pi$$).
+      x>0.05: geen stap, kien wel nieuwe hoek (0$$<$$hoek$$<2\pi$$).
 
 #### Deelopdracht (1d): startsituatie: N konijnen op random posities
 
