@@ -240,7 +240,7 @@ aantal konijnen. beide aspecten gaan we meenemen in onze simulatie.
 Voeg in de hoofdfunctie `ProoiPredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die 
 deze fenomenen gaat implementeren.
 
-***Stap 1:*** reproducerende muizen met behulp van `BeschuitMetMuisjes()`:
+**Stap 1:** reproducerende muizen met behulp van `BeschuitMetMuisjes()`:
 
 Zorgt dat de functie `BeschuitMetMuisjes()` op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten 
 en vervolgens nieuwe konijnen in het bos neerzet.
