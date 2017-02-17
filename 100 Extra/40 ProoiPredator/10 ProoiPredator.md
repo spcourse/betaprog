@@ -267,11 +267,11 @@ lijst met konijnen is aan het eind van elke stap en verwijder elk element in de 
 
 Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen winnen (er zijn geen konijnen meer).
 
- ![](DynamicaWinstVossen.png){: style="width:45%"}
- ![](DynamicaWinstKonijnen.png){: style="width:45%"}
+ ![](DynamicaWinstVossen.png){: style="width:40%"}
+ ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
 
-De vraag die we nu hebben is: wie gaat er winnen ?
+De opdracht luidt als volgt: wat is de winstkans van de konijnen ? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bod ?
 
 
 
