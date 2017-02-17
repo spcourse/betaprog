@@ -373,7 +373,7 @@ functie van de tijd voor twee simulaties die elk een extremum gevonden hebben.
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
 De opdracht luidt als volgt: wat is de winstkans van de konijnen? Concreter: in welk percentage van de 
-simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bod? 
+simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bos? 
 
 Schrijf een functie `WinstkansenKonijnen()` die steeds 200 simulaties draait en van elke simulatie 
 bijhoudt hoeveel konijnen er nog in het bos rondlopen op tijdstip 1000. Bepaal hoe vaak de konijnen 
