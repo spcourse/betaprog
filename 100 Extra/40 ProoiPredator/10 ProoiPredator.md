@@ -147,7 +147,7 @@ Volg de volgende strategie als het konijn na een stap gezet te hebben buiten het
 
    1. neem een stap terug (zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
    2. zorg dat het konijn zich omdraait door de hoek waarin het konijn beweegt te veranderen naar 
-      een richting die precies tegenovergesteld is aan zijn oorspronkelijke richting: 
+      een richting die precies tegenovergesteld is aan de huidige richting: 
       hoek_nieuw = hoek + $$\pi$$. Stop deze nieuwe bewegingsrichting (hoek_nieuw) op in de lijst 
       `L_konijn_hoek`. Bij de volgende stap in de tijd rent hij dus weer het bos in. 
    
