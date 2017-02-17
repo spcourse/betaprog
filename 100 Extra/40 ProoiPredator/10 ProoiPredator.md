@@ -134,19 +134,27 @@ We hebben hiermee nu de mogelijkheid om bij de start van de simulatie elk konijn
 te geven. Voer bovenstaande veranderingen in in de code, geef elk van de konijnen eigen richting en laat de 
 simulatie 20 seconden lopen in plaats van 10. 
 
+<br>
 
 #### Deelopdracht (1b): de bosrand 
 
-Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze per ongeluk een stap buiten het bos doen draaien ze zich pijlsnel om en zullen daarna weer snel het bos inrennen in dezelfde richting al waar ze vandaan kwamen. Pas de functie `VerplaatsKonijnen()` zodanig aan dat de konijnen in het bos blijven rondlopen.
+Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze per ongeluk een stap buiten 
+het bos doen draaien ze zich pijlsnel om en zullen daarna weer snel het bos inrennen in dezelfde richting 
+als waar ze vandaan kwamen. Pas de functie `VerplaatsKonijnen()` zodanig aan dat de konijnen in het bos 
+blijven rondlopen.
 
-Volg de volgende strategie ls het konijn na een stap gezet te hebben buiten het bos is geraakt:
+Volg de volgende strategie als het konijn na een stap gezet te hebben buiten het bos is geraakt:
 
-   1. neem een stap terug (in zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
-   2. zorg dat het konijn zich omdraait. Zorg dus dat de hoek waarin het konijn beweegt precies tegenovergesteld 
-      is aan zijn oorspronkelijke richting: hoek_nieuw = hoek + $$\pi$$. Stop deze nieuwe bewegingsrichting 
-      (hoek_nieuw) op in de lijst `L_konijn_hoek`. Bij de volgende stap in de tijd rent hij dus weer het bos in. 
+   1. neem een stap terug (zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
+   2. zorg dat het konijn zich omdraait door de hoek waarin het konijn beweegt te veranderen naar 
+      een richting die precies tegenovergesteld is aan zijn oorspronkelijke richting: 
+      hoek_nieuw = hoek + $$\pi$$. Stop deze nieuwe bewegingsrichting (hoek_nieuw) op in de lijst 
+      `L_konijn_hoek`. Bij de volgende stap in de tijd rent hij dus weer het bos in. 
    
-Probeer dit te testen door een van de konijnen direct naar de bosrand te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
+Probeer dit te testen door een van de konijnen direct naar de bosrand te laten bewegen en te kijken of 
+hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
+
+<br>
 
 #### Deelopdracht (1c): random konijnen-gedrag
 
