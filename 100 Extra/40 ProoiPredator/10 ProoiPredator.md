@@ -353,14 +353,14 @@ Ga hierbij als volgt te werk:
   2. Bepaal eerst hoeveel paren konijnen er dicht bij elkaar zitten (afstand < 1). Dit bepaalt het 
      aantal nestjes. Let op: vermijd hierbij dubbeltellen. 
 
-  3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos en random 
-     bewegingsrichting en voeg ze toe aan de lijst van konijnen.
+  3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos, 
+     een random bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
 **Stap 2:** maximum aantal konijnen in het bos
 
-De functie `Overbevolking()` heeft als doel te zorgen dat er op moment in de tijd nooit meer dan 50 konijnen in 
-het bos aanwezig zijn. Kijk dus hoe lang de lijst met konijnen is aan het eind van elke stap en verwijder elk 
-element in de lijst van konijnen boven de 50.
+De functie `Overbevolking()` heeft als doel te zorgen dat er op moment in de tijd nooit meer dan 50 konijnen 
+in het bos aanwezig zijn. Roep de functie aan gelijk na `BeschuitMetMuisjes()`, kijk hoe lang de lijst met 
+konijnen is en verwijder elk element in de lijst van konijnen boven de 50.
 
 #### De opdracht: winstkansen konijnen
 
