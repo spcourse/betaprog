@@ -1,6 +1,12 @@
 # Populatiedynamica: prooi-predator model#
 
-Een van de meest klassieke voorbeelden van een dynamisch systeem is wel het zogenaamde prooi-predator model. In deze module zullen we een aantal aspecten bekijken van een simpele en overzichtelijke wereld, een bos van 100 bij 100 meter waarin konijnen en vossen wonen. 
+Een van de meest klassieke voorbeelden van een dynamisch systeem is wel het zogenaamde prooi-predator model. 
+
+[Lotka-Volterra vergelijkingen](https://en.wikipedia.org/wiki/Lotka–Volterra_equations)
+
+In 
+deze module zullen we een aantal aspecten bekijken van een simpele en overzichtelijke wereld, een bos van 100 bij 
+100 meter waarin konijnen en vossen wonen. 
 
 ## Startpunt: twee konijnen op het scherm
 
