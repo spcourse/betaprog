@@ -364,14 +364,22 @@ konijnen is en verwijder elk element in de lijst van konijnen boven de 50.
 
 #### De opdracht: winstkansen konijnen
 
-Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen winnen (er zijn geen konijnen meer). De onderstaande grafieken, gemaakt met bijna dezelfde routine die we in opdracht 3b gebruikt hebben, laten het aantal konijnen zien als functie van de tijd voor twee simulaties die elk een extremum gevonden hebben.
+Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten 
+tegen het maxmimum van 50 aan) of de vossen winnen (alle konijnen zijn opgegeten). De onderstaande grafieken, 
+gemaakt met bijna dezelfde routine die we in opdracht 3b gebruikt hebben, laten het aantal konijnen zien als 
+functie van de tijd voor twee simulaties die elk een extremum gevonden hebben.
 
  ![](DynamicaWinstVossen.png){: style="width:40%"}
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
-De opdracht luidt als volgt: wat is de winstkans van de konijnen ? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bod ? 
+De opdracht luidt als volgt: wat is de winstkans van de konijnen? Concreter: in welk percentage van de 
+simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bod? 
 
-Maak een routine die 200 simulaties draait, hou in hoeveel gevallen de konijnen winnen en print uiteindelijk het antwoord als volgt op het scherm:
+Schrijf een functie `WinstkansenKonijnen()` die steeds 200 simulaties draait en van elke simulatie 
+bijhoudt hoeveel konijnen er nog in het bos rondlopen op tijdstip 1000. Bepaal hoe vaak de konijnen 
+winnen (meer dan 45 konijnen), hoe vaak de wolven winnen (minder dan 5 konijnen) en hoe vaak er geen 
+winnaar is (alle andere gevallen). Bereken de gevraagde fractie en print uiteindelijk de winstkansen 
+voor de konijnen als volgt op het scherm:
 
      Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 200:     
      In x.x procent van de gevallen winnen de konijnen
