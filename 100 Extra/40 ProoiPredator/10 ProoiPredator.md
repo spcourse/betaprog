@@ -324,7 +324,7 @@ Run de functie `GemiddeldeHalfwaardetijd()` met een aantal waardes van de snelhe
 maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Je mag in deze opdracht 
 de snelheid van de konijnen `v_konijn` in de  functie `ProoiPredator()` steeds met de hand veranderen. 
 Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 in stapjes van 0.5 en 
-maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je?
+maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je? Logisch?
 
 <br>
 
@@ -334,23 +334,23 @@ We hebben in de vorige opgave bestudeerd hoe (snel) het aantal konijnen afneemt 
 Het aantal konijnen kan echter ook toenemen natuurlijk omdat konijnen zich kunnen voortplanten. We gaan kijken wat het 
 effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke 
 toename van het aantal konijnen is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt 
-aantal konijnen. beide aspecten gaan we meenemen in onze simulatie.
+aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
 
 Voeg in de hoofdfunctie `ProoiPredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die 
 deze fenomenen gaat implementeren.
 
 **Stap 1:** reproducerende muizen
 
-Zorgt dat de functie `BeschuitMetMuisjes()` op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten 
-en vervolgens nieuwe konijnen in het bos neerzet.
+Zorgt dat de functie `BeschuitMetMuisjes()` (die trouwens wordt aangeroepen na het verplaatsen van de 
+konijnen, de wolven en het opeten van de konijnen door de wolven) op elke stap in de tijd kijkt of er 
+konijnen dicht bij elkaar zitten en vervolgens nieuwe konijnen in het bos neerzet.
 
 Ga hierbij als volgt te werk:
 
-  1. Roep de functie pas aan na 100 seconden. Roep pas na die tijd de extra functie aan. De konijnen 
-     beginnen al erg dicht bij elkaar namelijk en zijn in het begin nog te jong om zicht te reproduceren.
+  1. Roep de functie pas aan na 100 seconden. De konijnen beginnen al erg dicht bij elkaar namelijk 
+     en zijn in het begin nog te jong om zich voort te planten.
 
-  2. Bepaal nadat de konijnen een stap hebben gezet en nadat de vossen konijnen hebben mogen opeten  
-     eerst hoeveel (paren) konijnen er zijn die dicht bij elkaar zitten (afstand < 1). Dit bepaalt het 
+  2. Bepaal eerst hoeveel paren konijnen er dicht bij elkaar zitten (afstand < 1). Dit bepaalt het 
      aantal nestjes. Let op: vermijd hierbij dubbeltellen. 
 
   3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos en random 
