@@ -176,9 +176,12 @@ kleiner of groter is dan 1/20.
 
 <br>
 
-#### Deelopdracht (1d): startsituatie: N konijnen op random posities
+#### Deelopdracht (1d): startsituatie: 25 'random' konijnen 
 
-Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()` zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de konijnen ook een random startrichting: $$0<\alpha<2\pi$$.
+Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `ProoiPredator()` zo 
+aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie 
+geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de 
+konijnen ook een random startrichting: $$0<\alpha<2\pi$$.
 
 <br><br>
 
