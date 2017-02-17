@@ -227,20 +227,20 @@ We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van 
 
 Run de functie `GemiddeldeHalfwaardetijd()` met een aantal waardes van de snelheid voor de konijnen en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Je mag in deze opdracht de snelheid van de konijnen `v_konijn` in de  functie `ProoiPredator()` steeds met de hand veranderen. Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 in stapjes van 0.5 en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je?
 
-<br><br>
+<br>
 
 ### Opgave 4: Reproducerende konijnen en overbevolking
 
 We hebben in de vorige opgave bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. 
-Het aantal konijnen kan echter ook toenemen natuurlijk omdat konijnen zich voort kunnen planten. We gaan kijken wat het 
-effect is van het aantal konijnen als we ook reproductie meenemen in onze simulaties. Daarnaast kan het aantal konijnen 
-ook exploderen. Er is maar een eindige hoeveelheid voedsel in het bos.  
+Het aantal konijnen kan echter ook toenemen natuurlijk omdat konijnen zich kunnen voortplanten. We gaan kijken wat het 
+effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke 
+toename van het aantal konijnen is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt 
+aantal konijnen. beide aspecten gaan we meenemen in onze simulatie.
 
 Voeg in de hoofdfunctie `ProoiPredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die 
 deze fenomenen gaat implementeren.
 
-
-Stap 1: reproducerende muizen met behulp van `BeschuitMetMuisjes()`:
+***Stap 1:*** reproducerende muizen met behulp van `BeschuitMetMuisjes()`:
 
 Zorgt dat de functie `BeschuitMetMuisjes()` op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten 
 en vervolgens nieuwe konijnen in het bos neerzet.
