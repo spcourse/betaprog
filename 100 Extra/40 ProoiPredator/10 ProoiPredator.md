@@ -204,9 +204,9 @@ Er zijn een paar verschillen tussen de vossen en de konijnen:
    - vossen zijn twee keer zo snel als konijnen (`v_vos = 4`) en ze staan nooit stil
    - teken de vossen in rood (zelfde grootte als de konijnen, radius = 2)
    - teken om de vossen ook een rode cirkel met radius=5. 
-     Deze cirkel zal later in de opgave fungeren als "the circle-of-death" voor de konijnen
+     Deze cirkel zal later in de opgave fungeren als de 'circle-of-death' voor de konijnen
 
-Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 naar rechts en 
+Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 naar links en 
 vos 2 naar beneden bewegen. Net als de konijnen hebben ook vossen een eigen unieke manier van 
 voortbewegen.
 
