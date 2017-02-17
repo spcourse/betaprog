@@ -236,34 +236,41 @@ vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
 ### Opgave 3: populatie-dynamica (de dood - vossen eten konijnen)
 
 In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal 
-hij de konijn opeten. 
+hij het konijn opeten. 
 
 #### Deelopdracht (3a): verdwijnende konijnen
 
-Schrijf een nieuwe functie `Etenstijd()` die in de hoofdfunctie `ProoiPredator()` 
-wordt aangeroepen voor elke stap in de tijd nadat de konijnen en de vossen een stap hebben gemaakt. Deze 
-functie heeft als taak te evalueren voor elk konijn of hij zich in de buurt bevindt van een vos. Met 
-'in de buurt' wordt trouwens bedoeld: 'within the circle of death', dus op een afstand van 5 of minder 
-van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst 
-met konijnen.
+Schrijf een nieuwe functie `Etenstijd()` die in de hoofdfunctie `ProoiPredator()` wordt aangeroepen 
+na de functie `VerplaatsKonijnen()`. Deze functie heeft als taak te evalueren, voor elk konijn, of 
+hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt trouwens bedoeld: 'binnen de circle 
+of death', dus op een afstand van 5 of minder van de dichtstbijzijnde vos. Als dat zo is sterft het 
+konijn en moet hij verwijderd worden uit de lijst met konijnen.
 
 Om een element $$i$$ uit een lijst $$L$$ weg te halen gebruik je de volgende syntax:
 
      del L[i] 
 
 **Let op:** 
-Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schuiven alle elementen 1 positie op. Element 11 van de oorspronkelijke lijst wordt dan element 10 in de nieuwe lijst etc. De lijst is dan ook ineens 19 posities lang geworden. Een slimme 'truc' om dit op te vangen is om de lijst in omgekeerd volgorde af te lopen. Begin dus bij konijn 20, vervolgens naar konijn 19 etc etc. De lijst wordt dan wel korter, maar je komt nooit in de problemen omdat je nooit element weghaalt die je later nog wilt bekijken.
+Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schuiven alle elementen 
+1 positie op. Element 11 van de oorspronkelijke lijst wordt dan element 10 in de nieuwe lijst etc. 
+De lijst is dan ook ineens 19 posities lang geworden. Een slimme 'truc' om dit op te vangen is om de 
+lijst in omgekeerd volgorde af te lopen. Begin dus bij konijn 20, vervolgens naar konijn 19 etc etc. 
+De lijst wordt dan wel korter, maar je komt nooit in de problemen omdat je nooit element weghaalt die 
+je later nog wilt bekijken.
 
 ![](konijnenenvossenEtenstijd.gif){:.inline}{: style="width:30%"}
 
-Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax gebruiken:
+Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax 
+gebruiken:
 
     for i_konijn in range(19,-1,-1):
          print i_konijn         
 
-Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus de x-positie de y-positie en de bewegingsrichting.
+Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus zowel de 
+x-positie, de y-positie als de bewegingsrichting.
 
-Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en hoeveel vossen en konijnen er zich nog in het bos bevinden.
+Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en 
+hoeveel vossen en konijnen er zich nog in het bos bevinden.
 <br><br>
           
 #### Deelopdracht (3b): Gemiddelde halfwaardetijd konijnenpopulatie
