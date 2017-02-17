@@ -207,8 +207,7 @@ Er zijn een paar verschillen tussen de vossen en de konijnen:
      Deze cirkel zal later in de opgave fungeren als de 'circle-of-death' voor de konijnen
 
 Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 naar links en 
-vos 2 naar beneden bewegen. Net als de konijnen hebben ook vossen een eigen unieke manier van 
-voortbewegen.
+vos 2 naar beneden bewegen. 
 
 <br>
 
@@ -216,7 +215,12 @@ voortbewegen.
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
-De vos heeft de neiging om rechtdoor te lopen, maar kan er na elke stap voor kiezen om bij de volgende stap iets naar links en naar rechts te gaan. De kans op een bepaalde verandering ten opzichte van de oorspronkelijke bewegingsrichting neemt sterk af met een groter wordende afwijking. De verdeling van de kansen volgt een zogenaamde normaal-verdeling. De vos volgt hiermee een soort pseudo-random walk waarbij er toch een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
+Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen. De vos heeft de neiging 
+om rechtdoor te lopen, maar kan er na elke stap voor kiezen om bij de volgende stap iets naar links en 
+naar rechts te gaan. De kans op een bepaalde verandering ten opzichte van de oorspronkelijke 
+bewegingsrichting neemt sterk af met een groter wordende afwijking. De verdeling van de kansen volgt 
+een zogenaamde normaal-verdeling. De vos volgt hiermee een soort pseudo-random walk waarbij er toch 
+een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
 
 Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdeling die gecentreerd is rond de oorspronkelijke bewegingsrichting kan je de volgende syntax gebruiken:
    
