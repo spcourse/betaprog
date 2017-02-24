@@ -55,6 +55,6 @@ Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één vo
 	sudo sh -c "umask 022; pip2 install -U pip setuptools"
 	sudo sh -c "umask 022; pip2 install matplotlib"
 	sudo sh -c "umask 022; pip2 install checkpy"
-	sudo sh -c "umask 022; checkpy -d https://github.com/Jelleas/progBG2017Tests"
+	sudo sh -c "umask 022; checkpy -d https://github.com/Jelleas/progbeta2017tests"
 
-Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag hulp aan je assistent!
+Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!

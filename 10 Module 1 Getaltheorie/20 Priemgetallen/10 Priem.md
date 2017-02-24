@@ -4,14 +4,18 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 ## Opdracht
 
-Schrijf een programma in een bestand genaamd `priem.py` dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele x, waarin we de getal zetten die onderzocht moet worden:
+Schrijf een programma in een bestand genaamd `priem.py` dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele `number`, waarin we het getal zetten dat onderzocht moet worden:
 
-    x = 37
-    [jouw code]
+    number = input("Voer een getal in: ")
+    # TODO: hier komt jouw code
 
-Het getal 37 mag de lezer van jouw code natuurlijk zelf veranderen. Maar in dit geval moet aan eind van het programma geprint worden:
+De functie input hierboven laat de gebruiker van jouw programma iets invullen. Als de gebruiker het getal 37 invult, moet aan het eind van het programma geprint worden:
 
     Het getal 37 is een priemgetal 
+
+Bij een niet priemgetal, zoals 36, moet geprint worden:
+
+	Het getal 36 is geen priemgetal
 
 ### Tips
 
