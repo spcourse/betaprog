@@ -25,7 +25,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
-2. Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach) <span class="label label-primary">Primary</span>
+2. Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach) <span class="label label-primary">Opdracht</span>
 
 ## Dag 4: grafieken
 
@@ -33,4 +33,4 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. Zoek op hoe je data kunt [plotten](/python/plot).
 
-3. Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken) <span class="label label-primary">Primary</span>
+3. Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken) <span class="label label-primary">Opdracht</span>
