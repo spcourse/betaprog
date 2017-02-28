@@ -91,6 +91,7 @@ Houd het aantal 'dubbelen' bij en print dat aan het eind van het programma op he
 Let op: de functie `oefenen_met_de_dobbelstenen()` heb je in de rest van de opgave niet meer 
 nodig. Je kan hem in je programma laten stan, uitcommentarieren of gewoon helemaal weghalen.
 
+<br>
 
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
@@ -108,6 +109,8 @@ gemaakt.
 	Na worp 2: positie 9
 	Na worp 3: positie 17
     Na worp 4: ...
+
+<br>
 
 ### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (kijken)
 
