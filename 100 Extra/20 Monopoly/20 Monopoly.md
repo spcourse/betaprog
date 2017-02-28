@@ -108,18 +108,22 @@ positie 39.
 	Na worp 3: positie 17
     Na worp 4: ...
 
-Zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je meerdere rondjes gemaakt. 
+Let op: zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je meerdere rondjes gemaakt. 
 Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je kent uit module 1.
 
-### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (kijken)
+### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord
 
-Niet elke positie op het bord correspondeert met een straat. Niet alleen de hoekpunten natuurlijk, maar ook 
-de Kans en Algemeen fonds kaarten en de belastingen. Maak een list (lengte 40) waarbij je voor elke 
-positie op het bord laat zien welke waarde aan de plek op het bord verbonden is. De eerste 11 posities 
-zijn dan:
+Niet elke positie op het bord correspondeert met een straat. Niet alleen de hoekpunten natuurlijk, maar 
+ook de Kans en Algemeen fonds kaarten en de belastingen zijn niet te koop. Maak een list (lengte 40
+waarbij je voor elke positie op het bord laat zien welke waarde aan de plek op het bord verbonden is. 
+De eerste 11 posities zijn dan:
 
 {: .language-python}
    bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 100, 0, ......]
+
+Zoek op internet op hoe het Monopoly bord verder in elkaar zit zodat je niet alleen van de eerste 11, 
+maar van alle 40 velden weet voor welk geldbedrag ze te koop zijn. Als de waarde kleiner is dan 1 euro 
+(of gewoon gelijk aan nul) dan is dat een zogenaamd lege straat (niet te koop).
 
 Voor elke positie op het bord kan je dan het volgende uitprinten:
 
@@ -128,6 +132,8 @@ Voor elke positie op het bord kan je dan het volgende uitprinten:
 	Na worp 2: positie  9 (straat)
 	Na worp 3: positie 17 (leeg)
 	Na worp 4: ...
+
+
 	
 ### Tussenstap 4: Enkel potje: rondlopen op het 'echte' bord (kopen)
 
