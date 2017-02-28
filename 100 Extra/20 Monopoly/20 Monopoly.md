@@ -179,23 +179,32 @@ nodig had:
 
 ### Tussenstap 5: Meerdere potjes: gemiddeld aantal worpen tot einde spel
 
-We hebben met de functie `simuleer_potje_Monopoly()` nu de mogelijkheid om een potje Monopoly te simuleren.
-Als je dit een paar keer doet zul je zien dat het aantal worpen dat je nodig hebt sterk varieert omdat je 
-aan het eind van het spel maar net op dat laatste overgebleven vakje terecht moet komen.
+We hebben met de functie `simuleer_potje_Monopoly()` nu de mogelijkheid om een enkel potje Monopoly 
+te simuleren. Als je dit een paar keer doet zul je zien dat het aantal worpen dat je nodig hebt sterk 
+varieert omdat je aan het eind van het spel natuurlijk maar net op dat laatste overgebleven vakje 
+terecht moet komen.
 
-Het doel van deze opdracht was om uit te zoeken hoeveel worpen de speler gemiddeld nodig zou hebben om alle 
-huizen in zijn bezit te krijgen. De enige stap die we moeten maken om deze vraag te beantwoorden is een groot 
-aantal potjes te simuleren.
+Het doel van deze opdracht was om uit te zoeken hoeveel worpen de speler *gemiddeld* nodig zou hebben 
+om alle velden in zijn bezit te krijgen. Om deze vraag te beantwoorden zullen we een groot aantal 
+potjes moeten simuleren en voor elk bijhouden hoeveel worpen er nodig waren om alle straten in bezit 
+te krijgen.
 
 Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die een groot aantal potjes simuleert 
-en voor elk bijhoudt hoeveel worpen er nodig waren om alle straten in bezit te krijgen. Zorg dat je 
-als argument aan de functie het aantal potjes mee kan geven dat gesimuleerd moet worden. Begin met 1 
-en voer dat dan op naar 1000 (of 10000) als je er zeker van bent dat je programma werkt.
+door steeds de functie `simuleer_potje_Monopoly()` aan te roepen. Hou steeds bij na hoeveel worpen 
+het potje afgelopen was. Pas hiervoor de functie `simuleer_potje_Monopoly()` aan zodat hij het aantal 
+worpen als return-value teruggeeft.
 
-Simuleer 1000 (of 10000) potjes en maak een grafiek (histogram) van het aantal worpen dat nodig 
-was om alle straten in het bezit te krijgen. Bepaal vervolgens ook het gemiddeld aantal worpen 
-dat nodig was om alle straten te verkopen en print het op het scherm in het format dat bovenaan 
-de opgave gespecificeerd is.
+Zorg dat je als argument aan de functie het aantal potjes mee kan geven dat gesimuleerd moet worden. 
+Begin met 1 en voer dat dan op naar 2, 10 en uiteindelijk naar 1000 (of 10000) als je er zeker van 
+bent dat je programma werkt. Simuleer uiteindelijk 1000 (of 10000) potjes en maak een grafiek (histogram) 
+van het aantal worpen dat nodig was om alle straten in het bezit te krijgen. Bepaal vervolgens ook het 
+gemiddeld aantal worpen dat nodig was om alle straten te verkopen en print het op het scherm in het format 
+dat bovenaan de opgave gespecificeerd is.
+
+{: .language-python}
+	Monopoly simulator: 1 speler, Trump mode 
+    We hebben 10000 potjes gesimuleerd
+    Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
 
 ## Opdracht 2: Realisme toevoegen: effect van startgeld
