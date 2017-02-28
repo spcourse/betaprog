@@ -92,7 +92,6 @@ Let op: de functie `oefenen_met_de_dobbelstenen()` heb je in de rest van de opga
 nodig. Je kan hem in je programma laten staan, uitcommentarieren of gewoon helemaal weghalen.
 
 <br>
-
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
 We beginnen nu met onze functie `simuleer_potje_Monopoly()`. Deze functie zullen we langzaam 
