@@ -89,15 +89,16 @@ Houd het aantal 'dubbelen' bij en print dat aan het eind van het programma op he
     print "Het percentage dubbele worpen = xx,xx procent"	
 
 Let op: de functie `oefenen_met_de_dobbelstenen()` heb je in de rest van de opgave niet meer 
-nodig. Je kan hem in je programma laten stan, uitcommentarieren of gewoon helemaal weghalen.
+nodig. Je kan hem in je programma laten staan, uitcommentarieren of gewoon helemaal weghalen.
 
 <br>
 
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
-We beginnen nu met onze functie `simuleer_potje_Monopoly()` waarmee we in stap vier een 'echt' 
-potje zullen simuleren. In deze stap beginnen we simpel door eerst een rondje te lopen op het 
-Monopolybord. 
+We beginnen nu met onze functie `simuleer_potje_Monopoly()`. Deze functie zullen we langzaam 
+uitbreiden tot we in tussenstap 4 een 'echt' potje Monopoly zullen simuleren. We beginnen 
+simpel door eerst een rondje te lopen met 1 speler op een Monopolybord en steeds te kijken 
+op welke positie de speler zich bevindt.
 
 Gooi steeds met twee dobbelstenen en hou de plek bij waar de speler staat op het bord. Print 
 dat op het scherm. Hierbij is start positie 0, de gevangenis positie 10 en de Kalverstraat 
