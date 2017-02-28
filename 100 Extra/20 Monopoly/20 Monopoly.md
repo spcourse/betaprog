@@ -168,12 +168,10 @@ aankoop.
 
 {: .language-python}
 	Na worp 1: positie  3 (straat).
-	           speler 1 heeft 1 huis in zijn/haar bezit. Er zijn nog XXX percelen op de markt.
-
-
+	           speler 1 heeft 1 huis in zijn/haar bezit. Er staan nu nog XXX velden te koop.
 
 Omdat je weet hoeveel straten er in totaal te koop zijn in het spel weet je nu ook wanneer je alle 
-straten in je bezit hebt. Stop met spel als dat gebeurt en print op het scherm hoeveel beurten je 
+straten in je bezit hebt. Stop met gooien als dat gebeurt en print op het scherm hoeveel beurten je 
 nodig had:
 
 {: .language-python}
