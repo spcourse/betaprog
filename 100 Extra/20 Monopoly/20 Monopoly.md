@@ -161,9 +161,16 @@ kan je je lijst met bezittingen updaten. Gelijk erna ziet hij er dan zo uit:
 {: .language-python}
     bezittingen = [0,0,1,0,.....,0,0]
 
-Als er op de positie niks te kopen is of als je de straat al in je bezit hebt dan gooi je opnieuw en 
-wandelen we verder. Zorg dat je na elke worp waarbij je op een veld komt dat nog te koop is het op 
-het scherm geprint wordt en ook gelijk hoeveel velden je in totaal in je bezit hebt na die aankoop.
+Als er op de positie niks te koop is of als je de straat al in je bezit hebt dan gooien we gewoon 
+opnieuw en wandelen we verder. Zorg dat je na elke worp waarbij je op een veld komt dat nog te koop 
+is het op het scherm geprint wordt en ook gelijk hoeveel velden je in totaal in je bezit hebt na die 
+aankoop.
+
+{: .language-python}
+	Na worp 1: positie  3 (straat).
+	           speler 1 heeft 1 huis in zijn/haar bezit. Er zijn nog XXX percelen op de markt.
+
+
 
 Omdat je weet hoeveel straten er in totaal te koop zijn in het spel weet je nu ook wanneer je alle 
 straten in je bezit hebt. Stop met spel als dat gebeurt en print op het scherm hoeveel beurten je 
