@@ -95,7 +95,7 @@ nodig. Je kan hem in je programma laten stan, uitcommentarieren of gewoon helema
 
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
-We beginnen nu met onze functie 'simuleer_potje_Monopoly()` waarmee we in stap vier een 'echt' 
+We beginnen nu met onze functie `simuleer_potje_Monopoly()` waarmee we in stap vier een 'echt' 
 potje zullen simuleren. In deze stap beginnen we simpel door eerst een rondje te lopen op het 
 Monopolybord. 
 
