@@ -237,16 +237,16 @@ er gedaan moeten worden voor elke 100 euro meer of minder startgeld.
 In het officiele Monopolyspel krijgt elke speler 1500 euro.  Print dat op het scherm. 
 
 {: .language-python}
-	Monopoly simulator: 1 speler, 1500 euro startgeld
-    We hebben 10000 potjes gesimuleerd
+	Monopoly simulator: 1 speler, 1500 euro startgeld, 25000 potjes
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
-Een paar tips:
-    1. je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag dit ook met 
-de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld aantal worpen van een groot 
-aantal simulaties te doen. 
-    2.: je kan de situatie van opdracht 1 reproduceren door een zeer groot bedrag aan startgeld 
-mee te geven. 'One billion dollars should do the trick.'
+Een paar tips bij deze opgave:
+
+   1. je kan de situatie van opdracht 1 reproduceren door een zeer groot bedrag aan 
+      startgeld mee te geven. 'One billion dollars should do the trick.'
+   2. je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag 
+      dit ook met de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld 
+      aantal worpen van een groot aantal simulaties te doen. 
 
 ## Opdracht 3: Realisme toevoegen: twee spelers
 
