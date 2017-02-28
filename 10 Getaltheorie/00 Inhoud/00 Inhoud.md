@@ -11,6 +11,8 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
 
+3. <span class="label label-primary">Opdracht</span> Bereken automatisch de [som](/getaltheorie/som) van een groot aantal getallen.
+
 ## Dag 2: priemgetallen
 
 1. Leer meer over [algoritmen](/python/algoritmen).
