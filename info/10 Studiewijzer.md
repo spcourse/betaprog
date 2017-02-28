@@ -32,11 +32,22 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 ## Begeleiding
 
-Dit is een online cursus, maar tijdens studiejaar 2016/2017 kun je op twee manieren hulp krijgen:
+Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen; maar tijdens studiejaar 2016/2017 kun je op twee manieren hulp krijgen:
 
-- Stel een vraag via <help@mprog.nl>. Afhankelijk van de drukte komen we zo snel mogelijk bij je terug.
+- Stel een vraag via <help@mprog.nl>. Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug.
 
 - Kom langs bij een practium van de Minor Programmeren. Je kunt elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
+
+## Leerdoelen
+
+Wat willen we dat je kunt aan het einde van deze cursus?
+
+- Je kunt een omschrijving van een programma omzetten naar werkende code.
+- Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma’s.
+- Je kunt code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen.
+- Je kunt bepaalde programmeerfouten opsporen en verbeteren.
+
+Deze dingen kun je alleen maar leren door veel te oefenen met programmeren. Daarom zitten er veel opdrachten in de cursus waar je zelf aan de slag moet. Daarbij is het niet gek als je nog even niet precies weet hoe alles werkt, maar toch de problemen probeert op te lossen.
 
 ## Verwachtingen
 
