@@ -209,7 +209,7 @@ format dat aan het begin van de opgave gespecificeerd was:
 ![](GoldenDollar.png){:.inline}{: style="width:20%"}
 
 In een gewoon potje Monopoly krijg je 1500 euro startgeld en verdient je 200 euro voor elke   
-keer dat je START passeert. De eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee 
+keer dat je START passeert. Zo'n eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee 
 straten gekocht kunnen worden. In deze opgave gaan kijken welke invloed dit precies heeft.
 Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zodanig aan dat je bijhoudt 
 hoeveel geld je op elk moment hebt. Bekijk nu elke keer dat je op een straat terechtkomt die 
