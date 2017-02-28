@@ -43,8 +43,9 @@ er is geen concurrentie.
 		
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
 zijn verkocht. Schrijf in een bestand `Monopoly_opdracht1.py` een functie 
-`simuleer_groot_aantal_potjes_Monopoly(Npotjes)` die wanneer aangeroepen met 10000 potjes het 
-volgende uitprint: 
+`simuleer_groot_aantal_potjes_Monopoly(Npotjes)`. De variabele Npotjes geeft aan hoeveel potjes er 
+gesimuleerd moeten worden. In ons geval 10000. Wanneer de functie wordt aangeroepen met 10000 
+potjes moet het volgende worden uitprint: 
 
 {: .language-python}
 	Monopoly simulator: 1 speler, Trump mode 
