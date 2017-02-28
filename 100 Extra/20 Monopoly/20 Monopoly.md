@@ -52,7 +52,7 @@ potjes moet het volgende worden uitprint:
     We hebben 10000 potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 	
-Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen door te nemen.
+Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen te doorlopen. 
 
 <br>
 
@@ -67,24 +67,30 @@ is een speciale functie voor in Python, namelijk 'randint()'.
 	import random
 	dobbelsteen = random.randint(1,6) 
 	
-Met Monopoly gooi je met twee dobbelstenen. Begin je programma met een kleine oefening waarin
-je duizend worpen simuleert en voor elke worp steeds twee dobbelstenen gooit. Zorg dat 
-op het scherm voor elke worp het aantal ogen geprint wordt en maak duidelijk aan de gebruiker 
-als er een zogenaamde 'dubbel' gegooid wordt (het aantal ogen op beide dobbelstenen is gelijk).
-Houd het aantal 'dubbelen' bij en print dat aan het eind van het programma op het scherm.
+Met Monopoly gooi je met twee dobbelstenen. 
 
+Hoewel het niet essentieel is voor de opgave is het wel goed om even te oefenen met het 
+gooien van de dobbelstenen. Schrijf een korte functie `oefenen_met_de_dobbelstenen()` die 
+duizend worpen simuleert en voor elke worp steeds twee dobbelstenen gooit. Zorg dat op het 
+scherm voor elke worp het aantal ogen geprint wordt en maak duidelijk aan de gebruiker als 
+er een zogenaamde 'dubbel' gegooid wordt (het aantal ogen op beide dobbelstenen is gelijk).
+Houd het aantal 'dubbelen' bij en print dat aan het eind van het programma op het scherm.
 
 {: .language-python}
 	worp 1: totaal van 2 dobbelstenen =  5
 	worp 2: totaal van 2 dobbelstenen =  9
 	worp 3: totaal van 2 dobbelstenen = 10
-	        Yes, we hebben een dubbel: 5+5
+	        Yes, we hebben een dubbele: 5+5
 	worp 4: ...
 	worp 5: ...
 	..
 	worp 1000: totaal van 2 dobbelstenen = 3
 
     print "Het percentage dubbele worpen = xx,xx procent"	
+
+Let op: de functie `oefenen_met_de_dobbelstenen()` heb je in de rest van de opgave niet meer 
+nodig. Je kan hem in je programma laten stan, uitcommentarieren of gewoon helemaal weghalen.
+
 
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
