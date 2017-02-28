@@ -212,10 +212,19 @@ In een gewoon potje Monopoly krijg je 1500 euro startgeld en verdient je 200 eur
 keer dat je START passeert. De eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee 
 straten gekocht kunnen worden. In deze opgave gaan kijken welke invloed dit precies heeft.
 
-Hou bij hoeveel geld je hebt op elk moment en bekijk dus elke keer dat je op een straat 
-terechtkomt die nog te koop staat of je wel genoeg geld heeft om het te kopen. Bepaal het 
-gemiddelde aantal worpen dat je nu nodig hebt om als speler alle straten te kopen en vergelijk 
-het met het geval waarin je oneindig veel geld had. 
+Let op: we gaan nu een aanpassing aan de bestaande code maken uit Opdracht 1. Om te zorgen dat 
+de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak 
+een nieuw Python bestand aan, `Monopoly_opdracht2.py`, kopieer de code die je tot nu toe hebt 
+en ga verder in deze nieuwe file.
+
+Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zodanig aan dat je bijhoudt 
+hoeveel geld je op elk moment hebt. Bekijk nu elke keer dat je op een straat terechtkomt die 
+nog te koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je gemiddeld 
+iets meer worpen nodig hebt
+
+Bepaal het gemiddelde aantal 
+worpen dat je nu nodig hebt om als speler alle straten te kopen en vergelijk het met het geval 
+waarin je oneindig veel geld had. 
 
 Neem als hoeveelheid startgeld: 0, 500, 1000, 1500, 2000, 2500, 3000 en 3500 euro. Simuleer voor 
 elke keuze van het startgeld 25000 potjes om zo nauwkeurig mogelijk het gemiddeld aantal worpen 
