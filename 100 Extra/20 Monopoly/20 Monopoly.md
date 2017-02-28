@@ -111,7 +111,7 @@ positie 39.
 Let op: zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je meerdere rondjes gemaakt. 
 Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je kent uit module 1.
 
-### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord
+### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (kijken, niet kopen)
 
 Niet elke positie op het bord correspondeert met een straat. Niet alleen de hoekpunten natuurlijk, maar 
 ook de Kans en Algemeen fonds kaarten en de belastingen zijn niet te koop. Maak een list (lengte 40
@@ -132,8 +132,8 @@ Voor elke positie op het bord kan je dan het volgende uitprinten:
 	Na worp 2: positie  9 (straat)
 	Na worp 3: positie 17 (leeg)
 	Na worp 4: ...
-
-
+	
+Implementeer dit in je programma.
 	
 ### Tussenstap 4: Enkel potje: rondlopen op het 'echte' bord (kopen)
 
