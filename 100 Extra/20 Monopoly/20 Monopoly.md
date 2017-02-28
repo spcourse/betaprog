@@ -206,6 +206,7 @@ dat bovenaan de opgave gespecificeerd is.
     We hebben 10000 potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
+<br>
 
 ## Opdracht 2: Realisme toevoegen: effect van startgeld
 
