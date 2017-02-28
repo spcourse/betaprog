@@ -102,14 +102,17 @@ op welke positie de speler zich bevindt.
 
 Gooi steeds met twee dobbelstenen en hou de plek bij waar de speler staat op het bord. Print 
 dat op het scherm. Hierbij is start positie 0, de gevangenis positie 10 en de Kalverstraat 
-positie 39. Zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je meerdere rondjes 
-gemaakt.
+positie 39. 
 
 {: .language-python}
 	Na worp 1: positie 6
 	Na worp 2: positie 9
 	Na worp 3: positie 17
     Na worp 4: ...
+
+Zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je meerdere rondjes 
+gemaakt. Je zou hierbij bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je kent uit 
+module 1.
 
 <br>
 
