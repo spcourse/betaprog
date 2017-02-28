@@ -42,14 +42,18 @@ straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft onei
 er is geen concurrentie.
 		
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
-zijn verkocht. Schrijf in een bestand `Monopoly_opdracht1.py` een functie die wanneer aangeroepen het volgende uitprint: 
+zijn verkocht. Schrijf in een bestand `Monopoly_opdracht1.py` een functie 
+`simuleer_groot_aantal_potjes_Monopoly(Npotjes)` die wanneer aangeroepen met 10000 potjes het 
+volgende uitprint: 
 
 {: .language-python}
 	Monopoly simulator: 1 speler, Trump mode 
-    We hebben XXX potjes gesimuleerd
+    We hebben 10000 potjes gesimuleerd
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 	
 Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen door te nemen.
+
+<br>
 
 ### Tussenstap 1: dobbelsteen in Python - random integers
 
