@@ -1,6 +1,6 @@
 # Populatiedynamica: prooi-predator model#
 
-Een van de meest klassieke voorbeelden van een complex dynamisch systeem is wel het zogenaamde prooi-predator 
+Een klassiek voorbeeld van een complex dynamisch systeem is het zogenaamde prooi-predator 
 model. De basis van de wiskundige beschrijving van de populaties zijn de bekende 
 [Lotka-Volterra vergelijkingen](https://en.wikipedia.org/wiki/Lotka–Volterra_equations) vergelijkingen. 
 De wiskunde wordt al snel erg complex en het is ook niet altijd makkelijk om van tevoren in te schatten 
@@ -80,8 +80,8 @@ die de positie van de konijnen verandert en `Teken_het_bos()` dat de konijnen op
          #--/ GRAFIEK (2): update frames voor simpele animatie
          plt.draw()        #--/ Update de grafiek
          plt.pause(0.001)
-         plt.clf()         #--/ Maak grafiek leeg bij elke tijdstap
          plt.show()
+         plt.clf()         #--/ Maak grafiek leeg bij elke tijdstap
  
          #--/ einde functie
          return
@@ -106,10 +106,10 @@ doorvoeren in onze code.
 
 #### Deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
-We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze moet 
-dezelfde snelheid bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: 
+We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze met 
+dezelfde snelheid moeten bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: 
 ongeveer 51 graden. Voeg in het hoofdprogramma een variabele `v_konijn` toe die de snelheid van 
-de konijnen aangeef (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt 
+de konijnen aangeeft (2 m/s) en voeg een lijst `L_konijn_hoek` toe waarbij je voor elk konijn bijhoudt 
 onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de 
 konijnen uitgerekend wordt is deze informatie nodig. In de hoofdcode `PooiPredator()` moet die functie 
 als volgt aangeroepen worden:
@@ -131,7 +131,7 @@ konijn uitrekenen:
        L_y[i_konijn] = L_y[i_konijn] + v_y
 
 We hebben hiermee nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting 
-te geven. Voer bovenstaande veranderingen in in de code, geef elk van de konijnen eigen richting en laat de 
+te geven. Voer bovenstaande veranderingen in in de code, geef elk van de konijnen een eigen richting en laat de 
 simulatie 20 seconden lopen in plaats van 10. 
 
 <br>
@@ -280,11 +280,11 @@ opzet zoals hierboven 100 tijdstapjes wilt doen kan je daar nog op wachten, maar
 al niet meer te doen. Door de visualisatie weg te laten kan je enorm veel tijd winnen en het stelt je 
 in staat wat langere scenario's door te rekenen of juist veel verschillende simulaties. En toch is het 
 visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk om te zien'. Visualiseren 
-van is erg krachtig om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk in de bovenstaande 
+ is een goede techniek om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk in de bovenstaande 
 opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van de konijnen aan het 
 implementeren was.
 
-Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele aanbrengt waarmee je makkelijk kan kiezen 
+Zorg dat je in de hoofdfunctie `ProoiPredator()` een variabele toevoegt waarmee je makkelijk kan kiezen 
 of je wel/niet de functie `Teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. 
 Tenzij je iets wilt bekijken natuurlijk.
 

@@ -10,11 +10,11 @@ hand van een verzonnen casus een paar van de meest voorkomende technieken bekijk
 ![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
 
 **De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van volwassen 
-vrouwen gecorreleerd is het het inkomens van hun ouders toen ze op de lagere school zaten. 
+vrouwen gecorreleerd is aan het inkomen van hun ouders toen ze op de lagere school zaten. 
 De inkomenscategorieen van ouders lopen van 0(zeer arm) tot 10(zeer rijk) en in elke categorie 
-zijn random een aantal vrouwen geselecteerd van wie de lengte is gemeten. De data is weergegegeven 
+zijn een willekeurig aantal vrouwen geselecteerd van wie de lengte is gemeten. De data is weergegeven 
 in de grafiek hiernaast. Een deel van de onderzoekers vindt dat de data suggereert dat er een 
-duidelijk lineair verband te zien is terwijl een ander deel van hun collega's vindt dat er 
+duidelijk lineair verband te zien is terwijl een ander deel van de onderzoekers vindt dat er 
 helemaal geen afhankelijkheid is. De geobserveerde lichte afhankelijkheid is gewoon het resultaat 
 van de fluctuaties in de lengte van vrouwen die in de steekproeven mee genomen zijn. 
 
@@ -52,12 +52,12 @@ syntax:
 {: .language-python}
     gemiddelde = 170.6
     breedte = 6.5
-    x = numpy.random.normal(gemiddelde,breedte)
+    lengte = numpy.random.normal(gemiddelde,breedte)
 
 Als je dit heel vaak herhaalt zullen de waardes van $$x$$ verdeeld zijn volgens de rode grafiek 
 hierboven.
 
-### opdracht 1: verdeling lengtes van alle vrouwen.
+### Opdracht 1: verdeling lengtes van alle vrouwen.
 
 Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt uit de 
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
@@ -75,16 +75,16 @@ proberen een idee te krijgen van de hele populatie: we bepalen de lengtes van ee
 vrouwen of de politieke voorkeuren van een groep Nederlanders en maken daarmee een schatting 
 van de eigenschappen van de volledige populatie.
 
-Hoe groter de steekproef is, hoe groter de nauwkeurigheid van de schatting is en hoe kleiner 
+Hoe groter de steekproef is, hoe nauwkeuriger de schatting is en hoe kleiner 
 de onzekerheid op de schatting voor de volledige populatie. We gaan dit onderzoeken door met 
 behulp van de computer nep-steekproeven te nemen uit de oorspronkelijke distributie en te 
 kijken hoe goed de gemiddelde lengte van een (steeds grotere) groep representatief is voor 
 die van de hele populatie. 
 
-### opdracht 2: impact van meer metingen op de nauwkeurigheid
+### Opdracht 2: impact van meer metingen op de nauwkeurigheid
 
-Schrijf een programma `Statistiek2.py` die uitrekent welke fractie van groepen vrouwen 
-(een steekproef) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
+Schrijf een programma `Statistiek2.py` dat uitrekent welke fractie van groepen vrouwen 
+(steekproeven) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
 verschillende groottes van de steekproef: $$N=2,3,5,10,100$$. 
 
 Volg voor het bepalen van de fractie voor een specifieke waarde van $$N$$ het volgende 
@@ -152,7 +152,7 @@ onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |
 
 
 #### voorbeeld [stap 1]: Model en doel van de exercitie
-Het kookpunt van alcohol is een natuurconstante en hangt niet af van et groepje studenten dat de 
+Het kookpunt van alcohol is een natuurconstante en hangt niet af van het groepje studenten dat de 
 meting verricht. In dit geval is het 'model' dat we hebben een vlakke lijn en eigenijk proberen 
 we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming is met 
 de gemeten punten. Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan 70$$^\circ$$ en 
@@ -255,7 +255,7 @@ grotere fout op de schatting van de gemiddelde lengte.
 
 Schrijf een programma `Statistiek3.py()` waarin je het gemiddelde vindt van de lengte van vrouwen 
 in Denemarken door een fit te maken aan de hierboven gegeven data. Volg hierbij de stappen in 
-het voorbeeld over het maten van het kookpunt van alcohol zoals hierboven is besproken. Zorg dat 
+het voorbeeld over het meten van het kookpunt van alcohol zoals hierboven is besproken. Zorg dat 
 je programma de data (met fouten) op het scherm weergeeft en ook de beste waarde van de fit die 
 je gevonden hebt. Dus net zoals de linkerplot in het voorbeeld hierboven. Gebruik voor het 
 plotten van de data met fouten de Python functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet 
@@ -274,13 +274,13 @@ vervallen van een radioactief element (exponent) of de snelheid van planeten als
 tot de zon (wortel). Ook in die gevallen volgen we hetzelfde procede: varieer de parameters tot de 
 $$\chi^2$$ minimaal is. Het fitten van een model aan metingen is een standaard procedure die je als 
 onderzoeker vaak tegen zult komen. Hoewel we in deze cursus deze functionaliteit en alle bijbehorende 
-details zullen gebruiken door gebrek aan tijd willen we hier toch een voorbeeld geven waarin 
+details niet verder zullen gebruiken door gebrek aan tijd, willen we hier toch een voorbeeld geven waarin 
 je ziet hoe dat in de praktijk gaat.
 
 Iemand in de onderzoeksgroep heeft geopperd dat er welleens een (lineair) verband zou kunnen zijn tussen 
 de lengte van mensen en het inkomen van hun ouders. Dat zou verschillende oorzaken kunnen hebben. Dat is 
 voor later. De eerste stap in het onderzoek is om eerst te bekijken of er uberhaupt een verband is. We 
-gaan proberen een 
+gaan proberen een verband te vinden in de data.
 
 
 #### Fitten in Python: rechte lijn (1 vrijheidsgraad)
@@ -354,9 +354,9 @@ richtingscoefficient bepaalt, de zogenaamde p-waarde.
 
 Gebruik hiervoor de volgende strategie:
 
-   1. Simuleer een random data-set uit een vlakke verdeling
+   1. Simuleer een random data-set uit een vlakke verdeling.
       Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
-      de waarde heeft die je bijopdracht 3 (of 4) hebt gevonden. Gebruik hiervoor de 
+      de waarde heeft die je bij opdracht 3 (of 4) hebt gevonden. Gebruik hiervoor de 
       voor die geldende onzekerheid als input voor de breedte in de Python functie.      
    2. Fit een lineaire functie en bepaal de richtingscoefficient (a in f(x) = ax+b).
    3. Doe bovenstaande een groot aantal keer (100.000 keer bijvoorbeeld). Onthoud voor elke 
@@ -364,7 +364,7 @@ Gebruik hiervoor de volgende strategie:
       een richtingscoefficient heeft die groter is dan die je in de 'echte' data hebt gevonden 
       (zie opdracht 4).  
    4. Maak een grafiek (histogram, zie hieronder) van alle richtingscoefficenten en geef duidelijk 
-      aan wat de gevonden waarde in de data en de bijbehorende p-waarde. Print de p-waarde ook uit 
+      aan wat de gevonden waarde is in de data en de bijbehorende p-waarde. Print de p-waarde ook uit 
       aan het eind van het programma, in procenten, met 2 decimalen.
       
 ![](ExamplePvalue.png){: style="width:60%"}
@@ -395,16 +395,16 @@ De eindstand van de AEX kan je vinden op de [AEX wiki](https://nl.wikipedia.org/
 ### BonusOpdracht: voorspel de AEX einstand in het jaar 2000
 
 Schrijf een programma `StatistiekBonus.py()` waarin je de eindstand van de AEX voorspelt in 
-het jaar 2000 op grand van de waardes aan het eind van 1991-1996. Volg hierbij de volgende stappen:
+het jaar 2000 op grond van de waardes aan het eind van 1991-1999. Volg hierbij de volgende stappen:
 
    1. Maak een grafiek van de eindstand van de AEX als functie van het jaar sinds 1991.
 
-   2. Fit de meetpunten met een 2$$^{\rm e}$$ graads polynoom polynoom: $$f(x)=ax^2+bx+c$$. 
+   2. Fit de meetpunten met een 2$$^{\rm e}$$ graads polynoom: $$f(x)=ax^2+bx+c$$. 
       Pas de fit-functie aan die we eerder in deze module gebruikt hebben. 
     
 Zodra je de functie hebt gevonden die de data-punten goed gebruikt heb je een model waarmee je 
-ook kan extrapoleren. Wat is je voorspelling voor de eindstand van de AEX in het jaar 2000 ? 
-Vergelijk deze met de echte waarde die gerealiseerd werd (637,60). En ? Hoe kan dat ?
+ook kan extrapoleren. Wat is je voorspelling voor de eindstand van de AEX in het jaar 2000? 
+Vergelijk deze met de echte waarde die gerealiseerd werd (637,60). En? Hoe kan dat?
 
 
 	
