@@ -218,21 +218,37 @@ de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw b
 een nieuw Python bestand aan, `Monopoly_opdracht2.py`, kopieer de code die je tot nu toe hebt 
 en ga verder in deze nieuwe file.
 
-Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zodanig aan dat je bijhoudt 
-hoeveel geld je op elk moment hebt. Bekijk nu elke keer dat je op een straat terechtkomt die 
-nog te koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je in een 
+Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zodanig aan dat je elk potje 
+begint met een bepaalde hoeveelheid startgeld en dat je gedurende het spel bijhoudt hoeveel 
+geld je op elk moment hebt. Evalueer nu elke keer dat je op een straat terechtkomt die nog te 
+koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je in een 
 potje nu gemiddeld iets meer worpen nodig hebt om alle straten te kopen dan in opdracht 1 
-waarin je een miljardair was. 
+waarin geld geen rol speelde.
 
-Neem als hoeveelheid startgeld: 0, 500, 1000, 1500, 2000, 2500, 3000 en 3500 euro en simuleer 
-voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig mogelijk het gemiddeld aantal 
-worpen te bepalen dat nodig is om alle straten te kopen. Maak een grafiek van het gemiddeld 
-aantal worpen als functie van de hoeveelheid startgeld. 
+Begin met 3000 euro startgeld en verlaag dat steeds met 500 euro: 3000, 2500, 2000, 1500, 
+1000, 500 en 0 euro. Simuleer voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig 
+mogelijk het gemiddeld aantal worpen te bepalen dat nodig is om alle straten te kopen en 
+maak uiteindelijk een grafiek van het gemiddeld aantal worpen als functie van de hoeveelheid 
+startgeld. De grafiek geeft je een 
 
-In het officiele Monopolyspel krijgt elke speler 1500 euro. Gebruik de waardes uit de grafiek om 
-een inschatting te maken hoeveel meer 'worpen' er gedaan moeten worden voor elke 100 euro meer of 
-minder startgeld. Print dat op het scherm. 
+Gebruik de waardes uit de grafiek om een inschatting te maken hoeveel meer 'worpen' 
+er gedaan moeten worden voor elke 100 euro meer of minder startgeld.
 
+In het officiele Monopolyspel krijgt elke speler 1500 euro.  Print dat op het scherm. 
+
+{: .language-python}
+	Monopoly simulator: 1 speler, 1500 euro startgeld
+    We hebben 10000 potjes gesimuleerd
+    Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
+
+Een paar tips:
+
+    Tip 1: je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag dit ook met 
+de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld aantal worpen van een groot 
+aantal simulaties te doen. 
+
+    Tip 2: je kan de situatie van opdracht 1 reproduceren door een zeer groot bedrag aan startgeld 
+mee te geven. 'One billion dollars should do the trick.'
 
 ## Opdracht 3: Realisme toevoegen: twee spelers
 
