@@ -13,22 +13,22 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 ## Dag 2: priemgetallen
 
-1. <span class="label label-danger">Python</span> Leer meer over [algoritmen](/python/algoritmen).
+1. Leer meer over [algoritmen](/python/algoritmen).
 
-2. <span class="label label-danger">Python</span> Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
+2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
 3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
 ## Dag 3: het vermoeden van Goldbach
 
-1. <span class="label label-danger">Python</span> Sla je data op in een [lijst](/python/lijsten).
+1. Sla je data op in een [lijst](/python/lijsten).
 
 2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
 ## Dag 4: grafieken
 
-1. <span class="label label-danger">Python</span> Leer over het gebruiken van [modules](/python/modules) in Python.
+1. Leer over het gebruiken van [modules](/python/modules) in Python.
 
-2. <span class="label label-danger">Python</span> Zoek op hoe je data kunt [plotten](/python/plot).
+2. Zoek op hoe je data kunt [plotten](/python/plot).
 
 3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
