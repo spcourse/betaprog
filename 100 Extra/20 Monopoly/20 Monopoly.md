@@ -242,9 +242,9 @@ In het officiele Monopolyspel krijgt elke speler 1500 euro.  Print dat op het sc
 
 Een paar tips bij deze opgave:
 
-   1. je kan de situatie van opdracht 1 reproduceren door een zeer groot bedrag aan 
-      startgeld mee te geven. 'One billion dollars should do the trick.'
-   2. je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag 
+   1. Door de speler een zeer groot bedrag aan startgeld mee te geven (een miljard euro 
+      bijvoorbeeld) kan je de situatie van opdracht 1 reproduceren. 
+   2. Je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag 
       dit ook met de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld 
       aantal worpen van een groot aantal simulaties te doen. 
 
