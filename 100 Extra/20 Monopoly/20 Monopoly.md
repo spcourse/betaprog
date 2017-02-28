@@ -226,15 +226,15 @@ potje nu gemiddeld iets meer worpen nodig hebt om alle straten te kopen dan in o
 waarin geld geen rol speelde.
 
 Begin met 3000 euro startgeld en verlaag dat steeds met 500 euro: 3000, 2500, 2000, 1500, 
-1000, 500 en 0 euro. Simuleer voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig 
+1000, 500 tot 0 euro. Simuleer voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig 
 mogelijk het gemiddeld aantal worpen te bepalen dat nodig is om alle straten te kopen en 
 maak uiteindelijk een grafiek van het gemiddeld aantal worpen als functie van de hoeveelheid 
-startgeld. De grafiek geeft je een 
-
-Gebruik de waardes uit de grafiek om een inschatting te maken hoeveel meer 'worpen' 
+startgeld. Gebruik de waardes uit de grafiek om een inschatting te maken hoeveel meer 'worpen' 
 er gedaan moeten worden voor elke 100 euro meer of minder startgeld.
 
-In het officiele Monopolyspel krijgt elke speler 1500 euro.  Print dat op het scherm. 
+In het officiele Monopolyspel krijgt elke speler 1500 euro. Print voor die specifieke 
+hoeveelheid startgeld het aantal worpen dat je nodig hebt om alle straten te kopen en 
+print dat als volgt op het scherm:
 
 {: .language-python}
 	Monopoly simulator: 1 speler, 1500 euro startgeld, 25000 potjes
