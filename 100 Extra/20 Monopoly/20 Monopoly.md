@@ -114,7 +114,7 @@ Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je ke
 ### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (zonder te kopen)
 
 Niet elke positie op het bord correspondeert met een straat. Niet alleen de hoekpunten natuurlijk, maar 
-ook de Kans en Algemeen fonds kaarten en de belastingen zijn niet te koop. Maak een list (lengte 40
+ook de Kans en Algemeen fonds kaarten en de belastingen zijn niet te koop. Maak een lijst (lengte 40
 waarbij je voor elke positie op het bord laat zien welke waarde aan de plek op het bord verbonden is. 
 De eerste 11 posities zijn dan:
 
@@ -150,12 +150,13 @@ bezit is van de speler. Of niet. Die lijst begint als een lijst met 40 nullen.
 {: .language-python}
     bezittingen = [0,0,0,0,.....,0,0]
 
-en elke keer als je op een nieuwe positie komt kan je nu nagaan:
+Elke keer als je op een nieuwe positie komt kan je nu nagaan:
 
-  - is er op die positie een straat of iets anders om te kopen?
-  - zo ja, heb ik dat al in mijn bezit of is het nog 'op de markt'?
+  - is er op die positie iets te koop: straat, station, electriciteit?
+  - zo ja, is het nog 'op de markt'?
    
-Als je bijvoorbeeld na worp 1 op plek 3 komt dan ziet je lijst met bezittingen er als volgt uit.
+Als je bijvoorbeeld na worp 1 op plek 3 komt en whitechapel road (of Brink in de Nederlandse versie) koopt 
+kan je je lijst met bezittingen updaten. Gelijk erna ziet hij er dan zo uit:
 
 {: .language-python}
     bezittingen = [0,0,1,0,.....,0,0]
