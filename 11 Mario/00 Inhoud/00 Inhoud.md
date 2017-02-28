@@ -5,7 +5,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 ![embed](https://www.youtube.com/embed/m5Yt-2r6fCg)
 
-### Dag 1: aan de slag
+#### Dag 1: aan de slag
 
 1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
 
@@ -13,7 +13,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/mario/water)
 
-### Dag 2: Mario
+#### Dag 2: Mario
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 
@@ -21,13 +21,13 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 3. <span class="label label-primary">Opdracht</span> Red de prinses in [Mario](/mario/pyramide)
 
-### Dag 3: greedy algoritmes
+#### Dag 3: greedy algoritmes
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
 2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit in  [Greedy](/mario/greedy)
 
-### Dag 4: grafieken
+#### Dag 4: grafieken
 
 1. Leer over het gebruiken van [modules](/python/modules) in Python.
 
