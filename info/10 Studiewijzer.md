@@ -32,7 +32,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 ## Medewerkers
 
-Martijn Stegeman  
+Martijn Stegeman (examinator)  
 Ivo van Vulpen  
 Jelle van Assema
 
