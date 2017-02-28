@@ -20,6 +20,20 @@ Omdat we niet veel tijd hebben zullen we dit stap voor stap opbouwen. Voor degen
 de smaak te pakken heeft en nu al droomt van een baan op de Risk analysis van JP Morgan 
 hebben we nog wat suggesties voor extra opgaves gemaakt.
 
+Twee dingen om alvast te weten voor je aan deze opdracht begint:
+
+   1. Om goed te zien of je code werkt zul je vaak dingen printen. Dit stelt je in staat 
+      te kijken of de 'logica' van je programma werkt. Zodra je erval overtuigd bent dat 
+	  een bepaalde stap werkt kan je het printstatement weghalen (of uitcommentarieren). 
+	  Als je dat niet doet wordt het erg onoverzichtelijk. 
+   2. Deze module werkt toe naar een redelijk complexe simulatie van Monopoly. Om te zorgen 
+      dat je zelf de code goed begrijpt is het belangrijk om makkelijk te beginnen en steeds
+	  een nieuwe component of complexiteitslaag toe te voegen aan het programma. Om te zorgen 
+	  dat je bij elke stap een soort rustpunt hebt ('dit werkt') zullen we bij elke opdracht 
+	  vragen de code in een apart bestand op te slaan. De nieuwe opdracht begiunt dan ook in 
+	  een nieuw bestand en is vaak een uitbreiding van de bestaande code tot dan toe.
+	     
+
 ## Opdracht 1: Trump mode: 1 speler met oneindig veel geld
 
 We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem 
