@@ -7,11 +7,9 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 ## Dag 1: aan de slag
 
-1. <span class="label label-danger">Python</span> Leer over de [IDE](/python/ide) (integrated development environment).
+1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
 
-2. <span class="label label-danger">Python</span> (optioneel) [installeer](/python/installatie) Python op je eigen computer.
-
-3. <span class="label label-danger">Python</span> Aan de slag met de [basiselementen](/python/basiselementen) van Python!
+2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
 
 ## Dag 2: priemgetallen
 
