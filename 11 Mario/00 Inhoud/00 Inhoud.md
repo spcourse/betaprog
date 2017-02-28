@@ -25,7 +25,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
-2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit in  [Greedy](/mario/greedy)
+2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [Greedy](/mario/greedy) algoritme.
 
 #### Dag 4: grafieken
 
