@@ -12,8 +12,8 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we d
 
 ####  Module 1
 
-- Zet je eerste stappen en spring op de pyramide met [Mario](/mario/inhoud)
-- Duik in de wereld van [Getaltheorie](/getaltheorie/inhoud)
+- Zet je eerste stappen en spring op de pyramide met [<strong>Mario</strong>](/mario/inhoud)
+- Duik in de wereld van [<strong>Getaltheorie</strong>](/getaltheorie/inhoud)
 
 ####  Module 2
 
