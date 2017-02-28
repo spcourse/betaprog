@@ -179,10 +179,10 @@ nodig had:
 
 ### Tussenstap 5: Meerdere potjes: gemiddeld aantal worpen tot einde spel
 
-We hebben met de functie `simuleer_potje_Monopoly()` nu de mogelijkheid om een enkel potje Monopoly 
-te simuleren. Als je dit een paar keer doet zul je zien dat het aantal worpen dat je nodig hebt sterk 
-varieert omdat je aan het eind van het spel natuurlijk maar net op dat laatste overgebleven vakje 
-terecht moet komen.
+We hebben met de functie `simuleer_potje_Monopoly()` die we in tussenstap 1-4 gemaakt hebben nu 
+de mogelijkheid om een enkel potje Monopoly te simuleren. Als je dit een paar keer doet zul je 
+zien dat het aantal worpen dat je nodig hebt sterk varieert omdat je aan het eind van het spel 
+natuurlijk maar net op dat laatste overgebleven vakje terecht moet komen.
 
 Het doel van deze opdracht was om uit te zoeken hoeveel worpen de speler *gemiddeld* nodig zou hebben 
 om alle velden in zijn bezit te krijgen. Om deze vraag te beantwoorden zullen we een groot aantal 
