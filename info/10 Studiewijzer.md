@@ -30,15 +30,23 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 - Begraaf je in de big data van het <strong>klimaat</strong> (beschikbaar: half april)
 - Toets je conclusies met <strong>statistiek</strong> (beschikbaar: half april)
 
-## Medewerkers
+## Begeleiding
 
-Martijn Stegeman (examinator)  
-Ivo van Vulpen  
-Jelle van Assema
+Dit is een online cursus, maar tijdens studiejaar 2016/2017 kun je op twee manieren hulp krijgen:
 
-Heb je hulp nodig bij je opdrachten? Stuur gerust een mail naar <help@mprog.nl>.
+- Stel een vraag via <help@mprog.nl>. Afhankelijk van de drukte komen we zo snel mogelijk bij je terug.
+
+- Kom langs bij een practium van de Minor Programmeren. Je kunt elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
 
 ## Verwachtingen
 
 Om dit vak te halen verwachten we dat je alle stof zorgvuldig doorneemt, alle bijbehorende opdrachten maakt, en aan het eind van het semester deelneemt aan het tentamen. Voor dit vak krijg je geen cijfers, maar werk je toe naar het tentamen. Haal je het tentamen, dan heb je het vak afgerond!
+
+
+
+## Colofon
+
+Martijn Stegeman (examinator)  
+Ivo van Vulpen  
+Jelle van Assema
 
