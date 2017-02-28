@@ -11,7 +11,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
 
-3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/mario/water)
+3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/mario/water).
 
 #### Dag 2: Mario
 
@@ -19,7 +19,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
-3. <span class="label label-primary">Opdracht</span> Red de prinses in [Mario](/mario/pyramide)
+3. <span class="label label-primary">Opdracht</span> Red de prinses in [Mario](/mario/pyramide).
 
 #### Dag 3: greedy algoritmes
 
@@ -33,4 +33,4 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. Zoek op hoe je data kunt [plotten](/python/plot).
 
-3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/mario/grafieken)
+3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/mario/grafieken).

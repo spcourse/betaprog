@@ -19,13 +19,13 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
-3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
+3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen).
 
 #### Dag 3: het vermoeden van Goldbach
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
-2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
+2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
 
 #### Dag 4: grafieken
 
@@ -33,4 +33,4 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. Zoek op hoe je data kunt [plotten](/python/plot).
 
-3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
+3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken).
