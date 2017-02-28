@@ -5,7 +5,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 ![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
 
-## Dag 1: aan de slag
+#### Dag 1: aan de slag
 
 1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
 
@@ -13,7 +13,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 3. <span class="label label-primary">Opdracht</span> Bereken automatisch de [som](/getaltheorie/som) van een groot aantal getallen.
 
-## Dag 2: priemgetallen
+#### Dag 2: priemgetallen
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 
@@ -21,13 +21,13 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
-## Dag 3: het vermoeden van Goldbach
+#### Dag 3: het vermoeden van Goldbach
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
 2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
-## Dag 4: grafieken
+#### Dag 4: grafieken
 
 1. Leer over het gebruiken van [modules](/python/modules) in Python.
 
