@@ -17,18 +17,18 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 ####  Module 2
 
-- <strong>Integreer</strong> zonder moeite de meest exotische functies
-- Ga op zoek naar het juiste <strong>DNA</strong>
+- <strong>Integreer</strong> zonder moeite de meest exotische functies (beschikbaar: half maart)
+- Ga op zoek naar het juiste <strong>DNA</strong> (beschikbaar: eind maart)
 
 ####  Module 3
 
-- Bestudeer de natuurkundige regels van <strong>beweging</strong>
-- Bereken je voordeel bij <strong>Monopoly</strong>
+- Bestudeer de natuurkundige regels van <strong>beweging</strong> (beschikbaar: eind maart)
+- Bereken je voordeel bij <strong>Monopoly</strong> (beschikbaar: eind maart)
 
 ####  Module 4
 
-- Begraaf je in de big data van het <strong>klimaat</strong>
-- Toets je conclusies met <strong>statistiek</strong>
+- Begraaf je in de big data van het <strong>klimaat</strong> (beschikbaar: half april)
+- Toets je conclusies met <strong>statistiek</strong> (beschikbaar: half april)
 
 ## Medewerkers
 
