@@ -4,7 +4,7 @@
 
 ![Python](python-logo.png){:.inline}  
 
-We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat vooral aan de slag met toepassingen uit de biologie, wiskunde en natuurkunde.
+Welkom bij deze cursus programmeren! Komende tijd gaan we werken met de programmeertaal Python, om te leren wetenschappelijke problemen op te lossen uit verschillende vakgebieden. We hopen dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen programmaatjes gaat schrijven om je te helpen tijdens je studie, in het onderzoek of buiten de universiteit. Veel plezier!
 
 ## Opties Module 1 ##
 
