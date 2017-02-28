@@ -23,14 +23,15 @@ hebben we nog wat suggesties voor extra opgaves gemaakt.
 Twee dingen om alvast te weten voor je aan deze opdracht begint:
 
    1. Om goed te zien of je code werkt zul je vaak dingen printen. Dit stelt je in staat 
-      te kijken of de 'logica' van je programma werkt. Zodra je erval overtuigd bent dat 
-	  een bepaalde stap werkt kan je het printstatement weghalen (of uitcommentarieren). 
+      te kijken of in elke nieuwe stap die je implementeert de 'logica' van je programma 
+	  inderdaad zo werkt zoals jij het voor ogen had. Zodra je er eenmaal van overtuigd 
+	  bent dat een bepaalde stap werkt kan je het print-statement weghalen (uitcommentarieren). 
 	  Als je dat niet doet wordt het erg onoverzichtelijk. 
    2. Deze module werkt toe naar een redelijk complexe simulatie van Monopoly. Om te zorgen 
-      dat je zelf de code goed begrijpt is het belangrijk om makkelijk te beginnen en steeds
-	  een nieuwe component of complexiteitslaag toe te voegen aan het programma. Om te zorgen 
+      dat je zelf de code goed begrijpt is het belangrijk om eenvoudig te beginnen en steeds
+	  een nieuwe component of laag van complexiteit toe te voegen aan het programma. Om te zorgen 
 	  dat je bij elke stap een soort rustpunt hebt ('dit werkt') zullen we bij elke opdracht 
-	  vragen de code in een apart bestand op te slaan. De nieuwe opdracht begiunt dan ook in 
+	  vragen de code in een apart bestand op te slaan. De nieuwe opdracht begint dan ook in 
 	  een nieuw bestand en is vaak een uitbreiding van de bestaande code tot dan toe.
 	     
 
