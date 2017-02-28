@@ -111,7 +111,7 @@ positie 39.
 Let op: zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je meerdere rondjes gemaakt. 
 Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je kent uit module 1.
 
-### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (kijken, niet kopen)
+### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (zonder te kopen)
 
 Niet elke positie op het bord correspondeert met een straat. Niet alleen de hoekpunten natuurlijk, maar 
 ook de Kans en Algemeen fonds kaarten en de belastingen zijn niet te koop. Maak een list (lengte 40
@@ -135,7 +135,7 @@ Voor elke positie op het bord kan je dan het volgende uitprinten:
 	
 Implementeer dit in je programma.
 	
-### Tussenstap 4: Enkel potje: rondlopen op het 'echte' bord (kopen)
+### Tussenstap 4: Enkel potje: rondlopen op het 'echte' bord (met kopen)
 
 We stappen over het bord als Donald Trump, dus kunnen alles kopen wat we willen en hebben geen haast. 
 We wandelen net zo lang door tot we alles in ons bezit hebben. De vraag is hoe lang dit duurt. Het is dus 
