@@ -137,11 +137,15 @@ Implementeer dit in je programma.
 	
 ### Tussenstap 4: Enkel potje: rondlopen op het 'echte' bord (met kopen)
 
-We stappen over het bord als Donald Trump, dus kunnen alles kopen wat we willen en hebben geen haast. 
-We wandelen net zo lang door tot we alles in ons bezit hebben. De vraag is hoe lang dit duurt. Het is dus 
-belangrijk dat we bijhouden hoeveel straten (en welke) we al in ons bezit hebben. Dit kunnen we doen met 
-behulp van een lijst (weer lengte 40) waarbij je voor elke plek op het bord bijhoudt of hij in het bezit 
-is van de speler. Of niet. Die lijst begint als een lijst met 40 nullen. 
+We gaan nu de functie `simuleer_potje_Monopoly()` uitbreiden zodat we ook straten kunnen kopen en daarbij 
+bijhouden welke straten er wel/niet zijn verkocht. We beginnen daarmee door in de zogenaamde Donald Trump 
+mode over het bord te stappen: we kunnen alles kopen, zijn de enige speler in het spel en we wandelen net 
+zo lang door tot we alles in ons bezit hebben. De vraag die we in deze opdracht willen beantwoorden is de 
+volgende: "hoe lang (hoeveel worpen) duurt het voor we alle straten in ons bezit hebben?".
+
+Het is dus belangrijk dat we bijhouden hoeveel straten (en welke) we al in ons bezit hebben. Dit kunnen we 
+doen met behulp van een lijst (weer lengte 40) waarbij je voor elke plek op het bord bijhoudt of hij in het 
+bezit is van de speler. Of niet. Die lijst begint als een lijst met 40 nullen. 
 
 {: .language-python}
     bezittingen = [0,0,0,0,.....,0,0]
