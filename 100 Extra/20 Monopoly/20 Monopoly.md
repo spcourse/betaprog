@@ -242,12 +242,10 @@ In het officiele Monopolyspel krijgt elke speler 1500 euro.  Print dat op het sc
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
 
 Een paar tips:
-
-    Tip 1: je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag dit ook met 
+    1. je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag dit ook met 
 de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld aantal worpen van een groot 
 aantal simulaties te doen. 
-
-    Tip 2: je kan de situatie van opdracht 1 reproduceren door een zeer groot bedrag aan startgeld 
+    2.: je kan de situatie van opdracht 1 reproduceren door een zeer groot bedrag aan startgeld 
 mee te geven. 'One billion dollars should do the trick.'
 
 ## Opdracht 3: Realisme toevoegen: twee spelers
