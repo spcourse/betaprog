@@ -94,10 +94,14 @@ nodig. Je kan hem in je programma laten stan, uitcommentarieren of gewoon helema
 
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
-We gaan eerst rondlopen op het Monopolybord. Gooi steeds met twee dobbelstenen en hou de plek bij 
-waar de speler staat op het bord. Print dat op het scherm. Hierbij is start positie 0, de gevangenis 
-positie 10 en de Kalverstraat positie 39. Zorg dat je positie altijd tussen de 0 en de 39 zit, ook 
-al heb je meerdere rondjes gemaakt.
+We beginnen nu met onze functie 'simuleer_potje_Monopoly()` waarmee we in stap vier een 'echt' 
+potje zullen simuleren. In deze stap beginnen we simpel door eerst een rondje te lopen op het 
+Monopolybord. 
+
+Gooi steeds met twee dobbelstenen en hou de plek bij waar de speler staat op het bord. Print 
+dat op het scherm. Hierbij is start positie 0, de gevangenis positie 10 en de Kalverstraat 
+positie 39. Zorg dat je positie altijd tussen de 0 en de 39 zit, ook al heb je meerdere rondjes 
+gemaakt.
 
 {: .language-python}
 	Na worp 1: positie 6
