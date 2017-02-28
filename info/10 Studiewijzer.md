@@ -4,7 +4,7 @@
 
 ![Python](python-logo.png){:.inline}  
 
-Welkom bij deze cursus programmeren! Komende tijd gaan we werken met de programmeertaal Python, om te leren wetenschappelijke problemen op te lossen uit verschillende vakgebieden. We hopen dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen programmaatjes gaat schrijven om je te helpen tijdens je studie, in het onderzoek of buiten de universiteit. Veel plezier!
+Welkom bij deze cursus programmeren! Komende tijd gaan we werken met de programmeertaal Python, om te leren wetenschappelijke problemen op te lossen uit verschillende vakgebieden. Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen programmaatjes gaat schrijven om je te helpen tijdens je studie, in het onderzoek of buiten de universiteit. Veel plezier!
 
 ## Lesstof
 
@@ -35,3 +35,10 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 Martijn Stegeman  
 Ivo van Vulpen  
 Jelle van Assema
+
+Heb je hulp nodig bij je opdrachten? Stuur gerust een mail naar <help@mprog.nl>.
+
+## Verwachtingen
+
+Om dit vak te halen verwachten we dat je alle stof zorgvuldig doorneemt, alle bijbehorende opdrachten maakt, en aan het eind van het semester deelneemt aan het tentamen. Voor dit vak krijg je geen cijfers, maar werk je toe naar het tentamen. Haal je het tentamen, dan heb je het vak afgerond!
+
