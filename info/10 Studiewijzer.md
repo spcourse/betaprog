@@ -17,18 +17,18 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we d
 
 ####  Module 2
 
-- [Integreer](/integreren/inhoud) zonder moeite de meest exotische functies
-- Ga op zoek naar het juiste [DNA](/dna/inhoud)
+- <strong>Integreer</strong> zonder moeite de meest exotische functies
+- Ga op zoek naar het juiste <strong>DNA</strong>
 
 ####  Module 3
 
-- Bestudeer de natuurkundige regels van [beweging](/beweging/inhoud)
-- Bereken je voordeel bij [Monopoly](/monopoly/inhoud)
+- Bestudeer de natuurkundige regels van <strong>beweging</strong>
+- Bereken je voordeel bij <strong>Monopoly</strong>
 
 ####  Module 4
 
-- Begraaf je in de big data van het [klimaat](/klimaat/inhoud)
-- Statistiek
+- Begraaf je in de big data van het <strong>klimaat</strong>
+- Toets je conclusies met <strong>statistiek</strong>
 
 ## Medewerkers
 
