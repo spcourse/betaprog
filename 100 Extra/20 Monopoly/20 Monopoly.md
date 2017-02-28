@@ -191,11 +191,11 @@ Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die een groot aant
 kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen. Pas ook de 
 functie `simuleer_potje_Monopoly()` zodanig aan dat hij als return value het aantal worpen 
 van het potje teruggeeft. Begin met 1 potje en voer dat dan op naar 2, 10 en uiteindelijk 
-naar 1000 (of 10000) als je er zeker van bent dat je programma werkt. Hou voor elk potje 
-bij in een lijst hoeveel worpen er nodig waren om alle straten in bezit te krijgen en maak 
-daarvan een grafiek (histogram). Bepaal uiteindelijk ook het gemiddeld aantal worpen dat 
-nodig was om alle straten te verkopen en print het op het scherm in het format dat bovenaan 
-de opgave gespecificeerd is.
+naar 1000 (of 10000) als je er zeker van bent dat je programma goed werkt. 
+Hou voor elk potje bij in een lijst hoeveel worpen er nodig waren om alle straten in bezit 
+te krijgen en maak daarvan een grafiek (histogram). Bepaal uiteindelijk ook het gemiddeld 
+aantal worpen dat nodig was om alle straten te verkopen en print het op het scherm in het 
+format dat aan het begin van de opgave gespecificeerd was:
 
 {: .language-python}
 	Monopoly simulator: 1 speler, Trump mode 
