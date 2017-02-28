@@ -225,12 +225,13 @@ koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je
 potje nu gemiddeld iets meer worpen nodig hebt om alle straten te kopen dan in opdracht 1 
 waarin geld geen rol speelde.
 
-Begin met 3000 euro startgeld en verlaag dat steeds met 500 euro: 3000, 2500, 2000, 1500, 
-1000, 500 tot 0 euro. Simuleer voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig 
-mogelijk het gemiddeld aantal worpen te bepalen dat nodig is om alle straten te kopen en 
-maak uiteindelijk een grafiek van het gemiddeld aantal worpen als functie van de hoeveelheid 
-startgeld. Gebruik de waardes uit de grafiek om een inschatting te maken hoeveel meer 'worpen' 
-er gedaan moeten worden voor elke 100 euro meer of minder startgeld.
+Test je code door de speler een enorme hoeveelheid startgeld mee te geven. Met een bedrag 
+van een miljoen euro reproduceer je namelijk effectief de situatie van opdracht 1. Vervolgens 
+gaan we werken met realistische waardes. Begin met 3000 euro startgeld en verlaag dat steeds 
+met 500 euro: 2500, 2000, 1500, 1000, 500 tot 0 euro. Simuleer voor elke keuze van het startgeld 
+25000 potjes om zo nauwkeurig mogelijk het gemiddeld aantal worpen te bepalen dat nodig is om 
+alle straten te kopen en maak uiteindelijk een grafiek van het gemiddeld aantal worpen als 
+functie van de hoeveelheid startgeld. 
 
 In het officiele Monopolyspel krijgt elke speler 1500 euro. Print voor die specifieke 
 hoeveelheid startgeld het aantal worpen dat je nodig hebt om alle straten te kopen en 
@@ -239,14 +240,13 @@ print dat als volgt op het scherm:
 {: .language-python}
 	Monopoly simulator: 1 speler, 1500 euro startgeld, 25000 potjes
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
+    
+Gebruik de waardes uit de grafiek om een inschatting te maken hoeveel meer 'worpen' er gedaan 
+moeten worden voor elke 100 euro meer of minder startgeld.
 
-Een paar tips bij deze opgave:
-
-   1. Door de speler een zeer groot bedrag aan startgeld mee te geven (een miljard euro 
-      bijvoorbeeld) kan je de situatie van opdracht 1 reproduceren. 
-   2. Je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag 
-      dit ook met de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld 
-      aantal worpen van een groot aantal simulaties te doen. 
+Tip: Je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag 
+dit ook met de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld aantal 
+worpen van een groot aantal simulaties te doen. 
 
 ## Opdracht 3: Realisme toevoegen: twee spelers
 
