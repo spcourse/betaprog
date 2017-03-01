@@ -211,17 +211,17 @@ Y potjes aan het simuleren bent.
 
 ![](GoldenDollar.png){:.inline}{: style="width:20%"}
 
-In een gewoon potje Monopoly krijg je 1500 euro startgeld en verdient je 200 euro voor elke   
+In een officieel potje Monopoly krijg je 1500 euro startgeld en verdient je 200 euro voor elke   
 keer dat je START passeert. Zo'n eindige hoeveelheid startgeld heeft invloed op de snelheid 
 waarmee je nieuwe straten kan kopen en in deze opgave gaan uitzoeken welk effect dit precies 
 heeft. 
 
-Let op: we gaan nu een aanpassing aan de bestaande code maken uit Opdracht 1. Om te zorgen dat 
+Let op: we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1. Om te zorgen dat 
 de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak 
-een nieuw Python bestand aan, `Monopoly_opdracht2.py`, kopieer de code die je tot nu toe hebt 
-en ga verder in deze nieuwe file.
+dus een nieuw Python bestand aan, `Monopoly_opdracht2.py`, kopieer de code die je tot nu toe 
+hebt gemaakt en ga verder in deze nieuwe file.
 
-Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zodanig aan dat je elk potje 
+Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zo aan dat je elk potje 
 begint met een bepaalde hoeveelheid startgeld en dat je gedurende het spel bijhoudt hoeveel 
 geld je op elk moment hebt. Evalueer nu elke keer dat je op een straat terechtkomt die nog te 
 koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je in een 
