@@ -26,7 +26,7 @@ Hoewel het niet de bedoeling is van deze module om een volledig statistiek colle
 zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
 te introduceren in de voorbereiding op een opdracht.
  
-### [statistiek 1] De normaalverdeling in de natuur 
+### [statistiek opdracht 1] De normaalverdeling in de natuur 
 
 In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
 dieren in een populatie om er maar een paar te noemen. De verdeling die de relatieve frequentie 
@@ -47,7 +47,7 @@ $$\sigma$$ = 7.0 (6.5) cm. De (genormeerde) grafieken van de twee verdelingen st
 in grafiek hiernaast. Dit betekent dat 34% van de mannen langer is dan 191 cm en dan 
 2.5% van de vrouwen kleiner is dan 157.6 cm.
 
-### Python: trekken van random getallen uit een normaalverdeling 
+### [Python opdracht 1] trekken van random getallen uit een normaalverdeling 
 
 We hebben eerder gezien hoe je een random getal trekt in Python tussen 0 en 1. Het is ook mogelijk 
 om een random getal te trekken uit een bepaalde verdeling. Omdat de normaalverdeling zo'n prominente 
