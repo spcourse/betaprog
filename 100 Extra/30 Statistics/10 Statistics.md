@@ -21,8 +21,12 @@ van de toevallige fluctuaties in de lengte van vrouwen die in de steekproeven me
 
 We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
 conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
+
+Hoewel het niet de bedoeling is van deze module om een volledig statistiek college te verzorgen 
+zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
+te introduceren in de voorbereiding op een opdracht.
  
-### [1] De normaalverdeling in de natuur 
+### [statistiek 1] De normaalverdeling in de natuur 
 
 In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
 dieren in een populatie om er maar een paar te noemen. De verdeling die de relatieve frequentie 
