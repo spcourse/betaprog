@@ -11,10 +11,11 @@ hand van een verzonnen casus een paar van de meest voorkomende technieken bekijk
 
 **De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van volwassen 
 vrouwen gecorreleerd is met het inkomen van hun ouders. De inkomenscategorieen van ouders lopen 
-van 0 (zeer arm) tot 10 (zeer rijk) en in elke categorie zijn een willekeurig aantal vrouwen 
-geselecteerd van wie de lengte is gemeten. De data is weergegeven in de grafiek hiernaast. Een 
-deel van de onderzoekers vindt dat de data suggereert dat er een duidelijk lineair verband te 
-zien is terwijl een ander deel van de onderzoekers vindt dat er helemaal geen afhankelijkheid 
+van categorie-0 (zeer arm) tot categorie-10 (zeer rijk) en in elke categorie zijn een willekeurig 
+aantal vrouwen geselecteerd van wie de lengte is gemeten. De data, de gemeten gemiddelde lengte 
+voor elke inkomenscategorie is weergegeven in de grafiek hiernaast. En hier beginnen de problemen.
+Een deel van de onderzoekers vindt dat de data suggereert dat er een duidelijk lineair 
+verband te zien is terwijl een ander deel van de onderzoekers vindt dat er helemaal geen afhankelijkheid 
 is. De geobserveerde lichte afhankelijkheid is gewoon het resultaat van de fluctuaties in de 
 lengte van vrouwen die in de steekproeven mee genomen zijn. 
 
