@@ -54,8 +54,6 @@ potjes moet het volgende worden uitprint:
 	
 Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen te doorlopen. 
 
-<br>
-
 ### Tussenstap 1: dobbelsteen in Python - random integers
 
 Het enige nieuwe Python element dat we nodig hebben is een manier om een dobbelsteen te 
@@ -119,7 +117,7 @@ waarbij je voor elke positie op het bord laat zien welke waarde aan de plek op h
 De eerste 11 posities zijn dan:
 
 {: .language-python}
-   bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 100, 0, ......]
+    bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 100, 0, ......]
 
 Zoek op internet op hoe het Monopoly bord verder in elkaar zit zodat je niet alleen van de eerste 11, 
 maar van alle 40 velden weet voor welk geldbedrag ze te koop zijn. Als de waarde kleiner is dan 1 euro 
