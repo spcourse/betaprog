@@ -5,15 +5,15 @@
 Bij banken, verzekeraars en het centraal planbureau worden modellen opgesteld die 
 onze economie beschrijven. Alle facetten die een rol spelen krijgen een plek en met 
 behulp van een computer worden verschillende scenario's doorgerekend (gesimuleerd) 
-om zo risico's in te schatten op bepaalde gebeurtenissen of om het effect van
-maatregelen te bekijken. 
+om zo risico's in te schatten bij bepaalde gebeurtenissen of om het effect van
+nieuwe maatregelen te onderzoeken. 
 
-Door de onderlinge afhankelijkheid van de parameters wordt het al snel ondoenlijk 
-om het met de hand door te rekenen, zeker als het effect van bepaalde maatregelen een 
-random component heeft. Met behulp van een computer gaat dat snel en kan je zelfs de 
-settings vinden waarin je dingen kan optimaliseren: dat kan het maximaliseren van je 
-winstkansen zijn, maar ook het minimaliseren van de kans dat je failliet gaat of een 
-mix ertussenin.
+Door de onderlinge afhankelijkheid van de parameters in dat soort modellen wordt het 
+al snel ondoenlijk om het met de hand door te rekenen. Zeker als het effect van 
+maatregelen een random component heeft. Met behulp van een computer gaat dat snel en 
+kan je zelfs de settings vinden waarin je dingen kan optimaliseren: dat kan het 
+maximaliseren van je winstkansen zijn, maar ook het minimaliseren van de kans dat 
+je failliet gaat. Of een mix van die scenario's.
 
 We zullen in deze module een simpel voorbeeld doorrekenen: Monopoly met twee spelers.
 Omdat we niet veel tijd hebben zullen we dit stap voor stap opbouwen. Voor degene die 
