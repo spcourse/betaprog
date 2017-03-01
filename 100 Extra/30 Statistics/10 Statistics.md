@@ -77,7 +77,7 @@ normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een gra
 al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een breedte van 
 0.5 cm hebben. Hou bij het trekken van de random lengtes bij hoeveel vrouwen een lengte 
 hebben die groter is dan die van de gemiddelde man. Print aan het eind van het programma 
-de fractie van deze vrouwen met 2 decimalen nauwkeurigheid.
+de fractie van deze vrouwen met 3 decimalen nauwkeurigheid.
 
 ## Opdracht 2: hoe representatief is een steekproef
 
@@ -109,7 +109,7 @@ stappenplan:
       groep en bewaar die
   - Herhaal dit voor een groot aantal steekproeven (100.000 bijvoorbeeld)
   - Hou bij in hoeveel steekproeven het gemiddelde meer dan 5 cm afwijkt 
-    van het `echte` gemiddelde (170.6 cm).
+    van het 'echte' gemiddelde (170.6 cm).
     Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm.
               
 Print de fractie in procenten en gebruik 3 decimalen:
@@ -122,12 +122,13 @@ Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor 
 keuzes van de steekproefgrootte. Gebruik hiervoor de histogram methode die we ook in opgave 1 
 gebruikt hebben. Kies zelf een geschikte bin-grootte.
 
-**Conclusie:** Hoe groter de steekproef hoe beter je de 'echte' waarde benadert. Dat klinkt logisch, 
-want het  maakt nogal uit of Maurice de Hond 10 mensen hun politieke voorkeur vraagt of 10.000. Voor 
-elk getal, meting of grafiek die je ziet moet je je altijd afvragen wat de onzekerheid op die 
-schatting is. Een getal zonder foutmarge kan je niet op waarde schatten. Hoe kleiner de 
-fout/onzekerheid, hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet meewegen als 
-je verschillende resultaten naast elkaar legt en een conclusie probeert te trekken.
+**Conclusie:** Hoe groter de steekproef hoe beter het gemiddelde daarvan de 'echte' waarde 
+benadert. Dat klinkt logisch, want het  maakt nogal uit of Maurice de Hond 10 mensen hun 
+politieke voorkeur vraagt of 10000. Voor elk getal, meting of grafiek die je ziet moet je 
+je altijd afvragen wat de onzekerheid op die schatting is. Een getal zonder foutmarge kan 
+je niet op waarde schatten. Hoe kleiner de fout/onzekerheid, hoe belangrijker de meting is 
+en hoe 'zwaarder' je de meting moet meewegen als je verschillende resultaten naast elkaar 
+legt en een conclusie probeert te trekken.
 
 ### [3] Parameters van je model bepalen uit een serie metingen: fitten
 
@@ -163,7 +164,7 @@ gemeten kookpunt (y)            | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1
 onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
 
 
-#### voorbeeld [stap 1]: Model en doel van de exercitie
+#### [voorbeeld stap 1]: Model en doel van de exercitie
 Het kookpunt van alcohol is een natuurconstante en hangt niet af van het groepje studenten dat de 
 meting verricht. In dit geval is het 'model' dat we hebben een vlakke lijn en eigenijk proberen 
 we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming is met 
@@ -171,7 +172,7 @@ de gemeten punten. Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan
 79$$^\circ$$ een betere dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Kortom: wat 
 is het gemiddelde van de hele klas?
 
-#### voorbeeld [stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: de $$\chi^2$$ 
+#### [voorbeeld stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: de $$\chi^2$$ 
 
 Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van 
 de fit beschrijft. We doen dat hier met de zogenaamde $$\chi^2$$-maat: de som van de 
@@ -190,7 +191,7 @@ gewoon een getal. In ons model is het model simpel. Er is meer 1 vrije parameter
 het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = \alpha$$, 
 met $$\alpha$$ een constante.
 
-#### voorbeeld [stap 3]: De beste waarde van de model-parameters vinden
+#### [voorbeeld stap 3]: De beste waarde van de model-parameters vinden
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
 de kleinste $$\chi^2$$ oplevert omdat met die waarde van de parameters de 
@@ -226,7 +227,7 @@ berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
 duidelijk minimum zichtbaar en de waarde van $$\alpha$$ waarvoor de $$\chi^2$$ 
 minimaal is noemen we $$\alpha_{\rm best}=78.2$$.
 
-#### voorbeeld [stap 4]: De onzekerheid op de parameters in je model
+#### [voorbeeld stap 4]: De onzekerheid op de parameters in je model
 
 Elke waarde van je parameters die anders is dat $$\alpha_{\rm best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
@@ -245,7 +246,7 @@ altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout afz
 door te kijken hoe de $$\chi^2$$ verandert als je de parameters respectievelijk kleiner en 
 groter maakt.
 
-#### voorbeeld [stap 5]: de bijbehorende plots
+#### [voorbeeld stap 5]: de bijbehorende plots
 
 ![](FitExampleWebsite.png){: style="width:90%"}
 
