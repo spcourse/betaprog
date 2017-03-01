@@ -111,7 +111,7 @@ Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je ke
 
 ### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (zonder te kopen)
 
-Niet elke positie op het bord correspondeert met een bezitting (straat, station of Nutsbedrijf). De 
+Niet elke positie op het bord correspondeert met een bezitting (straat, station of water/electriciteit). De 
 hoekpunten van het bord zijn niet te koop en ook de Kans en Algemeen fonds kaarten en de belastingen 
 zijn niet te koop. Maak een lijst (lengte 40 waarbij je voor elke positie op het bord laat zien welke 
 waarde aan de plek op het bord verbonden is. De eerste 11 posities zijn dan:
@@ -121,7 +121,7 @@ waarde aan de plek op het bord verbonden is. De eerste 11 posities zijn dan:
 
 Zoek op internet op hoe het Monopoly bord verder in elkaar zit zodat je niet alleen van de eerste 11, 
 maar van alle 40 velden weet voor welk geldbedrag ze te koop zijn. Als de waarde kleiner is dan 1 euro 
-(of gewoon gelijk aan nul) dan is dat een zogenaamd lege straat (niet te koop).
+(of gewoon gelijk aan nul) dan is dat een zogenaamd leeg veld (niet te koop).
 
 Voor elke positie op het bord kan je dan het volgende uitprinten:
 
@@ -141,7 +141,7 @@ mode over het bord te stappen: we kunnen alles kopen, zijn de enige speler in he
 zo lang door tot we alles in ons bezit hebben. De vraag die we in deze opdracht willen beantwoorden is de 
 volgende: "hoe lang (hoeveel worpen) duurt het voor we alle straten in ons bezit hebben?".
 
-Het is dus belangrijk dat we bijhouden hoeveel straten (en welke) we al in ons bezit hebben. Dit kunnen we 
+Het is hierbij cruciaal dat we bijhouden hoeveel straten (en welke) we al in ons bezit hebben. Dit kunnen we 
 doen met behulp van een lijst (weer lengte 40) waarbij je voor elke plek op het bord bijhoudt of hij in het 
 bezit is van de speler. Of niet. Die lijst begint als een lijst met 40 nullen. 
 
@@ -150,7 +150,7 @@ bezit is van de speler. Of niet. Die lijst begint als een lijst met 40 nullen.
 
 Elke keer als je op een nieuwe positie komt kan je nu nagaan:
 
-  - is er op die positie iets te koop: straat, station, electriciteit?
+  - is er op die positie iets te koop: straat, station, water/electriciteit ?
   - zo ja, is het nog 'op de markt'?
    
 Als je bijvoorbeeld na worp 1 op plek 3 komt en whitechapel road (of Brink in de Nederlandse versie) koopt 
