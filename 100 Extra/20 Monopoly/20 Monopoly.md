@@ -205,12 +205,8 @@ format dat aan het begin van de opgave gespecificeerd was:
 Tip: als je een groot aantal potjes simuleert is het handig als het programma laat zien waar 
 hij is in het proces. De gebruiker van het programma vraagt zich anders af: "moet ik nog 1 
 minuut wachten of nog 1001 uur ? Print bijvoorbeeld elke 500 potjes even naar het scherm 
-waar je bent
-
-{: .language-python}
-    if(i_potje%500 == 0): print " potje %d (%d)" % (i_potje, Npotjes)    
+waar je bent en hoeveel potjes het programma in totaal gaat simuleren.
  
-
 <br>
 
 ## Opdracht 2: Realisme toevoegen: effect van startgeld
