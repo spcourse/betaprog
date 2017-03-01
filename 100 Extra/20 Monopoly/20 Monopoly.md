@@ -186,13 +186,12 @@ nodig zou hebben om alle velden in zijn bezit te krijgen. Om deze vraag te beant
 een groot aantal potjes moeten simuleren zodat we daarvan het gemiddeld aantal worpen kunnen bepalen.
 
 Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die, de naam zegt het al, een groot aantal potjes 
-kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen. Pas ook de 
-functie `simuleer_potje_Monopoly()` zodanig aan dat hij als return value het aantal worpen 
-van het potje teruggeeft. Begin met 1 potje en voer dat dan op naar 2, 10 en uiteindelijk 
-naar 1000 (of 10000) als je er zeker van bent dat je programma goed werkt. 
-Hou voor elk potje bij in een lijst hoeveel worpen er nodig waren om alle straten in bezit 
-te krijgen en maak daarvan een grafiek (histogram). Bepaal uiteindelijk ook het gemiddeld 
-aantal worpen dat nodig was om alle straten te verkopen en print het op het scherm in het 
+kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen. Pas ook de functie 
+`simuleer_potje_Monopoly()` zo aan dat hij als return value het aantal worpen van het potje teruggeeft. Begin 
+met 1 potje en voer dat dan op naar 2, 10 en uiteindelijk naar 10000 als je er zeker van bent dat je programma 
+goed werkt. Hou voor elk potje bij (in een lijst) hoeveel worpen er nodig waren om alle straten in bezit te 
+krijgen en maak daarvan een grafiek (histogram) als alle potjes gesimuleerd zijn. Bepaal op dat moment ook het 
+gemiddeld aantal worpen dat nodig was om alle straten in je bezit te krijgen en print het op het scherm in het 
 format dat aan het begin van de opgave gespecificeerd was:
 
 {: .language-python}
