@@ -247,11 +247,9 @@ doet) voor elke 100 euro meer of minder stargeld.
 
 Een paar tipos bij deze opdracht:
 
-   1. Je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag 
-dit ook met de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld aantal 
-worpen van een groot aantal simulaties te doen. 
+   1. Je mag de hoeveelheid startgeld in deze opdracht steeds met de hand aanpassen.
 
-   2. je kan je code testen door de speler een enorme hoeveelheid startgeld mee te geven. Met een
+   2. Je kan je code testen door de speler een enorme hoeveelheid startgeld mee te geven. Met een
       miljoen euro bijvoorbeeld creeer je effectief eenzelfde situatie als in opdracht 1 waarin 
 	  geld geen rol speelde.
 
