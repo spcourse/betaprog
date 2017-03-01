@@ -15,10 +15,10 @@ kan je zelfs de settings vinden waarin je dingen kan optimaliseren: dat kan het
 maximaliseren van je winstkansen zijn, maar ook het minimaliseren van de kans dat 
 je failliet gaat. Of een mix van die scenario's.
 
-We zullen in deze module een simpel voorbeeld doorrekenen: Monopoly met twee spelers.
-Omdat we niet veel tijd hebben zullen we dit stap voor stap opbouwen. Voor degene die 
-de smaak te pakken heeft en nu al droomt van een baan op de Risk analysis van JP Morgan 
-hebben we nog wat suggesties voor extra opgaves gemaakt.
+In deze module gaan we een simpel voorbeeld doorrekenen: Monopoly met twee spelers, 
+waarbij we stap voor stap mee complexiteit toevoegen. Voor degene die de smaak te 
+pakken heeft en nu al droomt van een baan op de Risk analysis van JP Morgan hebben 
+we nog wat suggesties voor extra opgaves gemaakt.
 
 Twee dingen om alvast te weten voor je aan deze opdracht begint:
 
