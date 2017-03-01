@@ -16,8 +16,8 @@ aantal vrouwen geselecteerd van wie de lengte is gemeten. De data, de gemeten ge
 voor elke inkomenscategorie is weergegeven in de grafiek hiernaast. En hier beginnen de problemen.
 Een deel van de onderzoekers vindt dat de data suggereert dat er een duidelijk lineair 
 verband te zien is (blauw) terwijl andere onderzoekers vinden dat er helemaal geen afhankelijkheid 
-is (rood). De geobserveerde lichte afhankelijkheid is gewoon het resultaat van de fluctuaties in de 
-lengte van vrouwen die in de steekproeven mee genomen zijn. 
+is (rood). Die laatste groep zegt dat de geobserveerde lichte afhankelijkheid gewoon het resultaat 
+van de toevallige fluctuaties in de lengte van vrouwen die in de steekproeven meegenomen zijn. 
 
 We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
 conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
