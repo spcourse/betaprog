@@ -249,8 +249,8 @@ Een paar tipos bij deze opdracht:
 
    1. Je mag de hoeveelheid startgeld in deze opdracht steeds met de hand aanpassen.
 
-   2. Je kan je code testen door de speler een enorme hoeveelheid startgeld mee te geven. Met een
-      miljoen euro bijvoorbeeld creeer je effectief eenzelfde situatie als in opdracht 1 waarin 
+   2. Je kan je code testen door de speler een enorme hoeveelheid startgeld mee te geven. Met 1
+      miljoen euro creeer je namelijk effectief eenzelfde situatie als in opdracht 1 waarin 
 	  geld geen rol speelde.
 
 
@@ -272,14 +272,14 @@ kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe file.
 
 Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
 en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle 
-straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer 10.000 potjes om een goede 
+straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer daarom 10000 potjes om een goede 
 schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel 
 heeft op speler 2.
 
 Print het verschil naar het scherm:
 {: .language-python}
 	Monopoly simulator: 2 spelers, 1500 euro startgeld, 10000 potjes
-    Gemiddeld heeft speler 1 X.XX meer straten in bezit na elk potje
+    Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
 
 #### [deelopdracht 3b] nadeel van speler 2 repareren
 
