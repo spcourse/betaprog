@@ -10,8 +10,8 @@ hand van een verzonnen casus een paar van de meest voorkomende technieken bekijk
 ![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
 
 **De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van volwassen 
-vrouwen gecorreleerd is aan het inkomen van hun ouders toen ze op de lagere school zaten. 
-De inkomenscategorieen van ouders lopen van 0(zeer arm) tot 10(zeer rijk) en in elke categorie 
+vrouwen gecorreleerd is met het inkomen van hun ouders toen ze op de lagere school zaten. 
+De inkomenscategorieen van ouders lopen van 0 (zeer arm) tot 10 (zeer rijk) en in elke categorie 
 zijn een willekeurig aantal vrouwen geselecteerd van wie de lengte is gemeten. De data is weergegeven 
 in de grafiek hiernaast. Een deel van de onderzoekers vindt dat de data suggereert dat er een 
 duidelijk lineair verband te zien is terwijl een ander deel van de onderzoekers vindt dat er 
