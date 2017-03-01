@@ -223,7 +223,7 @@ hebt gemaakt en ga verder in deze nieuwe file.
 
 Pas in je nieuwe programma de functie `simuleer_potje_Monopoly()` zo aan dat je elk potje 
 begint met een bepaalde hoeveelheid startgeld en dat je gedurende het spel bijhoudt hoeveel 
-geld je op elk moment hebt. Evalueer nu elke keer dat je op een straat terechtkomt die nog te 
+geld je op elk moment hebt. Evalueer nu ook elke keer dat je op een straat terechtkomt die nog te 
 koop staat of je wel genoeg geld heeft om het te kopen. De verwachting is dat je in een 
 potje nu gemiddeld iets meer worpen nodig hebt om alle straten te kopen dan in opdracht 1 
 waarin geld geen rol speelde.
