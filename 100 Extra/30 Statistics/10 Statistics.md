@@ -15,8 +15,8 @@ van categorie-0 (zeer arm) tot categorie-10 (zeer rijk) en in elke categorie zij
 aantal vrouwen geselecteerd van wie de lengte is gemeten. De data, de gemeten gemiddelde lengte 
 voor elke inkomenscategorie is weergegeven in de grafiek hiernaast. En hier beginnen de problemen.
 Een deel van de onderzoekers vindt dat de data suggereert dat er een duidelijk lineair 
-verband te zien is terwijl een ander deel van de onderzoekers vindt dat er helemaal geen afhankelijkheid 
-is. De geobserveerde lichte afhankelijkheid is gewoon het resultaat van de fluctuaties in de 
+verband te zien is (blauw) terwijl andere onderzoekers vinden dat er helemaal geen afhankelijkheid 
+is (rood). De geobserveerde lichte afhankelijkheid is gewoon het resultaat van de fluctuaties in de 
 lengte van vrouwen die in de steekproeven mee genomen zijn. 
 
 We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
