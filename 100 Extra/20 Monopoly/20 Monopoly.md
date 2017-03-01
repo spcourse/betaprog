@@ -44,7 +44,7 @@ er is geen concurrentie.
 		
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is waarna alle straten 
 zijn verkocht. Schrijf in een bestand `Monopoly_opdracht1.py` een functie 
-`simuleer_groot_aantal_potjes_Monopoly(Npotjes)`. De variabele Npotjes geeft aan hoeveel potjes er 
+`simuleer_groot_aantal_potjes_Monopoly(Npotjes)`. De variabele `Npotjes` geeft aan hoeveel potjes er 
 gesimuleerd moeten worden. In ons geval 10000. Wanneer de functie wordt aangeroepen met 10000 
 potjes moet het volgende worden uitprint: 
 
@@ -59,16 +59,16 @@ Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen t
 
 Het enige nieuwe Python element dat we nodig hebben is een manier om een dobbelsteen te 
 gooien. Een random geheel getal tussen de 1 en de 6 dus. Dat zouden we zelf kunnen 
-'bouwen' met behulp van de random() functie die we eerder hebben leren kennen, maar er 
-is een speciale functie voor in Python, namelijk 'randint()'.
+'bouwen' met behulp van de `random()` functie die we eerder hebben leren kennen, maar er 
+is een speciale functie voor in Python, namelijk `randint()`.
 
 {: .language-python}
 	import random
 	dobbelsteen = random.randint(1,6) 
 	
-Met Monopoly gooi je met twee dobbelstenen. 
+ter volledigheid: met Monopoly gooi je elke beurt met twee dobbelstenen.
 
-Hoewel het niet essentieel is voor de opgave is het wel goed om even te oefenen met het 
+Hoewel het niet essentieel is voor de opgave is het goed om even te oefenen met het 
 gooien van de dobbelstenen. Schrijf een korte functie `oefenen_met_de_dobbelstenen()` die 
 duizend worpen simuleert en voor elke worp steeds twee dobbelstenen gooit. Zorg dat op het 
 scherm voor elke worp het aantal ogen geprint wordt en maak duidelijk aan de gebruiker als 
@@ -92,10 +92,10 @@ nodig. Je kan hem in je programma laten staan, uitcommentarieren of gewoon helem
 
 ### Tussenstap 2: Enkel potje: rondlopen op leeg bord
 
-We beginnen nu met onze functie `simuleer_potje_Monopoly()`. Deze functie zullen we langzaam 
-uitbreiden tot we in tussenstap 4 een 'echt' potje Monopoly zullen simuleren. We beginnen 
-simpel door eerst een rondje te lopen met 1 speler op een Monopolybord en steeds te kijken 
-op welke positie de speler zich bevindt.
+We beginnen nu onze simulatie door een nieuwe functie te definieren: `simuleer_potje_Monopoly()`
+Deze functie zullen we langzaam uitbreiden tot we in tussenstap 4 een 'echt' potje Monopoly zullen 
+simuleren. We beginnen simpel door eerst een rondje te lopen met 1 speler op een Monopolybord en 
+steeds te kijken op welke positie de speler zich bevindt.
 
 Gooi steeds met twee dobbelstenen en hou de plek bij waar de speler staat op het bord. Print 
 dat op het scherm. Hierbij is start positie 0, de gevangenis positie 10 en de Kalverstraat 
@@ -267,7 +267,7 @@ Let op: we gaan nu de code uit opdracht 2 aanpassen. Om te zorgen dat die werken
 gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python bestand aan, `Monopoly_opdracht3.py`, 
 kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe file.
 
-#### deelopdracht 3a) voordeel van speler 1
+#### [deelopdracht 3a] voordeel van speler 1
 
 Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
 en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle 
@@ -280,7 +280,7 @@ Print het verschil naar het scherm:
 	Monopoly simulator: 2 spelers, 1500 euro startgeld, 10000 potjes
     Gemiddeld heeft speler 1 X.XX meer straten in bezit na elk potje
 
-#### deelopdracht 3b) nadeel van speler 2 repareren
+#### [deelopdracht 3b] nadeel van speler 2 repareren
 
 De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' 
 waar je aan kan draaien is dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 
