@@ -179,13 +179,13 @@ nodig had:
 
 We hebben met de functie `simuleer_potje_Monopoly()` die we in tussenstap 1-4 gemaakt hebben nu 
 de mogelijkheid om een enkel potje Monopoly te simuleren. Als je dit een paar keer doet zul je 
-zien dat het aantal worpen dat je nodig hebt sterk varieert omdat je aan het eind van het spel 
-natuurlijk maar net op dat laatste overgebleven vakje terecht moet komen. Het doel van deze 
-opdracht was om uit te zoeken hoeveel worpen de speler *gemiddeld* nodig zou hebben om alle 
-velden in zijn bezit te krijgen. Om deze vraag te beantwoorden zullen we een groot aantal 
-potjes moeten simuleren zodat we daarvan het gemiddeld aantal worpen kunnen bepalen.
+zien dat het aantal worpen dat je nodig hebt om alle straten in je bezit te krijgen sterk varieert 
+omdat je aan het eind van het spel natuurlijk maar net op dat laatste overgebleven vakje terecht 
+moet komen. Het doel van deze opdracht was om uit te zoeken hoeveel worpen de speler *gemiddeld* 
+nodig zou hebben om alle velden in zijn bezit te krijgen. Om deze vraag te beantwoorden zullen we 
+een groot aantal potjes moeten simuleren zodat we daarvan het gemiddeld aantal worpen kunnen bepalen.
 
-Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die een groot aantal potjes 
+Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die, de naam zegt het al, een groot aantal potjes 
 kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen. Pas ook de 
 functie `simuleer_potje_Monopoly()` zodanig aan dat hij als return value het aantal worpen 
 van het potje teruggeeft. Begin met 1 potje en voer dat dan op naar 2, 10 en uiteindelijk 
