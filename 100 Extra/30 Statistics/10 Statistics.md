@@ -26,6 +26,10 @@ Hoewel het niet de bedoeling is van deze module om een volledig statistiek colle
 zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
 te introduceren in de voorbereiding op een opdracht.
  
+## Opdracht 1: verdeling lengtes van alle vrouwen.
+
+In de eerste opdracht zullen we in detail gaan bekijken naar de lengte van vrouwen in een populatie.
+
 #### [statistiek info voor opdracht 1]  de normaalverdeling 
 
 In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
@@ -64,7 +68,7 @@ syntax:
 Als je dit heel vaak herhaalt zullen de waardes van $$x$$ verdeeld zijn volgens de rode grafiek 
 hierboven.
 
-## Opdracht 1: verdeling lengtes van alle vrouwen.
+#### Opdracht 1: verdeling lengtes van alle vrouwen.
 
 Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt uit de 
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
