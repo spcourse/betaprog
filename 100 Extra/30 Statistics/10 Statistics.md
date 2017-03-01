@@ -130,7 +130,7 @@ je niet op waarde schatten. Hoe kleiner de fout/onzekerheid, hoe belangrijker de
 en hoe 'zwaarder' je de meting moet meewegen als je verschillende resultaten naast elkaar 
 legt en een conclusie probeert te trekken.
 
-### [3] Parameters van je model bepalen uit een serie metingen: fitten
+## Parameters van je model bepalen uit een serie metingen: fitten
 
 Om de onderliggende fenomenen van verschijnselen bloot te leggen en mogelijke verbanden te 
 achterhalen verzamelen wetenschappers data. Dat kan de massa van het Higgs boson zijn, de 
@@ -251,7 +251,7 @@ groter maakt.
 ![](FitExampleWebsite.png){: style="width:90%"}
 
 
-## opdracht 3: Gemiddelde lengte vrouwen in Denemarken
+## Opdracht 3: gemiddelde lengte vrouwen in Denemarken
 
 In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen 
 gecorreleerd is het het inkomens van hun ouders toen ze een peuter waren.
