@@ -238,11 +238,12 @@ hoeveelheid startgeld het aantal worpen dat je nodig hebt om alle straten te kop
 print dat als volgt op het scherm:
 
 {: .language-python}
-	Monopoly simulator: 1 speler, 1500 euro startgeld, 25000 potjes
+	Monopoly simulator: 1 speler, 1500 euro startgeld, 10000 potjes
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
     
-Gebruik de waardes uit de grafiek om een inschatting te maken hoeveel meer 'worpen' er gedaan 
-moeten worden voor elke 100 euro meer of minder startgeld.
+Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 euro startgeld 
+om een idee te krijgen wat het effect is (aantal worpen dat het spel er korter/langer over 
+doet) voor elke 100 euro meer of minder stargeld.
 
 Tip: Je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maar je mag 
 dit ook met de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld aantal 
