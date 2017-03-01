@@ -111,10 +111,10 @@ Je zou hiervoor bijvoorbeeld de modulo (`%`) operator kunnen gebruiken die je ke
 
 ### Tussenstap 3: Enkel potje: rondlopen op het 'echte' bord (zonder te kopen)
 
-Niet elke positie op het bord correspondeert met een straat. Niet alleen de hoekpunten natuurlijk, maar 
-ook de Kans en Algemeen fonds kaarten en de belastingen zijn niet te koop. Maak een lijst (lengte 40
-waarbij je voor elke positie op het bord laat zien welke waarde aan de plek op het bord verbonden is. 
-De eerste 11 posities zijn dan:
+Niet elke positie op het bord correspondeert met een bezitting (straat, station of Nutsbedrijf). De 
+hoekpunten van het bord zijn niet te koop en ook de Kans en Algemeen fonds kaarten en de belastingen 
+zijn niet te koop. Maak een lijst (lengte 40 waarbij je voor elke positie op het bord laat zien welke 
+waarde aan de plek op het bord verbonden is. De eerste 11 posities zijn dan:
 
 {: .language-python}
     bord_waardes = [0, 60, 0, 60, 0, 200, 100, 0, 100, 100, 0, ......]
