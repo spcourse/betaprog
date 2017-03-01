@@ -251,6 +251,12 @@ groter maakt.
 ![](FitExampleWebsite.png){: style="width:90%"}
 
 
+Het voorbeeld dat we hier hebben uitgewerkt is het zogenaamd 'fitten' van een simpel 
+model (met 1 parameter) aan de data. Ook als we een ingewikkelder model hebben, bijvoorbeeld 
+een lineaire functie ($$f(x)=ax+b$$, 2 parameters), dan vinden we ook de beste waarde 
+van de variabelen door ze te varieren en te kijken voor welke waarde van $$a$$ en $$b$$ 
+de $$\chi^2$$ minimaal is.
+
 ## Opdracht 3: gemiddelde lengte vrouwen in Denemarken
 
 In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen 
