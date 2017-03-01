@@ -97,9 +97,8 @@ Deze functie zullen we langzaam uitbreiden tot we in tussenstap 4 een 'echt' pot
 simuleren. We beginnen simpel door eerst een rondje te lopen met 1 speler op een Monopolybord en 
 steeds te kijken op welke positie de speler zich bevindt.
 
-Gooi steeds met twee dobbelstenen en hou de plek bij waar de speler staat op het bord. Print 
-dat op het scherm. Hierbij is start positie 0, de gevangenis positie 10 en de Kalverstraat 
-positie 39. 
+Gooi steeds met twee dobbelstenen en hou bij op welk veld de speler staat. Print dat op het scherm. 
+Hierbij is start positie 0, de gevangenis positie 10 en de Kalverstraat positie 39. 
 
 {: .language-python}
 	Na worp 1: positie 6
