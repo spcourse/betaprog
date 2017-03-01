@@ -26,7 +26,7 @@ Hoewel het niet de bedoeling is van deze module om een volledig statistiek colle
 zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
 te introduceren in de voorbereiding op een opdracht.
  
-## Opdracht 1: verdeling lengtes van alle vrouwen
+## Opdracht 1: Fractie vrouwen langer dan de gemiddelde man
 
 In de eerste opdracht zullen we in detail gaan bekijken naar het percentage vrouwen in Nederland dat 
 erg lang is. Voor deze opdracht is het concept normaalverdeling en het manipuleren daarvan in Python 
@@ -45,7 +45,7 @@ $$ f(x,|\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} exp^{-\frac{1}{2}\left( \frac{
 
 Deze verdeling, ook wel de Gaussische distributie genoemd, wordt gekarakteriseerd door maar 
 twee parameters: het gemiddelde ($$\mu$$) en de maat voor de spreiding ($$\sigma$$). Er geldt 
-dat ongeveer 68%(95%) van de waarden in het gebied $$\mu \pm 1\sigma$$ ($$\mu \pm 2\sigma$$) liggen.
+dat ongeveer 68%(95%) van de waarden in het gebied $$\mu \pm 1\sigma$$ ($$\mu \pm 2\sigma$$) ligt.
 
 De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
 normaalverdeling met een gemiddelde $$\mu$$ = 184.0 (170.6) cm en breedte 
@@ -76,25 +76,26 @@ Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
 al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een breedte van 
 0.5 cm hebben. Hou bij het trekken van de random lengtes bij hoeveel vrouwen een lengte 
-hebben die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. 
-Print aan het eind van het programma de fractie van deze vrouwen met 3 decimalen nauwkeurigheid.
+hebben die groter is dan die van de gemiddelde man. Print aan het eind van het programma 
+de fractie van deze vrouwen met 2 decimalen nauwkeurigheid.
 
-### [2] Steekproeven (metingen) en nauwkeurigheid
+## Opdracht 2: hoe representatief is een steekproef
 
 In de echte wereld kunnen we vaak helaas niet alles weten. We kunnen niet van elke vrouw in Nederland 
 precies achterhalen hoe lang ze is, net zoals Maurice de Hond niet van elke Nederlander weet 
 op welke politieke partij hij of zij zal stemmen. We kunnen wel met behulp van steekproeven 
 proberen een idee te krijgen van de hele populatie: we bepalen de lengtes van een groep 
 vrouwen of de politieke voorkeuren van een groep Nederlanders en maken daarmee een schatting 
-van de eigenschappen van de volledige populatie.
+van de eigenschappen van de volledige populatie. We gaan in deze opdracht onderzoeken hoeveel 
+nauwkeuriger de schatting van het 'echte' gemiddelde is bij een toenemend aantal mensen in de 
+steekproef.
 
-Hoe groter de steekproef is, hoe nauwkeuriger de schatting is en hoe kleiner 
-de onzekerheid op de schatting voor de volledige populatie. We gaan dit onderzoeken door met 
-behulp van de computer nep-steekproeven te nemen uit de oorspronkelijke distributie en te 
-kijken hoe goed de gemiddelde lengte van een (steeds grotere) groep representatief is voor 
-die van de hele populatie. 
+Hoe groter de steekproef is, hoe nauwkeuriger de schatting is en hoe kleiner de onzekerheid 
+op de schatting voor de volledige populatie. We gaan dit onderzoeken door met behulp van de 
+computer nep-steekproeven te nemen uit de oorspronkelijke distributie en te kijken hoe goed 
+de gemiddelde lengte van een (steeds grotere) groep representatief is voor die van de hele populatie. 
 
-## Opdracht 2: impact van meer metingen op de nauwkeurigheid
+#### Opdracht 2: impact van meer metingen op de nauwkeurigheid
 
 Schrijf een programma `Statistiek2.py` dat uitrekent welke fractie van groepen vrouwen 
 (steekproeven) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
