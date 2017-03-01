@@ -268,6 +268,11 @@ straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer 50.000 p
 schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel 
 heeft op speler 2.
 
+Let op: we gaan nu een aanpassing aan de bestaande code maken uit Opdracht 2. Om te zorgen dat de code 
+uit opdracht 2 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python 
+bestand aan, Monopoly_opdracht3.py, kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe 
+file.
+
 De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' 
 waar je aan kan draaien is dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 
 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra 
