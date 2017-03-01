@@ -284,14 +284,14 @@ Print het verschil naar het scherm:
 #### [deelopdracht 3b] nadeel van speler 2 repareren
 
 De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' 
-waar je aan kan draaien is dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 
+waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 
 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra 
 startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel 
-straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn ? Geef speler 2 
-steeds wat meer geld (kies een paar punten met de hand) en bereken steeds het verschil. Als je een 
-paar simulaties hebt gedraaid kan je vervolgens de bovenstaande grafiek reproduceren. Je kan daarmee 
-een goede afschatting kan maken van de hoeveelheid extra geld dat we speler 2 moeten geven aan het 
-begin van het spel om het evenwicht te herstellen. 
+straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. Geef speler 2 
+steeds wat meer geld (kies een paar waardes van het startgeld en voer dat steeds handmatig in) en 
+bereken steeds het verschil. Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee 
+je bovenstaande grafiek kan reproduceren en een goede schatting kan maken van de hoeveelheid extra geld 
+dat we speler 2 moeten geven aan het begin van het spel om het evenwicht te herstellen. 
 
 Reproduceer de grafiek en geef zowel in de grafiek als geprint naar het scherm aan hoeveel extra geld 
 speler 2 moet krijgen om het evenwicht te herstellen. Het antwoord moet op 50 euro nauwkeurig zijn.
