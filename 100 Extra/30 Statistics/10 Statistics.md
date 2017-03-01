@@ -21,7 +21,7 @@ van de fluctuaties in de lengte van vrouwen die in de steekproeven mee genomen z
 We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
 conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
  
-## [1] De normaalverdeling in de natuur 
+### [1] De normaalverdeling in de natuur 
 
 In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
 dieren in een populatie om er maar een paar te noemen. De verdeling die de relatieve frequentie 
@@ -57,7 +57,7 @@ syntax:
 Als je dit heel vaak herhaalt zullen de waardes van $$x$$ verdeeld zijn volgens de rode grafiek 
 hierboven.
 
-### Opdracht 1: verdeling lengtes van alle vrouwen.
+## Opdracht 1: verdeling lengtes van alle vrouwen.
 
 Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt uit de 
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
@@ -66,7 +66,7 @@ al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een bree
 hebben die meer dan 2 sigma boven het gemiddelde liggen en dus langer zijn dan 183.6 cm. 
 Print aan het eind van het programma de fractie van deze vrouwen met 3 decimalen nauwkeurigheid.
 
-## [2] Steekproeven (metingen) en nauwkeurigheid
+### [2] Steekproeven (metingen) en nauwkeurigheid
 
 In de echte wereld kunnen we vaak helaas niet alles weten. We kunnen niet van elke vrouw in Nederland 
 precies achterhalen hoe lang ze is, net zoals Maurice de Hond niet van elke Nederlander weet 
@@ -81,7 +81,7 @@ behulp van de computer nep-steekproeven te nemen uit de oorspronkelijke distribu
 kijken hoe goed de gemiddelde lengte van een (steeds grotere) groep representatief is voor 
 die van de hele populatie. 
 
-### Opdracht 2: impact van meer metingen op de nauwkeurigheid
+## Opdracht 2: impact van meer metingen op de nauwkeurigheid
 
 Schrijf een programma `Statistiek2.py` dat uitrekent welke fractie van groepen vrouwen 
 (steekproeven) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
@@ -115,7 +115,7 @@ schatting is. Een getal zonder foutmarge kan je niet op waarde schatten. Hoe kle
 fout/onzekerheid, hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet meewegen als 
 je verschillende resultaten naast elkaar legt en een conclusie probeert te trekken.
 
-## [3] Parameters van je model bepalen uit een serie metingen: fitten
+### [3] Parameters van je model bepalen uit een serie metingen: fitten
 
 Om de onderliggende fenomenen van verschijnselen bloot te leggen en mogelijke verbanden te 
 achterhalen verzamelen wetenschappers data. Dat kan de massa van het Higgs boson zijn, de 
@@ -147,8 +147,6 @@ is de volgende en de grafiek met de waardes staat weergegeven in de grafiek onde
 groepnummer (x)                 |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
 gemeten kookpunt (y)            | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
 onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
-
-
 
 
 #### voorbeeld [stap 1]: Model en doel van de exercitie
@@ -238,7 +236,7 @@ groter maakt.
 ![](FitExampleWebsite.png){: style="width:90%"}
 
 
-### opdracht 3: Gemiddelde lengte vrouwen in Denemarken
+## opdracht 3: Gemiddelde lengte vrouwen in Denemarken
 
 In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen 
 gecorreleerd is het het inkomens van hun ouders toen ze een peuter waren.
@@ -266,7 +264,7 @@ Print je resultaat, met 1 decimaal, op de volgende manier naar het scherm:
     De fit (vlakke lijn) geeft een gemiddelde lengte van xxx.x cm
 
 
-## [4] Een nieuwe hypothese: fitten met twee vrije parameters (lineair)
+### [4] Een nieuwe hypothese: fitten met twee vrije parameters (lineair)
 
 Een vlakke lijn fitten is alleen toepasselijk als er geen afhankelijkheid is tussen de variabelen. 
 In de meeste gevallen is dat wel het geval: hoogte zeeniveau als functie van de tijd (sinus), aantal 
@@ -335,7 +333,7 @@ en plot zowel de data als beide functies op het scherm. Gebruik als voorbeeld de
 bovenaan de pagina, maar zorg dat de waardes van $$a$$, $$b$$ en $$c$$ netjes op het 
 scherm verschijnen. 
 
-## [5] Hypothese testen
+### [5] Hypothese testen
 
 Een deel van de onderzoekers vindt dat de data suggereert dat er een lineair verband te 
 zien is in de data terwijl een ander deel vindt dat er geen afhankelijkheid is en dat de 
@@ -347,7 +345,7 @@ een serie steekproeven (van deze grootte in elke categorie) een waarde van de ri
 geeft die net zo groot is als in de data?"** Deze fractie kom je vaak tegen in de literatuur 
 en wordt ook wel de p-waarde genoemd.
 
-### opdracht 5: Simuleer random data-sets en bereken de p-waarde
+## opdracht 5: Simuleer random data-sets en bereken de p-waarde
 
 Schrijf een programma `Statistiek5.py()` waarin je de zeldzaamheid van de geobserveerde 
 richtingscoefficient bepaalt, de zogenaamde p-waarde.
