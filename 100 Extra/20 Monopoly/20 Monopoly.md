@@ -213,7 +213,7 @@ Y potjes aan het simuleren bent.
 
 In een officieel potje Monopoly krijg je 1500 euro startgeld en verdient je 200 euro elke   
 keer dat je START passeert. Zo'n eindige hoeveelheid startgeld heeft invloed op de snelheid 
-waarmee je nieuwe straten kan kopen en in deze opgave gaan uitzoeken welk effect dit precies 
+waarmee je nieuwe straten kan kopen. In deze opdracht zoeken we uit welk effect dit precies 
 heeft. 
 
 Let op: we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1. Om te zorgen dat 
