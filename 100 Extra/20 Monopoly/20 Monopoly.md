@@ -254,6 +254,8 @@ Tip: Je mag de hoeveelheid startgeld in deze opdracht automatisch aanpassen, maa
 dit ook met de hand doen door steeds een nieuwe waarde te kiezen en het gemiddeld aantal 
 worpen van een groot aantal simulaties te doen. 
 
+<br>
+	
 ## Opdracht 3: Realisme toevoegen: twee spelers
 
 In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om eerst 
@@ -262,16 +264,16 @@ we in het spel dit nadeel voor speler 2 kunnen herstellen.
  
 ![](Balans.png){:.inline}{: style="width:35%"}
  
+Let op: we gaan nu de code uit opdracht 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft 
+gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python bestand aan, `Monopoly_opdracht3.py`, 
+kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe file.
+
 Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
 en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle 
 straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer 50.000 potjes om een goede 
 schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel 
 heeft op speler 2.
 
-Let op: we gaan nu een aanpassing aan de bestaande code maken uit Opdracht 2. Om te zorgen dat de code 
-uit opdracht 2 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python 
-bestand aan, Monopoly_opdracht3.py, kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe 
-file.
 
 De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' 
 waar je aan kan draaien is dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 
