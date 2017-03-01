@@ -276,7 +276,7 @@ heeft op speler 2.
 
 Print het verschil naar het scherm:
 {: .language-python}
-	Monopoly simulator: 2 speler2, 1500 euro startgeld, 10000 potjes
+	Monopoly simulator: 2 spelers, 1500 euro startgeld, 10000 potjes
     Gemiddeld heeft speler 1 X.XX meer straten in bezit na elk potje
 
 #### deelopdracht 3b) nadeel van speler 2 repareren
@@ -286,12 +286,18 @@ waar je aan kan draaien is dit spel is de hoeveelheid startgeld die de spelers k
 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra 
 startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel 
 straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn ? Geef speler 2 
-steeds wat meer geld (kies een paar punten) en bereken steeds het verschil. Als je een paar puten hebt 
-kan je een grafiek zoals hierboven waardoor je een goede afschatting kan maken van de hoeveelheid geld 
-dat het evenwicht hersteld. 
+steeds wat meer geld (kies een paar punten met de hand) en bereken steeds het verschil. Als je een 
+paar simulaties hebt gedraaid kan je vervolgens de bovenstaande grafiek reproduceren. Je kan daarmee 
+een goede afschatting kan maken van de hoeveelheid extra geld dat we speler 2 moeten geven aan het 
+begin van het spel om het evenwicht te herstellen. 
 
 Reproduceer de grafiek en geef zowel in de grafiek als geprint naar het scherm aan hoeveel extra geld 
 speler 2 moet krijgen om het evenwicht te herstellen. Het antwoord moet op 50 euro nauwkeurig zijn.
+
+{: .language-python}
+	Monopoly simulator: 2 spelers
+    Als we speler 2 XXX euro meer startgeld meegeven hebben beide spelers gemiddeld evenveel straten in bezit
+
 
 ## Samenvatting
 
