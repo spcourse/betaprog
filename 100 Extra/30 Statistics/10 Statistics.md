@@ -26,7 +26,7 @@ Hoewel het niet de bedoeling is van deze module om een volledig statistiek colle
 zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
 te introduceren in de voorbereiding op een opdracht.
  
-### [statistiek opdracht 1] De normaalverdeling in de natuur 
+#### [statistiek opdracht 1]  de normaalverdeling 
 
 In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
 dieren in een populatie om er maar een paar te noemen. De verdeling die de relatieve frequentie 
@@ -46,6 +46,8 @@ normaalverdeling met een gemiddelde $$\mu$$ = 184.0 (170.6) cm en breedte
 $$\sigma$$ = 7.0 (6.5) cm. De (genormeerde) grafieken van de twee verdelingen staan 
 in grafiek hiernaast. Dit betekent dat 34% van de mannen langer is dan 191 cm en dan 
 2.5% van de vrouwen kleiner is dan 157.6 cm.
+
+<br>
 
 ### [Python opdracht 1] trekken van random getallen uit een normaalverdeling 
 
