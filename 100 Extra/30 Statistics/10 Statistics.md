@@ -221,7 +221,7 @@ $$
    \left( \frac{(78.9-78.0)}{0.5} \right)^2+
    \left( \frac{(77.5-78.0)}{1.0} \right)^2}\\
    &~& 
-   \tiny{+
+   \tiny{
   +\left( \frac{(79.7-78.0)}{1.0} \right)^2+
    \left( \frac{(78.1-78.0)}{0.5} \right)^2+
    \left( \frac{(79.0-78.0)}{0.5} \right)^2+
@@ -234,12 +234,12 @@ $$
 
 Je kan nu verschillende waardes van $$\alpha$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
-duidelijk minimum zichtbaar en de waarde van $$\alpha$$ waarvoor de $$\chi^2$$ 
-minimaal is noemen we $$\T_0_{\rm best}=78.2$$.
+duidelijk minimum zichtbaar en de waarde van $$T_0$$ waarvoor de $$\chi^2$$ 
+minimaal is noemen we $$T_0_{\rm best}=78.2$$.
 
 #### [voorbeeld stap 4]: De onzekerheid op de parameters in je model
 
-Elke waarde van je parameters die anders is dat $$\alpha_{\rm best}$$ zal de waarde
+Elke waarde van je parameters die anders is dat $$T_0_{\rm best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
 met de data betekent). Het verschil tussen de waarde van de $$\alpha$$ waarbij
 de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{\rm best}$$ noemen we de
