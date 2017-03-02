@@ -122,7 +122,7 @@ Print de percentages op het scherm en gebruik 2 decimalen:
     Fractie afwijkende steekproeven voor N =  10: x.xx procent 
     Fractie afwijkende steekproeven voor N = 100: x.xx procent 
 
-Extra: probeer de user te helpen door alles netje suitgelijnd onder elkaar op het scherm te krijgen
+Extra: probeer de user te helpen door de getallen netjes uitgelijnd onder elkaar op het scherm te krijgen
 
 Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor de verschillende 
 keuzes van de steekproefgrootte. Gebruik hiervoor de histogram methode die we ook in opgave 1 
@@ -136,7 +136,7 @@ hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet meewegen als j
 resultaten naast elkaar legt en een conclusie probeert te trekken. Een schatting zonder een 
 foutmarge zegt dus niet zoveel.
 
-## Parameters van je model bepalen uit een serie metingen: fitten
+## Fitten: wat zijn de parameters in je model die het best de data beschrijven
 
 Om de onderliggende fenomenen van verschijnselen bloot te leggen en mogelijke verbanden te 
 achterhalen verzamelen wetenschappers data. Dat kan de massa van het Higgs boson zijn, de 
