@@ -388,8 +388,8 @@ afhankelijkheid is.
 
 Volg om de vraag te beantwoorden de volgende strategie:
 
-   1. Simuleer een random data-set uit een vlakke verdeling.
-      Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
+   1. Simuleer een data-set (uitgaande dat f(x) = C, met C de waarde uit opdracht 3)
+        a. Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
       de waarde heeft die je bij opdracht 3 (of 4) hebt gevonden. Gebruik hiervoor de 
       voor die geldende onzekerheid als input voor de breedte in de Python functie.      
    2. Fit een lineaire functie en bepaal de richtingscoefficient (a in f(x) = ax+b).
@@ -405,7 +405,7 @@ Volg om de vraag te beantwoorden de volgende strategie:
 
 In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 procent we nog van 
 'toeval' spreken. Is de p-waarde groter dan 5% dan zeggen we dat de geobserveerde trend niet goed 
-te verklaren valt met ene vlakke hypothese en dat we bewijs hebben gevonden voor een verband.
+te verklaren valt met een vlakke hypothese en dat we bewijs hebben gevonden voor een verband.
 
 *Let op:* Een gevonden verband is nog geen causaal verband. Stel dat er een verband is gevonden 
 (en hou altijd in het achterhoofd dat het geobserveerde effect alsnog toeval kan zijn), wat zou 
