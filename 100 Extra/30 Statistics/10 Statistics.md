@@ -297,29 +297,24 @@ Print je resultaat, met 1 decimaal precisie, op de volgende manier naar het sche
 
 
 
-## opdracht 4: Een iets complexer model: f(x) = ax+b en fits in Python zelf 
-
-Een vlakke lijn fitten is alleen toepasselijk als er geen afhankelijkheid is tussen de variabelen. 
-In de meeste gevallen is dat wel het geval: hoogte zeeniveau als functie van de tijd (sinus), aantal 
-vervallen van een radioactief element (exponent) of de snelheid van planeten als functie van hun afstand 
-tot de zon (wortel). Ook in die gevallen volgen we hetzelfde procede: varieer de parameters tot de 
-$$\chi^2$$ minimaal is. Het fitten van een model aan metingen is een standaard procedure die je als 
-onderzoeker vaak tegen zult komen. Hoewel we in deze cursus deze functionaliteit en alle bijbehorende 
-details niet verder zullen gebruiken door gebrek aan tijd, willen we hier toch een voorbeeld geven waarin 
-je ziet hoe dat in de praktijk gaat.
+## Opdracht 4: Een iets complexer model: f(x) = ax+b en fits in Python zelf 
 
 Iemand in de onderzoeksgroep heeft geopperd dat er welleens een (lineair) verband zou kunnen zijn tussen 
 de lengte van mensen en het inkomen van hun ouders. Dat zou verschillende oorzaken kunnen hebben. Dat is 
 voor later. De eerste stap in het onderzoek is om eerst te bekijken of er uberhaupt een verband is. We 
 gaan proberen een verband te vinden in de data.
 
-Het fitten van een model aan de data is een essentieel element in het doen van de wetenschap waarin je 
-verschillende hypotheses wilt testen en de onderliggende dynamica bloot wilt leggen. Net als in bijna 
-elke programmeertaal zijn er bibliotheken vol functies die je daarmee kunnen helpen. Het implementeren 
-van een fit in een model met meerdere (gecorreleerde) parameters wordt al snel erg complex en kost 
-enorm veel rekenkracht tenzij je het slim aanpakt. Nu we in opdracht 3 zelf een eerste voorbeeld zelf 
-hebben doorgerekend en het idee begrijpen zullen we in de rest van de opgave de standaard fit-functies 
-van Python zelf gebruiken.
+Een vlakke lijn fitten is alleen toepasselijk als er geen afhankelijkheid is tussen de variabelen. In de meeste 
+gevallen is dat wel het geval: hoogte zeeniveau als functie van de tijd (sinus), aantal vervallen van een radioactief 
+element (exponentieel) of de snelheid van planeten als functie van hun afstand tot de zon (omgekeerd evenredig met 
+de wortel van de afstand tot de zon). Ook in die gevallen volgen we hetzelfde procede: varieer de parameters tot de 
+$$\chi^2$$ minimaal is. Het fitten van een model aan metingen is een standaard procedure die je als onderzoeker vaak 
+tegen zult komen als je verschillende hypotheses wilt testen of de onderliggende dynamica bloot wilt leggen. Het 
+implementeren van een fit in een model met meerdere (gecorreleerde) parameters wordt al snel erg complex en kost 
+enorm veel rekenkracht tenzij je het slim aanpakt. Net als in bijna elke programmeertaal zijn er bibliotheken vol 
+functies in Python die je daarmee kunnen helpen. Hoewel we in deze cursus deze functionaliteit en alle bijbehorende 
+details niet verder zullen gebruiken door gebrek aan tijd, willen we hier toch een voorbeeld geven waarin je ziet hoe 
+dat in de praktijk gaat.
 
 #### Fitten in Python: rechte lijn (1 vrijheidsgraad)
 
