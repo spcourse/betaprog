@@ -412,13 +412,12 @@ Volg om de vraag te beantwoorden de volgende strategie:
    4. Maak een grafiek (histogram, zie hieronder) van alle richtingscoefficenten en geef duidelijk 
       aan wat de gevonden waarde is in de data en de bijbehorende p-waarde. 
 	  
-![](ExamplePvalue.png){: style="width:60%"}
-
+      ![](ExamplePvalue.png){: style="width:60%"}
 
    5. Print de p-waarde aan het eind van het programma ook op het scherm: in procenten, met 2 decimalen.
     
       {: .language-python}
-     	De p-value voor de alternatieve hypothese was: x.xx
+     	De p-waarde voor de alternatieve hypothese = x.xx
 
 
 In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 procent we nog van 
