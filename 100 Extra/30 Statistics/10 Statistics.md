@@ -398,8 +398,8 @@ Volg om de vraag te beantwoorden de volgende strategie:
 		 de onzekerheid op de gemiddelde lengte in die in komenscategorie in de oorspronkelijke data-set. 
 		 Dat is dus bijvoorbeeld 4 cm in inkomenscategorie 1.
 		
-	   * Geef als fout op de random gekozen gemiddelde lengte in elke inkomenscategorie dezelfde 
-	     fout als in de oorspronkelijke data. Dat is dus bijvoorbeeld 2 cm in inkomenscategorie 5.
+	   * Ken als onzekerheid op de random gekozen gemiddelde lengte in elke inkomenscategorie dezelfde 
+	     fout toe als in de oorspronkelijke data. Dat is dus bijvoorbeeld 2 cm in inkomenscategorie 5.
 	   
    2. Fit een functie van de vorm f(x) = ax+b en bepaal de richtingscoefficient (a).
 
