@@ -206,7 +206,7 @@ Deze uitdrukking ziet er ingewikkelder uit:
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
 de kleinste $$\chi^2$$ oplevert omdat met die waarde van de parameters de 
 meetpunten het dichtst bij het model in de buurt liggen. Met behulp van de computer 
-gaan we verschillende waardes van $$\alpha$$ proberen en voor elk de 
+gaan we verschillende waardes van $$T_0$$ proberen en voor elk de 
 $$\chi^2$$ uitrekenen.
  
 Als we bijvoorbeeld als hypothese $$T_0=78.0$$ nemen dan hoort daar de 
@@ -251,7 +251,7 @@ door de hele groep  studenten samen wordt gegeven door:
 
    Kookpunt alcohol = $$78.2 \pm 0.2 ^\circ C$$
    
-**Let op:** Hoewel we hier aannemen dat de fout in $$\alpha$$ symmetrisch is hoeft dat niet
+**Let op:** Hoewel we hier aannemen dat de fout in $$T_0$$ symmetrisch is hoeft dat niet
 altijd het geval te zijn. Evalueer dus altijd de negatieve en positieve fout afzonderlijk 
 door te kijken hoe de $$\chi^2$$ verandert als je de parameters respectievelijk kleiner en 
 groter maakt.
@@ -262,10 +262,10 @@ groter maakt.
 
 
 Het voorbeeld dat we hier hebben uitgewerkt is het zogenaamd 'fitten' van een simpel 
-model (met 1 parameter) aan de data. Ook als we een ingewikkelder model hebben, bijvoorbeeld 
-een lineaire functie ($$f(x)=ax+b$$, 2 parameters), dan vinden we ook de beste waarde 
-van de variabelen door ze te varieren en te kijken voor welke waarde van $$a$$ en $$b$$ 
-de $$\chi^2$$ minimaal is.
+model met 1 parameter aan de data. Ook als we een ingewikkelder model hebben, bijvoorbeeld 
+een eerstegraads polynoom, $$f(x)=ax+b$$, dan vinden we ook de beste waarde van de twee 
+parameters door $$a$$ en $$b$$ te varieren en te kijken voor welke waarden de $$\chi^2$$ 
+minimaal is.
 
 ## Opdracht 3: gemiddelde lengte vrouwen in Denemarken
 
