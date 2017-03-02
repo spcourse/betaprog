@@ -29,8 +29,8 @@ in de voorbereiding op een opdracht.
 ## Opdracht 1: percentage vrouwen dat langer is dan de gemiddelde man
 
 In de eerste opdracht zullen we de vraag beantwoorden welk percentage van de vrouwen in Nederland langer 
-is dat de gemiddelde lengte van een man. Voor deze opdracht is het concept normaalverdeling en het manipuleren 
-daarvan in Python van cruciaal belang.
+is dan de gemiddelde man. Voor deze opdracht is het concept normaalverdeling en het manipuleren 
+daarvan in Python erg belangrijk.
 
 #### statistiek info voor opdracht 1:  de normaalverdeling 
 
