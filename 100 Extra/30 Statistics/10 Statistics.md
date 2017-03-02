@@ -269,23 +269,19 @@ minimaal is.
 
 ## Opdracht 3: gemiddelde lengte vrouwen in Denemarken
 
-In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen 
-gecorreleerd is het het inkomens van hun ouders toen ze een peuter waren.
-171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176
+In Denemarken is een onderzoeksgroep dus aan het onderzoeken of de lengte van vrouwen gecorreleerd is met het 
+inkomens van hun ouders. Er is gekozen voor 10 inkomenscategorieen en hoewel er geprobeerd is zoveel mogelijk 
+gelijke aantallen vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders in de 
+extremen van de inkomstengroepen (erg rijk en erg arm) helaas beperkt. Dit is duidelijk door de grotere fout 
+op de schatting van de gemiddelde lengte in die groepen.
 
 Categorie (x)        |  1 (arm)   |  2    |  3    |  4    |  5    |  6    |  7    |  8    |  9    | 10 (rijk)
 Gem. lengte (y)      | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
 Fout ($$\Delta y$$)  |  4    |  4    |  2    |  2    |  2    |  2    |  2    |  2    |  4    |  4
 
-Er is gekozen voor 10 inkomenscategorieen en hoewel er geprobeerd is zoveel mogelijk gelijke aantallen 
-vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders in de extremen 
-van de inkomsten van de ouders (erg rijk en erg arm) helaas beperkt. Dit is duidelijk door de 
-grotere fout op de schatting van de gemiddelde lengte.
-
 Schrijf een programma `statistiek_opdracht3.py()` waarin je het gemiddelde vindt van de lengte van vrouwen 
 in Denemarken door een fit te maken aan de hierboven gegeven data met de functie $$f(x) = C$$. Je neemt dus 
 aan in deze opgave dat er geen correlatie is tussen het inkomen van de ouders en de lengte van hun dochters. 
-
 Volg hierbij de stappen in het voorbeeld over het meten van het kookpunt van alcohol zoals hierboven is besproken. 
 Zorg dat je programma de data (met fouten) op het scherm weergeeft en ook de beste waarde van de fit die je 
 gevonden hebt. Dus net zoals de linkerplot in het voorbeeld hierboven. Gebruik voor het plotten van de data met 
@@ -294,7 +290,6 @@ fouten de Python functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet op h
 Print je resultaat, met 1 decimaal precisie, op de volgende manier naar het scherm:
 {: .language-python}
     De fit (vlakke lijn) geeft een gemiddelde lengte van xxx.x cm
-
 
 
 ## Opdracht 4: Een iets complexer model: f(x) = ax+b en fits in Python zelf 
