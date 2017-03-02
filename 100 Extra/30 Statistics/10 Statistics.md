@@ -195,10 +195,12 @@ model. Voor elke keuze van de parameters in je model verandert de afstand van el
 tot je model en krijg je dus een nieuwe $$\chi^2$$. 
 
 Deze uitdrukking ziet er ingewikkelder uit:
-   1. de $$\chi^2$$ is gewoon een getal
-   2. in ons model ($$f(x) = t_0_$$)is er maar 1 vrije parameter, namelijk het kookpunt van alcohol $$t_0$$.
-      De vector met parameters $$\vec{}\alpha}$$ reducreet dan tot 1 paramater, namelijk $$\alpha_0 = t_0$$.
 
+   1. de $$\chi^2$$ is gewoon een getal
+
+   2. in ons model ($$f(x) = T_0$$) is er maar 1 vrije parameter, namelijk het kookpunt van alcohol $$T_0$$.
+      De vector met parameters $$\vec{}\alpha}$$ reduceert dus tot 1 parameter.
+	  
 #### [voorbeeld stap 3]: De beste waarde van de model-parameters vinden
 
 In de fitprocedure zoeken we naar de waarde van de parameters in je model die
