@@ -167,7 +167,7 @@ zaal die de temperatuur tot op 1 graad Celcius nauwkeurig konden bepalen en vier
 met een hogere precisie, namelijk 0.5 graden. De lijst met de metingen van de tien groepen studenten 
 is de volgende en de grafiek met de waardes staat weergegeven in de grafiek onderaan dit voorbeeld.
 
-groepnummer (x)                      |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
+groepnummer studenten (x)            |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
 gemeten kookpunt in $$^\circ$$C (y)  | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
 onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
 
