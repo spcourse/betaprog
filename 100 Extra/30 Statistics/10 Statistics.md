@@ -296,7 +296,8 @@ Print je resultaat, met 1 decimaal precisie, op de volgende manier naar het sche
     De fit (vlakke lijn) geeft een gemiddelde lengte van xxx.x cm
 
 
-### [4] Een nieuwe hypothese: fitten met twee vrije parameters (lineair)
+
+## opdracht 4: Een iets complexer model: f(x) = ax+b en fits in Python zelf 
 
 Een vlakke lijn fitten is alleen toepasselijk als er geen afhankelijkheid is tussen de variabelen. 
 In de meeste gevallen is dat wel het geval: hoogte zeeniveau als functie van de tijd (sinus), aantal 
@@ -311,8 +312,6 @@ Iemand in de onderzoeksgroep heeft geopperd dat er welleens een (lineair) verban
 de lengte van mensen en het inkomen van hun ouders. Dat zou verschillende oorzaken kunnen hebben. Dat is 
 voor later. De eerste stap in het onderzoek is om eerst te bekijken of er uberhaupt een verband is. We 
 gaan proberen een verband te vinden in de data.
-
-## opdracht 4: Maak een fit aan de data met als model: f(x) = ax+b 
 
 Het fitten van een model aan de data is een essentieel element in het doen van de wetenschap waarin je 
 verschillende hypotheses wilt testen en de onderliggende dynamica bloot wilt leggen. Net als in bijna 
