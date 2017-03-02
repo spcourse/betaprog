@@ -140,7 +140,7 @@ foutmarge zegt dus niet zoveel.
 
 Om de onderliggende fenomenen van verschijnselen bloot te leggen en mogelijke verbanden te 
 achterhalen verzamelen wetenschappers data. Dat kan de massa van het Higgs boson zijn, de 
-vervaltijd van radioactieve elementen, maar ook het aantal kinderen in een gezin als functie 
+halfwaardetijd van radioactieve elementen, maar ook het aantal kinderen in een gezin als functie 
 van de gemiddelde lengte van de ouders of je reistijd per fiets naar de universiteit als 
 functie van het moment op de dag. Elk meetpunt komt met een onzekerheid die de precisie 
 aangeeft. Zoals we al gezien hebben: hoe kleiner de fout, hoe nauwkeuriger de meting en 
@@ -149,13 +149,13 @@ overeenkomen. Als je eenmaal een goede beschrijving hebt gevonden van de verzame
 kan je met dat model vervolgens voorspellingen doen in gebieden waar je nog niet gemeten hebt 
 en tegelijkertijd werken aan een interpretatie van de reden van de correlatie.
 
-We gaan in dit stuk van de module de de resultaten van een onderzoek in detail bestuderen: de 
-lengte van vrouwen als functie van het inkomen van haar ouders. Is er nou wel of niet verband 
-te zien in de data? Om dat te bestuderen moeten we eerst van de verschillende hypotheses (wel 
-of niet een verband) de parameters en hun onzekerheid bepalen. Het is inzichtelijk om de discussie 
-over de manier waarop je de beste waarde van je parameters bepaalt (en de onzekerheid) te voeren 
-aan de hand van een voorbeeld. Na het voorbeeld zullen we de kennis toepassen in een concrete 
-opdracht die gerelateerd is aan onze casus.
+We gaan in dit stuk van de module de de resultaten van een bovengenoemde fictieve onderzoek in 
+detail bestuderen: de lengte van vrouwen als functie van het inkomen van haar ouders. Is er nou 
+wel of niet verband te zien in de data? Om dat te bestuderen moeten we eerst van de verschillende 
+hypotheses (wel of niet een verband) de parameters en hun onzekerheid bepalen. Het is inzichtelijk 
+om de discussie over de manier waarop je de beste waarde van je parameters bepaalt (en de onzekerheid) 
+te voeren aan de hand van een voorbeeld. Na het voorbeeld (het kookpunt van alcohol) zullen we 
+de kennis toepassen in een concrete opdracht die gerelateerd is aan onze casus.
 
 ### Voorbeeld: Bepalen kookpunt van alcohol tijdens het prakticum
 
