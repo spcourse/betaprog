@@ -209,7 +209,7 @@ meetpunten het dichtst bij het model in de buurt liggen. Met behulp van de compu
 gaan we verschillende waardes van $$\alpha$$ proberen en voor elk de 
 $$\chi^2$$ uitrekenen.
  
-Als we bijvoorbeeld als hypothese $$\alpha=78.0$$ nemen dan hoort daar de 
+Als we bijvoorbeeld als hypothese $$T_0=78.0$$ nemen dan hoort daar de 
 volgende $$\chi^2$$ bij:
 $$
 \begin{eqnarray}
@@ -232,19 +232,19 @@ $$
 \end{eqnarray}
 $$
 
-Je kan nu verschillende waardes van $$\alpha$$ proberen en voor elk de $$\chi^2$$
+Je kan nu verschillende waardes van $$T_0$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
 duidelijk minimum zichtbaar en de waarde van $$T_0$$ waarvoor de $$\chi^2$$ 
 minimaal is noemen we $$T_0^{\rm best}=78.2$$.
 
 #### [voorbeeld stap 4]: De onzekerheid op de parameters in je model
 
-Elke waarde van je parameters die anders is dat $$T_0_{\rm best}$$ zal de waarde
+Elke waarde van je parameters die anders is dat $$T_0^{\rm best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
-met de data betekent). Het verschil tussen de waarde van de $$\alpha$$ waarbij
-de $$\chi^2$$ precies 1 unit toeneemt en $$\alpha_{\rm best}$$ noemen we de
-onzekerheid op $$\alpha$$. Dit wordt vaak omschreven als $$\Delta \alpha$$. 
-Bij het berekenen van de $$\chi^2$$ zien we dat er is het gebied is $$ 78.5 < \alpha <78.9$$ 
+met de data betekent). Het verschil tussen de waarde van de $$T_0$$ waarbij
+de $$\chi^2$$ precies 1 unit toeneemt en $$T_0^{\rm best}$$ noemen we de
+onzekerheid op $$T_0$$. Dit wordt vaak omschreven als $$\Delta T_0$$. 
+Bij het berekenen van de $$\chi^2$$ zien we dat er is het gebied is $$ 78.5 < T_0 <78.9$$ 
 waarvoor de $$\chi^2$$ minder dan 1 unit verschilt van $$\chi^2_{min}$$. Het resultaat 
 van de fit, en dus het result van de gecombineerde schattig van het kookpunt van alcohol 
 door de hele groep  studenten samen wordt gegeven door:
