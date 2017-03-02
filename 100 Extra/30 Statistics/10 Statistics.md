@@ -165,8 +165,8 @@ zaal die de temperatuur tot op 1 graad Celcius nauwkeurig konden bepalen en vier
 met een hogere precisie, namelijk 0.5 graden. De lijst met de metingen van de tien groepen studenten 
 is de volgende en de grafiek met de waardes staat weergegeven in de grafiek onderaan dit voorbeeld.
 
-groepnummer (x)                 |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
-gemeten kookpunt (y) in $$^\circ$$C           | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
+groepnummer (x)                      |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   | 10 
+gemeten kookpunt in $$^\circ$$C (y)  | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 | 78.1 | 79.0 | 79.6 | 78.4 
 onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
 
 
@@ -178,7 +178,7 @@ de gemeten punten. Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan
 79$$^\circ$$ een betere dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Kortom: wat 
 is het gemiddelde van de hele klas?
 
-#### [voorbeeld stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: de $$\chi^2$$ 
+#### [voorbeeld stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: de $$\chi^2$$-maat
 
 Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van 
 de fit beschrijft. We doen dat hier met de zogenaamde $$\chi^2$$-maat: de som van de 
@@ -192,10 +192,12 @@ $$\chi^2(\vec{\alpha}) = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i
 
 In deze uitdrukking is $$\vec{\alpha}$$ de vector met de parameters die je gebruikt in je
 model. Voor elke keuze van de parameters in je model verandert de afstand van elk meetpunt 
-tot je model en krijg je dus een nieuwe $$\chi^2$$. Ter volledigheid: de $$\chi^2$$ is 
-gewoon een getal. In ons model is het model simpel. Er is meer 1 vrije parameter, namelijk 
-het kookpunt van alcohol en ons model kunnen we beschrijven als $$f(x) = \alpha$$, 
-met $$\alpha$$ een constante.
+tot je model en krijg je dus een nieuwe $$\chi^2$$. 
+
+Deze uitdrukking ziet er ingewikkelder uit:
+   1. de $$\chi^2$$ is gewoon een getal
+   2. in ons model ($$f(x) = t_0_$$)is er maar 1 vrije parameter, namelijk het kookpunt van alcohol $$t_0$$.
+      De vector met parameters $$\vec{}\alpha}$$ reducreet dan tot 1 paramater, namelijk $$\alpha_0 = t_0$$.
 
 #### [voorbeeld stap 3]: De beste waarde van de model-parameters vinden
 
