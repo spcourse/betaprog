@@ -389,14 +389,18 @@ afhankelijkheid is.
 Volg om de vraag te beantwoorden de volgende strategie:
 
    1. Simuleer een data-set (uitgaande dat f(x) = C, met C de waarde uit opdracht 3)
-        a. Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
+
+       * Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
       de waarde heeft die je bij opdracht 3 (of 4) hebt gevonden. Gebruik hiervoor de 
       voor die geldende onzekerheid als input voor de breedte in de Python functie.      
+
    2. Fit een lineaire functie en bepaal de richtingscoefficient (a in f(x) = ax+b).
+
    3. Doe bovenstaande een groot aantal keer (100.000 keer bijvoorbeeld). Onthoud voor elke 
       data set de richtingscoefficient en hou ook bij welke fractie van de gesimuleerde data-sets 
       een richtingscoefficient heeft die groter is dan die je in de 'echte' data hebt gevonden 
       (zie opdracht 4).  
+
    4. Maak een grafiek (histogram, zie hieronder) van alle richtingscoefficenten en geef duidelijk 
       aan wat de gevonden waarde is in de data en de bijbehorende p-waarde. Print de p-waarde ook uit 
       aan het eind van het programma, in procenten, met 2 decimalen.
