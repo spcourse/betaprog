@@ -417,7 +417,7 @@ Volg om de vraag te beantwoorden de volgende strategie:
    5. Print de p-waarde aan het eind van het programma ook op het scherm: in procenten, met 2 decimalen.
     
       {: .language-python}
-     	De p-waarde voor de alternatieve hypothese = x.xx
+     	De p-waarde voor de alternatieve hypothese = x.xx procent
 
 
 In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 procent we nog van 
