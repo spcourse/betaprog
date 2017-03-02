@@ -10,7 +10,7 @@ In deze module gaan we aan de slag met enkele algoritmen. De opdrachten zijn vri
 
 2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
 
-3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/mario/water).
+3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/algoritmen/water).
 
 #### Dag 2: pyramide
 
@@ -18,13 +18,13 @@ In deze module gaan we aan de slag met enkele algoritmen. De opdrachten zijn vri
 
 2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
-3. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/mario/pyramide).
+3. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/algoritmen/pyramide).
 
 #### Dag 3: greedy algoritmes
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
-2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/mario/greedy) algoritme.
+2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme.
 
 #### Dag 4: grafieken
 
@@ -32,4 +32,4 @@ In deze module gaan we aan de slag met enkele algoritmen. De opdrachten zijn vri
 
 2. Zoek op hoe je data kunt [plotten](/python/plot).
 
-3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/mario/grafieken).
+3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken).
