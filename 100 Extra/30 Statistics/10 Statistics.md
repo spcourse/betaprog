@@ -273,9 +273,9 @@ In Denemarken is een onderzoeksgroep gaan onderzoeken of de lengte van vrouwen
 gecorreleerd is het het inkomens van hun ouders toen ze een peuter waren.
 171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176
 
-Categorie (x)    |  1 (arm)   |  2    |  3    |  4    |  5    |  6    |  7    |  8    |  9    | 10 (rijk)
-Gem. lengte (y)  | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
-Fout ($$\Delta y$$)      |  4    |  4    |  2    |  2    |  2    |  2    |  2    |  2    |  4    |  4
+Categorie (x)        |  1 (arm)   |  2    |  3    |  4    |  5    |  6    |  7    |  8    |  9    | 10 (rijk)
+Gem. lengte (y)      | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
+Fout ($$\Delta y$$)  |  4    |  4    |  2    |  2    |  2    |  2    |  2    |  2    |  4    |  4
 
 Er is gekozen voor 10 inkomenscategorieen en hoewel er geprobeerd is zoveel mogelijk gelijke aantallen 
 vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders in de extremen 
@@ -291,7 +291,7 @@ Zorg dat je programma de data (met fouten) op het scherm weergeeft en ook de bes
 gevonden hebt. Dus net zoals de linkerplot in het voorbeeld hierboven. Gebruik voor het plotten van de data met 
 fouten de Python functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet op hoe je deze functie moet gebruiken. 
 
-Print je resultaat, met 1 decimaal, op de volgende manier naar het scherm:
+Print je resultaat, met 1 decimaal precisie, op de volgende manier naar het scherm:
 {: .language-python}
     De fit (vlakke lijn) geeft een gemiddelde lengte van xxx.x cm
 
@@ -312,6 +312,15 @@ de lengte van mensen en het inkomen van hun ouders. Dat zou verschillende oorzak
 voor later. De eerste stap in het onderzoek is om eerst te bekijken of er uberhaupt een verband is. We 
 gaan proberen een verband te vinden in de data.
 
+## opdracht 4: Maak een fit aan de data met als model: f(x) = ax+b 
+
+Het fitten van een model aan de data is een essentieel element in het doen van de wetenschap waarin je 
+verschillende hypotheses wilt testen en de onderliggende dynamica bloot wilt leggen. Net als in bijna 
+elke programmeertaal zijn er bibliotheken vol functies die je daarmee kunnen helpen. Het implementeren 
+van een fit in een model met meerdere (gecorreleerde) parameters wordt al snel erg complex en kost 
+enorm veel rekenkracht tenzij je het slim aanpakt. Nu we in opdracht 3 zelf een eerste voorbeeld zelf 
+hebben doorgerekend en het idee begrijpen zullen we in de rest van de opgave de standaard fit-functies 
+van Python zelf gebruiken.
 
 #### Fitten in Python: rechte lijn (1 vrijheidsgraad)
 
@@ -357,13 +366,14 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
     popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
     print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
 
-### opdracht 4: Maak een fit aan de data met als model: f(x) = ax+b 
+#### opdracht 4: een fit aan de data met als model: f(x) = ax+b 
 
-Schrijf een programma `Statistiek4.py()` waarin je zowel een rechte lijn als een lineair 
+Schrijf een programma `statistiek_opdracht4.py()` waarin je zowel een rechte lijn als een lineair 
 verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven beschreven 
 en plot zowel de data als beide functies op het scherm. Gebruik als voorbeeld de plot 
 bovenaan de pagina, maar zorg dat de waardes van $$a$$, $$b$$ en $$c$$ netjes op het 
 scherm verschijnen. 
+
 
 ### [5] Hypothese testen
 
