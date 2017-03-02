@@ -32,7 +32,7 @@ In de eerste opdracht zullen we de vraag beantwoorden welk percentage van de vro
 is dan de gemiddelde man. Voor deze opdracht is het concept normaalverdeling en het manipuleren 
 daarvan in Python erg belangrijk.
 
-#### statistiek info voor opdracht 1:  de normaalverdeling 
+#### Statistiek info voor opdracht 1:  de normaalverdeling 
 
 In de natuur komt overal variatie voor: de lengte van mensen in een land, of het gewicht van 
 dieren in een populatie om er maar een paar te noemen. De verdeling die de relatieve frequentie 
@@ -57,7 +57,7 @@ De (genormeerde) grafieken van de twee verdelingen staan in grafiek hiernaast.
 #### Python info voor opdracht 1: random getallen uit een normaalverdeling 
 
 We hebben eerder gezien hoe je een random getal trekt in Python tussen 0 en 1. Het is ook mogelijk 
-om een random getal te trekken uit een bepaalde verdeling. Omdat de normaalverdeling zo'n prominente 
+om een random getal te trekken uit een bepaalde verdeling en omdat de normaalverdeling zo'n prominente 
 plek inneemt is daar een standaard functie voor in Python (in de `numpy` bibliotheek) met de volgende 
 syntax:
 
@@ -93,8 +93,10 @@ van de eigenschappen van de volledige populatie.
 
 We gaan in deze opdracht onderzoeken hoeveel nauwkeuriger de schatting van het 'echte' gemiddelde 
 is bij een toenemend aantal mensen in de steekproef door met behulp van de computer nep-steekproeven 
-te nemen uit de oorspronkelijke distributie. Door van deze steekproeven de gemiddelde lengte te 
-bekijken van een (steeds grotere) groep representatief is voor die van de hele populatie. 
+te nemen. We selecteren dus random waardes uit de oorspronkelijke 'echte' distributie. Door van 
+elk van deze steekproeven de gemiddelde lengte te bekijken kunnen we bekijken hoe vaak zo'n 
+steekproef in de buurt zit van de echte waarde en hoe dit percentage afhangt van het aantal mensen 
+in de steekproef zelf.
 
 #### Opdracht 2: impact van meer metingen op de nauwkeurigheid
 
