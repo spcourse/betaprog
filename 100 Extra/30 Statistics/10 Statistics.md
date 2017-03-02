@@ -12,15 +12,15 @@ hand van een verzonnen casus een paar van de meest voorkomende technieken bekijk
 **De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van vrouwen 
 gecorreleerd is met het inkomen van hun ouders. De inkomenscategorie&euml;n lopen van 
 categorie-0 (zeer arm) tot categorie-10 (zeer rijk) en in elke categorie is een willekeurig 
-aantal vrouwen geselecteerd van wie de lengte is gemeten. De data, de gemeten gemiddelde lengte 
-voor elke inkomenscategorie is weergegeven in de grafiek hiernaast. En hier beginnen de problemen.
+aantal vrouwen geselecteerd van wie de lengte is gemeten. De data (de gemeten gemiddelde lengte 
+voor elke inkomenscategorie) is weergegeven in de grafiek hiernaast. En hier beginnen de problemen.
 Een deel van de onderzoekers vindt dat de data suggereert dat er een duidelijk lineair 
 verband te zien is (blauw) terwijl een andere groep vindt dat er helemaal geen afhankelijkheid 
 is (rood). Die laatste groep zegt dat de geobserveerde lichte afhankelijkheid gewoon het resultaat 
 van de toevallige fluctuaties in de lengte van vrouwen die in de steekproeven geselecteerd zijn. 
 
 We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
-conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
+conclusies we kunnen trekken: is er nou wel of niet een (al dan niet causaal) verband?
 
 Hoewel het niet de bedoeling is van deze module om een volledig statistiek college te verzorgen 
 zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
