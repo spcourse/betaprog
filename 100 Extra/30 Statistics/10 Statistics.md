@@ -404,9 +404,9 @@ Volg om de vraag te beantwoorden de volgende strategie:
    2. Fit een functie van de vorm f(x) = ax+b en bepaal de richtingscoefficient (a).
 
    3. Doe bovenstaande een groot aantal keer (10000 keer bijvoorbeeld) en onthoud voor elke 
-      data-set de richtingscoefficient. Hou bij het simuleren ook bij welke fractie van de 
-	  gesimuleerde data-sets (toevallig) een richtingscoefficient opleverden die gelijk was 
-	  aan (of nog groter was dan) die in de originele data-set (zie opdracht 4).  
+      data-set de richtingscoefficient. Hou bij welke fractie van de gesimuleerde data-sets 
+	  (toevallig) een richtingscoefficient opleverde die gelijk was aan (of nog groter was 
+	  dan) die in de originele data-set (zie opdracht 4).  
 
    4. Maak een grafiek (histogram, zie hieronder) van alle richtingscoefficenten en geef duidelijk 
       aan wat de gevonden waarde is in de data en de bijbehorende p-waarde. 
