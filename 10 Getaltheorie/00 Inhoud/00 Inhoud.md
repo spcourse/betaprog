@@ -1,7 +1,7 @@
 # Getaltheorie
 
 In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
-met de computer. Met kleine programmaatjes is het makkelijk om ...
+met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
 
 ![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
 
