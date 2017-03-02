@@ -316,21 +316,21 @@ functies in Python die je daarmee kunnen helpen. Hoewel we in deze cursus deze f
 details niet verder zullen gebruiken door gebrek aan tijd, willen we hier toch een voorbeeld geven waarin je ziet hoe 
 dat in de praktijk gaat.
 
-#### Fitten in Python: rechte lijn (1 vrijheidsgraad)
+#### Fitten in Python: f(x) = C (1 vrijheidsgraad)
 
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
 
-    # Define our model. In our case a constant function: f(x) = a 
+    # define our model. In our case a constant function: f(x) = a 
     def MyFitFunction(x, a):
         return a
 
     # define data and errors
-    L_data_x       = [1,2,3,4,5,6,7,8,9,10]
-    L_data_y       = [171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176]
-    L_data_y_error = [4,4,2,2,2,2,2,2,4,4]
+    data_x       = [1,2,3,4,5,6,7,8,9,10]
+    data_y       = [171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176]
+    data_y_error = [4,4,2,2,2,2,2,2,4,4]
     
-    popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
+    popt, pcov = curve_fit(MyFitFunction, data_x, data_y, None, data_y_error)
     print "Best value: f(x) = %5.2f" % popt[0]
 
 De laatste regel blijft nu nog magie, maar *popt* is een lijst met de 'optimale' 
@@ -338,7 +338,7 @@ parameters van de functie die je aan de data hebt gefit. In ons geval is dat maa
 1 parameter omdat we een constante functie aanhouden als model. Je kan zelf in de 
 documentatie opzoeken hoe je zelf uit *pcov* de onzekerheid op de parameter kan bepalen. 
 
-#### Fitten in Python: lineair verband (2 vrijheidsgraden)
+#### Fitten in Python: f(x) = ax+ b (2 vrijheidsgraden)
 
 Als je nu in plaats van een constante functie een lineaire functie wilt fitten 
 $$f(x) = ax+b$$ en je wilt de resultaten printen dan hoef je maar op 2 plekken een 
@@ -348,16 +348,16 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
 
-    # Define our model. In our case a constant function: f(x) = a*x + b 
+    # define our model. In our case a constant function: f(x) = a*x + b 
     def MyFitFunction(x, a, b):
         return a * x + b
 
     # define data and errors
-    L_data_x       = [1,2,3,4,5,6,7,8,9,10]
-    L_data_y       = [171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176]
-    L_data_y_error = [4,4,2,2,2,2,2,2,4,4]
+    data_x       = [1,2,3,4,5,6,7,8,9,10]
+    data_y       = [171.2, 169.1, 170.8, 169.4, 173, 171, 174, 174, 173, 176]
+    data_y_error = [4,4,2,2,2,2,2,2,4,4]
     
-    popt, pcov = curve_fit(MyFitFunction, L_data_x, L_data_y, None, L_data_y_error)
+    popt, pcov = curve_fit(MyFitFunction, data_x, data_y, None, data_y_error)
     print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
 
 #### opdracht 4: een fit aan de data met als model: f(x) = ax+b 
