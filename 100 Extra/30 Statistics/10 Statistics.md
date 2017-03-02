@@ -155,8 +155,8 @@ We gaan in dit stuk van de module de de resultaten van een bovengenoemde fictiev
 detail bestuderen: de lengte van vrouwen als functie van het inkomen van haar ouders. Is er nou 
 wel of niet verband te zien in de data? Om dat te bestuderen moeten we eerst van de verschillende 
 hypotheses (wel of niet een verband) de parameters en hun onzekerheid bepalen. Het is inzichtelijk 
-om de discussie over de manier waarop je de beste waarde van je parameters bepaalt (en de onzekerheid) 
-te voeren aan de hand van een voorbeeld. Na het voorbeeld (het kookpunt van alcohol) zullen we 
+om de discussie over de manier waarop je de beste waarde van je parameters bepaalt (en de onzekerheid 
+daarop) te voeren aan de hand van een voorbeeld. Na het voorbeeld (het kookpunt van alcohol) zullen we 
 de kennis toepassen in een concrete opdracht die gerelateerd is aan onze casus.
 
 ### Voorbeeld: Bepalen kookpunt van alcohol tijdens het prakticum
