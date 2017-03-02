@@ -130,11 +130,11 @@ gebruikt hebben. Kies zelf een geschikte bin-grootte.
 
 **Conclusie:** Hoe groter de steekproef hoe beter het gemiddelde daarvan de 'echte' waarde 
 benadert. Dat klinkt logisch, want het  maakt nogal uit of Maurice de Hond 10 mensen hun 
-politieke voorkeur vraagt of 100.000. Voor elk getal, meting of grafiek die je ziet moet je 
-je altijd afvragen wat de onzekerheid op die schatting is. Een getal zonder foutmarge kan 
-je niet op waarde schatten. Hoe kleiner de fout/onzekerheid, hoe belangrijker de meting is 
-en hoe 'zwaarder' je de meting moet meewegen als je verschillende resultaten naast elkaar 
-legt en een conclusie probeert te trekken.
+politieke voorkeur vraagt of 100000. Voor elk getal, meting of grafiek die je ziet moet je 
+je altijd afvragen wat de onzekerheid op die schatting is.  Hoe kleiner de fout/onzekerheid, 
+hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet meewegen als je verschillende 
+resultaten naast elkaar legt en een conclusie probeert te trekken. Een schatting zonder een 
+foutmarge zegt dus niet zoveel.
 
 ## Parameters van je model bepalen uit een serie metingen: fitten
 
