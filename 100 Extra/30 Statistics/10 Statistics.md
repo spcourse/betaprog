@@ -204,10 +204,9 @@ Deze uitdrukking ziet er ingewikkelder uit dan hij is:
 	  
 #### [voorbeeld stap 3]: De beste waarde van de model-parameters vinden
 
-In de fitprocedure zoeken we naar de waarde van de parameters in je model die
-de kleinste $$\chi^2$$ oplevert omdat met die waarde van de parameters de 
-meetpunten het dichtst bij het model in de buurt liggen. Met behulp van de computer 
-gaan we verschillende waardes van $$T_0$$ proberen en voor elk de 
+In een fitprocedure zoek je naar de waarde van de parameters in het model die de kleinste $$\chi^2$$ opleveren, 
+omdat met die waarde van de parameters de meetpunten gemiddeld het dichtst bij het model in de buurt liggen. 
+Met behulp van de computer gaan we verschillende waardes van $$T_0$$ proberen en voor elk de 
 $$\chi^2$$ uitrekenen.
  
 Als we bijvoorbeeld als hypothese $$T_0=78.0$$ nemen dan hoort daar de 
