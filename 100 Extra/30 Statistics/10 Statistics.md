@@ -198,8 +198,8 @@ Deze uitdrukking ziet er ingewikkelder uit:
 
    1. de $$\chi^2$$ is gewoon een getal
 
-   2. in ons model ($$f(x) = T_0$$) is er maar 1 vrije parameter, namelijk het kookpunt van alcohol $$T_0$$.
-      De vector met parameters $$\vec{\alpha}}$$ reduceert dus tot 1 parameter.
+   2. in ons model is er maar 1 vrije parameter, namelijk het kookpunt van alcohol $$T_0$$.
+      Ons model reduceert dan tot: $$f(x) = T_0$$, met maar 1 parameter, een constante. 
 	  
 #### [voorbeeld stap 3]: De beste waarde van de model-parameters vinden
 
