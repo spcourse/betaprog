@@ -388,24 +388,38 @@ afhankelijkheid is.
 
 Volg om de vraag te beantwoorden de volgende strategie:
 
-   1. Simuleer een data-set (uitgaande dat f(x) = C, met C de waarde uit opdracht 3)
+   1. Simuleer een data-set:
 
-       * Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
-      de waarde heeft die je bij opdracht 3 (of 4) hebt gevonden. Gebruik hiervoor de 
-      voor die geldende onzekerheid als input voor de breedte in de Python functie.      
+       * Ga uit van 'vlakke' verdeling: f(x) = C, met C de waarde uit opdracht 3.
 
-   2. Fit een lineaire functie en bepaal de richtingscoefficient (a in f(x) = ax+b).
+	   * Kies in elke inkomensgroep een 'random' meetpunt door gebruik te maken van 
+     	 `numpy.random.normal(gemiddelde,breedte)`, waarbij het gemiddelde gegeven wordt 
+		 door de waarde die je in opdracht 3 vond. Gebruik als breedte de onzekerheid op 
+		 de gemiddelde lengte in die in komensgroep in de oorspronkelijke data-set. Dat is 
+		 dus bijvoorbeeld 4 cm in inkomenscategorie 1.
+		
+	   * Geef als fout op de random gekozen gemiddelde lengte in elke inkomensgroep dezelfde 
+	     fout als in de oorspronkelijke inkomensgroep. Dat is dus bijvoorbeeld 2 cm in 
+		 inkomenscategorie 5.
+	   
+   2. Fit een functie van de vorm f(x) = ax+b en bepaal de richtingscoefficient (a).
 
-   3. Doe bovenstaande een groot aantal keer (100.000 keer bijvoorbeeld). Onthoud voor elke 
-      data set de richtingscoefficient en hou ook bij welke fractie van de gesimuleerde data-sets 
-      een richtingscoefficient heeft die groter is dan die je in de 'echte' data hebt gevonden 
-      (zie opdracht 4).  
+   3. Doe bovenstaande een groot aantal keer (10000 keer bijvoorbeeld) en onthoud voor elke 
+      data-set de richtingscoefficient. Hou bij het simuleren ook bij welke fractie van de 
+	  gesimuleerde data-sets (toevallig) een richtingscoefficient opleverden die gelijk was 
+	  aan (of nog groter was dan) die in de originele data-set (zie opdracht 4).  
 
    4. Maak een grafiek (histogram, zie hieronder) van alle richtingscoefficenten en geef duidelijk 
-      aan wat de gevonden waarde is in de data en de bijbehorende p-waarde. Print de p-waarde ook uit 
-      aan het eind van het programma, in procenten, met 2 decimalen.
-      
+      aan wat de gevonden waarde is in de data en de bijbehorende p-waarde. 
+	  
 ![](ExamplePvalue.png){: style="width:60%"}
+
+
+   5. Print de p-waarde aan het eind van het programma ook op het scherm: in procenten, met 2 decimalen.
+    
+      {: .language-python}
+     	De p-value voor de alternatieve hypothese was: x.xx
+
 
 In de regel houden we vast aan de regel dat als de p-waarde kleiner is dan 5 procent we nog van 
 'toeval' spreken. Is de p-waarde groter dan 5% dan zeggen we dat de geobserveerde trend niet goed 
