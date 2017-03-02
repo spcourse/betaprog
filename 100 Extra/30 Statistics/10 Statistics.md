@@ -172,7 +172,7 @@ gemeten kookpunt in $$^\circ$$C (y)  | 78.2 | 80.2 | 78.7 | 78.9 | 77.5 | 79.7 |
 onzekerheid ($$\sigma$$, fout op y)  |  1   |  1   |  1   |  0.5 |  1   |  1   |  0.5 |  0.5 |  1   | 0.5
 
 
-#### [voorbeeld stap 1]: Model en doel van de exercitie
+#### [voorbeeld stap 1]: model opstellen en doel van de exercitie
 Het kookpunt van alcohol is een natuurconstante en hangt niet af van het groepje studenten dat de 
 meting verricht. In dit geval is het 'model' dat we hebben een vlakke lijn en eigenijk proberen 
 we dus de waarde van het kookpunt van alcohol te bepalen dat het best in overeenstemming is met 
@@ -180,7 +180,7 @@ de gemeten punten. Het is duidelijk dat 78$$^\circ$$ een betere schatting is dan
 79$$^\circ$$ een betere dan 81$$^\circ$$, maar wat is nou precies de 'beste' waarde? Kortom: wat 
 is het gemiddelde van de hele klas?
 
-#### [voorbeeld stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: de $$\chi^2$$-maat
+#### [voorbeeld stap 2]: een maat voor 'hoe goed' het model de data beschrijft: de $$\chi^2$$-maat
 
 Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van de fit beschrijft. 
 We doen dat hier met de zogenaamde $$\chi^2$$-maat (chi-kwadraat): de som van de gemiddelde afwijking van de 
@@ -202,7 +202,7 @@ Deze uitdrukking ziet er ingewikkelder uit dan hij is:
    2. in ons model is er maar 1 vrije parameter, namelijk het kookpunt van alcohol $$T_0$$.
       Ons model reduceert dan tot: $$f(x) = T_0$$ en de vector $$\vec{\alpha}$$ reduceert tot 1 parameter, de constante $$T_0$$. 
 	  
-#### [voorbeeld stap 3]: De beste waarde van de model-parameters vinden
+#### [voorbeeld stap 3]: de beste waarde van de model-parameters vinden
 
 In een fitprocedure zoek je naar de waarde van de parameters in het model die de kleinste $$\chi^2$$ opleveren, 
 omdat met die waarde van de parameters de meetpunten gemiddeld het dichtst bij het model in de buurt liggen. 
@@ -237,7 +237,7 @@ berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
 duidelijk minimum zichtbaar en de waarde van $$T_0$$ waarvoor de $$\chi^2$$ 
 minimaal is noemen we $$T_0^{\rm best}=78.2$$.
 
-#### [voorbeeld stap 4]: De onzekerheid op de parameters in je model
+#### [voorbeeld stap 4]: de onzekerheid op de parameters in je model
 
 Elke waarde van je parameters die anders is dat $$T_0^{\rm best}$$ zal de waarde
 van de $$\chi^2$$ veranderen (die wordt groter wat een slechtere overeenkomst
