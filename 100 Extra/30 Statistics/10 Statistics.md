@@ -9,8 +9,8 @@ hand van een verzonnen casus een paar van de meest voorkomende technieken bekijk
 
 ![](ExampleDenemarken.png){:.inline}{: style="width:35%"}
 
-**De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van volwassen 
-vrouwen gecorreleerd is met het inkomen van hun ouders. De inkomenscategorieen lopen van 
+**De casus:** In Denemarken is een onderzoeksgroep gaan bestuderen of de lengte van vrouwen 
+gecorreleerd is met het inkomen van hun ouders. De inkomenscategorieen lopen van 
 categorie-0 (zeer arm) tot categorie-10 (zeer rijk) en in elke categorie is een willekeurig 
 aantal vrouwen geselecteerd van wie de lengte is gemeten. De data, de gemeten gemiddelde lengte 
 voor elke inkomenscategorie is weergegeven in de grafiek hiernaast. En hier beginnen de problemen.
