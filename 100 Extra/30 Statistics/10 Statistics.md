@@ -328,10 +328,11 @@ dat in de praktijk gaat.
     popt, pcov = curve_fit(MyFitFunction, data_x, data_y, None, data_y_error)
     print "Best value: f(x) = %5.2f" % popt[0]
 
-De laatste regel blijft nu nog magie, maar *popt* is een lijst met de 'optimale' 
+De laatste regel blijft nu nog magie, maar `popt` is een lijst met de 'optimale' 
 parameters van de functie die je aan de data hebt gefit. In ons geval is dat maar 
 1 parameter omdat we een constante functie aanhouden als model. Je kan zelf in de 
-documentatie opzoeken hoe je zelf uit *pcov* de onzekerheid op de parameter kan bepalen. 
+documentatie opzoeken hoe je zelf uit `pcov` (de covariantiematrix) de onzekerheid 
+op de parameter kan bepalen. 
 
 #### Fitten in Python: f(x) = ax+ b (2 vrijheidsgraden)
 
