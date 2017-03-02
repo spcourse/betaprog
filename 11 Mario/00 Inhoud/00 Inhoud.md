@@ -19,7 +19,7 @@ met de computer. Met kleine programmaatjes is het makkelijk om ...
 
 2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
-3. <span class="label label-primary">Opdracht</span> Red de prinses in [Mario](/mario/pyramide).
+3. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/mario/pyramide).
 
 #### Dag 3: greedy algoritmes
 
