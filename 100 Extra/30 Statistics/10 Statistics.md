@@ -268,11 +268,11 @@ minimaal is.
 
 ## Opdracht 3: gemiddelde lengte vrouwen in Denemarken
 
-In Denemarken is een onderzoeksgroep dus aan het onderzoeken of de lengte van vrouwen gecorreleerd is met het 
-inkomens van hun ouders. Er is gekozen voor 10 inkomenscategorieen en hoewel er geprobeerd is zoveel mogelijk 
-gelijke aantallen vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders in de 
-extremen van de inkomstengroepen (erg rijk en erg arm) helaas beperkt. Dit is duidelijk door de grotere fout 
-op de schatting van de gemiddelde lengte in die groepen.
+Terug naar de casus in deze module. In Denemarken is een onderzoeksgroep dus aan het onderzoeken of de lengte 
+van vrouwen afhangt van het inkomen van hun ouders. Er is gekozen voor 10 inkomenscategorieen en hoewel er 
+geprobeerd is zoveel mogelijk gelijke aantallen vrouwen per categorie op te nemen in de studie is het aantal 
+vrouwen met ouders in de extremen van de inkomstengroepen (erg rijk en erg arm) helaas beperkt. Dit is duidelijk 
+door de grotere fout op de schatting van de gemiddelde lengte in die groepen.
 
 Categorie (x)        |  1 (arm)   |  2    |  3    |  4    |  5    |  6    |  7    |  8    |  9    | 10 (rijk)
 Gem. lengte (y)      | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
