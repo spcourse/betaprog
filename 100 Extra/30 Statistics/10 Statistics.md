@@ -392,15 +392,14 @@ Volg om de vraag te beantwoorden de volgende strategie:
 
        * Ga uit van een 'vlakke' hypothese: f(x) = C, met C de waarde uit opdracht 3.
 
-	   * Kies in elk van de 10 inkomensgroepen een 'random' meetpunt door gebruik te maken van 
-     	 `numpy.random.normal(gemiddelde,breedte)`, waarbij het gemiddelde gegeven wordt 
-		 door de waarde die je in opdracht 3 vond. Gebruik als breedte de onzekerheid op 
-		 de gemiddelde lengte in die in komensgroep in de oorspronkelijke data-set. Dat is 
-		 dus bijvoorbeeld 4 cm in inkomenscategorie 1.
+	   * Kies in elk van de 10 inkomenscategorie&euml;n een 'random' meetpunt door gebruik te maken 
+	     van `numpy.random.normal(gemiddelde,breedte)`, waarbij het gemiddelde in elke inkomenscategorie 
+		 gegeven wordt door de waarde die je in opdracht 3 vond. Gebruik als breedte in elke categorie 
+		 de onzekerheid op de gemiddelde lengte in die in komenscategorie in de oorspronkelijke data-set. 
+		 Dat is dus bijvoorbeeld 4 cm in inkomenscategorie 1.
 		
-	   * Geef als fout op de random gekozen gemiddelde lengte in elke inkomensgroep dezelfde 
-	     fout als in de oorspronkelijke inkomensgroep. Dat is dus bijvoorbeeld 2 cm in 
-		 inkomenscategorie 5.
+	   * Geef als fout op de random gekozen gemiddelde lengte in elke inkomenscategorie dezelfde 
+	     fout als in de oorspronkelijke data. Dat is dus bijvoorbeeld 2 cm in inkomenscategorie 5.
 	   
    2. Fit een functie van de vorm f(x) = ax+b en bepaal de richtingscoefficient (a).
 
