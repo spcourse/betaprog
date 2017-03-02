@@ -260,10 +260,9 @@ groter maakt.
 
 ![](FitExampleWebsite.png){: style="width:90%"}
 
-
 Het voorbeeld dat we hier hebben uitgewerkt is het zogenaamd 'fitten' van een simpel 
 model met 1 parameter aan de data. Ook als we een ingewikkelder model hebben, bijvoorbeeld 
-een eerstegraads polynoom, $$f(x)=ax+b$$, dan vinden we ook de beste waarde van de twee 
+een eerstegraads polynoom, $$f(x)=ax+b$$ bijvoorbeeld, vinden we de beste waarde van de twee 
 parameters door $$a$$ en $$b$$ te varieren en te kijken voor welke waarden de $$\chi^2$$ 
 minimaal is.
 
