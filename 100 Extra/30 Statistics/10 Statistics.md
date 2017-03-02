@@ -376,7 +376,7 @@ zien is in de data terwijl een ander deel vindt dat er geen afhankelijkheid is e
 geobserveerde lichte afhankelijkheid gewoon toeval is door de steekproeven die genomen zijn. 
 We sluiten deze module af door wat quantitatieve data aan te leveren voor dee discussie.
 
-De vraag is eigenlijk: "hoe zeldzaam is dat, gegeven dat er in het echt geen verband bestaat, 
+De vraag is eigenlijk: "hoe zeldzaam is dat, gegeven dat er in het echt <b>geen</b> verband bestaat, 
 een serie steekproeven (van deze grootte in elke categorie) een waarde van de richtingscoefficient 
 geeft die net zo groot is als in de data?" Deze fractie kom je vaak tegen in de literatuur 
 en wordt ook wel de p-waarde genoemd.
