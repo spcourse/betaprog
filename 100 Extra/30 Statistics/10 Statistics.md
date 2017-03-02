@@ -282,13 +282,14 @@ vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders 
 van de inkomsten van de ouders (erg rijk en erg arm) helaas beperkt. Dit is duidelijk door de 
 grotere fout op de schatting van de gemiddelde lengte.
 
-Schrijf een programma `statistiek3_opdracht3.py()` waarin je het gemiddelde vindt van de lengte van vrouwen 
-in Denemarken door een fit te maken aan de hierboven gegeven data. Volg hierbij de stappen in 
-het voorbeeld over het meten van het kookpunt van alcohol zoals hierboven is besproken. Zorg dat 
-je programma de data (met fouten) op het scherm weergeeft en ook de beste waarde van de fit die 
-je gevonden hebt. Dus net zoals de linkerplot in het voorbeeld hierboven. Gebruik voor het 
-plotten van de data met fouten de Python functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet 
-op hoe je deze functie moet gebruiken. 
+Schrijf een programma `statistiek_opdracht3.py()` waarin je het gemiddelde vindt van de lengte van vrouwen 
+in Denemarken door een fit te maken aan de hierboven gegeven data met de functie $$f(x) = C$$. Je neemt dus 
+aan in deze opgave dat er geen correlatie is tussen het inkomen van de ouders en de lengte van hun dochters. 
+
+Volg hierbij de stappen in het voorbeeld over het meten van het kookpunt van alcohol zoals hierboven is besproken. 
+Zorg dat je programma de data (met fouten) op het scherm weergeeft en ook de beste waarde van de fit die je 
+gevonden hebt. Dus net zoals de linkerplot in het voorbeeld hierboven. Gebruik voor het plotten van de data met 
+fouten de Python functie `plt.errorbar(x,y, yerr=yerror)`. Zoek op internet op hoe je deze functie moet gebruiken. 
 
 Print je resultaat, met 1 decimaal, op de volgende manier naar het scherm:
 {: .language-python}
