@@ -72,7 +72,7 @@ hierboven.
 
 #### Opdracht 1: verdeling lengtes van alle vrouwen
 
-Schrijf een programma `Statistiek1.py()` waarin je 1 miljoen random getallen trekt uit de 
+Schrijf een programma `statistiek_opdracht1.py()` waarin je 1 miljoen random getallen trekt uit de 
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
 al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een breedte van 
 0.5 cm hebben. Hou bij het trekken van de random lengtes bij hoeveel vrouwen een lengte 
@@ -99,7 +99,7 @@ bekijken van een (steeds grotere) groep representatief is voor die van de hele p
 
 #### Opdracht 2: impact van meer metingen op de nauwkeurigheid
 
-Schrijf een programma `Statistiek2.py` dat uitrekent welk percentage van groepen vrouwen 
+Schrijf een programma `statistiek_opdracht2.py` dat uitrekent welk percentage van groepen vrouwen 
 (steekproeven) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
 verschillende groottes van de steekproef: $$N=2,3,5,10,100$$. 
 
