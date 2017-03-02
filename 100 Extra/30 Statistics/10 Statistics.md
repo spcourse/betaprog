@@ -22,15 +22,15 @@ van de toevallige fluctuaties in de lengte van vrouwen die in de steekproeven ge
 We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
 conclusies we kunnen trekken: is er nou wel of niet een (al dan niet causaal) verband?
 
-Hoewel het niet de bedoeling is van deze module om een volledig statistiek college te verzorgen 
-zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
-te introduceren in de voorbereiding op een opdracht.
+Hoewel het niet de bedoeling is om hier een volledig statistiek college te verzorgen zullen we er 
+niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek te introduceren 
+in de voorbereiding op een opdracht.
  
 ## Opdracht 1: percentage vrouwen dat langer is dan de gemiddelde man
 
-In de eerste opdracht zullen we in detail gaan bekijken naar het percentage vrouwen in Nederland dat 
-erg lang is. Voor deze opdracht is het concept normaalverdeling en het manipuleren daarvan in Python 
-van cruciaal belang.
+In de eerste opdracht zullen we de vraag beantwoorden welk percentage van de vrouwen in Nederland langer 
+is dat de gemiddelde lengte van een man. Voor deze opdracht is het concept normaalverdeling en het manipuleren 
+daarvan in Python van cruciaal belang.
 
 #### [statistiek info voor opdracht 1]  de normaalverdeling 
 
