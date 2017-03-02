@@ -359,11 +359,15 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
 #### opdracht 4: een fit aan de data met als model: f(x) = ax+b 
 
 Schrijf een programma `statistiek_opdracht4.py()` waarin je zowel een rechte lijn als een lineair 
-verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven beschreven 
-en plot zowel de data als beide functies op het scherm. Gebruik als voorbeeld de plot 
-bovenaan de pagina, maar zorg dat de waardes van $$a$$, $$b$$ en $$c$$ netjes op het 
-scherm verschijnen. 
+verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven beschreven en reproduceer 
+de grafiek die helemaal aan het begin van deze module werd getoond. Laat dus zowel de data als de 
+beide 'beste' functies in de grafiek zien. Zorg hierbij ook dat de waardes van de parameters worden 
+weergegeven. Print de waardes ook op het scherm als output:
 
+{: .language-python}
+    Een fit van f(x)=c    geeft als beste waarde:  c = x.xx
+    Een fit van f(x)=ax+b geeft als beste waardes: a = x.xx  en b = x.xx
+	
 
 ### [5] Hypothese testen
 
