@@ -378,8 +378,8 @@ We sluiten deze module af door wat quantitatieve data aan te leveren voor dee di
 
 De vraag is eigenlijk: "hoe zeldzaam is dat, gegeven dat er in het echt <b>geen</b> verband bestaat, 
 een serie steekproeven (van deze grootte in elke categorie) een waarde van de richtingscoefficient 
-geeft die net zo groot is als in de data?" Deze fractie kom je vaak tegen in de literatuur 
-en wordt ook wel de p-waarde genoemd.
+geeft die net zo groot is als in de data of zelfs nog groter?" Deze fractie kom je vaak tegen in de 
+literatuur en wordt ook wel de <font color = 'red'> p-waarde </font>genoemd.
 
 #### opdracht 5: Simuleer random data-sets en bereken de p-waarde
 
