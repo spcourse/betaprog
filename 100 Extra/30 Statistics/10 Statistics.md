@@ -199,7 +199,7 @@ Deze uitdrukking ziet er ingewikkelder uit:
    1. de $$\chi^2$$ is gewoon een getal
 
    2. in ons model is er maar 1 vrije parameter, namelijk het kookpunt van alcohol $$T_0$$.
-      Ons model reduceert dan tot: $$f(x) = T_0$$, met maar 1 parameter, een constante. 
+      Ons model reduceert dan tot: $$f(x) = T_0$$, met maar 1 parameter, de constante $$T_0$$. 
 	  
 #### [voorbeeld stap 3]: De beste waarde van de model-parameters vinden
 
@@ -213,7 +213,7 @@ Als we bijvoorbeeld als hypothese $$\alpha=78.0$$ nemen dan hoort daar de
 volgende $$\chi^2$$ bij:
 $$
 \begin{eqnarray}
-   \chi^2(\alpha=78.0)&=&    
+   \chi^2(T_0=78.0)&=&    
    \tiny{
    \left( \frac{(78.2-78.0)}{1.0} \right)^2+
    \left( \frac{(80.2-78.0)}{1.0} \right)^2+
@@ -235,7 +235,7 @@ $$
 Je kan nu verschillende waardes van $$\alpha$$ proberen en voor elk de $$\chi^2$$
 berekenen. De distributie is getekend in de rechterplot hieronder. Er is een
 duidelijk minimum zichtbaar en de waarde van $$\alpha$$ waarvoor de $$\chi^2$$ 
-minimaal is noemen we $$\alpha_{\rm best}=78.2$$.
+minimaal is noemen we $$\T_0_{\rm best}=78.2$$.
 
 #### [voorbeeld stap 4]: De onzekerheid op de parameters in je model
 
