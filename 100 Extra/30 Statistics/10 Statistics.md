@@ -159,7 +159,7 @@ om de discussie over de manier waarop je de beste waarde van je parameters bepaa
 daarop) te voeren aan de hand van een voorbeeld. Na het voorbeeld (het kookpunt van alcohol) zullen we 
 de kennis toepassen in een concrete opdracht die gerelateerd is aan onze casus.
 
-### Voorbeeld: Bepalen kookpunt van alcohol tijdens het prakticum
+### ]Voorbeeld]: Bepalen kookpunt van alcohol tijdens het prakticum
 
 Tijdens een prakticum kregen groepjes studenten de opdracht het kookpunt van alcohol te bepalen. 
 Door gebrek aan tijd had elke groep maar tijd voor 1 meting. Er waren zes thermometer in de 
@@ -294,8 +294,8 @@ Print je resultaat, met 1 decimaal precisie, op de volgende manier naar het sche
 ## Opdracht 4: Een iets complexer model: f(x) = ax+b en fits in Python zelf 
 
 Iemand in de onderzoeksgroep heeft geopperd dat er welleens een (lineair) verband zou kunnen zijn tussen 
-de lengte van mensen en het inkomen van hun ouders. Dat zou verschillende oorzaken kunnen hebben. Dat is 
-voor later. De eerste stap in het onderzoek is om eerst te bekijken of er uberhaupt een verband is. We 
+de lengte van mensen en het inkomen van hun ouders. Dat zou verschillende oorzaken kunnen hebben, maar dat 
+is voor later. De eerste stap in het onderzoek is om eerst te bekijken of er uberhaupt een verband is. We 
 gaan proberen een verband te vinden in de data.
 
 Een vlakke lijn fitten is alleen toepasselijk als er geen afhankelijkheid is tussen de variabelen. In de meeste 
@@ -343,7 +343,7 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
     # import the module that contains the fit-tool
     from scipy.optimize import curve_fit
 
-    # define our model. In our case a constant function: f(x) = a*x + b 
+    # define our model. In our case a constant function: f(x) = a * x + b 
     def MyFitFunction(x, a, b):
         return a * x + b
 
@@ -375,7 +375,7 @@ zien is in de data terwijl een ander deel vindt dat er geen afhankelijkheid is e
 geobserveerde lichte afhankelijkheid gewoon toeval is door de steekproeven die genomen zijn. 
 We sluiten deze module af door wat quantitatieve data aan te leveren voor dee discussie.
 
-De vraag is eigenlijk: "hoe zeldzaam is dat, gegeven dat er in het echt <b>geen</b> verband bestaat, 
+De vraag is eigenlijk: "hoe zeldzaam is het dat, gegeven dat er in het echt <b>geen</b> verband bestaat, 
 een serie steekproeven (van deze grootte in elke categorie) een waarde van de richtingscoefficient 
 geeft die net zo groot is als in de data of zelfs nog groter?" Deze fractie kom je vaak tegen in de 
 literatuur en wordt ook wel de <font color = 'red'> p-waarde </font>genoemd.
