@@ -390,9 +390,9 @@ Volg om de vraag te beantwoorden de volgende strategie:
 
    1. Simuleer een data-set:
 
-       * Ga uit van 'vlakke' verdeling: f(x) = C, met C de waarde uit opdracht 3.
+       * Ga uit van een 'vlakke' hypothese: f(x) = C, met C de waarde uit opdracht 3.
 
-	   * Kies in elke inkomensgroep een 'random' meetpunt door gebruik te maken van 
+	   * Kies in elk van de 10 inkomensgroepen een 'random' meetpunt door gebruik te maken van 
      	 `numpy.random.normal(gemiddelde,breedte)`, waarbij het gemiddelde gegeven wordt 
 		 door de waarde die je in opdracht 3 vond. Gebruik als breedte de onzekerheid op 
 		 de gemiddelde lengte in die in komensgroep in de oorspronkelijke data-set. Dat is 
