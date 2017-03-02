@@ -72,12 +72,16 @@ hierboven.
 
 #### Opdracht 1: verdeling lengtes van alle vrouwen
 
-Schrijf een programma `Statistiek1.py()` waarin je 100.000 random getallen trekt uit de 
+Schrijf een programma `Statistiek1.py()` waarin je 1 miljoen random getallen trekt uit de 
 normaalverdeling die de lengte van vrouwen in Nederland beschrijft. Maak een grafiek van 
 al deze random lengtes. Gebruik hiervoor een histogram met bins die elk een breedte van 
 0.5 cm hebben. Hou bij het trekken van de random lengtes bij hoeveel vrouwen een lengte 
 hebben die groter is dan die van de gemiddelde man. Print aan het eind van het programma 
-de fractie van deze vrouwen met 3 decimalen nauwkeurigheid.
+dit percentage lange vrouwen met 2 decimalen nauwkeurigheid.
+
+{: .language-python}
+    percentage lange vrouwen is X.XX procent
+
 
 ## Opdracht 2: hoe representatief is een steekproef
 
@@ -86,18 +90,16 @@ precies achterhalen hoe lang ze is, net zoals Maurice de Hond niet van elke Nede
 op welke politieke partij hij of zij zal stemmen. We kunnen wel met behulp van steekproeven 
 proberen een idee te krijgen van de hele populatie: we bepalen de lengtes van een groep 
 vrouwen of de politieke voorkeuren van een groep Nederlanders en maken daarmee een schatting 
-van de eigenschappen van de volledige populatie. We gaan in deze opdracht onderzoeken hoeveel 
-nauwkeuriger de schatting van het 'echte' gemiddelde is bij een toenemend aantal mensen in de 
-steekproef.
+van de eigenschappen van de volledige populatie. 
 
-Hoe groter de steekproef is, hoe nauwkeuriger de schatting is en hoe kleiner de onzekerheid 
-op de schatting voor de volledige populatie. We gaan dit onderzoeken door met behulp van de 
-computer nep-steekproeven te nemen uit de oorspronkelijke distributie en te kijken hoe goed 
-de gemiddelde lengte van een (steeds grotere) groep representatief is voor die van de hele populatie. 
+We gaan in deze opdracht onderzoeken hoeveel nauwkeuriger de schatting van het 'echte' gemiddelde 
+is bij een toenemend aantal mensen in de steekproef door met behulp van de computer nep-steekproeven 
+te nemen uit de oorspronkelijke distributie. Door van deze steekproeven de gemiddelde lengte te 
+bekijken van een (steeds grotere) groep representatief is voor die van de hele populatie. 
 
 #### Opdracht 2: impact van meer metingen op de nauwkeurigheid
 
-Schrijf een programma `Statistiek2.py` dat uitrekent welke fractie van groepen vrouwen 
+Schrijf een programma `Statistiek2.py` dat uitrekent welk percentage van groepen vrouwen 
 (steekproeven) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
 verschillende groottes van de steekproef: $$N=2,3,5,10,100$$. 
 
@@ -105,15 +107,16 @@ Volg voor het bepalen van de fractie voor een specifieke waarde van $$N$$ het vo
 stappenplan:
 
   - Trek N random waardes uit de oorspronkelijke verdeling: een steekproef
-  - Bepaal voor elke steekproef het gemiddelde van de lengtes van de vrouwen in die 
-      groep en bewaar die
+  - Bepaal voor elke steekproef het gemiddelde van de lengtes van de vrouwen 
+    in die groep en bewaar die. 
   - Herhaal dit voor een groot aantal steekproeven (100.000 bijvoorbeeld)
   - Hou bij in hoeveel steekproeven het gemiddelde meer dan 5 cm afwijkt 
     van het 'echte' gemiddelde (170.6 cm).
     Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm.
               
-Print de fractie in procenten en gebruik 3 decimalen:
+Print de percentages op het scherm en gebruik 3 decimalen:
 {: .language-python}
+    Fractie afwijkende steekproeven voor N=2: x.xxx procent 
     Fractie afwijkende steekproeven voor N=2: x.xxx procent 
     Fractie afwijkende steekproeven voor N=5: x.xxx procent 
     ...
@@ -124,7 +127,7 @@ gebruikt hebben. Kies zelf een geschikte bin-grootte.
 
 **Conclusie:** Hoe groter de steekproef hoe beter het gemiddelde daarvan de 'echte' waarde 
 benadert. Dat klinkt logisch, want het  maakt nogal uit of Maurice de Hond 10 mensen hun 
-politieke voorkeur vraagt of 10000. Voor elk getal, meting of grafiek die je ziet moet je 
+politieke voorkeur vraagt of 100.000. Voor elk getal, meting of grafiek die je ziet moet je 
 je altijd afvragen wat de onzekerheid op die schatting is. Een getal zonder foutmarge kan 
 je niet op waarde schatten. Hoe kleiner de fout/onzekerheid, hoe belangrijker de meting is 
 en hoe 'zwaarder' je de meting moet meewegen als je verschillende resultaten naast elkaar 
