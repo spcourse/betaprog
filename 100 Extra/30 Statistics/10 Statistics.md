@@ -369,7 +369,7 @@ weergegeven. Print de waardes ook op het scherm als output:
     Een fit van f(x)=ax+b  geeft als beste waardes: a = x.xx  en b = x.xx
 	
 
-### [5] Hypothese testen
+## Opdracht 5: Hypotheses testen
 
 Een deel van de onderzoekers vindt dat de data suggereert dat er een lineair verband te 
 zien is in de data terwijl een ander deel vindt dat er geen afhankelijkheid is en dat de 
@@ -381,7 +381,7 @@ een serie steekproeven (van deze grootte in elke categorie) een waarde van de ri
 geeft die net zo groot is als in de data?" Deze fractie kom je vaak tegen in de literatuur 
 en wordt ook wel de p-waarde genoemd.
 
-## opdracht 5: Simuleer random data-sets en bereken de p-waarde
+#### opdracht 5: Simuleer random data-sets en bereken de p-waarde
 
 Schrijf een programma `Statistiek5.py()` waarin je de zeldzaamheid van de geobserveerde 
 richtingscoefficient bepaalt, de zogenaamde p-waarde.
