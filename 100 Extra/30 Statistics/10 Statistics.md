@@ -80,7 +80,7 @@ hebben die groter is dan die van de gemiddelde man. Print aan het eind van het p
 dit percentage lange vrouwen met 2 decimalen nauwkeurigheid.
 
 {: .language-python}
-    percentage lange vrouwen is X.XX procent
+    Het percentage lange vrouwen (langer dan 184 cm) is X.XX procent
 
 
 ## Opdracht 2: hoe representatief is een steekproef
