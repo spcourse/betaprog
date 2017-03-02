@@ -47,11 +47,10 @@ Deze verdeling, ook wel de Gaussische distributie genoemd, wordt gekarakteriseer
 twee parameters: het gemiddelde ($$\mu$$) en de maat voor de spreiding ($$\sigma$$). Er geldt 
 dat ongeveer 68%(95%) van de waarden in het gebied $$\mu \pm 1\sigma$$ ($$\mu \pm 2\sigma$$) ligt.
 
-De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een 
-normaalverdeling met een gemiddelde $$\mu$$ = 184.0 (170.6) cm en breedte 
-$$\sigma$$ = 7.0 (6.5) cm. De (genormeerde) grafieken van de twee verdelingen staan 
-in grafiek hiernaast. Dit betekent dat 34% van de mannen langer is dan 191 cm en dan 
-2.5% van de vrouwen kleiner is dan 157.6 cm.
+De lengte van mannen (vrouwen) in Nederland wordt bijvoorbeeld beschreven door een normaalverdeling 
+met een gemiddelde $$\mu$$ = 184.0 (170.6) cm en breedte $$\sigma$$ = 7.0 (6.5) cm.  Dit betekent 
+dat 34% van de mannen langer is dan 191 cm en dan 2.5% van de vrouwen kleiner is dan 157.6 cm. 
+De (genormeerde) grafieken van de twee verdelingen staan in grafiek hiernaast.
 
 <br>
 
