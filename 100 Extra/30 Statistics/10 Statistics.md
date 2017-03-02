@@ -180,12 +180,11 @@ is het gemiddelde van de hele klas?
 
 #### [voorbeeld stap 2]: Een maat voor 'hoe goed' het model de data beschrijft: de $$\chi^2$$-maat
 
-Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van 
-de fit beschrijft. We doen dat hier met de zogenaamde $$\chi^2$$-maat: de som van de 
-gemiddelde afwijking van de meetpunten tot het model gewogen met hun fout. Voor elk 
-punt bepalen we de afstand van de meting (uitgedrukt in de meetfout op het punt) tot 
-de waarde die het model voorspelt op die plek. De som die afwijkingen voor elk meetpunt 
-noemen we de $$\chi^2$$.
+Om de 'beste' waarde te vinden hebben we een maat (metriek) nodig die de *goedheid* van de fit beschrijft. 
+We doen dat hier met de zogenaamde $$\chi^2$$-maat (chi-kwadraat): de som van de gemiddelde afwijking van de 
+meetpunten tot het model gewogen met hun fout. Voor elk punt bepalen we de afstand van de meting (uitgedrukt 
+in de meetfout op het punt) tot de waarde die het model voorspelt op die plek. De som die afwijkingen voor 
+elk meetpunt noemen we de $$\chi^2$$.
 
 Iets formeler:
 $$\chi^2(\vec{\alpha}) = \sum_{i~ {\rm (datapunten)}}  \left(\frac{  y_i - f(x_i|\vec{\alpha}) }{\sigma_i}\right)^2$$
@@ -383,10 +382,11 @@ literatuur en wordt ook wel de <font color = 'red'> p-waarde </font>genoemd.
 
 #### opdracht 5: Simuleer random data-sets en bereken de p-waarde
 
-Schrijf een programma `Statistiek5.py()` waarin je de zeldzaamheid van de geobserveerde 
-richtingscoefficient bepaalt, de zogenaamde p-waarde.
+Schrijf een programma `statistiek_opdracht5.py()` die bovenstaande vraag beantwoordt door te kijken 
+hoe zeldzaam de geobserveerde richtingscoefficient in de data is als er eigenlijk helemaal geen 
+afhankelijkheid is.
 
-Gebruik hiervoor de volgende strategie:
+Volg om de vraag te beantwoorden de volgende strategie:
 
    1. Simuleer een random data-set uit een vlakke verdeling.
       Trek voor elke categorie een random getal uit de verdeling die als centrale waarde
