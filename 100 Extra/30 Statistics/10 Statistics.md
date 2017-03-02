@@ -277,12 +277,12 @@ Categorie (x)    |  1    |  2    |  3    |  4    |  5    |  6    |  7    |  8   
 Gem. lengte (y)  | 171.1 | 169.1 | 170.8 | 169.4 | 173.0 | 171.0 | 174.0 | 174.0 | 173.0 | 176.0 
 Fout ($$\Delta y$$)      |  4    |  4    |  2    |  2    |  2    |  2    |  2    |  2    |  4    |  4
 
-Er is gekozen voor 10 categorieen en hoewel er geprobeerd is zoveel mogelijk gelijke aantallen 
+Er is gekozen voor 10 inkomenscategorieen en hoewel er geprobeerd is zoveel mogelijk gelijke aantallen 
 vrouwen per categorie op te nemen in de studie is het aantal vrouwen met ouders in de extremen 
 van de inkomsten van de ouders (erg rijk en erg arm) helaas beperkt. Dit is duidelijk door de 
 grotere fout op de schatting van de gemiddelde lengte.
 
-Schrijf een programma `Statistiek3.py()` waarin je het gemiddelde vindt van de lengte van vrouwen 
+Schrijf een programma `statistiek3_opdracht3.py()` waarin je het gemiddelde vindt van de lengte van vrouwen 
 in Denemarken door een fit te maken aan de hierboven gegeven data. Volg hierbij de stappen in 
 het voorbeeld over het meten van het kookpunt van alcohol zoals hierboven is besproken. Zorg dat 
 je programma de data (met fouten) op het scherm weergeeft en ook de beste waarde van de fit die 
