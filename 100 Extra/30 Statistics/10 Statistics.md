@@ -195,7 +195,7 @@ In deze uitdrukking is $$\vec{\alpha}$$ de vector met de parameters die je gebru
 model. Voor elke keuze van de parameters in je model verandert de afstand van elk meetpunt 
 tot je model en krijg je dus een nieuwe $$\chi^2$$. 
 
-Deze uitdrukking ziet er ingewikkelder uit:
+Deze uitdrukking ziet er ingewikkelder uit dan hij is:
 
    1. de $$\chi^2$$ is gewoon een getal
 
