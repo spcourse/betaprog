@@ -109,17 +109,20 @@ stappenplan:
   - Trek N random waardes uit de oorspronkelijke verdeling: een steekproef
   - Bepaal voor elke steekproef het gemiddelde van de lengtes van de vrouwen 
     in die groep en bewaar die. 
-  - Herhaal dit voor een groot aantal steekproeven (100.000 bijvoorbeeld)
+  - Herhaal dit voor een groot aantal steekproeven (100000 bijvoorbeeld)
   - Hou bij in hoeveel steekproeven het gemiddelde meer dan 5 cm afwijkt 
     van het 'echte' gemiddelde (170.6 cm).
     Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm.
               
-Print de percentages op het scherm en gebruik 3 decimalen:
+Print de percentages op het scherm en gebruik 2 decimalen:
 {: .language-python}
-    Fractie afwijkende steekproeven voor N=2: x.xxx procent 
-    Fractie afwijkende steekproeven voor N=2: x.xxx procent 
-    Fractie afwijkende steekproeven voor N=5: x.xxx procent 
-    ...
+    Fractie afwijkende steekproeven voor N =   2: x.xx procent 
+    Fractie afwijkende steekproeven voor N =   3: x.xx procent 
+    Fractie afwijkende steekproeven voor N =   5: x.xx procent 
+    Fractie afwijkende steekproeven voor N =  10: x.xx procent 
+    Fractie afwijkende steekproeven voor N = 100: x.xx procent 
+
+Extra: probeer de user te helpen door alles netje suitgelijnd onder elkaar op het scherm te krijgen
 
 Het is zeer inzichtelijk om de distributies van de gemiddeldes te bekijken voor de verschillende 
 keuzes van de steekproefgrootte. Gebruik hiervoor de histogram methode die we ook in opgave 1 
