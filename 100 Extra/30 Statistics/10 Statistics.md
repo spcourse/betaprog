@@ -17,7 +17,7 @@ voor elke inkomenscategorie is weergegeven in de grafiek hiernaast. En hier begi
 Een deel van de onderzoekers vindt dat de data suggereert dat er een duidelijk lineair 
 verband te zien is (blauw) terwijl een andere groep vindt dat er helemaal geen afhankelijkheid 
 is (rood). Die laatste groep zegt dat de geobserveerde lichte afhankelijkheid gewoon het resultaat 
-van de toevallige fluctuaties in de lengte van vrouwen die in de steekproeven meegenomen zijn. 
+van de toevallige fluctuaties in de lengte van vrouwen die in de steekproeven geselecteerd zijn. 
 
 We gaan in deze module na een paar korte inleidende oefeningen proberen te achterhalen welke 
 conclusies we kunnen trekken: is er nou wel of niet een afhankelijkheid ?
@@ -26,7 +26,7 @@ Hoewel het niet de bedoeling is van deze module om een volledig statistiek colle
 zullen we er niet aan ontkomen om naast een aantal nieuwe Python ingredienten ook wat statistiek 
 te introduceren in de voorbereiding op een opdracht.
  
-## Opdracht 1: Fractie vrouwen langer dan de gemiddelde man
+## Opdracht 1: percentage vrouwen dat langer is dan de gemiddelde man
 
 In de eerste opdracht zullen we in detail gaan bekijken naar het percentage vrouwen in Nederland dat 
 erg lang is. Voor deze opdracht is het concept normaalverdeling en het manipuleren daarvan in Python 
