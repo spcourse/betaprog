@@ -160,7 +160,7 @@ de kennis toepassen in een concrete opdracht die gerelateerd is aan onze casus.
 ### Voorbeeld: Bepalen kookpunt van alcohol tijdens het prakticum
 
 Tijdens een prakticum kregen groepjes studenten de opdracht het kookpunt van alcohol te bepalen. 
-Elk groepje had alleen genoeg tijd om 1 keer een meting te doen. Er waren zes thermometer in de 
+Door gebrek aan tijd had elke groep maar tijd voor 1 meting. Er waren zes thermometer in de 
 zaal die de temperatuur tot op 1 graad Celcius nauwkeurig konden bepalen en vier die dat konden 
 met een hogere precisie, namelijk 0.5 graden. De lijst met de metingen van de tien groepen studenten 
 is de volgende en de grafiek met de waardes staat weergegeven in de grafiek onderaan dit voorbeeld.
