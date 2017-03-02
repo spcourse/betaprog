@@ -20,7 +20,7 @@ In deze module gaan we aan de slag met enkele algoritmen. De opdrachten zijn vri
 
 3. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/algoritmen/pyramide).
 
-#### Dag 3: greedy algoritmes
+#### Dag 3: "greedy" algoritmen
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
