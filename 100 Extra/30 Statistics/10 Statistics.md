@@ -102,7 +102,7 @@ in de steekproef zelf.
 
 Schrijf een programma `statistiek_opdracht2.py` dat uitrekent welk percentage van groepen vrouwen 
 (steekproeven) meer dan 5 cm afwijkt van het echte gemiddelde (170.6 cm). Doe dit voor 
-verschillende groottes van de steekproef: $$N=2,3,5,10,100$$. 
+verschillende groottes van de steekproef (het aantal mensen in de steekproef): $$N=2,3,5,10,100$$. 
 
 Volg voor het bepalen van de fractie voor een specifieke waarde van $$N$$ het volgende 
 stappenplan:
