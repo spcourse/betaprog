@@ -109,11 +109,11 @@ stappenplan:
 
   - Trek N random waardes uit de oorspronkelijke verdeling: een steekproef
   - Bepaal voor elke steekproef het gemiddelde van de lengtes van de vrouwen 
-    in die groep en bewaar die. 
+    in die groep en bewaar die
   - Herhaal dit voor een groot aantal steekproeven (100000 bijvoorbeeld)
   - Hou bij in hoeveel steekproeven het gemiddelde meer dan 5 cm afwijkt 
-    van het 'echte' gemiddelde (170.6 cm).
-    Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm.
+    van het 'echte' gemiddelde (170.6 cm)
+    Let op: we bedoelen hier zowel groter dan 175.6 cm en kleiner dan 165.6 cm
               
 Print de percentages op het scherm en gebruik 2 decimalen:
 {: .language-python}
@@ -131,8 +131,9 @@ gebruikt hebben. Kies zelf een geschikte bin-grootte.
 
 **Conclusie:** Hoe groter de steekproef hoe beter het gemiddelde daarvan de 'echte' waarde 
 benadert. Dat klinkt logisch, want het  maakt nogal uit of Maurice de Hond 10 mensen hun 
-politieke voorkeur vraagt of 100000. Voor elk getal, meting of grafiek die je ziet moet je 
-je altijd afvragen wat de onzekerheid op die schatting is.  Hoe kleiner de fout/onzekerheid, 
+politieke voorkeur vraagt of 100000. Voor elk getal, meting of grafiek die je voortaan ziet, 
+of dat nou in de krant, op de televisie of in een wetenschappelijk publicatie is, moet je 
+je altijd afvragen wat de onzekerheid op die schatting is. Hoe kleiner de fout/onzekerheid, 
 hoe belangrijker de meting is en hoe 'zwaarder' je de meting moet meewegen als je verschillende 
 resultaten naast elkaar legt en een conclusie probeert te trekken. Een schatting zonder een 
 foutmarge zegt dus niet zoveel.
