@@ -356,7 +356,7 @@ op de plek waar je de resultaten print naar het scherm. Zoek ze maar op.
     popt, pcov = curve_fit(MyFitFunction, data_x, data_y, None, data_y_error)
     print "Best value: f(x) = %5.2f * x + %5.2f" % (popt[0], popt[1])
 
-#### opdracht 4: een fit aan de data met als model: f(x) = ax+b 
+#### Opdracht 4: een fit aan de data met als model: f(x) = ax+b 
 
 Schrijf een programma `statistiek_opdracht4.py()` waarin je zowel een rechte lijn als een lineair 
 verband fit aan de data. Gebruik hiervoor de tools in Python zoals hierboven beschreven en reproduceer 
@@ -365,8 +365,8 @@ beide 'beste' functies in de grafiek zien. Zorg hierbij ook dat de waardes van d
 weergegeven. Print de waardes ook op het scherm als output:
 
 {: .language-python}
-    Een fit van f(x)=c    geeft als beste waarde:  c = x.xx
-    Een fit van f(x)=ax+b geeft als beste waardes: a = x.xx  en b = x.xx
+    Een fit van f(x)=c     geeft als beste waarde:  c = x.xx
+    Een fit van f(x)=ax+b  geeft als beste waardes: a = x.xx  en b = x.xx
 	
 
 ### [5] Hypothese testen
@@ -374,11 +374,11 @@ weergegeven. Print de waardes ook op het scherm als output:
 Een deel van de onderzoekers vindt dat de data suggereert dat er een lineair verband te 
 zien is in de data terwijl een ander deel vindt dat er geen afhankelijkheid is en dat de 
 geobserveerde lichte afhankelijkheid gewoon toeval is door de steekproeven die genomen zijn. 
-We kunnen wat quantitatieve data toevoegen aan deze discussie. 
+We sluiten deze module af door wat quantitatieve data aan te leveren voor dee discussie.
 
-De vraag is eigenlijk: **"hoe zeldzaam is dat, gegeven dat er in het echt geen verband bestaat, 
+De vraag is eigenlijk: "hoe zeldzaam is dat, gegeven dat er in het echt geen verband bestaat, 
 een serie steekproeven (van deze grootte in elke categorie) een waarde van de richtingscoefficient 
-geeft die net zo groot is als in de data?"** Deze fractie kom je vaak tegen in de literatuur 
+geeft die net zo groot is als in de data?" Deze fractie kom je vaak tegen in de literatuur 
 en wordt ook wel de p-waarde genoemd.
 
 ## opdracht 5: Simuleer random data-sets en bereken de p-waarde
