@@ -17,7 +17,7 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aan
 
     import matplotlib.pyplot as plt
 
-    # de lijsten waarvan je wilt dat ze 'zichtbaar' zijn in alle functies in de ze file
+    # lijsten waarvan je wilt dat ze overal in je programam 'zichtbaar' zijn
     global posities_konijnen_x, posities_konijnen_y
 
     #-------------------
