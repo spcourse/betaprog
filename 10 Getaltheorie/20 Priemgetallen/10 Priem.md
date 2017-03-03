@@ -46,7 +46,7 @@ Bij een niet priemgetal, zoals 36, moet geprint worden:
 
 Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van `x`. Als je dit bijhoudt in de loop (tellen!), kun je na aflopen van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals in het voorbeeld hierboven.
 
-# Stap 2
+## Stap 2
 
 Hierboven keken we alleen of een getal een priemgetal was of niet. We kunnen dit stukje code nu hergebruiken en voor *elk* getal onder de 100 bepalen of het een priemgetal is of niet.
 
