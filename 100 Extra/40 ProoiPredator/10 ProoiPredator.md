@@ -2,24 +2,90 @@
 
 Een klassiek voorbeeld van een complex dynamisch systeem is het zogenaamde prooi-predator 
 model. De basis van de wiskundige beschrijving van de populaties zijn de bekende 
-[Lotka-Volterra vergelijkingen](https://en.wikipedia.org/wiki/Lotka–Volterra_equations) vergelijkingen. 
-De wiskunde wordt al snel erg complex en het is ook niet altijd makkelijk om van tevoren in te schatten 
-welke effecten een nieuw aspect van het gedrag heeft op de verschillende populaties in het systeem. 
+[Lotka-Volterra vergelijkingen](https://en.wikipedia.org/wiki/Lotka–Volterra_equations) vergelijkingen. De wiskunde wordt al snel erg complex en het is ook niet altijd makkelijk om van tevoren in te schatten welke effecten een nieuw aspect van het gedrag heeft op de verschillende populaties in het systeem. 
 
-In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem: een bos van 100 
-bij 100 meter waarin 25 konijnen en 2 vossen leven. Door het zelf te programmeren kunnen we nieuwe dingen 
+In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem: een bos van 100 bij 100 meter waarin 25 konijnen en 2 vossen leven. Door het zelf te programmeren kunnen we nieuwe dingen 
 proberen en met de visualisatie krijgen we ook gelijk feedback en inzicht.
 
 ## Startpunt: twee konijnen op het scherm
 
-We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met 
-het volgende stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt 
-hebben en we op dezelfde manier stukken code toevoegen.
+We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het volgende stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
 
-Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aangeroepen vanuit het hoofdprogramma 
-helemaal onderaan, is `ProoiPredator()`. Deze functie definieert de startpositie van twee konijnen en neemt 
-stapjes in de tijd (steeds een seconde) en roept voor elk tijdstip dan twee functies aan: `VerplaatsKonijnen()` 
-die de positie van de konijnen verandert en `Teken_het_bos()` dat de konijnen op het scherm tekent.
+Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aangeroepen vanuit het hoofdprogramma helemaal onderaan, is `ProoiPredator()`. Deze functie definieert de startpositie van twee konijnen en neemt stapjes in de tijd (steeds een seconde) en roept voor elk tijdstip dan twee functies aan: `VerplaatsKonijnen()` die de positie van de konijnen verandert en `Teken_het_bos()` dat de konijnen op het scherm tekent.
+
+import matplotlib.pyplot as plt
+
+from pylab import rcParams
+rcParams['figure.figsize'] = 6, 6
+
+
+# de lijsten waarvan je wilt dat ze 'zichtbaar' zijn in alle functies in de ze file
+global posities_konijnen_x, posities_konijnen_y
+
+{: .language-python}
+
+    import matplotlib.pyplot as plt
+
+    #-------------------
+    def prooipredator():
+    #-------------------
+
+        # zeg dat je in deze functie de 'gedeelde' lijsten wilt gebruiken
+        global posities_konijnen_x, posities_konijnen_y
+
+        # definieer startpositie konijnen (x-posities en y-posities op t=0)
+        posities_konijnen_x = [10.,60.]  
+        posities_konijnen_y = [ 2.,10.]  
+   
+        # neem stapjes in de tijd
+        for i_time in range(10):
+
+            # verplaats de konijnen
+            verplaats_de_konijnen()    
+
+            # plot de positie van de konijnen
+            teken_het_bos()
+        
+        # einde functie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+        return
+  
+  
+    #---------------------------
+    def verplaats_de_konijnen():
+    #---------------------------
+
+        # zeg dat je in deze functie de 'gedeelde' lijsten wilt gebruiken
+        global posities_konijnen_x, posities_konijnen_y
+
+        # verplaats de konijnen (1.2 naar rechts en 1.6 naar boven)
+        Aantal_konijnen = len(posities_konijnen_x)   
+        for i_konijn in range(Aantal_konijnen):
+            posities_konijnen_x[i_konijn] = posities_konijnen_x[i_konijn] + 1.2 
+            posities_konijnen_y[i_konijn] = posities_konijnen_y[i_konijn] + 1.6 
+    
+
+    #--------------------------
+    def teken_het_bos():
+    #--------------------------
+
+         # definieer vast assenstelsel (het bos)
+         plt.axis([0,100,0,100])
+
+         # teken de konijnen (blauwe stip)
+         plt.plot(posities_konijnen_x, posities_konijnen_y, 'o', color = 'blue', markersize = 10)   
+        
+         # update de frames (voor simpele animatie)
+         plt.draw()        
+         plt.pause(0.001)
+         plt.show()
+         plt.clf()
+ 
+
+    #==========
+    #== MAIN ==
+    #==========
+    prooipredator()
+
 
     #-------------------
     def ProoiPredator():
