@@ -13,22 +13,12 @@ We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet me
 
 Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aangeroepen vanuit het hoofdprogramma helemaal onderaan, is `ProoiPredator()`. Deze functie definieert de startpositie van twee konijnen en neemt stapjes in de tijd (steeds een seconde) en roept voor elk tijdstip dan twee functies aan: `VerplaatsKonijnen()` die de positie van de konijnen verandert en `Teken_het_bos()` dat de konijnen op het scherm tekent.
 
-import matplotlib.pyplot as plt
-
-from pylab import rcParams
-rcParams['figure.figsize'] = 6, 6
-
-
-# de lijsten waarvan je wilt dat ze 'zichtbaar' zijn in alle functies in de ze file
-global posities_konijnen_x, posities_konijnen_y
-
 {: .language-python}
 
     import matplotlib.pyplot as plt
 
     # de lijsten waarvan je wilt dat ze 'zichtbaar' zijn in alle functies in de ze file
     global posities_konijnen_x, posities_konijnen_y
-
 
     #-------------------
     def prooipredator():
