@@ -52,7 +52,7 @@ Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen h
 
 We gaan een stap verder. We kunnen bovenstaand stukje code nu hergebruiken en voor *elk* getal onder de 100 bepalen of het een priemgetal is of niet.
 
-Maak een extra `for`-loop om alle getallen onder de 100 te genereren en bepaal voor elk van deze getallen of het wel of niet een priemgetal is. Voor elk getal moet je dus weer de delers bepalen en je zal dus uiteindelijk twee `for`-loops gebruiken in elkaar (*nested loops* of *geneste loops*).
+Maak een extra `for`-loop om alle getallen onder de 100 langs te lopen en bepaal voor elk van deze "kandidaat-priemgetallen" of het wel of niet een priemgetal is. Voor elk getal moet je dus weer de delers bepalen en je zal dus uiteindelijk twee `for`-loops gebruiken in elkaar (*nested loops* of *geneste loops*).
 
 Schrijf dus bovenstaande procedure en maak deze goed werkend. Vervolgens willen we het uitbreiden door elk gevonden priemgetal te `print`en. We moeten dus bij de conclusie 'priem' een `print`-opdracht geven.
 
@@ -60,15 +60,23 @@ Klopt je antwoord? Check het op internet!
 
 ## Stap 3
 
-We gaan nu terug naar de opdracht: op zoek naar het duizendste priemgetal. We geven een voorzetje voor de strategie van het programma:
+We gaan nu terug naar de opdracht: op zoek naar het n-de priemgetal. We geven een voorzetje voor de strategie van het programma:
 
-- Je kunt nu niet meer met een `for`-loop simpelweg tot 1000 lopen. Want we willen het duizendste priemgetal; we willen niet weten of 1000 een priemgetal is. Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je gevonden hebt. Gebruik hiervoor een variabele.
+- Je kunt nu niet meer met een `for`-loop simpelweg tot `n` lopen. Want we willen het `n`-de priemgetal; we willen niet weten of `n` een priemgetal is (zie je het verschil met stap 2?). Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je gevonden hebt. Gebruik hiervoor een variabele.
 
 - Begin klein. Zorg dat je programma eerst de priemgetallen tot 10 kan vinden. Dat is klein genoeg om te zien of het programma precies doet wat de bedoeling is, en kun al snel ontdekken wat er mis gaat.
 
 - Problemen? Print bij elke kandidaat-priem wat informatie, zodat je weet waar je bent in de berekening en je ziet of de computer ook echt jouw bedoelde strategie volgt.
 
 > Misschien is het raar of vervelend om een programma in te tikken, waarna je ontdekt dat het niet goed werkt. Dat is het lot van de programmeur: het is gewoon heel moeilijk om een precies algoritme te formuleren en dan helemaal correct om te zetten naar programmacode. Soms ben je een uitzondering vergeten, maar net zo goed heb je ergens een tikfout gemaakt. Bedankt dan dat de beste programmeurs op deze manier werken!
+
+## Stap 4
+
+Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is.
+
+Nu ben je klaar om te testen:
+
+	checkpy priemgetal
 
 ## Wiskundetips
 
