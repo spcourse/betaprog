@@ -26,6 +26,10 @@ global posities_konijnen_x, posities_konijnen_y
 
     import matplotlib.pyplot as plt
 
+    # de lijsten waarvan je wilt dat ze 'zichtbaar' zijn in alle functies in de ze file
+    global posities_konijnen_x, posities_konijnen_y
+
+
     #-------------------
     def prooipredator():
     #-------------------
