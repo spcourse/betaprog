@@ -93,15 +93,15 @@ We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in d
 
 #### Deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
-We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze met dezelfde snelheid moeten bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een variabele `snelheid_konijn` toe die de snelheid van de konijnen aangeeft (2 m/s) en voeg een lijst `hoek_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
+We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze met dezelfde snelheid moeten bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de snelheid van de konijnen aangeeft (2 m/s) en voeg een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
 `verplaats_de_konijnen()`.
 
 Op de plek in de functie `verplaats_de_konijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt moet je voor elk konijn de snelheid en de hoek eerst omrekenen naar een snelheid in de x- en y-richting. Voor elk konijn gebruiken we dan:
 
 {: .language-python}
-       hoek = hoek_konijnen[i_konijn]
-       v_x = snelheid_konijn * cos(hoek)
-       v_y = snelheid_konijn * sin(hoek)
+       hoek = hoeken_konijnen[i_konijn]
+       v_x = snelheid_konijnen * cos(hoek)
+       v_y = snelheid_konijnen * sin(hoek)
     
 En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe posities van het konijn uitrekenen:
 
@@ -120,7 +120,7 @@ Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze 
 Volg de volgende strategie als het konijn na een stap gezet te hebben buiten het bos is geraakt:
 
    1. neem een stap terug (zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
-   2. zorg dat het konijn zich omdraait door de hoek waarin het konijn beweegt te veranderen naar een richting die precies tegenovergesteld is aan de huidige richting: `hoek_nieuw = hoek + $$\pi$$`. Stop deze nieuwe bewegingsrichting (`hoek_nieuw`) op in de lijst `hoek_konijnen`. Bij de volgende stap in de tijd rent hij dus weer het bos in. 
+   2. zorg dat het konijn zich omdraait door de hoek waarin het konijn beweegt te veranderen naar een richting die precies tegenovergesteld is aan de huidige richting: `hoek_nieuw = hoek + $$\pi$$`. Stop deze nieuwe bewegingsrichting (`hoek_nieuw`) op in de lijst `hoeken_konijnen`. Bij de volgende stap in de tijd rent hij dus weer het bos in. 
    
 Probeer dit te testen door een van de konijnen direct naar de bosrand te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
@@ -156,7 +156,7 @@ Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee
 
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
-   - vossen zijn twee keer zo snel als konijnen (`snelheid_vos = 4`) en ze staan nooit stil
+   - vossen zijn twee keer zo snel als konijnen (`snelheid_vossen = 4`) en ze staan nooit stil
    - teken de vossen in rood (zelfde grootte als de konijnen, radius = 2)
    - teken om de vossen ook een rode cirkel met radius=5. 
      Deze cirkel zal later in de opgave fungeren als de 'circle-of-death' voor de konijnen
@@ -174,9 +174,9 @@ Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen. 
 Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdeling die gecentreerd is rond de oorspronkelijke bewegingsrichting kan je de volgende syntax gebruiken:
 
 {: .language-python}   
-     new_angle = numpy.random.normal(L_vos_hoek[i_vos], 0.2)  
+     nieuwe_hoek = numpy.random.normal(hoeken_vossen[i_vos], 0.2)  
 
-Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `hoek_vossen`. Bij de volgende stap zal de vos in deze nieuwe richting bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
+Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `hoeken_vossen`. Bij de volgende stap zal de vos in deze nieuwe richting bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
 
 <br><br>
 
