@@ -31,16 +31,18 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 ## Stap 1
 
-Schrijf een programma in een bestand genaamd `priem.py` dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele `number`, waarin we het getal zetten dat onderzocht moet worden:
+Een belangrijk deel van de omschrijving hierboven is dat het om priemgetallen gaat. Wat is een priemgetal? Dat moeten we in Python zien uit te drukken.
+
+Schrijf dus eerst een programma dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele `number`, waarin we het getal zetten dat onderzocht moet worden:
 
     number = input("Voer een getal in: ")
     # TODO: hier komt jouw code
 
-De functie input hierboven laat de gebruiker van jouw programma iets invullen. Als de gebruiker het getal 37 invult, moet aan het eind van het programma geprint worden:
+Als de gebruiker het getal 37 invult, moet aan het eind van het programma geprint worden:
 
-    Het getal 37 is een priemgetal 
+    Het getal 37 is een priemgetal
 
-Bij een niet priemgetal, zoals 36, moet geprint worden:
+Bij een niet-priemgetal, zoals 36, moet geprint worden:
 
 	Het getal 36 is geen priemgetal
 
@@ -48,31 +50,23 @@ Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen h
 
 ## Stap 2
 
-Hierboven keken we alleen of een getal een priemgetal was of niet. We kunnen dit stukje code nu hergebruiken en voor *elk* getal onder de 100 bepalen of het een priemgetal is of niet.
+We gaan een stap verder. We kunnen bovenstaand stukje code nu hergebruiken en voor *elk* getal onder de 100 bepalen of het een priemgetal is of niet.
 
-Maak een nieuw bestand **priem100.py**. Gebruik een `for`-loop om alle getallen onder de 100 te genereren en bepaal voor elk van deze getallen of het wel of niet een priemgetal is. Voor elk getal moet je dus weer het delers bepalen en je zal dus uiteindelijk twee `for`-loops gebruiken in elkaar (*nested loops* of *geneste loops*).
+Maak een extra `for`-loop om alle getallen onder de 100 te genereren en bepaal voor elk van deze getallen of het wel of niet een priemgetal is. Voor elk getal moet je dus weer de delers bepalen en je zal dus uiteindelijk twee `for`-loops gebruiken in elkaar (*nested loops* of *geneste loops*).
 
-Schrijf bovenstaande procedure en maak deze goed werkend. Vervolgens willen we het uitbreiden door alle gevonden priemgetallen te bewaren in een lijst. We moeten dus bij de conclusie 'priem' het juiste getal opslaan. Aan het eind van het programma willen we deze lijst dan printen:
+Schrijf dus bovenstaande procedure en maak deze goed werkend. Vervolgens willen we het uitbreiden door elk gevonden priemgetal te `print`en. We moeten dus bij de conclusie 'priem' een `print`-opdracht geven.
 
-	priemgetallen = []
-	...
-	...
-	...
-    print priemgetallen
-   
-Geef dan ook nog na het printen van de lijst aan hoeveel priemgetallen je gevonden hebt. Hoe weet je hoeveel priemgetallen er in de lijst staan? Klopt je antwoord? Check het op internet!
+Klopt je antwoord? Check het op internet!
 
 ## Stap 3
 
-We gaan nu terug naar de opdracht. We geven een voorzetje voor de strategie van het programma:
+We gaan nu terug naar de opdracht: op zoek naar het duizendste priemgetal. We geven een voorzetje voor de strategie van het programma:
 
-- Verzin hoe je per kandidaat-priemgetal bijhoudt of het inderdaad een priemgetal is terwijl je over de mogelijke delers heenloopt.
-
-- Bedenk van tevoren hoe je de lijst met (1000) gevonden priemgetallen gaat opslaan.
-
-- Problemen? Print bij elke kandidaat-priem wat informatie, zodat je weet waar je bent in de berekening en je ziet of de computer ook echt jouw bedoelde strategie volgt.
+- Je kunt nu niet meer met een `for`-loop simpelweg tot 1000 lopen. Want we willen het duizendste priemgetal; we willen niet weten of 1000 een priemgetal is. Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je gevonden hebt. Gebruik hiervoor een variabele.
 
 - Begin klein. Zorg dat je programma eerst de priemgetallen tot 10 kan vinden. Dat is klein genoeg om te zien of het programma precies doet wat de bedoeling is, en kun al snel ontdekken wat er mis gaat.
+
+- Problemen? Print bij elke kandidaat-priem wat informatie, zodat je weet waar je bent in de berekening en je ziet of de computer ook echt jouw bedoelde strategie volgt.
 
 > Misschien is het raar of vervelend om een programma in te tikken, waarna je ontdekt dat het niet goed werkt. Dat is het lot van de programmeur: het is gewoon heel moeilijk om een precies algoritme te formuleren en dan helemaal correct om te zetten naar programmacode. Soms ben je een uitzondering vergeten, maar net zo goed heb je ergens een tikfout gemaakt. Bedankt dan dat de beste programmeurs op deze manier werken!
 
@@ -80,7 +74,7 @@ We gaan nu terug naar de opdracht. We geven een voorzetje voor de strategie van 
 
 Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in deze specifieke opgave veel tijd te winnen door slim gebruik te maken van een aantal elementen uit de wiskunde. Maar let op! Doe dit pas als je zeker weet dat je programma hierboven *correct* is. Je kunt dan optimalisaties toepassen en snel vergelijken of je niet een *bug* in je code hebt geïntroduceerd. Dat zou jammer zijn voor een beetje tijdswinst!
 
-- Behalve 2 zijn even getallen nooit een priemgetal.
+- Behalve 2 zijn *even* getallen nooit een priemgetal.
 
 - Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is.
 
