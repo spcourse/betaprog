@@ -17,7 +17,7 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aan
 
     import matplotlib.pyplot as plt
 
-    # lijsten waarvan je wilt dat ze overal in je programam 'zichtbaar' zijn
+    # lijsten waarvan je wilt dat ze overal in je programma 'zichtbaar' zijn
     global posities_konijnen_x, posities_konijnen_y
 
     #-------------------
@@ -78,83 +78,10 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aan
         plt.clf()
  
 
-    #==========
-    #== MAIN ==
-    #==========
+    #====================
+    #== hoofdprogramma ==
+    #====================
     prooipredator()
-
-
-    #-------------------
-    def ProoiPredator():
-    #-------------------
-
-       #--/ startpositie 2 konijnen (x-posities en y-posities op t=0)
-       L_konijn_x = [10.,60.]  
-       L_konijn_y = [ 2.,10.]  
-   
-       #--/ neem stapjes in de tijd
-       for i_time in range(10):
-
-           #--/ verplaats de konijnen
-           VerplaatsKonijnen(L_konijn_x,L_konijn_y)    
-
-           #--/ plot de positie van de konijnen
-           Teken_het_bos(L_konijn_x,L_konijn_y)
-            
-       #--/ einde functie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-       return
-
-
-    #--------------------------------------------
-    def VerplaatsKonijnen(L_konijn_x,L_konijn_y):
-    #--------------------------------------------
-
-         #--/ doe elke tijdstap een stapje voor de konijnen (2 naar rechts en 3 naar boven)
-         Aantal_konijnen = len(L_konijn_x)   
-         for i_konijn in range(Aantal_konijnen):
-             L_konijn_x[i_konijn] = L_konijn_x[i_konijn] + 1.2 
-             L_konijn_y[i_konijn] = L_konijn_y[i_konijn] + 1.6 
-  
-         #--/ einde functie
-         return
-
-
-    #--------------------------
-    def Teken_het_bos(L_x,L_y):
-    #--------------------------
-
-         #--/ GRAFIEK (1): definieer een vast assenstelsel (het bos)
-         fig=plt.figure()
-         ax=fig.add_subplot()
-         plt.axis([0,100,0,100])
-
-         #--/ plot de positie van de konijnen (blauwe stip)
-         plt.plot(L_x, L_y, 'o', color = 'blue')   
-
-         #--/ PR (het oog wil ook wat): cirkels rond de posities van de konijnen
-         Aantal_konijnen = len(L_x)   
-         for i_konijn in range(Aantal_konijnen):
-             x = L_x[i_konijn]
-             y = L_y[i_konijn]
-             circ1=plt.Circle((x,y), radius=2, facecolor='blue', edgecolor ='None', alpha = 0.1)  
-             circ2=plt.Circle((x,y), radius=2, facecolor='None', edgecolor ='black', alpha = 1.0)
-             ax.add_patch(circ1)
-        
-         #--/ GRAFIEK (2): update frames voor simpele animatie
-         plt.draw()        #--/ Update de grafiek
-         plt.pause(0.001)
-         plt.show()
-         plt.clf()         #--/ Maak grafiek leeg bij elke tijdstap
- 
-         #--/ einde functie
-         return
-
-    #==================
-    #== MAIN PROGRAM ==
-    #==================
-    ProoiPredator()
-
-
 
 
 ### Opgave 1: modelleren van de beweging van de konijnen 
