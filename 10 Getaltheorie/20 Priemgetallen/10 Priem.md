@@ -7,7 +7,7 @@ Implementeer een programma dat op verzoek het n-de priemgetal genereert.
 	Naar welk priemgetal bent u op zoek? 1000
 	9717
 
-## Het idee
+## Achtergrond
 
 Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "domme" stappen. Een voorbeeld waar een computer zó veel effectiever is dan een enkele persoon, is het uitrekenen van priemgetallen. De definitie van een priemgetal is niet al te ingewikkeld. Maar bepalen hoeveel delers een willekeurig getal heeft kan ontzettend veel tijd kosten. Python to the rescue!
 
