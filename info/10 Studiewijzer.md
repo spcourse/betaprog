@@ -10,23 +10,23 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 ####  Module 1
 
-- Zet je eerste stappen en spring op de pyramide met [<strong>Algoritmen</strong>](/algoritmen/inhoud)
-- Duik in de wereld van [<strong>Getaltheorie</strong>](/getaltheorie/inhoud)
+- Keuze 1: zet je eerste stappen en spring op de pyramide met [<strong>Algoritmen</strong>](/algoritmen/inhoud)
+- Keuze 2: duik in de wereld van [<strong>Getaltheorie</strong>](/getaltheorie/inhoud)
 
 ####  Module 2
 
-- <strong>Integreer</strong> zonder moeite de meest exotische functies (beschikbaar: half maart)
-- Ga op zoek naar het juiste <strong>DNA</strong> (beschikbaar: eind maart)
+- Keuze 1: <strong>Integreer</strong> zonder moeite de meest exotische functies (beschikbaar: half maart)
+- Keuze 2: ga op zoek naar het juiste <strong>DNA</strong> (beschikbaar: eind maart)
 
 ####  Module 3
 
-- Bestudeer de natuurkundige regels van <strong>beweging</strong> (beschikbaar: eind maart)
-- Bereken je voordeel bij <strong>Monopoly</strong> (beschikbaar: eind maart)
+- Keuze 1: bestudeer de natuurkundige regels van <strong>beweging</strong> (beschikbaar: eind maart)
+- Keuze 2: bereken je voordeel bij <strong>Monopoly</strong> (beschikbaar: eind maart)
 
 ####  Module 4
 
-- Begraaf je in de big data van het <strong>klimaat</strong> (beschikbaar: half april)
-- Toets je conclusies met <strong>statistiek</strong> (beschikbaar: half april)
+- Keuze 1: begraaf je in de big data van het <strong>klimaat</strong> (beschikbaar: half april)
+- Keuze 2: toets je conclusies met <strong>statistiek</strong> (beschikbaar: half april)
 
 ## Begeleiding
 
