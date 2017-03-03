@@ -24,7 +24,7 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aan
     def prooipredator():
     #-------------------
 
-        # zeg dat je in deze functie de 'gedeelde' lijsten wilt gebruiken
+        # zorg dat je de 'gedeelde' lijsten kan gebruiken
         global posities_konijnen_x, posities_konijnen_y
 
         # definieer startpositie konijnen (x-posities en y-posities op t=0)
@@ -48,7 +48,7 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aan
     def verplaats_de_konijnen():
     #---------------------------
 
-        # zeg dat je in deze functie de 'gedeelde' lijsten wilt gebruiken
+        # zorg dat je de 'gedeelde' lijsten kan gebruiken
         global posities_konijnen_x, posities_konijnen_y
 
         # verplaats de konijnen (1.2 naar rechts en 1.6 naar boven)
@@ -62,17 +62,20 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aan
     def teken_het_bos():
     #--------------------------
 
-         # definieer vast assenstelsel (het bos)
-         plt.axis([0,100,0,100])
+        # zorg dat je de 'gedeelde' lijsten kan gebruiken
+        global posities_konijnen_x, posities_konijnen_y
 
-         # teken de konijnen (blauwe stip)
-         plt.plot(posities_konijnen_x, posities_konijnen_y, 'o', color = 'blue', markersize = 10)   
+        # definieer vast assenstelsel (het bos)
+        plt.axis([0,100,0,100])
+
+        # teken de konijnen (blauwe stip)
+        plt.plot(posities_konijnen_x, posities_konijnen_y, 'o', color = 'blue', markersize = 10)   
         
-         # update de frames (voor simpele animatie)
-         plt.draw()        
-         plt.pause(0.001)
-         plt.show()
-         plt.clf()
+        # update de frames (voor simpele animatie)
+        plt.draw()        
+        plt.pause(0.001)
+        plt.show()
+        plt.clf()
  
 
     #==========
