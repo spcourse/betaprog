@@ -91,7 +91,7 @@ Als een variabele of lijst in meerdere functies in een programma gebruikt wordt 
 
 We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In opdracht 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `Prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten. 
 
-#### Deelopdracht (1a): nieuwe parametrisatie beweging konijnen
+#### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
 
 We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze met dezelfde snelheid moeten bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de snelheid van de konijnen aangeeft (2 m/s). Dit is een variabele die voor alle konijnen hetzelfde is. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
 `verplaats_de_konijnen()`.
@@ -113,7 +113,7 @@ We hebben hiermee nu de mogelijkheid om bij de start van de simulatie elk konijn
 
 <br>
 
-#### Deelopdracht (1b): de bosrand 
+#### [deelopdracht 1b]: de bosrand 
 
 Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze per ongeluk een stap buiten het bos doen draaien ze zich pijlsnel om en zullen daarna weer snel het bos inrennen in dezelfde richting als waar ze vandaan kwamen. Pas de functie `verplaats_de_konijnen()` zodanig aan dat de konijnen in het bos blijven rondlopen.
 
@@ -126,7 +126,7 @@ Probeer dit te testen door een van de konijnen direct naar de bosrand te laten b
 
 <br>
 
-#### Deelopdracht (1c): random konijnen-gedrag
+#### [deelopdracht 1c]: random konijnen-gedrag
 
 
 Iedereen die konijnen heeft ziet lopen weet dat niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan ineens van richting te veranderen. Deze eigenschap moeten we ook implementeren in de simulatie.
