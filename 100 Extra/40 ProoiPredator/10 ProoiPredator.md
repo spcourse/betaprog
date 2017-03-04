@@ -74,7 +74,7 @@ Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als glob
         plt.axis([0,100,0,100])
 
         # teken de konijnen (blauwe stip)
-        plt.plot(posities_konijnen_x, posities_konijnen_y, 'o', color = 'blue', markersize = 5)   
+        plt.plot(posities_konijnen_x, posities_konijnen_y, 'o', color = 'blue', markersize = 6)   
         
         # update de frames (voor simpele animatie)
         plt.draw()        
@@ -161,7 +161,7 @@ Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
    - vossen zijn twee keer zo snel als konijnen (`snelheid_vossen = 4`) en ze staan nooit stil
-   - teken de vossen in rood (zelfde grootte als de konijnen)
+   - teken de vossen in rood (size=10 i.p.v de size=6 voor de konijnen)
 
 Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 naar links en vos 2 naar beneden bewegen. 
 
