@@ -141,7 +141,9 @@ Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in
 
 Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `prooipredator()` zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de konijnen ook een random startrichting: $$0<\alpha<2\pi$$.
 
-<br><br>
+Let op: In de functie zorg dat je <b>voor></b> je de random posities van de 25 konijnen in de functie `prooipredator()` in de lijsten stopt (x-positie, y-positie en hoek) eerst de lijsten als 'leeg' definieert: `posities_konijnen_x = []` etc.  Je kan dan steeds een de parameters van elk nieuw konijn simpelweg toevoegen en ook in het geval dat we laten meerdere simulaties achter elkaar gaan maken zorgt dit ervoor dat je blanco begint.
+
+<br>
 
 ### Opgave 2: Harde realiteit voor de konijnen: vossen
 
@@ -150,7 +152,7 @@ Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door
 
 #### Deelopdracht (2a): introduceren van vossen
 
-Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_wolven()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
+Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_vossen()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
 
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
