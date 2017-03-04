@@ -74,7 +74,7 @@ Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als glob
         plt.axis([0,100,0,100])
 
         # teken de konijnen (blauwe stip)
-        plt.plot(posities_konijnen_x, posities_konijnen_y, 'o', color = 'blue', markersize = 10)   
+        plt.plot(posities_konijnen_x, posities_konijnen_y, 'o', color = 'blue', markersize = 5)   
         
         # update de frames (voor simpele animatie)
         plt.draw()        
