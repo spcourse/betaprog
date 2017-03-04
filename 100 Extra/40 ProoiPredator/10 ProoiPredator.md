@@ -180,16 +180,13 @@ Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdel
 
 Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `hoeken_vossen`. Bij de volgende stap zal de vos in deze nieuwe richting bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
 
-Let op: 
+<br>
 
-
-<br><br>
-
-### Opgave 3: populatie-dynamica (de dood - vossen eten konijnen)
+## Opdracht 3: populatie-dynamica (de dood - vossen eten konijnen)
 
 In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. 
 
-#### Deelopdracht (3a): verdwijnende konijnen
+#### [deelopdracht 3a]: verdwijnende konijnen
 
 Schrijf een nieuwe functie `Etenstijd()` die in de hoofdfunctie `ProoiPredator()` wordt aangeroepen na de functie `VerplaatsKonijnen()`. Deze functie heeft als taak te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt trouwens bedoeld: 'binnen de circle of death', dus op een afstand van 5 of minder van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst met konijnen.
 
@@ -214,7 +211,7 @@ Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** 
 Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en hoeveel vossen en konijnen er zich nog in het bos bevinden.
 <br><br>
           
-#### Deelopdracht (3b): Gemiddelde halfwaardetijd konijnenpopulatie
+#### [deelopdracht 3b]: Gemiddelde halfwaardetijd konijnenpopulatie
 
 Het weergeven van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Als je met de opzet zoals hierboven 100 tijdstapjes wilt doen kan je daar nog op wachten, maar tienduizend stapjes is al niet meer te doen. Door de visualisatie weg te laten kan je enorm veel tijd winnen en het stelt je in staat wat langere scenario's door te rekenen of juist veel verschillende simulaties. En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk om te zien'. Visualiseren is een goede techniek om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk in de bovenstaande 
 opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van de konijnen aan het implementeren was.
