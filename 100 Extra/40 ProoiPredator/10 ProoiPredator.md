@@ -145,7 +145,7 @@ Let op: om een random getal te genereren heb je de random bibliotheek nodig. Zor
 
 Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `prooipredator()` zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de konijnen ook een random startrichting: $$0<\alpha<2\pi$$.
 
-Let op: In de functie zorg dat je <b>voor></b> je de random posities van de 25 konijnen in de functie `prooipredator()` in de lijsten stopt (x-positie, y-positie en hoek) eerst de lijsten als 'leeg' definieert: `posities_konijnen_x = []` etc.  Je kan dan steeds een de parameters van elk nieuw konijn simpelweg toevoegen en ook in het geval dat we laten meerdere simulaties achter elkaar gaan maken zorgt dit ervoor dat je blanco begint.
+Let op: In de functie zorg dat je <b>voor</b> je de random posities van de 25 konijnen in de functie `prooipredator()` in de lijsten stopt (x-positie, y-positie en hoek) eerst de lijsten als 'leeg' definieert: `posities_konijnen_x = []` etc.  Je kan dan steeds een de parameters van elk nieuw konijn simpelweg toevoegen en ook in het geval dat we laten meerdere simulaties achter elkaar gaan maken zorgt dit ervoor dat je blanco begint.
 
 <br>
 
