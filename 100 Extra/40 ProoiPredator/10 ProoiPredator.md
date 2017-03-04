@@ -16,6 +16,8 @@ Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aan
 ##### Extra stukje Python: globale variabelen
 Als een variabele of lijst in meerdere functies in een programma gebruikt wordt is het soms handig om die variabel als zogenaamd 'globaal' te definieren. Alle functies in het programma kunnen aangeven dat ze die variabelen willen gebruiken. Deze variabelen worden daarmee gedeeld. In ons stukje code zijn dat twee lijsten: `posities_konijnen_x` en `posities_konijnen_y`. Deze lijsten worden namelijk gebruikt in elk van de drie functies: de startwaardes worden gedefini&euml;erd in `prooipredator()`, ze worden veranderd in de functie `verplaats_de_konijnen()` en daarna getekend in `teken_het_bos()`. De syntax om globale variabelen te defini&euml;ren en gebruiken is als volgt: de lijsten worden eerst in het hoofdprogramma (helemaal bovenaan) als globaal gedefini&euml;erd en vervolgens wordt aan het begin van elk van de drie functies vermeld dat we ze in die functie willen gebruiken.
 
+Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als globaal definieren. 
+
 
 {: .language-python}
     import matplotlib.pyplot as plt
@@ -93,7 +95,7 @@ We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in d
 
 #### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
 
-We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat ze met dezelfde snelheid moeten bewegen (2 meter per seconde) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de snelheid van de konijnen aangeeft (2 m/s). Dit is een variabele die voor alle konijnen hetzelfde is. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
+We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat konijnen altijd met dezelfde snelheid bewegen (2 m/s) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een variabele (getal) `snelheid_konijnen` toe die de snelheid van de konijnen aangeeft. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
 `verplaats_de_konijnen()`.
 
 Op de plek in de functie `verplaats_de_konijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt moet je voor elk konijn de snelheid en de hoek eerst omrekenen naar een snelheid in de x- en y-richting. Voor elk konijn gebruiken we dan:
