@@ -88,14 +88,15 @@ Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als glob
     #====================
     prooipredator()
 
-
 ## Opdracht 1: modelleren van de beweging van de konijnen 
 
 We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In opdracht 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `Prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten. 
 
 #### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
 
-We hadden de verplaatsing van de twee konijnen ook kunnen representeren door te stellen dat konijnen altijd met dezelfde snelheid bewegen (2 m/s) allemaal onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. Voeg in het hoofdprogramma een variabele (getal) `snelheid_konijnen` toe die de snelheid van de konijnen aangeeft. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
+We hadden de verplaatsing van de twee konijnen in het stukje voorbeeldcode ook kunnen representeren door te stellen dat konijnen niet alleen met dezelfde snelheid bewegen (2 m/s), maar in dit specifieke geval ook nog eens onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. We gaan werken met een universele snelheid, maar gaan toevoegen dat elk van de konijnen een eigen bewegingsrichting heeft.
+
+Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de universele snelheid van de konijnen aangeeft. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
 `verplaats_de_konijnen()`.
 
 Op de plek in de functie `verplaats_de_konijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt moet je voor elk konijn de snelheid en de hoek eerst omrekenen naar een snelheid in de x- en y-richting. Voor elk konijn gebruiken we dan:
