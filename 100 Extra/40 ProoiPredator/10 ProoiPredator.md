@@ -127,8 +127,7 @@ Probeer dit te testen door een van de konijnen (recht) naar de bosrand te laten 
 
 #### [deelopdracht 1c]: random konijnen-gedrag
 
-
-Iedereen die konijnen heeft ziet lopen weet dat niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan ineens van richting te veranderen. Deze eigenschap moeten we ook implementeren in de simulatie.
+Iedereen die konijnen heeft zien lopen weet dat ze niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan van richting te veranderen. Deze eigenschap gaan we ook implementeren in onze simulatie.
 
 Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden een seconde stilzit en daarna in een random richting verder wandelt. Een oplossing die je hiervoor zou kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en te kijken of die waarde kleiner of groter is dan 1/20.
 
