@@ -173,14 +173,14 @@ Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1
 
 Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen. De vos heeft de neiging om rechtdoor te lopen, maar kan na elke stap besluiten daarna iets naar links of rechts af te buigen. De kans op een bepaalde verandering ten opzichte van de oorspronkelijke bewegingsrichting neemt sterk af hoe groter de richtingsverandering is. De verdeling van de kansen volgt een zogenaamde normaal-verdeling. De vos volgt hiermee een soort pseudo-random walk waarbij er toch een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
 
-Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdeling die gecentreerd is rond de oorspronkelijke bewegingsrichting kan je de volgende syntax gebruiken:
+Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdeling heb je een functie nodig die zich in de numpy bibliotheek bevindt. Zorgt dat je code die kent: `import numpy as np` en voor de specifieke implementatie waarin je wilt dat het random getal gecentreerd is rond de oorspronkelijke bewegingsrichting kan je de volgende syntax gebruiken:
 
 {: .language-python}   
      nieuwe_hoek = np.random.normal(hoeken_vossen[i_vos], 0.2)  
 
 Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `hoeken_vossen`. Bij de volgende stap zal de vos in deze nieuwe richting bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
 
-Let op: om een random getal te genereren uit de normaalverdeling heb je de numpy bibliotheek nodig. Zorgt dat je code die kent: `import numpy as np`
+Let op: 
 
 
 <br><br>
