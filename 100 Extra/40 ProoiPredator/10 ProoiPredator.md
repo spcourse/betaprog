@@ -134,7 +134,7 @@ Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in
 ![](konijnen.gif){:.inline}{: style="width:30%"}
 
 {: .language-python}
-      x<0.05 ( 5% kans): geen stap, kies wel nieuwe hoek (0<hoek<2*pi) 
+      x<0.05 (5% kans): geen stap, kies wel nieuwe hoek (0<hoek<2*pi) 
       x>0.05 (95% kans): zet een gewone stap
 
 #### Deelopdracht (1d): startsituatie: 25 'random' konijnen 
