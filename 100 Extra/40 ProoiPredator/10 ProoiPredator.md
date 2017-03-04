@@ -94,12 +94,11 @@ We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in d
 
 #### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
 
-We hadden de verplaatsing van de twee konijnen in het stukje voorbeeldcode ook kunnen representeren door te stellen dat konijnen niet alleen met dezelfde snelheid bewegen (2 m/s), maar in dit specifieke geval ook nog eens onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. We gaan in de rest van de opgave werken met een universele konijnen-snelheid, maar gaan wel zorgen dat elk konijnen zijn eigen bewegingsrichting heeft.
+We hadden de verplaatsing van de twee konijnen in het stukje voorbeeldcode ook kunnen representeren door te stellen dat konijnen niet alleen met dezelfde snelheid bewegen (2 m/s), maar in dit specifieke geval ook nog eens onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. We gaan in de rest van de opgave werken met een universele konijnen-snelheid, maar gaan wel zorgen dat elk konijnen zijn eigen bewegingsrichting heeft. 
 
-Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de universele snelheid van de konijnen aangeeft. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat deze variabele en de nieuwe lijst met de hoeken ook globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie 
-`verplaats_de_konijnen()`.
+Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de universele snelheid van de konijnen aangeeft. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. In de functie waarin de nieuwe positie van de konijnen uitgerekend wordt is deze informatie nodig. Zorg dat beide globale variabelen zijn en zorg dat je ze ook kan gebruiken in de functie `verplaats_de_konijnen()`.
 
-Op de plek in de functie `verplaats_de_konijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt moet je voor elk konijn de snelheid en de hoek eerst omrekenen naar een snelheid in de x- en y-richting. Voor elk konijn gebruiken we dan:
+Op de plek in de functie `verplaats_de_konijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt moet je voor elk konijn de snelheid en de hoek eerst omrekenen naar een snelheid in de x- en y-richting zodat de daarmee de verplaatsing in de x- en y-richting uitgerekend kan worden. Voor elk konijn gebruiken we eerst:
 
 {: .language-python}
        hoek = hoeken_konijnen[i_konijn]
@@ -112,7 +111,7 @@ En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe
        posities_konijnen_x[i_konijn] = posities_konijnen_x[i_konijn] + v_x
        posities_konijnen_y[i_konijn] = posities_konijnen_y[i_konijn] + v_y
 
-We hebben hiermee nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven. Voer bovenstaande veranderingen in in de code, geef elk van de konijnen een eigen richting en laat de simulatie 20 seconden lopen in plaats van 10. 
+Eigenlijk staat er in bovenstaande code v_x*dt, maar omdat de tijdstapjes 1 seconde zijn kunnen de dt weglaten. We hebben met deze implementatie nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven. Voer bovenstaande veranderingen in in de code, geef elk van de konijnen een eigen richting en laat de simulatie 20 seconden lopen in plaats van 10. 
 
 <br>
 
