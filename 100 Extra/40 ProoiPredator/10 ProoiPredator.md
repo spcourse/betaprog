@@ -87,9 +87,9 @@ Als een variabele of lijst in meerdere functies in een programma gebruikt wordt 
     prooipredator()
 
 
-### Opgave 1: modelleren van de beweging van de konijnen 
+## Opdracht 1: modelleren van de beweging van de konijnen 
 
-We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In opgave 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code.
+We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In opdracht 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `Prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten. 
 
 #### Deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
