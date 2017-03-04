@@ -155,9 +155,7 @@ Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
    - vossen zijn twee keer zo snel als konijnen (`snelheid_vossen = 4`) en ze staan nooit stil
-   - teken de vossen in rood (zelfde grootte als de konijnen, radius = 2)
-   - teken om de vossen ook een rode cirkel met radius=5. 
-     Deze cirkel zal later in de opgave fungeren als de 'circle-of-death' voor de konijnen
+   - teken de vossen in rood (zelfde grootte als de konijnen)
 
 Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 naar links en vos 2 naar beneden bewegen. 
 
