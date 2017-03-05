@@ -231,8 +231,7 @@ De tijd die de vossen daarvoor nodig hebben zal voor elke nieuwe simulate anders
 
  ![](halfwaarde3x.png){: style="width:65%"}
 
-
-Op het scherm moet uiteindelijk verschijnen voor elk:
+Aan het eind van de simulatie moet op het scherm verschijnen:
 
 {: .language-python}   
     Na x.xx seconde is meer dan de helft van de konijnen opgegeten
@@ -241,7 +240,9 @@ Op het scherm moet uiteindelijk verschijnen voor elk:
 
 Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `prooipredator()` aan te roepen, maar zoals je ziet als je verschillende simulaties bekijkt is er een vrij grote spreiding in de precieze halfwaarde tijd. Om de gemiddelde halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
 
-Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een groot aantal keer (minimaal 100) de functie `prooipredator()` aanroept, steeds de halfwaardetijd opslaat, maar om uiteindelijk het gemiddelde te berekenen en op het scherm te print.
+<b>Let op:</b> De grafieken van het aantal konijnen als functie van de tijd zoals we die in de vorige deelopdracht hebben gemaakt hebben we gemaakt om te kijken of onze berekening klopte. Nu we daarvan overtuigd zijn kunnen we die weglaten. Zorgt dat de grafiek alleen gemaakt wordt als we in onze functie maar 1 keer `prooipredator()` aanroepen. In de rest van de opdracht kijken we naar de waardes en doen plots er niet meer toe.
+
+Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een groot aantal keer (minimaal 100) de functie `prooipredator()` aanroept, steeds de halfwaardetijd opslaat, om uiteindelijk het gemiddelde te berekenen.
 
 Op het scherm moet uiteindelijk na de simulatie het volgende verschijnen:
 
@@ -249,14 +250,13 @@ Op het scherm moet uiteindelijk na de simulatie het volgende verschijnen:
     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 100:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
 
-<b>Let op:</b> De grafieken van het aantal konijnen als functie van de tijd zoals we die in de vorige deelopdracht hebben gemaakt hebben we gemaakt om te kijken of onze berekening klopte. Nu we daarvan overtuigd zijn kunnen we die weglaten. Zorgt dat de grafiek alleen gemaakt wordt als we in onze functie maar 1 keer `prooipredator()` aanroepen. In deze deelopdracht kijken we naar de waardes en doen plots er niet meer toe.
-
-
-#### Deelopdracht (3c): Strategie konijnen: snelheid aanpassen
+#### Deelopdracht (3d): Strategie konijnen: helpt het om onze snelheid aan te passen?
 
 We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie voor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood en moeten iets bedenken. Discussiepunt onder de konijnen is nu of ze juist beter heel hard kunnen gaan lopen of juist stil moeten gaan zitten en hopen dat de wolven ze niet vinden. Aan ons om de optimale strategie te bepalen voor de konijnen.
 
-Run de functie `GemiddeldeHalfwaardetijd()` met een aantal waardes van de snelheid voor de konijnen en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de  functie `prooipredator()` steeds met de hand veranderen. Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 in stapjes van 0.5 en maak een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je? Logisch?
+De vraag in deze opdracht is: run de functie `gemiddelde_halfwaardetijd()` aan met verschillende waardes van de snelheid voor de konijnen en maak een grafiek te maken van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 meter per seconde in stapjes van 0.5 meter per seconde.
+
+Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven voor je uiteindelijk een grafiek maakt van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je? Is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen? Is dat logisch?
 
 <br>
 
