@@ -131,9 +131,9 @@ Probeer dit te testen door een van de konijnen (recht) naar de bosrand te laten 
 
 Iedereen die konijnen heeft zien lopen weet dat ze niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan van richting te veranderen. Deze eigenschap gaan we ook implementeren in onze simulatie.
 
-Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden een seconde stilzit en daarna in een willekeurige andere richting verder wandelt. Praktisch betekent dit dat een konijn 5% kans heeft om stil te zitten (en van richting te veranderen) en 95% kans heeft om gewoon door te lopen in de richting die hij toch al aan het gaan is. Een mogelijke implementatie van dit gedrag die je hiervoor zou kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en te kijken of die waarde kleiner of groter is dan 0.05.
-
 ![](konijnen.gif){:.inline}{: style="width:30%"}
+
+Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden een seconde stilzit en daarna in een willekeurige andere richting verder wandelt. Praktisch betekent dit dat een konijn 5% kans heeft om stil te zitten (en van richting te veranderen) en 95% kans heeft om gewoon door te lopen in de richting die hij toch al aan het gaan is. Een mogelijke implementatie van dit gedrag die je hiervoor zou kunnen gebruiken is om een random getal $$x$$ te trekken (tussen 0 en 1) en te kijken of die waarde kleiner of groter is dan 0.05.
 
 {: .language-python}
       x<0.05 (5% kans): geen stap, kies wel nieuwe hoek (0<hoek<2*pi) 
