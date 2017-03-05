@@ -113,7 +113,7 @@ En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe
 
 Eigenlijk staat er in bovenstaande code v_x*dt, maar omdat de tijdstapjes 1 seconde zijn kunnen de dt weglaten. We hebben met deze implementatie nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven. Voer bovenstaande veranderingen in in de code, geef elk van de konijnen een eigen richting en laat de simulatie 20 seconden lopen in plaats van 10. 
 
-Let op: om de goniometrische functies (zo) in je programma te kunnen gebruiken moet je de wiskunde bibliotheek implementeren: `from math import *`
+<b>Let op:</b> om de goniometrische functies (zo) in je programma te kunnen gebruiken moet je de wiskunde bibliotheek implementeren: `from math import *`
 
 #### [deelopdracht 1b]: de bosrand 
 
@@ -139,7 +139,7 @@ Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in
     x<0.05 (5% kans): geen stap, kies wel nieuwe hoek (0<hoek<2*pi) 
     x>0.05 (95% kans): zet een gewone stap
 
-Let op: om een random getal te genereren heb je de random bibliotheek nodig. Zorgt dat je code die kent: `from random import *`
+<b>Let op:</b> om een random getal te genereren heb je de random bibliotheek nodig. Zorgt dat je code die kent: `from random import *`
 
 <br>
 
@@ -148,7 +148,7 @@ Let op: om een random getal te genereren heb je de random bibliotheek nodig. Zor
 Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `prooipredator()` zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de konijnen ook een random startrichting: $$0<\alpha<2\pi$$.
 
 <b>Let op:</b> In de functie `prooipredator()` voeg je voor elk van de 25 konijnen de 
-parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je <b>voor</b> je dat doet de lijsten als 'leeg' definieert. Dus: `posities_konijnen_x = []` etc. Dit is belangrijk in het geval we meerdere simulaties achter elkaar gaan maken omdat je dan steeds met een blanco situatie wilt beginnen.
+parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je voor je dat doet de lijsten als 'leeg' definieert. Dus: `posities_konijnen_x = []` etc. Dit is belangrijk in het geval we meerdere simulaties achter elkaar gaan maken omdat je dan steeds met een blanco situatie wilt beginnen.
 
 ## Opdracht 2: Harde realiteit voor de konijnen: vossen
 
