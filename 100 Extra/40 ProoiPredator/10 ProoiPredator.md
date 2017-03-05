@@ -227,7 +227,7 @@ Om de tijd te berekenen waarop de helft van de konijnen opgegeten is gaan we twe
    
    2. Schrijf een nieuwe functie `gemiddelde_halfwaardetijd()` die een enkele keer de functie `prooipredator()` aanroept. Omdat deze functie de hele lijst met aantal konijnen op elke tijdstap teruggeeft kan je hiermee uitrekenen op welk moment er voor het eerst minder dan de helft van de konijnen rondlopen in het bos. 
    
-De tijd die de vossen daarvoor nodig hebben zal voor elke nieuwe simulate anders zijn. Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor een twee aparte simulaties. Voor we van 1000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
+De tijd die de vossen daarvoor nodig hebben zal voor elke nieuwe simulate anders zijn. Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor twee simulaties. Voor we van 1000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
 
  ![](halfwaarde3x.png){: style="width:65%"}
 
