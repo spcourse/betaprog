@@ -256,7 +256,7 @@ We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van 
 
 De vraag in deze opdracht is: run de functie `gemiddelde_halfwaardetijd()` aan met verschillende waardes van de snelheid voor de konijnen en maak een grafiek te maken van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Probeer verschillende snelheden voor de konijnen: snelheden van 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 en 5.0 meter per seconde.
 
-Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven voor je uiteindelijk een grafiek maakt van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je? Is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen? Is dat logisch?
+Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven voor je uiteindelijk een grafiek maakt van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Welke trend zie je? Is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen?
 
 <br>
 
