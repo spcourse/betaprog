@@ -197,7 +197,7 @@ Gebruik de volgende Python syntax om een element $$i$$ uit een lijst $$L$$ weg t
      del L[i] 
 
 <b>Let op:</b> 
-Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schuiven alle elementen 1 positie op. Element 11 van de oorspronkelijke lijst wordt dan element 10 in de nieuwe lijst etc. De lijst is dan ook ineens 19 posities lang geworden. Een slimme 'truc' om dit op te vangen is om de lijst in omgekeerd volgorde af te lopen. Begin dus bij konijn 20, vervolgens naar konijn 19 etc etc. De lijst wordt dan wel korter, maar je komt nooit in de problemen omdat je nooit element weghaalt die je later nog wilt bekijken.
+Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schuiven alle elementen 1 positie op. Element 11 van de oorspronkelijke lijst wordt dan element 10 in de nieuwe lijst etc. De lijst is dan ook ineens 19 posities lang geworden en als je uiteindelijk bij konijn 20 aankomt bestaat dat niet meer. Een 'truc' om dit op te vangen is om de lijst in omgekeerd volgorde af te lopen. Begin dus bij konijn 20, vervolgens naar konijn 19 etc etc. De lijst wordt dan wel korter, maar je komt nooit in de problemen omdat je nooit element weghaalt dat je later nog wilt bekijken.
 
 ![](konijnenenvossenEtenstijd.gif){:.inline}{: style="width:30%"}
 
@@ -210,6 +210,7 @@ Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de 
 Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus zowel de x-positie, de y-positie als de bewegingsrichting.
 
 Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en hoeveel vossen en konijnen er zich nog in het bos bevinden.
+
 <br><br>
           
 #### [deelopdracht 3b]: Gemiddelde tijd waarbij de konijnenpopulatie gehalveerd is
