@@ -219,7 +219,10 @@ opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van
 
 Zorg dat je in de hoofdfunctie `prooipredator()` een variabele toevoegt waarmee je makkelijk kan kiezen of je wel/niet de functie `teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk.
 
-Verander de functie `prooipredator()` zodanig dat je aan het eind van de functie weet bij welke tijdstap er voor het eerst minder dan 50% van het oorspronkelijk aantal konijnen nog levend in het bos rondloopt. In navolging van radioactief verval noemen we dit de halfwaardetijd van de konijnen. Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd. probeer deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
+Verander de functie `prooipredator()` zodanig dat je aan het eind van deze functie weet bij welke tijdstap er voor het eerst minder dan 50% van het oorspronkelijk aantal konijnen nog levend in het bos rondloopt. In navolging van radioactief verval noemen we dit de halfwaardetijd van de konijnen. 
+
+##### [tussenstap]
+Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor een twee aparte simulaties. Voor we van 10000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
 
  ![](halfwaarde3x.png){: style="width:65%"}
 
