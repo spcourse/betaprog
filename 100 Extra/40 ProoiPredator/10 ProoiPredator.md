@@ -136,8 +136,8 @@ Iedereen die konijnen heeft zien lopen weet dat ze niet in een rechte lijn beweg
 Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden stilzit en daarna in een willekeurige andere richting verder wandelt. Praktisch betekent dit dat een konijn elke seconde een 5% kans heeft om stil te zitten en van richting te veranderen en 95% kans heeft om gewoon door te lopen in dezelfde richting. Een mogelijke implementatie van dit gedrag is dor gebruik te maken van een random getal $$x$$ (tussen 0 en 1).
 
 {: .language-python}
-      x<0.05 (5% kans): geen stap, kies wel nieuwe hoek (0<hoek<2*pi) 
-      x>0.05 (95% kans): zet een gewone stap
+    x<0.05 (5% kans): geen stap, kies wel nieuwe hoek (0<hoek<2*pi) 
+    x>0.05 (95% kans): zet een gewone stap
 
 Let op: om een random getal te genereren heb je de random bibliotheek nodig. Zorgt dat je code die kent: `from random import *`
 
