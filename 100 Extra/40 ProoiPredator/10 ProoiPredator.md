@@ -238,7 +238,7 @@ Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `p
 
 Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een groot aantal keer (minimaal 100) de functie `prooipredator()` aanroept, steeds de halfwaardetijd opslaat, maar om uiteindelijk het gemiddelde te berekenen en op het scherm te print.
 
-Op het scherm moet uiteindelijk verschijnen:
+Op het scherm moet uiteindelijk na de simulatie het volgende verschijnen:
 
 {: .language-python}   
     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 100:
