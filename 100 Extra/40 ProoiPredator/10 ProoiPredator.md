@@ -59,8 +59,8 @@ Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als glob
         # verplaats de konijnen (1.2 naar rechts en 1.6 naar boven)
         Aantal_konijnen = len(posities_konijnen_x)   
         for i_konijn in range(Aantal_konijnen):
-            posities_konijnen_x[i_konijn] = posities_konijnen_x[i_konijn] + 1.2 
-            posities_konijnen_y[i_konijn] = posities_konijnen_y[i_konijn] + 1.6 
+            posities_konijnen_x[i_konijn] = posities_konijnen_x[i_konijn] + 0.6 
+            posities_konijnen_y[i_konijn] = posities_konijnen_y[i_konijn] + 0.8 
     
 
     #--------------------------
@@ -94,7 +94,7 @@ We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in d
 
 #### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
 
-We hadden de verplaatsing van de twee konijnen in het stukje voorbeeldcode ook kunnen representeren door te stellen dat konijnen niet alleen met dezelfde snelheid bewegen (2 m/s), maar in dit specifieke geval ook nog eens onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. We gaan in de rest van de opgave werken met een universele konijnen-snelheid, maar gaan zorgen dat elk konijnen zijn eigen bewegingsrichting krijgt. 
+We hadden de verplaatsing van de twee konijnen in het stukje voorbeeldcode ook kunnen representeren door te stellen dat konijnen niet alleen met dezelfde snelheid bewegen (1 m/s), maar in dit specifieke geval ook nog eens onder dezelfde hoek ten opzichte van de x-as: ongeveer 51 graden. We gaan in de rest van de opgave werken met een universele konijnen-snelheid, maar gaan zorgen dat elk konijnen zijn eigen bewegingsrichting krijgt. 
 
 Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de universele snelheid van de konijnen aangeeft. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Omdat je de nieuw variabelen gebruikt in twee functies, namelijk zowel `prooipredator()` (kiezen van de initi&euml;le waardes) en in `verplaats_de_konijnen()` (uitrekenen nieuwe posities ) is het handig ook deze variabelen als globaal te defini&euml;ren.
 
@@ -182,9 +182,12 @@ Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla 
 
 <br>
 
+
 ## Opdracht 3: populatie-dynamica (de dood - vossen eten konijnen)
 
 In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. 
+
+Let op: we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_opdracht1_en_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
 #### [deelopdracht 3a]: verdwijnende konijnen
 
