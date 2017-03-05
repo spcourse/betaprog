@@ -142,11 +142,13 @@ Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in
 Let op: om een random getal te genereren heb je de random bibliotheek nodig. Zorgt dat je code die kent: `from random import *`
 
 <br>
+
 #### Deelopdracht (1d): startsituatie: 25 'random' konijnen 
 
 Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `prooipredator()` zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de konijnen ook een random startrichting: $$0<\alpha<2\pi$$.
 
-Let op: In de functie zorg dat je <b>voor</b> je de random posities van de 25 konijnen in de functie `prooipredator()` in de lijsten stopt (x-positie, y-positie en hoek) eerst de lijsten als 'leeg' definieert: `posities_konijnen_x = []` etc.  Je kan dan steeds een de parameters van elk nieuw konijn simpelweg toevoegen en ook in het geval dat we laten meerdere simulaties achter elkaar gaan maken zorgt dit ervoor dat je blanco begint.
+<b>Let op:</b> In de functie `prooipredator()` voeg je voor elk van de 25 konijnen de 
+parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je <b>voor</b> je dat doet de lijsten als 'leeg' definieert. Dus: `posities_konijnen_x = []` etc. Dit is belangrijk in het geval we meerdere simulaties achter elkaar gaan maken omdat je dan steeds met een blanco situatie wilt beginnen.
 
 ## Opdracht 2: Harde realiteit voor de konijnen: vossen
 
@@ -155,11 +157,11 @@ Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door
 
 #### Deelopdracht (2a): introduceren van vossen
 
-Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_vossen()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt als voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
+Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_vossen()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt voor het ontwijken van de bosrand als  voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
 
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
-   - vossen zijn twee keer zo snel als konijnen (`snelheid_vossen = 4`) en ze staan nooit stil
+   - vossen zijn twee keer zo snel als konijnen (`snelheid_vossen = 2`) en ze staan nooit stil
    - teken de vossen in rood (size=10 i.p.v de size=6 voor de konijnen)
 
 Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1 naar links en vos 2 naar beneden bewegen. 
