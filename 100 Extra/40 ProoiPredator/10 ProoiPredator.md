@@ -267,11 +267,11 @@ Voeg in de functie `prooipredator()` twee nieuwe functies toe: `BeschuitMetMuisj
 
 #### stap 1: reproducerende muizen
 
-Zorgt dat de functie `BeschuitMetMuisjes()` (die trouwens wordt aangeroepen na het verplaatsen van de konijnen, de wolven en het opeten van de konijnen door de wolven) op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten en vervolgens nieuwe konijnen in het bos neerzet.
+Zorgt dat de functie `reproduceren_konijnen()` (die moet worden aangeroepen na het verplaatsen van de konijnen, het verplaatsen van de wolven en het opeten van de konijnen door de wolven) op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten en vervolgens nieuwe konijnen in het bos neerzet.
 
 Ga hierbij als volgt te werk:
 
-  1. Roep de functie pas aan na 100 seconden. De konijnen beginnen al erg dicht bij elkaar namelijk en zijn in het begin nog te jong om zich voort te planten.
+  1. Roep de functie pas aan na 100 seconden. De konijnen beginnen al erg dicht bij elkaar en zijn in het begin nog te jong om zich voort te planten.
 
   2. Bepaal eerst hoeveel paren konijnen er dicht bij elkaar zitten (afstand < 1). Dit bepaalt het aantal nestjes. Let op: vermijd hierbij dubbeltellen. 
 
