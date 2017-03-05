@@ -213,42 +213,36 @@ Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk t
 
 <br><br>
           
-#### [deelopdracht 3b]: Gemiddelde tijd waarbij de konijnenpopulatie gehalveerd is
+#### [deelopdracht 3b]: Tijd waarbij de konijnenpopulatie gehalveerd is
 
-Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor een twee aparte simulaties. Voor we van 10000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
+Als we de simulatie langer laten lopen zullen we zien dat er een moment komt dat de vossen de helft van de konijnen opgegeten hebben. De tijd die de vossen daarvoor nodig hebben zal voor elke nieuwe simulate anders zijn. Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor een twee aparte simulaties. Voor we van 1000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
 
  ![](halfwaarde3x.png){: style="width:65%"}
 
+Om dit voor elkaar te krijgen gaan we twee dingen aanpassen in het programma:
 
-Schrijf een nieuwe functie `gemiddelde_halfwaardetijd()` die een 
-
-groot aantal keer (500) de functie `prooipredator()` aanroept en steeds de halfwaarde tijd opslaat in een lijst om uiteindelijk het gemiddelde te berekenen en op het scherm te print. Zorg dat de functie `prooipredator()` als return-waarde de halfwaardetijd teruggeeft.
-
-Op het scherm moet uiteindelijk verschijnen:
-
-{: .language-python}   
-    Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 100:
-    Gemiddelde halfwaardetijd konijnen = x.xx seconde
+   1. Laat de simulatie 1500 seconden lopen en hou in de functie `prooipredator()` een lijst bij die voor elke tijdstap het aantal konijnen bijhoudt en zorg dat de functie `prooipredator()` deze lijst als return-value teruggeeft aan het eind van het programma.
+   
+   2. Schrijf een nieuwe functie `gemiddelde_halfwaardetijd()` die een enkele keer de functie `prooipredator()` aanroept. Omdat deze functie de hele lijst met aantal konijnen op elke tijdstap teruggeeft kan je hiermee uitrekenen op welk moment er voor het eerst minder dan de helft van de konijnen rondlopen in het bos. Je kan dan ook bovenstaande plots namaken.
 
 <b>Tip:</b> Het weergeven van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Als je met de opzet zoals hierboven 100 of 200 tijdstapjes wilt doen kan je daar nog op wachten, maar tienduizend stapjes is al niet meer te doen. Door de visualisatie weg te laten kan je enorm veel tijd winnen en het stelt je in staat wat langere scenario's door te rekenen of juist veel verschillende simulaties. En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk om te zien'. Visualiseren is een goede techniek om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk in de bovenstaande opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van de konijnen aan het implementeren was. Zorg dat je in de hoofdfunctie `prooipredator()` een variabele toevoegt waarmee je makkelijk kan kiezen of je wel/niet de functie `teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk.
 
+Op het scherm moet uiteindelijk verschijnen voor elk:
 
-Verander de functie `prooipredator()` zodanig dat je aan het eind van deze functie weet bij welke tijdstap er voor het eerst minder dan 50% van het oorspronkelijk aantal konijnen nog levend in het bos rondloopt. In navolging van radioactief verval noemen we dit de halfwaardetijd van de konijnen. 
+{: .language-python}   
+    Na x.xx seconde is meer dan de helft van de konijnen opgegeten
 
+#### Deelopdracht (3c): <b>Gemiddelde</b> tijd waarbij de konijnenpopulatie gehalveerd is
 
-Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `prooipredator()` aan te roepen, maar zoals je ziet is er een vrij grote spreiding in de precieze halfwaarde tijd. Om de gemiddelde halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
+Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `prooipredator()` aan te roepen, maar zoals je ziet als je verschillende simulaties bekijkt is er een vrij grote spreiding in de precieze halfwaarde tijd. Om de gemiddelde halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
 
-Schrijf een nieuwe functie `GemiddeldeHalfwaardetijd()` die een groot aantal keer (500) de functie `prooipredator()` aanroept en steeds de halfwaarde tijd opslaat in een lijst om uiteindelijk het gemiddelde te berekenen en op het scherm te print. Zorg dat de functie `prooipredator()` als return-waarde de halfwaardetijd teruggeeft.
+Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een groot aantal keer (minimaal 100) de functie `prooipredator()` aanroept, steeds de halfwaardetijd opslaat, maar om uiteindelijk het gemiddelde te berekenen en op het scherm te print.
 
 Op het scherm moet uiteindelijk verschijnen:
 
 {: .language-python}   
     Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 100:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
-
-
-
-
 
 #### Deelopdracht (3c): Strategie konijnen: snelheid aanpassen
 
