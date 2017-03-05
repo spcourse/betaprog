@@ -183,13 +183,13 @@ Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla 
 
 ## Opdracht 3: populatie-dynamica (de dood - vossen eten konijnen)
 
-In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. 
+In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. Doel van deze opdracht is te onderzoeken hoe lang het (gemiddeld) duurt voordat de vossen de helft van de konijnen heeft opgegeten. Als laatste zullen we kijken of het voor de konijnen verstandiger is te zitten om stil te zitten of juist keihard rond te rennen.
 
 <b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_tm_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
 #### [deelopdracht 3a]: verdwijnende konijnen
 
-Schrijf een nieuwe functie `etenstijd()` die in de 'hoofdfunctie' `prooipredator()` wordt aangeroepen na de functie `verplaats_de_konijnen()` en `verplaats_de_vossen()`. Deze nieuwe functie heeft als taak te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt trouwens bedoeld: binnen 5 meter van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst met konijnen.
+De eerste stap in deze opdracht is om in de simulatie te verwerken dat konijnen opgegeten worden als ze bij een vos in de buurt komen. Schrijf een nieuwe functie `etenstijd()` die in de 'hoofdfunctie' `prooipredator()` aan wordt geroepen na de functie `verplaats_de_konijnen()` en `verplaats_de_vossen()`. Deze nieuwe functie heeft als taak te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt bedoeld: binnen 5 meter van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst met konijnen.
 
 Gebruik de volgende Python syntax om een element $$i$$ uit een lijst $$L$$ weg te halen:
 
@@ -214,17 +214,26 @@ Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk t
           
 #### [deelopdracht 3b]: Gemiddelde tijd waarbij de konijnenpopulatie gehalveerd is
 
-Het weergeven van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Als je met de opzet zoals hierboven 100 of 200 tijdstapjes wilt doen kan je daar nog op wachten, maar tienduizend stapjes is al niet meer te doen. Door de visualisatie weg te laten kan je enorm veel tijd winnen en het stelt je in staat wat langere scenario's door te rekenen of juist veel verschillende simulaties. En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk om te zien'. Visualiseren is een goede techniek om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk in de bovenstaande 
-opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van de konijnen aan het implementeren was.
-
-Zorg dat je in de hoofdfunctie `prooipredator()` een variabele toevoegt waarmee je makkelijk kan kiezen of je wel/niet de functie `teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk.
-
-Verander de functie `prooipredator()` zodanig dat je aan het eind van deze functie weet bij welke tijdstap er voor het eerst minder dan 50% van het oorspronkelijk aantal konijnen nog levend in het bos rondloopt. In navolging van radioactief verval noemen we dit de halfwaardetijd van de konijnen. 
-
-##### [tussenstap]
 Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor een twee aparte simulaties. Voor we van 10000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
 
  ![](halfwaarde3x.png){: style="width:65%"}
+
+
+Schrijf een nieuwe functie `gemiddelde_halfwaardetijd()` die een 
+
+groot aantal keer (500) de functie `prooipredator()` aanroept en steeds de halfwaarde tijd opslaat in een lijst om uiteindelijk het gemiddelde te berekenen en op het scherm te print. Zorg dat de functie `prooipredator()` als return-waarde de halfwaardetijd teruggeeft.
+
+Op het scherm moet uiteindelijk verschijnen:
+
+{: .language-python}   
+    Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 100:
+    Gemiddelde halfwaardetijd konijnen = x.xx seconde
+
+<b>Tip:</b> Het weergeven van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Als je met de opzet zoals hierboven 100 of 200 tijdstapjes wilt doen kan je daar nog op wachten, maar tienduizend stapjes is al niet meer te doen. Door de visualisatie weg te laten kan je enorm veel tijd winnen en het stelt je in staat wat langere scenario's door te rekenen of juist veel verschillende simulaties. En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk om te zien'. Visualiseren is een goede techniek om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk in de bovenstaande opgave al ervaren hebt toen je de implementatie van de bosrand of het opeten van de konijnen aan het implementeren was. Zorg dat je in de hoofdfunctie `prooipredator()` een variabele toevoegt waarmee je makkelijk kan kiezen of je wel/niet de functie `teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk.
+
+
+Verander de functie `prooipredator()` zodanig dat je aan het eind van deze functie weet bij welke tijdstap er voor het eerst minder dan 50% van het oorspronkelijk aantal konijnen nog levend in het bos rondloopt. In navolging van radioactief verval noemen we dit de halfwaardetijd van de konijnen. 
+
 
 Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `prooipredator()` aan te roepen, maar zoals je ziet is er een vrij grote spreiding in de precieze halfwaarde tijd. Om de gemiddelde halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
 
@@ -235,6 +244,9 @@ Op het scherm moet uiteindelijk verschijnen:
 {: .language-python}   
     Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 100:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
+
+
+
 
 
 #### Deelopdracht (3c): Strategie konijnen: snelheid aanpassen
