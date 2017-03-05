@@ -263,7 +263,7 @@ Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de func
 We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. Het aantal konijnen kan echter ook toenemen, want konijnen zich ook voortplanten. We gaan kijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke 
 toename van het aantal konijnen is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
 
-Voeg in de functie `prooipredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die deze fenomenen gaat implementeren.
+Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `Overbevolking()` toe die deze fenomenen gaat implementeren.
 
 #### stap 1: reproducerende muizen
 
