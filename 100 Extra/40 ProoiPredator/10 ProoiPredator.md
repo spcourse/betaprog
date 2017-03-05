@@ -141,6 +141,7 @@ Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in
 
 Let op: om een random getal te genereren heb je de random bibliotheek nodig. Zorgt dat je code die kent: `from random import *`
 
+<br>
 #### Deelopdracht (1d): startsituatie: 25 'random' konijnen 
 
 Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `prooipredator()` zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de konijnen ook een random startrichting: $$0<\alpha<2\pi$$.
