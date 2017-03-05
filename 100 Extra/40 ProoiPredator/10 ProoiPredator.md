@@ -90,7 +90,7 @@ Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als glob
 
 ## Opdracht 1: modelleren van de beweging van de konijnen 
 
-We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 1,2 meter naar rechts opschuiven en 1,6 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In opdracht 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `Prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten. 
+We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 0,6 meter naar rechts opschuiven en 0,8 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. Als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In opdracht 1 zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `Prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten. 
 
 #### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
 
@@ -147,9 +147,7 @@ Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `
 
 Let op: In de functie zorg dat je <b>voor</b> je de random posities van de 25 konijnen in de functie `prooipredator()` in de lijsten stopt (x-positie, y-positie en hoek) eerst de lijsten als 'leeg' definieert: `posities_konijnen_x = []` etc.  Je kan dan steeds een de parameters van elk nieuw konijn simpelweg toevoegen en ook in het geval dat we laten meerdere simulaties achter elkaar gaan maken zorgt dit ervoor dat je blanco begint.
 
-<br>
-
-### Opgave 2: Harde realiteit voor de konijnen: vossen
+## Opdracht 2: Harde realiteit voor de konijnen: vossen
 
 Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
 <br>
@@ -179,9 +177,6 @@ Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdel
      nieuwe_hoek = np.random.normal(hoeken_vossen[i_vos], 0.2)  
 
 Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `hoeken_vossen`. Bij de volgende stap zal de vos in deze nieuwe richting bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
-
-<br>
-
 
 ## Opdracht 3: populatie-dynamica (de dood - vossen eten konijnen)
 
