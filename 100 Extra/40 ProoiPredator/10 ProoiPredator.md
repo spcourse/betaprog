@@ -258,16 +258,14 @@ De vraag in deze opdracht is: run de functie `gemiddelde_halfwaardetijd()` aan m
 
 Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven voor je uiteindelijk een grafiek maakt van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Welke trend zie je? Is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen?
 
-<br>
+## Opdracht 4: Reproducerende konijnen en overbevolking
 
-### Opgave 4: Reproducerende konijnen en overbevolking
-
-We hebben in de vorige opgave bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. Het aantal konijnen kan echter ook toenemen natuurlijk omdat konijnen zich kunnen voortplanten. We gaan kijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke 
+We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. Het aantal konijnen kan echter ook toenemen, want konijnen zich ook voortplanten. We gaan kijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke 
 toename van het aantal konijnen is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
 
-Voeg in de hoofdfunctie `prooipredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die deze fenomenen gaat implementeren.
+Voeg in de functie `prooipredator()` twee nieuwe functies toe: `BeschuitMetMuisjes()` en `Overbevolking()` toe die deze fenomenen gaat implementeren.
 
-**Stap 1:** reproducerende muizen
+#### stap 1: reproducerende muizen
 
 Zorgt dat de functie `BeschuitMetMuisjes()` (die trouwens wordt aangeroepen na het verplaatsen van de konijnen, de wolven en het opeten van de konijnen door de wolven) op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten en vervolgens nieuwe konijnen in het bos neerzet.
 
@@ -279,7 +277,7 @@ Ga hierbij als volgt te werk:
 
   3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos, een random bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
-**Stap 2:** maximum aantal konijnen in het bos
+#### stap 1: maximum aantal konijnen in het bos
 
 De functie `Overbevolking()` heeft als doel te zorgen dat er op moment in de tijd nooit meer dan 50 konijnen in het bos aanwezig zijn. Roep de functie aan gelijk na `BeschuitMetMuisjes()`, kijk hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50.
 
