@@ -189,7 +189,7 @@ In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een 
 
 #### [deelopdracht 3a]: verdwijnende konijnen
 
-De eerste stap in deze opdracht is om in de simulatie te verwerken dat konijnen opgegeten worden als ze bij een vos in de buurt komen. Schrijf een nieuwe functie `etenstijd()` die in de 'hoofdfunctie' `prooipredator()` aan wordt geroepen na de functie `verplaats_de_konijnen()` en `verplaats_de_vossen()`. Deze nieuwe functie heeft als taak te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt bedoeld: binnen 5 meter van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst met konijnen.
+De eerste stap in deze opdracht is om in de simulatie te verwerken dat konijnen opgegeten worden als ze bij een vos in de buurt komen. Schrijf een nieuwe functie `etenstijd()` die in de 'hoofdfunctie' `prooipredator()` aan wordt geroepen na de functie `verplaats_de_konijnen()` en `verplaats_de_vossen()`. Taak van deze functie is om te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt bedoeld: binnen 5 meter van de dichtstbijzijnde vos. Als dat zo is wordt het konijn opgegeten en zal hij verwijderd moeten worden uit de lijst met konijnen.
 
 Gebruik de volgende Python syntax om een element $$i$$ uit een lijst $$L$$ weg te halen:
 
