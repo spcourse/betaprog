@@ -155,7 +155,7 @@ parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je vo
 Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
 <br>
 
-#### Deelopdracht (2a): introduceren van vossen
+#### [deelopdracht 2a]: introduceren van vossen
 
 Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_vossen()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt voor het ontwijken van de bosrand als  voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
 
@@ -168,7 +168,7 @@ Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1
 
 <br>
 
-#### Deelopdracht (2b): specifiek wandelgedrag van wolven
+#### [deelopdracht 2b]: specifiek wandelgedrag van wolven
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
@@ -185,18 +185,18 @@ Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla 
 
 In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. 
 
-Let op: we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_opdracht1_en_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
+<b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_tm_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
 #### [deelopdracht 3a]: verdwijnende konijnen
 
-Schrijf een nieuwe functie `Etenstijd()` die in de hoofdfunctie `ProoiPredator()` wordt aangeroepen na de functie `VerplaatsKonijnen()`. Deze functie heeft als taak te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt trouwens bedoeld: 'binnen de circle of death', dus op een afstand van 5 of minder van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst met konijnen.
+Schrijf een nieuwe functie `Etenstijd()` die in de 'hoofdfunctie' `prooipredator()` wordt aangeroepen na de functie `verplaats_de_konijnen()`. Deze functie heeft als taak te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt trouwens bedoeld: binnen 5 meter van de dichtstbijzijnde vos. Als dat zo is sterft het konijn en moet hij verwijderd worden uit de lijst met konijnen.
 
-Om een element $$i$$ uit een lijst $$L$$ weg te halen gebruik je de volgende syntax:
+Gebruik de volgende Python syntax om een element $$i$$ uit een lijst $$L$$ weg te halen:
 
 {: .language-python}   
      del L[i] 
 
-**Let op:** 
+<b>Let op:</b> 
 Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schuiven alle elementen 1 positie op. Element 11 van de oorspronkelijke lijst wordt dan element 10 in de nieuwe lijst etc. De lijst is dan ook ineens 19 posities lang geworden. Een slimme 'truc' om dit op te vangen is om de lijst in omgekeerd volgorde af te lopen. Begin dus bij konijn 20, vervolgens naar konijn 19 etc etc. De lijst wordt dan wel korter, maar je komt nooit in de problemen omdat je nooit element weghaalt die je later nog wilt bekijken.
 
 ![](konijnenenvossenEtenstijd.gif){:.inline}{: style="width:30%"}
