@@ -223,7 +223,7 @@ En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer da
 
 Om de tijd te berekenen waarop de helft van de konijnen opgegeten is gaan we twee dingen aanpassen in het programma:
 
-   1. Laat de simulatie 1500 seconden lopen en hou in de functie `prooipredator()` een lijst bij die voor elke tijdstap het aantal konijnen bijhoudt en zorg dat de functie `prooipredator()` deze lijst als return-value teruggeeft aan het eind van het programma.
+   1. Laat de simulatie 1000 seconden lopen en hou in de functie `prooipredator()` een lijst bij die voor elke tijdstap het aantal konijnen bijhoudt en zorg dat de functie `prooipredator()` deze lijst als return-value teruggeeft aan het eind van het programma.
    
    2. Schrijf een nieuwe functie `gemiddelde_halfwaardetijd()` die een enkele keer de functie `prooipredator()` aanroept. Omdat deze functie de hele lijst met aantal konijnen op elke tijdstap teruggeeft kan je hiermee uitrekenen op welk moment er voor het eerst minder dan de helft van de konijnen rondlopen in het bos. 
    
@@ -242,9 +242,9 @@ Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `p
 
 <b>Let op:</b> De grafieken van het aantal konijnen als functie van de tijd zoals we die in de vorige deelopdracht hebben gemaakt hebben we gemaakt om te kijken of onze berekening klopte. Nu we daarvan overtuigd zijn kunnen we die weglaten. Zorgt dat de grafiek alleen gemaakt wordt als we in onze functie maar 1 keer `prooipredator()` aanroepen. In de rest van de opdracht kijken we naar de waardes en doen plots er niet meer toe.
 
-Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een groot aantal keer (minimaal 100) de functie `prooipredator()` aanroept, steeds de halfwaardetijd opslaat, om uiteindelijk het gemiddelde te berekenen.
+Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een groot aantal keer (500 keer) de functie `prooipredator()` aanroept, steeds de halfwaardetijd opslaat, om uiteindelijk het gemiddelde te berekenen. Dit duurt wel even, dus zorg dat elke 25e simulatie op het scherm geprint wordt welke simulatie nu uitgevoerd wordt.
 
-Op het scherm moet uiteindelijk na de simulatie het volgende verschijnen:
+Op het scherm moet na de laatste simulatie het volgende verschijnen:
 
 {: .language-python}   
     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 100:
@@ -254,7 +254,7 @@ Op het scherm moet uiteindelijk na de simulatie het volgende verschijnen:
 
 We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie voor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood en moeten iets bedenken. Discussiepunt onder de konijnen is nu of ze juist beter heel hard kunnen gaan lopen of juist stil moeten gaan zitten en hopen dat de wolven ze niet vinden. Aan ons om de optimale strategie te bepalen voor de konijnen.
 
-De vraag in deze opdracht is: run de functie `gemiddelde_halfwaardetijd()` aan met verschillende waardes van de snelheid voor de konijnen en maak een grafiek te maken van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Probeer verschillende snelheden voor de konijnen: snelheden van 0 tot en met 5 meter per seconde in stapjes van 0.5 meter per seconde.
+De vraag in deze opdracht is: run de functie `gemiddelde_halfwaardetijd()` aan met verschillende waardes van de snelheid voor de konijnen en maak een grafiek te maken van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Probeer verschillende snelheden voor de konijnen: snelheden van 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 en 5.0 meter per seconde.
 
 Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven voor je uiteindelijk een grafiek maakt van de gemiddelde halfwaardetijd als functie van de snelheid. Wat zie je? Is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen? Is dat logisch?
 
