@@ -213,7 +213,7 @@ Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk t
 
 <br><br>
           
-#### [deelopdracht 3b]: Tijd waarbij de konijnenpopulatie gehalveerd is
+#### [deelopdracht 3b]: Tijd berekenen waarop de konijnenpopulatie gehalveerd is (+ plot)
 
 Als we de simulatie langer laten lopen zullen we zien dat er een moment komt dat de vossen de helft van de konijnen opgegeten hebben. De tijd die de vossen daarvoor nodig hebben zal voor elke nieuwe simulate anders zijn. Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor een twee aparte simulaties. Voor we van 1000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
 
@@ -241,8 +241,11 @@ Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een
 Op het scherm moet uiteindelijk verschijnen:
 
 {: .language-python}   
-    Een gesimuleerde wereld met: Nkonijn=25 (v=2), Nwolf=2 (v=4), Nsimulaties = 100:
+    Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 100:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
+
+<b>Let op:</b> De grafieken van het aantal konijnen als functie van de tijd zoals we die in de vorige deelopdracht hebben gemaakt hebben we gemaakt om te kijken of onze berekening klopte. Nu we daarvan overtuigd zijn kunnen we die weglaten. Zorgt dat de grafiek alleen gemaakt wordt als we in onze functie maar 1 keer `prooipredator()` aanroepen. In deze deelopdracht kijken we naar de waardes en doen plots er niet meer toe.
+
 
 #### Deelopdracht (3c): Strategie konijnen: snelheid aanpassen
 
