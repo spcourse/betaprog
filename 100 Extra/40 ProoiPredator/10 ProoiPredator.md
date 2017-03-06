@@ -329,7 +329,7 @@ Zoals je al gezien hebt is het systeem vrij instabiel. Na 1000 seconden zal je (
 
 De opdracht van deze stap is om dit type grafiek te maken voor een enkele simulatie. Op deze manier proberen we onszelf te overtuigen van het feit dat de nieuwe functie `overbevolking()` goed werkt. Schrijf dus een nieuwe functie `winstkans_konijnen()` die een enkele simulatie maakt door de functie `prooipredator()` aan te roepen en een plot maakt voor die simulatie net als de plots hierboven.
 
-<b>Tip:</b> de functie die we hier moeten maken lijkt sterk op de functie `gemiddelde_halfwaardetijd()` die we in opgave 3b en 3c hebben gebruikt. Kopieer die functie en gebruik dat als de 'basis' die je vervolgens aan kan passen. De functie `prooipredator()` gaf als return-waarde al het aantal konijnen op elk moment in de tijd. Gebruik dat ook hier als basis voor je plot.
+<b>Tip:</b> de functie die we hier moeten maken lijkt sterk op de functie `gemiddelde_halfwaardetijd()` die we in opgave 3b en 3c hebben gebruikt. Kopieer die functie en gebruik dat als de 'basis' die je vervolgens aan kan passen aan de iets andere manier van plotten hier. De functie `prooipredator()` gaf na opdracht 3 als return-waarde al het aantal konijnen op elk moment in de tijd. Gebruik die informatie ook hier als basis voor je plot.
 
 Naast het tekenen van de plot is het ook belangrijk om de conclusie te trekken of de konijnen of de vossen gewonnen hebben. Als op tijdstap 1000 het aantal konijnen groter is dan 45 hebben de konijnen gewonnen, als het minder is dan 5 hebben de vossen gewonnen. Elk andere hoeveelheid konijnen betekent dat het een gelijkspel is.
 
