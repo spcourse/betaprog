@@ -96,9 +96,7 @@ Als je een variabele in een enkele functie gebruikt moet je die <b>niet</b> als 
 
 ## Opdracht 1: modelleren van de beweging van de konijnen 
 
-We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 0,6 meter naar rechts opschuiven en 0,8 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. De konijnen bewegen elk in hun eigen richting en als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In deze eerste opdracht zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten. 
-
-<br>
+We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 0,6 meter naar rechts opschuiven en 0,8 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. De konijnen bewegen elk in hun eigen richting en als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In deze eerste opdracht zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten. <br>
 
 #### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
 
