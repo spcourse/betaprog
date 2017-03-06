@@ -6,7 +6,7 @@ model. De basis van de wiskundige beschrijving van de populaties zijn de bekende
 
 In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem: een bos van 100 bij 100 meter waarin 25 konijnen en 2 vossen leven. Door het zelf te programmeren kunnen we nieuwe fenomenen toevoegen. Door het systeem te visualiseren krijgen we direct feedback op onze code en zien we ook de consequenties van de nieuwe gedragselementen die we toegevoegd hebben.
 
-## Startpunt: twee konijnen op het scherm
+## Startpunt: twee bewegende konijnen op het scherm
 
 We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het onderstaande stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
 
@@ -79,8 +79,13 @@ We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet me
     #====================
     prooipredator()
 
-Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aangeroepen vanuit het hoofdprogramma helemaal onderaan, is `prooipredator()`. Deze functie definieert de startpositie van twee konijnen en neemt stapjes in de tijd (steeds een seconde) en roept voor elk tijdstip dan twee functies aan: `verplaats_de_konijnen()` die de positie van de konijnen verandert en `teken_het_bos()` die de konijnen vervolgens op het scherm tekent.
+Het stukje code hieronder bestaat uit 3 functies:
 
+   1. `prooipredator()`: definieert de startpositie van de konijnen, stuurt de simulatie door stapjes in de tijd te nemen (steeds een seconde) en roept voor elke stap in de tijd de functies `verplaats_de_konijnen()` en `teken_het_bos()` aan. Deze functie wordt aangeroepenen vanuit het 'hoofdprogramma', helemaal onderaan het stuk code.
+    
+   2. `verplaats_de_konijnen()`: verandert de positie van de konijnen 
+   3. `teken_het_bos()`:  tekent de konijnen op het scherm
+ 
 ##### Extra stukje Python: globale variabelen
 Als een variabele of lijst in meerdere functies in een programma gebruikt wordt is het soms handig om die variabel als zogenaamd 'globaal' te definieren. Alle functies in het programma kunnen aangeven dat ze die variabelen willen gebruiken. Deze variabelen worden daarmee gedeeld. In ons stukje code zijn dat twee lijsten: `posities_konijnen_x` en `posities_konijnen_y`. Deze lijsten worden namelijk gebruikt in elk van de drie functies: de startwaardes worden gedefini&euml;erd in `prooipredator()`, ze worden veranderd in de functie `verplaats_de_konijnen()` en daarna getekend in `teken_het_bos()`. De syntax om globale variabelen te defini&euml;ren en gebruiken is als volgt: de lijsten worden eerst in het hoofdprogramma (helemaal bovenaan) als globaal gedefini&euml;erd en vervolgens wordt aan het begin van elk van de drie functies vermeld dat we ze in die functie willen gebruiken.
 
