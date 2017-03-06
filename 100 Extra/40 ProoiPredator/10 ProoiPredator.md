@@ -81,13 +81,13 @@ We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet me
 
 Het stukje code hieronder bestaat uit 3 functies:
 
-   1. `prooipredator()`: definieert de startpositie van de konijnen, stuurt de simulatie door stapjes in de tijd te nemen (steeds een seconde) en roept voor elke stap in de tijd de functies `verplaats_de_konijnen()` en `teken_het_bos()` aan. Wordt aangeroepenen vanuit het 'hoofdprogramma', helemaal onderaan het stuk code.
+   1. `prooipredator()`: definieert de startpositie van de konijnen, stuurt de simulatie door stapjes in de tijd te nemen (steeds een seconde) en roept voor elke stap in de tijd de functies `verplaats_de_konijnen()` en `teken_het_bos()` aan. Wordt aangeroepen vanuit het 'hoofdprogramma', helemaal onderaan het stuk code
     
    2. `verplaats_de_konijnen()`: verandert de positie van de konijnen 
 
    3. `teken_het_bos()`:  tekent de konijnen op het scherm
  
-##### Extra stukje Python: globale variabelen
+<b>Extra stukje Python: globale variabelen</b><br>
 Als een variabele of lijst in meerdere functies in een programma gebruikt wordt is het soms handig om die variabel als zogenaamd 'globaal' te definieren. Alle functies in het programma kunnen aangeven dat ze die variabelen willen gebruiken. Deze variabelen worden daarmee gedeeld. In ons stukje code zijn dat twee lijsten: `posities_konijnen_x` en `posities_konijnen_y`. Deze lijsten worden namelijk gebruikt in elk van de drie functies: de startwaardes worden gedefini&euml;erd in `prooipredator()`, ze worden veranderd in de functie `verplaats_de_konijnen()` en daarna getekend in `teken_het_bos()`. De syntax om globale variabelen te defini&euml;ren en gebruiken is als volgt: de lijsten worden eerst in het hoofdprogramma (helemaal bovenaan) als globaal gedefini&euml;erd en vervolgens wordt aan het begin van elk van de drie functies vermeld dat we ze in die functie willen gebruiken.
 
 Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als globaal definieren. 
