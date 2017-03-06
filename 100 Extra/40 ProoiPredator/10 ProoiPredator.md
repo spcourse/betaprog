@@ -6,6 +6,9 @@ model. De basis van de wiskundige beschrijving van de populaties zijn de bekende
 
 In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem: een bos van 100 bij 100 meter waarin 25 konijnen en 2 vossen leven. Door het zelf te programmeren kunnen we nieuwe fenomenen toevoegen. Door het systeem te visualiseren krijgen we direct feedback op onze code en zien we ook de consequenties van de nieuwe gedragselementen die we toegevoegd hebben.
 
+Doel van deze module is om steeds meer complexiteit in het gedrag van de konijnen en vossen in te bouwen in onze simulatie om uiteindelijk te zien of de vossen of de konijnen als winnaar uit de bus zullen komen als we ze loslaten in dit ge&iuml;solerde stukje bos.
+
+
 ## Startpunt: twee bewegende konijnen op het scherm
 
 We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het onderstaande stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
