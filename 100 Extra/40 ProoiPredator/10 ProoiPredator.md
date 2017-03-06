@@ -289,11 +289,11 @@ Als je een paar simulaties bekijkt zal je zien dat het een erg instabiel systeem
   
 #### [deelopdracht 4b]: maximum aantal konijnen in het bos
 
-Maak een functie `overbevolking()` die gelijk na `reproduceren_konijnen()` aangeroepen moet worden. Het doel van deze functie is om te zorgen dat er nooit meer dan 50 konijnen in het bos aanwezig zijn. Roep de functie aan gelijk na `reproduceren_konijnen()`, kijk hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50.
+De tweede functionaliteit die we toe gaan voegen is het beperken van het aantal konijnen dat in het bos kan bestaan. De hoeveelheid voedsel in het bos is maar genoeg voor 50 konijnen. Maak een nieuwe functie `overbevolking()` die na `reproduceren_konijnen()` aangeroepen wordt. Het doel van deze functie is om te zorgen dat er nooit meer dan 50 konijnen in het bos aanwezig zijn. Kijk dus hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50. Let op dat je die konijnen uit alle drie de konijnenlijsten haalt: x-positie, y-positie en hoek.
 
 #### De opdracht: winstkansen konijnen
 
-Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen winnen (alle konijnen zijn opgegeten). De onderstaande grafieken, gemaakt met bijna dezelfde routine die we in deelopdracht 3c gebruikt hebben, laten het aantal konijnen zien als functie van de tijd voor twee simulaties die elk een extremum gevonden hebben.
+Zoals je al gezien hebt is het systeem vrij instabiel. Na 1000 seconden zal je (meestal) in een stabiele toestand belanden. Of de konijnen hebben gewonnen (konijnen zitten tegen het maxmimum van 50 aan) of de vossen hebben gewonnen (bijna alle konijnen zijn opgegeten). De onderstaande grafieken, gemaakt met bijna dezelfde routine die we in deelopdracht 3c gebruikt hebben om het aantal konijnen als functie van de tijd te zien, laten het aantal konijnen zien als functie van de tijd voor twee simulaties die elk een extremum gevonden hebben.
 
  ![](DynamicaWinstVossen.png){: style="width:40%"}
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
