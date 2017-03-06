@@ -193,6 +193,8 @@ In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een 
 
 <b>Tip:</b> we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_tm_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
+<br>
+
 #### Deelopdracht (3a): verdwijnende konijnen
 
 De eerste stap in deze opdracht is om in de simulatie te verwerken dat konijnen opgegeten worden als ze bij een vos in de buurt komen. Schrijf een nieuwe functie `etenstijd()` die in de 'hoofdfunctie' `prooipredator()` aan wordt geroepen na de functie `verplaats_de_konijnen()` en `verplaats_de_vossen()`. Taak van deze functie is om te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt bedoeld: binnen 5 meter van de dichtstbijzijnde vos. Als dat zo is wordt het konijn opgegeten en zal hij verwijderd moeten worden uit de lijst met konijnen.
@@ -241,6 +243,8 @@ Aan het eind van de simulatie moet op het scherm verschijnen:
 {: .language-python}   
     Na x.xx seconde is meer dan de helft van de konijnen opgegeten
 
+<br>
+
 #### Deelopdracht (3c): Gemiddelde tijd waarbij de konijnenpopulatie gehalveerd is
 
 Onze nieuwe functie `gemiddelde_halfwaardetijd()` is nu zo opgezet dat de functie `prooipredator()` maar een enkele keer wordt aangeroepen. Er wordt dus steeds een enkele simulatie gedaan. Maar zoals je gezien hebt is er een vrij grote spreiding in de halfwaardetijd tussen verschillende simulaties. Om de <b>gemiddelde</b> halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
@@ -253,6 +257,8 @@ Op het scherm moet na de laatste simulatie het volgende verschijnen:
 {: .language-python}   
     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 100:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
+
+<br>
 
 #### Deelopdracht (3d): Strategie konijnen: helpt het om onze snelheid aan te passen?
 
