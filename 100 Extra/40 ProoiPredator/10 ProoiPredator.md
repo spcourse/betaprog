@@ -267,7 +267,7 @@ Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_kon
 
 <b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit. Om te zorgen dat de huidige werkende code goed bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht4.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
-#### stap 1: reproducerende muizen
+#### Deelopdracht 4a: reproducerende muizen
 
 Zorgt dat de functie `reproduceren_konijnen()` (die moet worden aangeroepen na het verplaatsen van de konijnen, het verplaatsen van de wolven en het opeten van de konijnen door de wolven) op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten en vervolgens nieuwe konijnen in het bos neerzet.
 
@@ -279,7 +279,7 @@ Ga hierbij als volgt te werk:
 
   3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos, een random bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
-#### stap 2: maximum aantal konijnen in het bos
+#### [deelopdracht 4b]: maximum aantal konijnen in het bos
 
 De functie `overbevolking()` heeft als doel te zorgen dat er op moment in de tijd nooit meer dan 50 konijnen in het bos aanwezig zijn. Roep de functie aan gelijk na `reproduceren_konijnen()`, kijk hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50.
 
