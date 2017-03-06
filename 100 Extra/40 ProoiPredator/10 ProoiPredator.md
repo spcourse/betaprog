@@ -154,7 +154,7 @@ Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in
 Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `prooipredator()` zo aan dat er 25 konijnen in de simulatie zijn. Maak de code zo dat de konijnen elk op een random positie geplaatst worden, maar wel in een vierkantje dat gegeven wordt door $$20<(x,y)<30$$. Geef elke van de konijnen ook een random startrichting: $$0<$$hoek$$<2\pi$$.
 
 <b>Let op:</b> In de functie `prooipredator()` voeg je voor elk van de 25 konijnen de 
-parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je voor je dat doet de lijsten als 'leeg' definieert. Dus: `posities_konijnen_x = []` etc. Dit is belangrijk in het geval we meerdere simulaties achter elkaar gaan maken omdat je dan steeds met een blanco situatie wilt beginnen.
+parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je voor je dat doet de lijsten als 'leeg' definieert. Dus: `posities_konijnen_x = []` etc. Deze 'schone lei' is belangrijk als we meerdere simulaties achter elkaar gaan maken. En dat willen we.
 
 ## Opdracht 2: Harde realiteit voor de konijnen: vossen
 
