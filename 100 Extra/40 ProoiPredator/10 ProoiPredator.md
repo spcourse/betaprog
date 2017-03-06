@@ -90,7 +90,7 @@ Het stukje code hieronder bestaat uit 3 functies:
 <b>Extra stukje Python: globale variabelen</b><br>
 Als een variabele of lijst in meerdere functies in een programma gebruikt wordt is het soms handig om die variabel als zogenaamd 'globaal' te definieren. Alle functies in het programma kunnen aangeven dat ze die variabelen willen gebruiken. In ons stukje code zijn er twee lijsten die we graag delen/gebruiken in de verschillende functies: `posities_konijnen_x` en `posities_konijnen_y`. Deze lijsten worden gebruikt in elk van de drie functies: de startwaardes worden gedefini&euml;erd in `prooipredator()`, ze worden veranderd in de functie `verplaats_de_konijnen()` en daarna getekend in `teken_het_bos()`. De syntax om globale variabelen te defini&euml;ren en gebruiken is als volgt: de lijsten worden eerst in het hoofdprogramma (helemaal bovenaan) als globaal gedefini&euml;erd en vervolgens wordt aan het begin van elk van de drie functies vermeld dat we ze in die functie willen gebruiken.
 
-Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als globaal definieren. 
+Als je een variabele in een enkele functie gebruikt moet je die <b>niet</b> als globaal defini&euml;ren. 
 
 
 ## Opdracht 1: modelleren van de beweging van de konijnen 
