@@ -4,8 +4,7 @@ Een klassiek voorbeeld van een complex dynamisch systeem is het zogenaamde prooi
 model. De basis van de wiskundige beschrijving van de populaties zijn de bekende 
 [Lotka-Volterra vergelijkingen](https://en.wikipedia.org/wiki/Lotka–Volterra_equations) vergelijkingen. De wiskunde wordt al snel erg complex en het is ook niet altijd makkelijk om van tevoren in te schatten welke effecten een nieuw aspect van het gedrag heeft op de verschillende populaties in het systeem. 
 
-In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem: een bos van 100 bij 100 meter waarin 25 konijnen en 2 vossen leven. Door het zelf te programmeren kunnen we nieuwe dingen 
-proberen en met de visualisatie krijgen we ook gelijk feedback en inzicht.
+In deze module zullen we zelf een simulatie schrijven van een overzichtelijk systeem: een bos van 100 bij 100 meter waarin 25 konijnen en 2 vossen leven. Door het zelf te programmeren kunnen we nieuwe fenomenen toevoegen. Door het systeem te visualiseren krijgen we feedback en inzicht om onze code en zien we gelijk de consequenties van de nieuwe gedragselementen die we toegevoegd hebben
 
 ## Startpunt: twee konijnen op het scherm
 
