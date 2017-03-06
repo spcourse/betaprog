@@ -81,9 +81,10 @@ We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet me
 
 Het stukje code hieronder bestaat uit 3 functies:
 
-   1. `prooipredator()`: definieert de startpositie van de konijnen, stuurt de simulatie door stapjes in de tijd te nemen (steeds een seconde) en roept voor elke stap in de tijd de functies `verplaats_de_konijnen()` en `teken_het_bos()` aan. Deze functie wordt aangeroepenen vanuit het 'hoofdprogramma', helemaal onderaan het stuk code.
+   1. `prooipredator()`: definieert de startpositie van de konijnen, stuurt de simulatie door stapjes in de tijd te nemen (steeds een seconde) en roept voor elke stap in de tijd de functies `verplaats_de_konijnen()` en `teken_het_bos()` aan. Wordt aangeroepenen vanuit het 'hoofdprogramma', helemaal onderaan het stuk code.
     
    2. `verplaats_de_konijnen()`: verandert de positie van de konijnen 
+
    3. `teken_het_bos()`:  tekent de konijnen op het scherm
  
 ##### Extra stukje Python: globale variabelen
