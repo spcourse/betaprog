@@ -221,7 +221,7 @@ Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk t
           
 #### [deelopdracht 3b]: Tijd berekenen waarop de konijnenpopulatie gehalveerd is (+ plot)
 
-Als we de simulatie langer laten lopen zullen we zien dat er een moment komt dat de vossen de helft van de konijnen opgegeten hebben. Maar hoe lang duurt dat ?
+Als we de simulatie langer laten lopen komt er natuurlijk een moment komt dat de vossen de helft van de konijnen opgegeten hebben. Maar hoe lang duurt dat? Die vraag gaan we in deze opdracht beantwoorden.
 
 <b>Tip voor we beginnen:</b> Het weergeven van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Tot 1000 tijdstappen werkt dit prima, maar bij langere of meerdere simulaties is het niet praktisch. Door de visualisatie weg te laten kan je enorm veel tijd winnen. Zorg dat je in de functie `prooipredator()` een variabele toevoegt waarmee je makkelijk kan kiezen of je wel/niet de functie `teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk. 
 En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk'. Het is een krachtige manier om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk eerder in de module al ervaren hebt toen je de bosrand of het opeten van de konijnen aan het implementeren was. 
