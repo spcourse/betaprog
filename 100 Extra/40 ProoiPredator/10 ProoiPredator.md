@@ -163,7 +163,7 @@ Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door
 
 #### [deelopdracht 2a]: introduceren van vossen
 
-Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_vossen()`. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dat je voor de vossen eenzelfde implementatie maakt voor het ontwijken van de bosrand als  voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
+Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_vossen()`, die je in de functie `prooipredator()` aanroept net na `verplaats_de_konijnen()`, en die de vossen steeds een stap laat zetten. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dus dat je voor de vossen dezelfde implementatie maakt voor het ontwijken van de bosrand als voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
 
 Er zijn een paar verschillen tussen de vossen en de konijnen:
 
