@@ -117,7 +117,7 @@ En omdat de tijdstappen precies 1 seconde zijn kunnen we dan als volgt de nieuwe
        posities_konijnen_x[i_konijn] = posities_konijnen_x[i_konijn] + v_x
        posities_konijnen_y[i_konijn] = posities_konijnen_y[i_konijn] + v_y
 
-Eigenlijk staat er in bovenstaande code v_x*dt, maar omdat de tijdstapjes 1 seconde zijn kunnen de dt weglaten. We hebben met deze implementatie nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven. Voer bovenstaande veranderingen in in de code, geef elk van de konijnen een eigen richting en laat de simulatie 20 seconden lopen in plaats van 10. 
+Eigenlijk staat er in bovenstaande code v_x*dt, maar omdat de tijdstapjes 1 seconde zijn kunnen de dt weglaten. We hebben met deze implementatie nu de mogelijkheid om bij de start van de simulatie elk konijn een unieke bewegingsrichting te geven. Voer bovenstaande veranderingen door in je programma, geef elk van de konijnen een eigen richting en laat de simulatie 20 seconden lopen in plaats van 10. 
 
 <b>Let op:</b> om de goniometrische functies (zo) in je programma te kunnen gebruiken moet je de wiskunde bibliotheek implementeren: `from math import *`
 
@@ -128,7 +128,7 @@ Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze 
 Volg de volgende strategie als het konijn na een stap gezet te hebben buiten het bos is geraakt:
 
    1. neem een stap terug (zowel x als y) zodat het konijn weer in de oorspronkelijke positie zit
-   2. zorg dat het konijn zich omdraait door de hoek waarin het konijn beweegt te veranderen naar een richting die precies tegenovergesteld is aan de huidige richting: 'hoek_nieuw = hoek +  $$\pi$$'. Stop deze nieuwe bewegingsrichting op in de lijst `hoeken_konijnen`. Bij de volgende stap rent het konijn dus weer terug het bos in. 
+   2. zorg dat het konijn zich omdraait door de hoek waarin het konijn beweegt te veranderen naar een richting die precies tegenovergesteld is aan de huidige richting: 'hoek_nieuw = hoek +  $$\pi$$'. Stop deze nieuwe bewegingsrichting op in de lijst `hoeken_konijnen`. Bij de volgende stap rent het konijn dus weer terug het bos in
    
 Probeer dit te testen door een van de konijnen (recht) naar de bosrand te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
@@ -139,10 +139,10 @@ Iedereen die konijnen heeft zien lopen weet dat ze niet in een rechte lijn beweg
 
 ![](konijnen.gif){:.inline}{: style="width:30%"}
 
-Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden stilzit en daarna in een willekeurige andere richting verder wandelt. Praktisch betekent dit dat een konijn elke seconde een 5% kans heeft om stil te zitten en van richting te veranderen en 95% kans heeft om gewoon door te lopen in dezelfde richting. Een mogelijke implementatie van dit gedrag is dor gebruik te maken van een random getal $$x$$ (tussen 0 en 1).
+Pas de functie `verplaats_de_konijnen()` zo aan dat het konijn gemiddeld eens in de 20 seconden stilzit en daarna in een willekeurige andere richting verder wandelt. Praktisch betekent dit dat een konijn elke seconde een 5% kans heeft om stil te zitten en van richting te veranderen en 95% kans heeft om gewoon door te lopen in dezelfde richting. Een mogelijke implementatie van dit gedrag is door gebruik te maken van een random getal $$x$$ (tussen 0 en 1).
 
 {: .language-python}
-    x<0.05 (5% kans): geen stap, kies wel nieuwe hoek (0<hoek<2*pi) 
+    x<0.05 (5% kans): geen stap, wel nieuwe hoek (0<hoek<2*pi) 
     x>0.05 (95% kans): zet een gewone stap
 
 <b>Let op:</b> om een random getal te genereren heb je de random bibliotheek nodig. Zorgt dat je code die kent: `from random import *`
