@@ -178,9 +178,9 @@ Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
-Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen. De vos heeft de neiging om rechtdoor te lopen, maar kan na elke stap besluiten daarna iets naar links of rechts af te buigen. De kans op een bepaalde verandering ten opzichte van de oorspronkelijke bewegingsrichting neemt sterk af hoe groter de richtingsverandering is. De verdeling van de kansen volgt een zogenaamde normaal-verdeling. De vos volgt hiermee een soort pseudo-random walk waarbij er toch een voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
+Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen. De vos heeft de neiging om rechtdoor te lopen, maar kan na elke stap besluiten daarna iets naar links of rechts af te buigen. De kans op een bepaalde verandering ten opzichte van de oorspronkelijke bewegingsrichting neemt sterk af hoe groter de richtingsverandering is. De verdeling van de kansen volgt een zogenaamde normaal-verdeling. De vos volgt hiermee een soort pseudo-random walk waarbij er een sterke voorkeur is om in de oorspronkelijke richting te blijven lopen. Implementeer dit gedrag in je simulatie.
 
-Python input: Om een 'random' nieuwe richting te kiezen vanuit een normaalverdeling heb je een functie nodig die zich in de numpy bibliotheek bevindt. Zorgt dat je code die kent: `import numpy as np` en voor de specifieke implementatie waarin je wilt dat het random getal gecentreerd is rond de oorspronkelijke bewegingsrichting kan je de volgende syntax gebruiken:
+<b>Python input:</b> Om een 'random' nieuwe richting te kiezen vanuit een normaalverdeling heb je een functie nodig die zich in de numpy bibliotheek bevindt. Zorgt dat je code die kent: `import numpy as np` en voor de specifieke implementatie waarin je wilt dat het random getal gecentreerd is rond de oorspronkelijke bewegingsrichting kan je de volgende syntax gebruiken:
 
 {: .language-python}   
      nieuwe_hoek = np.random.normal(hoeken_vossen[i_vos], 0.2)  
