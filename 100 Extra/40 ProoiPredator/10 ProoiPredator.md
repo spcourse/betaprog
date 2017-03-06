@@ -98,7 +98,7 @@ Als je een variabele in een enkele functie gebruikt moet je die <b>niet</b> als 
 
 We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 0,6 meter naar rechts opschuiven en 0,8 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. De konijnen bewegen elk in hun eigen richting en als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In deze eerste opdracht zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten.
 
-#### [deelopdracht 1a]: nieuwe parametrisatie beweging konijnen
+#### Deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
 In de functie `verplaats_de_konijnen()` laten we nu de konijnen steeds een stapje opzij en een stapje omhoog doen. We hadden de verplaatsing van de twee konijnen in het stukje voorbeeldcode ook op een andere manier kunnen implementeren. Bijvoorbeeld door te zeggen dat konijnen allemaal met dezelfde snelheid bewegen (1 meter per seconde) en dat ze, in dit specifieke voorbeeld in ieder geval, ook nog eens bewegen onder eenzelfde hoek ten opzichte van de x-as, ongeveer 51 graden. In de rest van de opdracht gaan we inderdaad werken met een universele konijnen-snelheid, maar gaan wel zorgen dat elk konijn zijn eigen bewegingsrichting krijgt. 
 
@@ -121,7 +121,7 @@ Eigenlijk staat er in bovenstaande code v_x*dt, maar omdat de tijdstapjes 1 seco
 
 <b>Let op:</b> om de goniometrische functies (zo) in je programma te kunnen gebruiken moet je de wiskunde bibliotheek implementeren: `from math import *`
 
-#### [deelopdracht 1b]: de bosrand 
+#### Deelopdracht (1b): de bosrand 
 
 Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze per ongeluk een stap buiten het bos doen draaien ze zich pijlsnel om en zullen daarna weer snel het bos inrennen in dezelfde richting als waar ze vandaan kwamen. Pas de functie `verplaats_de_konijnen()` zodanig aan dat de konijnen altijd in het bos blijven rondlopen.
 
@@ -133,7 +133,7 @@ Volg de volgende strategie als het konijn na een stap gezet te hebben buiten het
 Probeer dit te testen door een van de konijnen (recht) naar de bosrand te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
 
-#### [deelopdracht 1c]: random konijnen-gedrag
+#### Deelopdracht (1c): random konijnen-gedrag
 
 Iedereen die konijnen heeft zien lopen weet dat ze niet in een rechte lijn bewegen, maar af en toe ineens stilzitten om dan van richting te veranderen. Deze eigenschap gaan we ook implementeren in onze simulatie.
 
@@ -161,7 +161,7 @@ parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je vo
 Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
 <br>
 
-#### [deelopdracht 2a]: introduceren van vossen
+#### Deelopdracht (2a): introduceren van vossen
 
 Naast konijnen zijn er ook vossen in het bos. Pas de code zo aan de er ook (twee) vossen in de simulatie meedoen en op het scherm verschijnen. In grote lijnen kan je dezelfde structuur volgen die we ook voor de konijnen gebruikt hebben. Maak eerst lijsten die de positie en bewegingsrichtingen van de vossen beschrijven en maak ook een nieuwe functie `verplaats_de_vossen()`, die je in de functie `prooipredator()` aanroept net na `verplaats_de_konijnen()`, en die de vossen steeds een stap laat zetten. Net als de konijnen zal ook de vos nooit het bos verlaten. Zorg dus dat je voor de vossen dezelfde implementatie maakt voor het ontwijken van de bosrand als voor de konijnen in opgave 1b). Als laatste moet je ook de functie `teken_het_bos()` aanpassen zodat ook de vossen op het scherm getoond worden. 
 
@@ -174,7 +174,7 @@ Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1
 
 <br>
 
-#### [deelopdracht 2b]: specifiek wandelgedrag van wolven
+#### Deelopdracht (2b): specifiek wandelgedrag van wolven
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
@@ -193,7 +193,7 @@ In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een 
 
 <b>Tip:</b> we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_tm_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
-#### [deelopdracht 3a]: verdwijnende konijnen
+#### Deelopdracht (3a): verdwijnende konijnen
 
 De eerste stap in deze opdracht is om in de simulatie te verwerken dat konijnen opgegeten worden als ze bij een vos in de buurt komen. Schrijf een nieuwe functie `etenstijd()` die in de 'hoofdfunctie' `prooipredator()` aan wordt geroepen na de functie `verplaats_de_konijnen()` en `verplaats_de_vossen()`. Taak van deze functie is om te evalueren, voor elk konijn, of hij zich in de buurt bevindt van een vos. Met 'in de buurt' wordt bedoeld: binnen 5 meter van de dichtstbijzijnde vos. Als dat zo is wordt het konijn opgegeten en zal hij verwijderd moeten worden uit de lijst met konijnen.
 
@@ -219,13 +219,12 @@ Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk t
 
 <br>
           
-#### [deelopdracht 3b]: Tijd berekenen waarop de konijnenpopulatie gehalveerd is (+ plot)
+#### Deelopdracht (3b): Tijd berekenen waarop de konijnenpopulatie gehalveerd is (+ plot)
 
 Als we de simulatie langer laten lopen komt er natuurlijk een moment dat de vossen de helft van de konijnen hebben opgegeten. Maar hoe lang duurt dat? Die vraag gaan we in deze opdracht beantwoorden.
 
 <b>Tip voor we beginnen:</b> Het weergeven van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Tot 1000 tijdstappen werkt dit prima, maar bij langere of meerdere simulaties is het niet praktisch. Door de visualisatie weg te laten kan je enorm veel tijd winnen. Zorg dat je in de functie `prooipredator()` een variabele toevoegt waarmee je makkelijk kan kiezen of je wel/niet de functie `teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk. 
 En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk'. Het is een krachtige manier om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk eerder in de module al ervaren hebt toen je de bosrand of het opeten van de konijnen aan het implementeren was. 
-
 
 Om de tijd te berekenen waarop de helft van de konijnen opgegeten is gaan we twee dingen aanpassen in het programma:
 
