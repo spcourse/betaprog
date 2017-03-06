@@ -242,9 +242,9 @@ Aan het eind van de simulatie moet op het scherm verschijnen:
 {: .language-python}   
     Na x.xx seconde is meer dan de helft van de konijnen opgegeten
 
-#### Deelopdracht (3c): <b>Gemiddelde</b> tijd waarbij de konijnenpopulatie gehalveerd is
+#### Deelopdracht (3c): Gemiddelde tijd waarbij de konijnenpopulatie gehalveerd is
 
-Ons programma is nu opgezet om een enkele simulatie te runnen door de functie `prooipredator()` aan te roepen, maar zoals je ziet als je verschillende simulaties bekijkt is er een vrij grote spreiding in de precieze halfwaarde tijd. Om de gemiddelde halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
+Onze nieuwe functie `gemiddelde_halfwaardetijd()` is nu zo opgezet dat de functie `prooipredator()` maar een enkele keer wordt aangeroepen. Er wordt dus steeds een enkele simulatie gedaan. Maar zoals je gezien hebt is er een vrij grote spreiding in de halfwaarde tijd tussen verschillende simulaties. Om de <b>gemiddelde</b> halfwaardetijd te bepalen zullen we de een groot aantal simulaties moeten uitvoeren, voor elk de halfwaardetijd bepalen om dan uiteindelijk uit al die getallen het gemiddelde te bepalen.
 
 <b>Let op:</b> De grafieken van het aantal konijnen als functie van de tijd zoals we die in de vorige deelopdracht hebben gemaakt hebben we gemaakt om te kijken of onze berekening klopte. Nu we daarvan overtuigd zijn kunnen we die weglaten. Zorgt dat de grafiek alleen gemaakt wordt als we in onze functie maar 1 keer `prooipredator()` aanroepen. In de rest van de opdracht kijken we naar de waardes en doen plots er niet meer toe.
 
