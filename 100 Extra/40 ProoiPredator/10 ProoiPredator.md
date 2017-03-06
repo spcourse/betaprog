@@ -288,17 +288,17 @@ Print de waardes die je hebt gevonden ook op het scherm:
 
 ## Opdracht 4: Reproducerende konijnen en overbevolking
 
-We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. De konijnen hebben geen kans natuurlijk en zullen uiteindelijk allemaal opgegeten worden. Maar in de natuur is dat anders. In de natuur kan het aantal konijnen ook toenemen, want konijnen kunnen zich voortplanten. We gaan in deze opdracht bekijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke toename van het aantal konijnen, en zeker de manier waarop dat meestal gaat, is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
+We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. De konijnen zijn bij voorbaat verloren en zullen uiteindelijk allemaal opgegeten worden. Maar in de natuur is dat anders. In de natuur kan het aantal konijnen ook toenemen, want konijnen kunnen zich voortplanten. We gaan in deze opdracht bekijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke toename van het aantal konijnen, en zeker de manier waarop dat meestal gaat, is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
 
 Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum aantal aan) of de vossen winnen (alle konijnen zijn opgegeten). De vraag die we in deze opdracht gaan beantwoorden is de volgende: 'hoe vaak winnen de konijnen en hoe vaak winnen de vossen?' Aan het eind van deze opdracht moet op het scherm verschijnen:
 
 {: .language-python}   
      Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 200:     
-     In x.x procent van de gevallen winnen de konijnen
+     In XX.X procent van de gevallen winnen de konijnen
 
-We gaan deze vraag in stapjes beantwoorden. Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `overbevolking()` toe die deze fenomenen gaat implementeren. Tijdens het implementeren van beide nieuwe functies doen we dit steeds voor een enkele simulatie. Het is ook mogelijk om in deze eerste stappen van de opdracht de visualisatie weer 'aan' te zetten.
+We gaan deze vraag in stapjes beantwoorden. Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `overbevolking()` die deze fenomenen beschrijven. Tijdens het implementeren van beide nieuwe functies doen we dit steeds voor een enkele simulatie. Het is handig om in deze eerste stappen van de opdracht de visualisatie weer 'aan' te zetten.
 
-<b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit. Om te zorgen dat de huidige werkende code goed bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht4.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
+<b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit. Om te zorgen dat de huidige werkende code goed uit `prooipredator_tm_opdracht3.py` goed bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak daarom een nieuw Python bestand aan, `prooipredator_tm_opdracht4.py`, kopieer de code die je tot nu toe hebt gemaakt erin en ga verder in deze nieuwe file.
 
 <br>
 
