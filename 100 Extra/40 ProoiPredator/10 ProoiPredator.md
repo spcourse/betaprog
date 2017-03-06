@@ -273,9 +273,9 @@ Zorgt dat de functie `reproduceren_konijnen()` (die moet worden aangeroepen na h
 
 Ga hierbij als volgt te werk:
 
-  1. Roep de functie pas aan na 100 seconden. De konijnen beginnen al erg dicht bij elkaar en zijn in het begin nog te jong om zich voort te planten.
+  1. Roep de functie pas aan na 100 seconden. De konijnen beginnen al erg dicht bij elkaar en zijn in het begin nog te jong om zich voort te planten. Dit is een aanpassing in de functie `prooipredator()` zelf die bepaalt welke functies aangeroepen worden voor elke tijdstap.
 
-  2. Bepaal eerst hoeveel paren konijnen er dicht bij elkaar zitten (afstand < 1). Dit bepaalt het aantal nestjes. Let op: vermijd hierbij dubbeltellen. 
+  2. Bepaal eerst hoeveel paren konijnen er dicht bij elkaar zitten (afstand < 1). Dit bepaalt het aantal nestjes. <b>Let op:</b> vermijd hierbij dubbeltellen. 
 
   3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos, een random bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
