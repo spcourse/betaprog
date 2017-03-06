@@ -98,6 +98,8 @@ Als je een variabele in een enkele functie gebruikt moet je die <b>niet</b> als 
 
 We hebben in bovenstaand voorbeeld aangenomen dat de konijnen bij elke stap in de tijd (elke seconde) steeds 0,6 meter naar rechts opschuiven en 0,8 meter omhoog. Dit is nog erg ver weg van een realistisch systeem natuurlijk: konijnen bewegen niet synchroon, ze rennen ook niet in een rechte lijn en als we de tijd langer door zouden laten doorlopen zullen de konijnen vrolijk het bos uitlopen. Dat is niet de bedoeling in deze opgave. De konijnen bewegen elk in hun eigen richting en als de konijnen bij de rand van het bos komen zullen ze weer snel terug het (veilige) bos inlopen. In deze eerste opdracht zullen we deze eerste stappen op weg naar realistische konijnen doorvoeren in onze code. Maak een bestand `prooipredator_opdracht1.py` aan, kopieer bovenstaande code erin en volg de onderstaande deelopdrachten.
 
+<br>
+
 #### Deelopdracht (1a): nieuwe parametrisatie beweging konijnen
 
 In de functie `verplaats_de_konijnen()` laten we nu de konijnen steeds een stapje opzij en een stapje omhoog doen. We hadden de verplaatsing van de twee konijnen in het stukje voorbeeldcode ook op een andere manier kunnen implementeren. Bijvoorbeeld door te zeggen dat konijnen allemaal met dezelfde snelheid bewegen (1 meter per seconde) en dat ze, in dit specifieke voorbeeld in ieder geval, ook nog eens bewegen onder eenzelfde hoek ten opzichte van de x-as, ongeveer 51 graden. In de rest van de opdracht gaan we inderdaad werken met een universele konijnen-snelheid, maar gaan wel zorgen dat elk konijn zijn eigen bewegingsrichting krijgt. 
@@ -121,6 +123,8 @@ Eigenlijk staat er in bovenstaande code v_x*dt, maar omdat de tijdstapjes 1 seco
 
 <b>Let op:</b> om de goniometrische functies (zo) in je programma te kunnen gebruiken moet je de wiskunde bibliotheek implementeren: `from math import *`
 
+<br>
+
 #### Deelopdracht (1b): de bosrand 
 
 Onze konijnen, angsthazen dat het zijn, zullen nooit het bos verlaten. Zodra ze per ongeluk een stap buiten het bos doen draaien ze zich pijlsnel om en zullen daarna weer snel het bos inrennen in dezelfde richting als waar ze vandaan kwamen. Pas de functie `verplaats_de_konijnen()` zodanig aan dat de konijnen altijd in het bos blijven rondlopen.
@@ -132,6 +136,7 @@ Volg de volgende strategie als het konijn na een stap gezet te hebben buiten het
    
 Probeer dit te testen door een van de konijnen (recht) naar de bosrand te laten bewegen en te kijken of hij inderdaad weer het bos in 'stuitert' zodra hij over de rand van het bos heengaat.
 
+<br>
 
 #### Deelopdracht (1c): random konijnen-gedrag
 
@@ -156,9 +161,12 @@ Een wereld met twee konijnen is natuurlijk niet realistisch. Pas het begin van `
 <b>Let op:</b> In de functie `prooipredator()` voeg je voor elk van de 25 konijnen de 
 parameters (x-positie, y-positie en hoek) in de lijstlijsten. Let erop dat je voor je dat doet de lijsten als 'leeg' definieert. Dus: `posities_konijnen_x = []` etc. Deze 'schone lei' is belangrijk als we meerdere simulaties achter elkaar gaan maken. En dat willen we.
 
+<br>
+
 ## Opdracht 2: Harde realiteit voor de konijnen: vossen
 
 Je kan natuurlijk de hele middag kijken naar 25 konijnen die over je scherm door een fictief bos rennen, maar daar is verder niks spannends of ingewikkelds aan. Laten we wat spektakel toevoegen.
+
 <br>
 
 #### Deelopdracht (2a): introduceren van vossen
@@ -186,6 +194,8 @@ Net als de konijnen hebben ook vossen een eigen unieke manier van voortbewegen. 
      nieuwe_hoek = numpy.random.normal(hoeken_vossen[i_vos], 0.2)  
 
 Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla die op in `hoeken_vossen`. Bij de volgende stap zal de vos in deze nieuwe richting bewegen. De waarde 0.2 is de bovenstaande uitdrukking is de zogenaamde breedte van de normaal-verdeling. Het bepaalt hoe makkelijk (of niet) de vos van zijn oorspronkelijke bewegingsrichting af kan wijken.
+
+<br>
 
 ## Opdracht 3: populatie-dynamica (de dood - vossen eten konijnen)
 
@@ -266,6 +276,14 @@ We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van 
 
 Om deze vraag te beantwoorden gaan we de functie `gemiddelde_halfwaardetijd()` laten werken met verschillende waardes van de snelheid voor de konijnen. Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven. Probeer verschillende snelheden voor de konijnen: snelheden van 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 en 5.0 meter per seconde en maak uiteindelijk een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Welke trend zie je en is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen?
 
+Print de waardes die je hebt gevonden ook op het scherm:
+{: .language-python}   
+     Een gesimuleerde wereld met: Nkonijn=25, Nwolf=2 (v=2), Nsimulaties = 500:     
+     snelheid konijnen = 0.0 m/s -> gemiddelde halfwaardetijd = XXX.X seconde
+     snelheid konijnen = 0.5 m/s -> gemiddelde halfwaardetijd = XXX.X seconde
+     snelheid konijnen = 1.0 m/s -> gemiddelde halfwaardetijd = XXX.X seconde
+     ...     
+
 <br>
 
 ## Opdracht 4: Reproducerende konijnen en overbevolking
@@ -282,6 +300,8 @@ We gaan deze vraag in stapjes beantwoorden. Voeg in de functie `prooipredator()`
 
 <b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit. Om te zorgen dat de huidige werkende code goed bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht4.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
+<br>
+
 #### Deelopdracht 4a: reproducerende muizen
 
 Het eerste aspect dat we in gaan voeren is het vermogen van de muizen om zich voort te planten. Maak een nieuwe functie `reproduceren_konijnen()` die wordt aangeroepen na de bestaande functies (het verplaatsen van de konijnen, het verplaatsen van de wolven en het opeten van de konijnen door de wolven) en die steeds kijkt of er konijnen dicht bij elkaar zitten. Als dat het geval is moet het programma de nieuwe jongen konijnen op een random plek in het bos neerzetten.
@@ -296,6 +316,8 @@ Ga hierbij als volgt te werk:
   
 Als je een paar simulaties bekijkt zal je zien dat het een erg instabiel systeem is. Als de vossen nog niet genoeg konijnen hebben opgegeten op het moment dat de konijnen gaan reproduceren kan het aantal konijnen exponentieel groeien. En zo je programma vast laten lopen. In de volgende opdracht gaan we deze ongewenste en onrealistische effecten repareren.
   
+<br>
+
 #### [deelopdracht 4b]: maximum aantal konijnen in het bos
 
 De tweede functionaliteit die we toe gaan voegen is het beperken van het aantal konijnen dat in het bos kan bestaan. De hoeveelheid voedsel in het bos is maar genoeg voor 50 konijnen. Maak een nieuwe functie `overbevolking()` die na `reproduceren_konijnen()` aangeroepen wordt. Het doel van deze functie is om te zorgen dat er nooit meer dan 50 konijnen in het bos aanwezig zijn. Kijk dus hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50. Let op dat je die konijnen uit alle drie de konijnenlijsten haalt: x-positie, y-positie en hoek.
