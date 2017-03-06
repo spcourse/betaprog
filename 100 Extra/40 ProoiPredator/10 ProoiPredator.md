@@ -266,10 +266,11 @@ We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van 
 
 Om deze vraag te beantwoorden gaan we de functie `gemiddelde_halfwaardetijd()` laten werken met verschillende waardes van de snelheid voor de konijnen. Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven. Probeer verschillende snelheden voor de konijnen: snelheden van 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 en 5.0 meter per seconde en maak uiteindelijk een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Welke trend zie je en is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen?
 
+<br>
+
 ## Opdracht 4: Reproducerende konijnen en overbevolking
 
-We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. Het aantal konijnen kan echter ook toenemen, want konijnen zich ook voortplanten. We gaan kijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke 
-toename van het aantal konijnen is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
+We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. De konijnen hebben geen kans natuurlijk en zullen uiteindelijk allemaal opgegeten worden. Maar in de natuur is dat anders. In de natuur kan het aantal konijnen ook toenemen, want konijnen kunnen zich voortplanten. We gaan in deze opdracht bekijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke toename van het aantal konijnen, en zeker de manier waarop dat meestal gaat, is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
 
 Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum aantal aan) of de vossen winnen (alle konijnen zijn opgegeten). De vraag die we in deze opdracht gaan beantwoorden is de volgende: 'hoe vaak winnen de konijnen en hoe vaak winnen de vossen?' Aan het eind van deze opdracht moet op het scherm verschijnen:
 
