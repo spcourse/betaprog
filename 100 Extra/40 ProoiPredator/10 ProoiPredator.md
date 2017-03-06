@@ -104,7 +104,7 @@ In de functie `verplaats_de_konijnen()` laten we nu de konijnen steeds een stapj
 
 Voeg in het hoofdprogramma een variabele `snelheid_konijnen` toe die de universele snelheid van de konijnen aangeeft. Voeg ook een lijst `hoeken_konijnen` toe waarbij je voor elk konijn bijhoudt onder welke hoek ten opzichte van de x-as hij beweegt. Omdat je de nieuw variabelen gebruikt in twee functies, namelijk zowel `prooipredator()` (kiezen van de initi&euml;le waardes) en in `verplaats_de_konijnen()` (uitrekenen nieuwe posities ) is het handig ook deze variabelen als globaal te defini&euml;ren.
 
-Op de plek in de functie `verplaats_de_konijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt moet je voor elk konijn de snelheid en de hoek eerst omrekenen naar een snelheid in de x- en y-richting zodat je daarmee de verplaatsing in de x- en y-richting kan uitrekenen. Voor elk konijn gebruiken we eerst:
+Op de plek in de functie `verplaats_de_konijnen()` waar de nieuwe posities van de konijnen uitgerekend wordt moet je voor elk konijn de snelheid en de hoek eerst omrekenen naar een snelheid in de x- en y-richting zodat je daarmee de verplaatsing in de x- en y-richting kan uitrekenen. Dat zijn immers de posities die we bijhouden voor elk konijn. Voor elk konijn gebruiken we eerst:
 
 {: .language-python}
        hoek = hoeken_konijnen[i_konijn]
