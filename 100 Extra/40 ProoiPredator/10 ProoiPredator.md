@@ -336,7 +336,7 @@ Naast het tekenen van de plot is het ook belangrijk om de conclusie te trekken o
 Aan het eind van de simulatie moet de functie op het scherm printen wie gewonnen heeft.
 
 {: .language-python}   
-     Het aantal konijnen na 100 stappen was XXX.     
+     Het aantal konijnen na t=1000 stappen was XXX.     
      Dit betekent dat de XXX gewonnen heeft.
      
 #### De opdracht: winstkansen konijnen
