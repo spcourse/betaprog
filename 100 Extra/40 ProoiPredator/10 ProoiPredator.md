@@ -8,15 +8,7 @@ In deze module zullen we zelf een simulatie schrijven van een overzichtelijk sys
 
 ## Startpunt: twee konijnen op het scherm
 
-We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het volgende stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
-
-Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aangeroepen vanuit het hoofdprogramma helemaal onderaan, is `prooipredator()`. Deze functie definieert de startpositie van twee konijnen en neemt stapjes in de tijd (steeds een seconde) en roept voor elk tijdstip dan twee functies aan: `verplaats_de_konijnen()` die de positie van de konijnen verandert en `teken_het_bos()` die de konijnen vervolgens op het scherm tekent.
-
-##### Extra stukje Python: globale variabelen
-Als een variabele of lijst in meerdere functies in een programma gebruikt wordt is het soms handig om die variabel als zogenaamd 'globaal' te definieren. Alle functies in het programma kunnen aangeven dat ze die variabelen willen gebruiken. Deze variabelen worden daarmee gedeeld. In ons stukje code zijn dat twee lijsten: `posities_konijnen_x` en `posities_konijnen_y`. Deze lijsten worden namelijk gebruikt in elk van de drie functies: de startwaardes worden gedefini&euml;erd in `prooipredator()`, ze worden veranderd in de functie `verplaats_de_konijnen()` en daarna getekend in `teken_het_bos()`. De syntax om globale variabelen te defini&euml;ren en gebruiken is als volgt: de lijsten worden eerst in het hoofdprogramma (helemaal bovenaan) als globaal gedefini&euml;erd en vervolgens wordt aan het begin van elk van de drie functies vermeld dat we ze in die functie willen gebruiken.
-
-Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als globaal definieren. 
-
+We beginnen deze module, een beetje tegen de filosofie van de cursus in, niet met een leeg scherm, maar met het onderstaande stukje code. Niet omdat het erg moeilijk is, maar omdat we dan een gemeenschappelijk startpunt hebben en we op dezelfde manier stukken code toevoegen.
 
 {: .language-python}
     import matplotlib.pyplot as plt
@@ -86,6 +78,14 @@ Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als glob
     #== hoofdprogramma ==
     #====================
     prooipredator()
+
+Het stukje code hieronder bestaat uit 3 functies. De hoofdfunctie, die wordt aangeroepen vanuit het hoofdprogramma helemaal onderaan, is `prooipredator()`. Deze functie definieert de startpositie van twee konijnen en neemt stapjes in de tijd (steeds een seconde) en roept voor elk tijdstip dan twee functies aan: `verplaats_de_konijnen()` die de positie van de konijnen verandert en `teken_het_bos()` die de konijnen vervolgens op het scherm tekent.
+
+##### Extra stukje Python: globale variabelen
+Als een variabele of lijst in meerdere functies in een programma gebruikt wordt is het soms handig om die variabel als zogenaamd 'globaal' te definieren. Alle functies in het programma kunnen aangeven dat ze die variabelen willen gebruiken. Deze variabelen worden daarmee gedeeld. In ons stukje code zijn dat twee lijsten: `posities_konijnen_x` en `posities_konijnen_y`. Deze lijsten worden namelijk gebruikt in elk van de drie functies: de startwaardes worden gedefini&euml;erd in `prooipredator()`, ze worden veranderd in de functie `verplaats_de_konijnen()` en daarna getekend in `teken_het_bos()`. De syntax om globale variabelen te defini&euml;ren en gebruiken is als volgt: de lijsten worden eerst in het hoofdprogramma (helemaal bovenaan) als globaal gedefini&euml;erd en vervolgens wordt aan het begin van elk van de drie functies vermeld dat we ze in die functie willen gebruiken.
+
+Als je een variabele in maar 1 functie gebruikt moet je die <b>niet</b> als globaal definieren. 
+
 
 ## Opdracht 1: modelleren van de beweging van de konijnen 
 
