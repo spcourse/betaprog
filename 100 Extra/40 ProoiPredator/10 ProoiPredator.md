@@ -310,9 +310,11 @@ Aan het eind van de simulatie moet de functie op het scherm printen wie gewonnen
      
 #### De opdracht: winstkansen konijnen
 
-De opdracht luidt als volgt: wat is de winstkans van de konijnen? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bos? 
+We zijn nu in staat de originele vraag in deze opdracht te beantwoorden: wat is de winstkans van de konijnen? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bos? Pas de functie `winstkans_konijnen()` uit deel opdracht 4b zo aan dat er nu 200 simulaties gedraaid worden en hou voor elk van de simulaties bij of de konijnen hebben gewonnen (meer dan 45 konijnen), of de vossen hebben gewonnen (minder dan 5 konijnen) of dat er een gelijkspel was (alle andere gevallen).
 
-Schrijf een functie `winstkans_konijnen()` die steeds 200 simulaties draait en van elke simulatie bijhoudt hoeveel konijnen er nog in het bos rondlopen op tijdstip t=1000. Bepaal hoe vaak de konijnen winnen (meer dan 45 konijnen), hoe vaak de wolven winnen (minder dan 5 konijnen) en hoe vaak er geen winnaar is (alle andere gevallen). Bereken de gevraagde fractie en print uiteindelijk de winstkansen voor de konijnen als volgt op het scherm:
+<b>Let op:</b> de plot die je gemaakt hebt in deelopdracht 4b hoef je nu niet meer te maken voor elk van de 200 simulaties. Zorg dan ook dat de plot alleen gemaakt wordt als de functie `winstkans_konijnen()` maar 1 simulatie draait. 
+
+Bereken na alle simulaties gerund te hebben de gevraagde fractie en print de winstkansen voor de konijnen als volgt op het scherm:
 
 {: .language-python}   
      Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 200:     
