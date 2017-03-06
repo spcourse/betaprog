@@ -207,13 +207,13 @@ Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schu
 
 ![](konijnenenvossenEtenstijd.gif){:.inline}{: style="width:30%"}
 
-Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax gebruiken (i_konijn loopt van 19 t/m 0):
+Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax gebruiken (i_konijn loopt van 19 t/m 0, probeer maar):
 
 {: .language-python}   
     for i_konijn in range(19,-1,-1):
          print i_konijn         
 
-Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus zowel de x-positie, de y-positie als de bewegingsrichting.
+Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** lijsten, dus zowel de x-positie, de y-positie als de lijst met hoeken.
 
 Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en hoeveel vossen en konijnen er zich nog in het bos bevinden.
 
