@@ -338,7 +338,9 @@ Aan het eind van de simulatie moet de functie op het scherm printen wie gewonnen
 {: .language-python}   
      Het aantal konijnen na t=1000 stappen was XXX.     
      Dit betekent dat de XXX gewonnen heeft.
-     
+   
+<br>   
+
 #### De opdracht: winstkansen konijnen
 
 We zijn nu in staat de originele vraag in deze opdracht te beantwoorden: wat is de winstkans van de konijnen? Concreter: in welk percentage van de simulaties zijn er na 1000 seconden meer dan 45 konijnen in het bos? Pas de functie `winstkans_konijnen()` uit deel opdracht 4b zo aan dat er nu 200 simulaties gedraaid worden en hou voor elk van de simulaties bij of de konijnen hebben gewonnen (meer dan 45 konijnen), of de vossen hebben gewonnen (minder dan 5 konijnen) of dat er een gelijkspel was (alle andere gevallen).
