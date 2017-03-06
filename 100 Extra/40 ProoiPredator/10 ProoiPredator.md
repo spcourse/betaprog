@@ -191,7 +191,7 @@ Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla 
 
 In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. Doel van deze opdracht is te onderzoeken hoe lang het (gemiddeld) duurt voordat de vossen de helft van de konijnen hebben opgegeten. We onderzoeken ook of het voor de konijnen verstandiger is om stil te zitten of om juist hard rond te rennen.
 
-<b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_tm_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
+<b>Tip:</b> we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_tm_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
 #### [deelopdracht 3a]: verdwijnende konijnen
 
@@ -207,7 +207,7 @@ Als je door een lijst van 20 elementen heenloopt en element 10 weghaalt dan schu
 
 ![](konijnenenvossenEtenstijd.gif){:.inline}{: style="width:30%"}
 
-Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax gebruiken:
+Om in omgekeerde volgorde door een lijst van 20 konijnen heen te gaan kan je de volgende syntax gebruiken (i_konijn loopt van 19 t/m 0):
 
 {: .language-python}   
     for i_konijn in range(19,-1,-1):
