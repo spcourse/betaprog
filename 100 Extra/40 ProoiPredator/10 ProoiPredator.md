@@ -217,7 +217,7 @@ Extra tip: als een konijn opgegeten wordt haal dan het element weg uit **alle** 
 
 Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk tijdstap we zitten en hoeveel vossen en konijnen er zich nog in het bos bevinden.
 
-<br><br>
+<br>
           
 #### [deelopdracht 3b]: Tijd berekenen waarop de konijnenpopulatie gehalveerd is (+ plot)
 
