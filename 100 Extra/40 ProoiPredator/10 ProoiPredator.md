@@ -263,13 +263,19 @@ Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de func
 We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneemt als er twee vossen in het bos rondlopen. Het aantal konijnen kan echter ook toenemen, want konijnen zich ook voortplanten. We gaan kijken wat het effect is van reproductie als we dat als element meenemen in onze populatie-simulaties. Tegelijk met een mogelijke 
 toename van het aantal konijnen is het ook belangrijk om mee te nemen dat ons bos maar voedsel biedt voor een beperkt aantal konijnen. Beide aspecten gaan we meenemen in onze simulatie.
 
-Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `overbevolking()` toe die deze fenomenen gaat implementeren. Tijdens het implementeren van beide nieuwe functies doen we dit steeds voor een enkele simulatie. Het is ook mogelijk om in deze eerste stappen van de opdracht de visualisatie weer 'aan' te zetten.
+Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum aantal aan) of de vossen winnen (alle konijnen zijn opgegeten). De vraag die we in deze opdracht gaan beantwoorden is de volgende: 'hoe vaak winnen de konijnen en hoe vaak winnen de vossen?' Aan het eind van deze opdracht moet op het scherm verschijnen:
+
+{: .language-python}   
+     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 200:     
+     In x.x procent van de gevallen winnen de konijnen
+
+We gaan deze vraag in stapjes beantwoorden. Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `overbevolking()` toe die deze fenomenen gaat implementeren. Tijdens het implementeren van beide nieuwe functies doen we dit steeds voor een enkele simulatie. Het is ook mogelijk om in deze eerste stappen van de opdracht de visualisatie weer 'aan' te zetten.
 
 <b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit. Om te zorgen dat de huidige werkende code goed bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht4.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
 #### Deelopdracht 4a: reproducerende muizen
 
-Zorgt dat de functie `reproduceren_konijnen()` (die moet worden aangeroepen na het verplaatsen van de konijnen, het verplaatsen van de wolven en het opeten van de konijnen door de wolven) op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten en vervolgens nieuwe konijnen in het bos neerzet.
+Het eerste aspect dat we in gaan voeren is het vermogen van de muizen om zich voort te planten. Maak een nieuwe functie `reproduceren_konijnen()` die wordt aangeroepen na de bestaande functies (het verplaatsen van de konijnen, het verplaatsen van de wolven en het opeten van de konijnen door de wolven) en die steeds kijkt of er konijnen dicht bij elkaar zitten. Als dat het geval is moet het programma de nieuwe jongen konijnen op een random plek in het bos neerzetten.
 
 Ga hierbij als volgt te werk:
 
@@ -279,7 +285,6 @@ Ga hierbij als volgt te werk:
 
   3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos, een random bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
-
 Als je een paar simulaties bekijkt zal je zien dat het een erg instabiel systeem is. Als de vossen nog niet genoeg konijnen hebben opgegeten op het moment dat de konijnen gaan reproduceren kan het aantal konijnen exponentieel groeien. En zo je programma vast laten lopen. In de volgende opdracht gaan we deze ongewenste en onrealistische effecten repareren.
   
 #### [deelopdracht 4b]: maximum aantal konijnen in het bos
