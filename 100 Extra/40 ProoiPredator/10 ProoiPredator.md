@@ -255,7 +255,7 @@ Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een
 
 Op het scherm moet na de laatste simulatie het volgende verschijnen:
 {: .language-python}   
-    Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 100:
+    Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 500:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
 
 <br>
@@ -264,9 +264,7 @@ Op het scherm moet na de laatste simulatie het volgende verschijnen:
 
 We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie voor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood en moeten iets bedenken. Discussiepunt onder de konijnen is nu of ze juist beter heel hard kunnen gaan lopen of juist stil moeten gaan zitten en hopen dat de wolven ze niet vinden. Aan ons om de optimale strategie te bepalen voor de konijnen.
 
-De vraag in deze opdracht is: run de functie `gemiddelde_halfwaardetijd()` aan met verschillende waardes van de snelheid voor de konijnen en maak een grafiek te maken van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Probeer verschillende snelheden voor de konijnen: snelheden van 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 en 5.0 meter per seconde.
-
-Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven voor je uiteindelijk een grafiek maakt van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Welke trend zie je? Is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen?
+Om deze vraag te beantwoorden gaan we de functie `gemiddelde_halfwaardetijd()` laten werken met verschillende waardes van de snelheid voor de konijnen. Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven. Probeer verschillende snelheden voor de konijnen: snelheden van 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 en 5.0 meter per seconde en maak uiteindelijk een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Welke trend zie je en is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen?
 
 ## Opdracht 4: Reproducerende konijnen en overbevolking
 
