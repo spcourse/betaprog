@@ -189,7 +189,7 @@ Laat de vos eerst een stap zetten en kies dan een nieuwe random richting en sla 
 
 ## Opdracht 3: populatie-dynamica (de dood - vossen eten konijnen)
 
-In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. Doel van deze opdracht is te onderzoeken hoe lang het (gemiddeld) duurt voordat de vossen de helft van de konijnen heeft opgegeten. Als laatste zullen we kijken of het voor de konijnen verstandiger is te zitten om stil te zitten of juist keihard rond te rennen.
+In de natuur leven vossen en konijnen niet vredig naast elkaar. Als een vos een konijn tegenkomt zal hij het konijn opeten. Doel van deze opdracht is te onderzoeken hoe lang het (gemiddeld) duurt voordat de vossen de helft van de konijnen hebben opgegeten. We zullen ook onderzoeken of het voor de konijnen verstandiger is om stil te zitten of om juist keihard rond te rennen.
 
 <b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1 en 2. Om te zorgen dat de code uit opdracht 1 bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Sla je bestaande code op in een file `prooipredator_tm_opdracht2.py`. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht3.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
 
