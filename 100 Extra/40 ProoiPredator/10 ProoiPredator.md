@@ -327,7 +327,7 @@ Zoals je al gezien hebt is het systeem vrij instabiel. Na 1000 seconden zal je (
  ![](DynamicaWinstVossen.png){: style="width:40%"}
  ![](DynamicaWinstKonijnen.png){: style="width:40%"}
 
-De opdracht van deze stap is om dit type grafiek te maken voor een enkele simulatie. Je kan jezelf zo overtuigen dat de functie `overbevolking()` echt werkt en dat we inderdaad in een instabiele situatie zitten. Schrijf een nieuwe functie `winstkans_konijnen()` die een enkele simulatie maakt door de functie `prooipredator()` aan te roepen en een plot maakt voor die simulatie net als de plots hierboven.
+De opdracht van deze stap is om dit type grafiek te maken voor een enkele simulatie. Op deze manier proberen we onszelf te overtuigen van het feit dat de nieuwe functie `overbevolking()` goed werkt. Schrijf dus een nieuwe functie `winstkans_konijnen()` die een enkele simulatie maakt door de functie `prooipredator()` aan te roepen en een plot maakt voor die simulatie net als de plots hierboven.
 
 <b>Tip:</b> de functie die we hier moeten maken lijkt sterk op de functie `gemiddelde_halfwaardetijd()` die we in opgave 3b en 3c hebben gebruikt. Kopieer die functie en gebruik dat als de 'basis' die je vervolgens aan kan passen. De functie `prooipredator()` gaf als return-waarde al het aantal konijnen op elk moment in de tijd. Gebruik dat ook hier als basis voor je plot.
 
