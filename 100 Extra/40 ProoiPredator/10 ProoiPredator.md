@@ -354,6 +354,13 @@ Bereken na alle simulaties gerund te hebben de gevraagde fractie en print de win
      In x.x procent van de gevallen winnen de konijnen
 
 
+### Conclusie
+In deze opdracht hebben we een populatie-dynamica simulatie doorgerekend met behulp van de computer. We hebben vrij elementaire aspecten meegenomen en bestudeerd hoe de ontwikkeling van konijnen afhangt van de vrije parameters in het systeem. De 'echte' simulaties die wetenschappers doen werkt op precies dezelfde manier. Of het nou deze populatie-dynamica is, of file-doorstroming op een nieuwe verkeerssituatie of het bewegen van mensen in een noodsituatie in een stadion. Deze simulaties kan makkelijk uitgebreid worden en als je zin hebt kan je dat ook doen. Wat zijn de eerste dingen die je toe zou voegen? Vossen die steeds langzamer gaan lopen als langer niks gegeten hebben, vossen die zich kunnen voortplanten of juist opeten, vossen die konijnen kunnen ruiken als ze in de buurt zitten, konijnen die zich kunnen verstoppen op bepaalde plekken in het bos etc etc. De mogelijkheden zijn eindeloos. Onze tijd die we hebben voor deze module helaas niet.
+
+
+
+
+
 
 
 
