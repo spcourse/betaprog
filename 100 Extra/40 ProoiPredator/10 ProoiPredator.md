@@ -221,7 +221,7 @@ Zet ook de puntjes op de i door op elk moment op het scherm te zetten bij welk t
           
 #### [deelopdracht 3b]: Tijd berekenen waarop de konijnenpopulatie gehalveerd is (+ plot)
 
-Als we de simulatie langer laten lopen komt er natuurlijk een moment komt dat de vossen de helft van de konijnen opgegeten hebben. Maar hoe lang duurt dat? Die vraag gaan we in deze opdracht beantwoorden.
+Als we de simulatie langer laten lopen komt er natuurlijk een moment dat de vossen de helft van de konijnen hebben opgegeten. Maar hoe lang duurt dat? Die vraag gaan we in deze opdracht beantwoorden.
 
 <b>Tip voor we beginnen:</b> Het weergeven van bewegende en verdwijnende konijnen op het scherm is enorm tijdrovend. Tot 1000 tijdstappen werkt dit prima, maar bij langere of meerdere simulaties is het niet praktisch. Door de visualisatie weg te laten kan je enorm veel tijd winnen. Zorg dat je in de functie `prooipredator()` een variabele toevoegt waarmee je makkelijk kan kiezen of je wel/niet de functie `teken_het_bos()` aanroept. Vanaf nu gaan we de visualisatie niet meer aanroepen. Tenzij je iets wilt bekijken natuurlijk. 
 En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer dan 'gewoon leuk'. Het is een krachtige manier om fouten in je code op te sporen. Erg handig, zoals je waarschijnlijk eerder in de module al ervaren hebt toen je de bosrand of het opeten van de konijnen aan het implementeren was. 
@@ -229,9 +229,9 @@ En toch is het visualiseren van een enkele simulatie enorm belangrijk en meer da
 
 Om de tijd te berekenen waarop de helft van de konijnen opgegeten is gaan we twee dingen aanpassen in het programma:
 
-   1. Laat de simulatie 1000 seconden lopen en hou in de functie `prooipredator()` een lijst bij die voor elke tijdstap het aantal konijnen bijhoudt en zorg dat de functie `prooipredator()` deze lijst als return-value teruggeeft aan het eind van het programma.
+   1. Laat de simulatie 1000 seconden lopen en hou in de functie `prooipredator()` een lijst bij die voor elke tijdstap het aantal konijnen opslaat en zorg dat de functie `prooipredator()` deze lijst als return-value teruggeeft aan het eind van het programma.
    
-   2. Schrijf een nieuwe functie `gemiddelde_halfwaardetijd()` die een enkele keer de functie `prooipredator()` aanroept. Omdat deze functie de hele lijst met aantal konijnen op elke tijdstap teruggeeft kan je hiermee uitrekenen op welk moment er voor het eerst minder dan de helft van de konijnen rondlopen in het bos. 
+   2. Schrijf een nieuwe functie `gemiddelde_halfwaardetijd()` die een enkele keer de functie `prooipredator()` aanroept. Omdat deze functie `prooipredator()` nu de lijst met aantal konijnen op elke tijdstap teruggeeft kan je hiermee uitrekenen op welk moment er voor het eerst minder dan de helft van de konijnen rondlopen in het bos. 
    
 De tijd die de vossen daarvoor nodig hebben zal voor elke nieuwe simulate anders zijn. Hieronder vind je een paar grafieken van het aantal konijnen als functie van de tijd voor twee simulaties. Voor we van 1000 simulaties de gemiddelde tijd waarbij 50% van de konijnen verdwenen is is het belangrijk om zeker te weten dat de waardes die je hebt bepaald ook echt kloppen. Probeer dus eerst deze grafieken na te maken om te kijken of je inderdaad de goede gegevens uit je simulatie haalt.
 
