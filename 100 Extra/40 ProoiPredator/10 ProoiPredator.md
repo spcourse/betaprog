@@ -250,7 +250,6 @@ Onze nieuwe functie `gemiddelde_halfwaardetijd()` is nu zo opgezet dat de functi
 Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een groot aantal keer (500 keer) de functie `prooipredator()` aanroept, steeds de halfwaardetijd opslaat, om uiteindelijk het gemiddelde te berekenen. Dit duurt wel even, dus zorg dat elke 25e simulatie op het scherm geprint wordt welke simulatie nu uitgevoerd wordt.
 
 Op het scherm moet na de laatste simulatie het volgende verschijnen:
-
 {: .language-python}   
     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 100:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
