@@ -265,6 +265,8 @@ toename van het aantal konijnen is het ook belangrijk om mee te nemen dat ons bo
 
 Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `overbevolking()` toe die deze fenomenen gaat implementeren.
 
+<b>Let op:</b> we gaan nu een aanpassing aan de bestaande code maken uit. Om te zorgen dat de huidige werkende code goed bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak daarna een nieuw Python bestand, `prooipredator_tm_opdracht4.py`, kopieer de code die je tot nu toe hebt gemaakt en ga verder in deze nieuwe file.
+
 #### stap 1: reproducerende muizen
 
 Zorgt dat de functie `reproduceren_konijnen()` (die moet worden aangeroepen na het verplaatsen van de konijnen, het verplaatsen van de wolven en het opeten van de konijnen door de wolven) op elke stap in de tijd kijkt of er konijnen dicht bij elkaar zitten en vervolgens nieuwe konijnen in het bos neerzet.
