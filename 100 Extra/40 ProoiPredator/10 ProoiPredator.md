@@ -273,15 +273,18 @@ Zorgt dat de functie `reproduceren_konijnen()` (die moet worden aangeroepen na h
 
 Ga hierbij als volgt te werk:
 
-  1. Roep de functie pas aan na 100 seconden. De konijnen beginnen al erg dicht bij elkaar en zijn in het begin nog te jong om zich voort te planten. Dit is een aanpassing in de functie `prooipredator()` zelf die bepaalt welke functies aangeroepen worden voor elke tijdstap.
+  1. Roep de functie pas aan na 200 seconden. De konijnen beginnen al erg dicht bij elkaar en zijn in het begin nog te jong om zich voort te planten. Dit is een aanpassing in de functie `prooipredator()` zelf die bepaalt welke functies aangeroepen worden voor elke tijdstap.
 
   2. Bepaal eerst hoeveel paren konijnen er dicht bij elkaar zitten (afstand < 1). Dit bepaalt het aantal nestjes. <b>Let op:</b> vermijd hierbij dubbeltellen. 
 
   3. Genereer vervolgens voor elk nestje 4 nieuwe konijnen, geef ze een random positie in het bos, een random bewegingsrichting en voeg ze toe aan de lijst van konijnen.
   
+
+Als je een paar simulaties bekijkt zal je zien dat het een erg instabiel systeem is. Als de vossen nog niet genoeg konijnen hebben opgegeten op het moment dat de konijnen gaan reproduceren kan het aantal konijnen exponentieel groeien. En zo je programma vast laten lopen. In de volgende opdracht gaan we deze ongewenste en onrealistische effecten repareren.
+  
 #### [deelopdracht 4b]: maximum aantal konijnen in het bos
 
-De functie `overbevolking()` heeft als doel te zorgen dat er op moment in de tijd nooit meer dan 50 konijnen in het bos aanwezig zijn. Roep de functie aan gelijk na `reproduceren_konijnen()`, kijk hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50.
+Maak een functie `overbevolking()` die gelijk na `reproduceren_konijnen()` aangeroepen moet worden. Het doel van deze functie is om te zorgen dat er nooit meer dan 50 konijnen in het bos aanwezig zijn. Roep de functie aan gelijk na `reproduceren_konijnen()`, kijk hoe lang de lijst met konijnen is en verwijder elk element in de lijst van konijnen boven de 50.
 
 #### De opdracht: winstkansen konijnen
 
