@@ -1,3 +1,38 @@
+# Analyse
+
+## tl;dr
+
+Implementeer een programma dat:
+- 
+
+	Naar welk priemgetal bent u op zoek? 1000
+	9717
+
+## Achtergrond
+
+Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "domme" stappen. Een voorbeeld waar een computer zó veel effectiever is dan een enkele persoon, is het uitrekenen van priemgetallen. De definitie van een priemgetal is niet al te ingewikkeld. Maar bepalen hoeveel delers een willekeurig getal heeft kan ontzettend veel tijd kosten. Python to the rescue!
+
+## Specificatie
+
+- Schrijf in een bestand genaamd `priemgetal.py` een programma dat een priemgetal met de gewenste rangorde bepaalt.
+
+- Vraag de gebruiker om de rangorde van het priemgetal in te voeren. Dit moet een geheel getal zijn, groter dan 2.
+
+- Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult.
+
+- Zodra de rangorde bekend is, bereken het juiste priemgetal en rapporteer dit terug aan de gebruiker.
+
+- Zorg dat het programma niets anders uitvoert dan dit getal!
+
+## Hints
+
+- Bovenstaande opdracht bestaat uit een aantal onderdelen die bij elkaar moeten komen. Volg de stappen hieronder om je programma op te bouwen.
+
+- Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
+
+
+
+
 We gaan nu verder werken met de ideeën uit het vorige hoofdstuk, en voorbeelden uit de getaltheorie bestuderen. Dit zijn problemen die handig met de computer uit te voeren zijn, omdat ze hele grote hoeveelheden klein rekenwerk vereisen. Aan ons de taak om op een efficiënte manier te noteren hoe de computer dit gaat aanpakken: programmeren dus.
 
 Eerst twee belangrijke strategische tips bij het oplossen van een probleem met behulp van een programma:
