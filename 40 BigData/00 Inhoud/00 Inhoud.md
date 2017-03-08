@@ -4,7 +4,7 @@ In deze module gaan we leren hoe we informatie uit een grote data-set halen.
 
 #### Dag 1: Inlezen en verwerken van een data-set 
 
-1. <span class="label label-primary">Opdracht</span> Verwerk sensor-data van een  [autorit](/klimaat/dataverwerken)
+1. <span class="label label-primary">Opdracht</span> Verwerk sensor-data van een  [autorit](/bigdata/dataverwerken)
 
 #### Dag 2: Bijdrage leveren aan de klimaatdiscussie
 
