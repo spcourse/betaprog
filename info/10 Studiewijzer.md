@@ -26,7 +26,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 ####  Module 4
 
 - Keuze 1: begraaf je in de big data van het <strong>klimaat</strong> (beschikbaar: half april)
-- Keuze 2: toets je conclusies met <strong>statistiek</strong> (beschikbaar: half april)
+- Keuze 2: conclusies trekken met behulp van[<strong>Statistiek</strong>](/statistiek/inhoud)
 
 ## Begeleiding
 

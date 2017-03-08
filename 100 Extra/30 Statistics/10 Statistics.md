@@ -159,7 +159,7 @@ om de discussie over de manier waarop je de beste waarde van je parameters bepaa
 daarop) te voeren aan de hand van een voorbeeld. Na het voorbeeld (het kookpunt van alcohol) zullen we 
 de kennis toepassen in een concrete opdracht die gerelateerd is aan onze casus.
 
-### ]Voorbeeld]: Bepalen kookpunt van alcohol tijdens het prakticum
+### [Voorbeeld]: Bepalen kookpunt van alcohol tijdens het prakticum
 
 Tijdens een prakticum kregen groepjes studenten de opdracht het kookpunt van alcohol te bepalen. 
 Door gebrek aan tijd had elke groep maar tijd voor 1 meting. Er waren zes thermometer in de 
