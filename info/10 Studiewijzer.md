@@ -26,7 +26,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 ####  Module 4
 
-- Keuze 1: analyseer de KNMI temperatuur data van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
+- Keuze 1: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
 - Keuze 2: conclusies trekken met behulp van [<strong>Statistiek</strong>](/statistiek/inhoud)
 
 ## Begeleiding
