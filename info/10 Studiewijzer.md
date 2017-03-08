@@ -22,6 +22,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 - Keuze 1: bestudeer de natuurkundige regels van <strong>beweging</strong> (beschikbaar: eind maart)
 - Keuze 2: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud)
+- Keuze 3: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
 
 ####  Module 4
 
