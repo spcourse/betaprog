@@ -199,35 +199,4 @@ schrijft deze nieuwe regel vervolgens weg in een outputfile.
 
 
     
-# Opgave 1: Sensor Data 
-    
-
-Een iPhone bevat veel delicate sensoren die informatie verzamelen over de 
-positie, snelheid, versnelling. We hebben gedurende een korte auto-rit de 
-data opgeslagen en in een file weggeschreven met een frequentie van 1 [Hz]. 
-
-![](KaartAmsterdamKlein.png)
-
-
-De sensor data is beschikbaar in de file `AutoRitData.csv` en is te downloaden 
-via de volgende link:
-
-Data-file: [AutoRitData.csv](http://www.nikhef.nl/~ivov/Python/SensorData/AutoRitData.csv)
-
-Bovenin de file staat kort welke informatie elk veld bevat.
-
-Het verzamelen van de data begon toen de auto zich bevond op de plek waar de 
-snelweg A4 op de A10 aansluit. Het verzamelen van de data stopte toen de auto 
-op het Nikhef was aangekomen. Schrijf een programma **autorit.py** dat de file 
-doorloopt, de data verwerkt en beantwoord de volgende vragen.
-
-## Vraag 1a) afgelegde afstand
-Maak een grafiek van de snelheid van de auto (in km/uur) als functie van de 
-tijd en gebruik de data om een schatting te maken van de totaal afgelegde weg.
-
-## Vraag 1b) teken de afgelegde route
-Maak een grafiek van de positie van de auto en kleur de route groen (rood) 
-op de stukken van de route waar de snelheid van de auto meer (minder) 
-was dan 50 km/uur.
-
 
