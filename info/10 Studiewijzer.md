@@ -21,7 +21,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 ####  Module 3
 
 - Keuze 1: bestudeer de natuurkundige regels van <strong>beweging</strong> (beschikbaar: eind maart)
-- Keuze 2: bereken je voordeel bij <strong>Monopoly</strong> (beschikbaar: eind maart)
+- Keuze 2: bereken je voordeel bij <strong>Monopoly</strong>](/monopoly/inhoud)
 
 ####  Module 4
 
