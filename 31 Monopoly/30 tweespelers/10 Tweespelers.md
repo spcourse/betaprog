@@ -1,94 +1,55 @@
-# Analyse
+## Opdracht 3: Realisme toevoegen: twee spelers
 
-## tl;dr
-
-Implementeer een programma dat:
-- 
-
-	Naar welk priemgetal bent u op zoek? 1000
-	9717
-
-## Achtergrond
-
-Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "domme" stappen. Een voorbeeld waar een computer zó veel effectiever is dan een enkele persoon, is het uitrekenen van priemgetallen. De definitie van een priemgetal is niet al te ingewikkeld. Maar bepalen hoeveel delers een willekeurig getal heeft kan ontzettend veel tijd kosten. Python to the rescue!
-
-## Specificatie
-
-- Schrijf in een bestand genaamd `priemgetal.py` een programma dat een priemgetal met de gewenste rangorde bepaalt.
-
-- Vraag de gebruiker om de rangorde van het priemgetal in te voeren. Dit moet een geheel getal zijn, groter dan 2.
-
-- Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult.
-
-- Zodra de rangorde bekend is, bereken het juiste priemgetal en rapporteer dit terug aan de gebruiker.
-
-- Zorg dat het programma niets anders uitvoert dan dit getal!
-
-## Hints
-
-- Bovenstaande opdracht bestaat uit een aantal onderdelen die bij elkaar moeten komen. Volg de stappen hieronder om je programma op te bouwen.
-
-- Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
-
-
-
-
-We gaan nu verder werken met de ideeën uit het vorige hoofdstuk, en voorbeelden uit de getaltheorie bestuderen. Dit zijn problemen die handig met de computer uit te voeren zijn, omdat ze hele grote hoeveelheden klein rekenwerk vereisen. Aan ons de taak om op een efficiënte manier te noteren hoe de computer dit gaat aanpakken: programmeren dus.
-
-Eerst twee belangrijke strategische tips bij het oplossen van een probleem met behulp van een programma:
-
-- Een computer is niet 'slim', maar voert droog commando's uit. Het is jouw taak als programmeur om de computer de juiste dingen te laten doen.
-
-- Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5-10 minuten die je hieraan besteedt verdien je dik terug tijdens het omzetten naar programmacode.
+In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om eerst 
+te evalueren wat het voordeel is van de speler die begint met gooien en vervolgens te bestuderen hoe
+we in het spel dit nadeel voor speler 2 kunnen herstellen.
  
-# Reeksen priemgetallen #
+![](Balans.png){:.inline}{: style="width:35%"}
+ 
+Let op: we gaan nu de code uit opdracht 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft 
+gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python bestand aan, `Monopoly_opdracht3.py`, 
+kopieer de code die je tot nu toe hebt en ga verder in deze nieuwe file.
+
+#### [deelopdracht 3a] voordeel van speler 1
+
+Voeg eerst een tweede speler toe in je simulaties, laat beide spelers beginnen met 1500 euro startgeld 
+en bepaal het verschil in aantal straten tussen speler 1 en speler 2 op het moment dat alle 
+straten verkocht zijn. Dit verschil zal elk potje verschillen. Simuleer daarom 10000 potjes om een goede 
+schatting te krijgen van het gemiddelde verschil. Je zal zien dat speler 1 inderdaad een klein voordeel 
+heeft op speler 2.
+
+Print het verschil naar het scherm:
+{: .language-python}
+	Monopoly simulator: 2 spelers, 1500 euro startgeld, 10000 potjes
+    Gemiddeld heeft speler 1 X.XX meer straten in bezit als alle straten verdeeld zijn
+
+#### [deelopdracht 3b] nadeel van speler 2 repareren
+
+De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' 
+waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 
+2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra 
+startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel 
+straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. Geef speler 2 
+steeds wat meer geld (kies een paar waardes van het startgeld en voer dat steeds handmatig in) en 
+bereken steeds het verschil. Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee 
+je bovenstaande grafiek kan reproduceren en een goede schatting kan maken van de hoeveelheid extra geld 
+dat we speler 2 moeten geven aan het begin van het spel om het evenwicht te herstellen. 
+
+Reproduceer de grafiek en geef zowel in de grafiek als geprint naar het scherm aan hoeveel extra geld 
+speler 2 moet krijgen om het evenwicht te herstellen. Het antwoord moet op 50 euro nauwkeurig zijn.
+
+{: .language-python}
+	Monopoly simulator: 2 spelers
+    Als we speler 2 XXX euro meer startgeld meegeven hebben beide spelers gemiddeld evenveel straten in bezit
+
+
+## Samenvatting
+
+De simulatie die we hier gedaan hebben is een versimpelde versie van de vaak zeer complexe 
+modellen waarmee grote financiele partijen risico's inschatten en strategieen bepalen. 
+Tegelijkertijd worden deze simulaties ook gebruikt door politieke partijen om de effecten 
+van hun keuzes door te rekenen in verschillende scenario's.
 
 
 
-Een van de resultaten van je vorige programma is de *lijst* van priemgetallen. Je hebt die lijst opgeslagen en later weer uitgeprint. Zo'n lijst kan heel handig zijn als invoer voor verdere analyse. We gaan nu proberen extra informatie uit die reeks priemgetallen te halen.
 
-## Opgave
-
-Schrijf een programma **priem_reeks.py** dat de *langste aaneengesloten reeks niet-priemgetallen* bepaalt. Lees dat nog maar een keer. Om dit goed te begrijpen, schrijf je bijvoorbeeld de eerste tien priemgetallen op papier. Dan tel je hoeveel ruimte er tussen elk van de priemgetallen zit: tussen 2 en 3 zit natuurlijk géén ruimte.
-
-Om het programma dan echt te schrijven, kun je starten met de code uit de opgave hierboven. Maar pas op: in deze opgave gebruiken we niet de lijst met de eerste 1000 priemgetallen, maar alle priemgetallen onder het getal 10000. Da's net even een verschil. Kun je het beste een `for`-loop of een `while`-loop gebruiken?
-
-Zorg ten slotte dat je output er netjes uitziet en dat we als gebruiker iets aan de informatie hebben: print eerst de twee priemgetallen waartussen de reeks ingeklemd zit en dan op de volgende regel de lengte van de reeks!
-
-
-
-# Het vermoeden van Goldbach
-
-Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wiskunde. Goldbach stelde:
-
-*"Elk even getal groter dan 2 kan geschreven worden als de som van twee priemgetallen."*
-
-Een priemgetal mag hierbij twee keer gebruikt worden. Hoewel dit inderdaad klopt voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen bewijs. We gaan ons steentje bijdragen. 
-
-## Opgave
-
-Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inderdaad te schrijven zijn als de som van twee priemgetallen. Concreet: laat voor elk even getal ook expliciet zien dat het te schrijven is als de som van twee priemgetallen:
-
-   	16 = ...
-	18 = 5 + 13 
-    20 = 3 + 17 
-    22 = 5 + 17
-    24 = ...
-
-Maar nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoeden (*conjecture*) van Goldbach voldoet. Zorg dat jouw programma zo'n ontdekking duidelijk op het scherm aangeeft. Bingo!
-
-### Tips
-
-Je mag in deze opgave de onderstaande Python constructie gebruiken die kijkt of een element wel of niet in een in een lijst voorkomt. De volgend constructie zal op het scherm printen dat 7 inderdaad een priemgetal is.
-
-    priemen = [2,3,5,7,11]
-    x = 7
-	if x in priemen:
-	   print "Ja, het getal %d komt voor in mijn priemlijst" % x
-
-En als je voor elk van de getallen 1 tot en met 40 wilt bekijken of ze in de lijst staan gebruik je dus:
-
-    priemen = [2,3,5,7,11]
-    for x in range(1,41):
-	    if x in priemen:
-            print "Ja, het getal %d komt voor in mijn priemlijst" % x
