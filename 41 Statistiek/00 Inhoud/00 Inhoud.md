@@ -4,7 +4,7 @@ In deze module leren we een model fitten aan de data en conclusies trekken.
 
 #### Dag 1: De normaalverdeling en steekproeven 
 
-1. <span class="label label-primary">Opdracht</span> bestuderen van de [lengte](/statistiek/normaalvedeling) Deense vrouwen
+1. <span class="label label-primary">Opdracht</span> bestuderen van de [lengte](/statistiek/normaalverdeling) Deense vrouwen
 
 #### Dag 2: Model fitten aan de data (zelf)
 
