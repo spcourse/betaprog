@@ -2,18 +2,10 @@
 
 In deze module gaan we leren hoe we informatie uit een grote data-set halen. 
 
-#### Dag 1: Inlezen en verwerken data 
+#### Dag 1: Inlezen en verwerken van een data-set 
 
-1. <span class="label label-primary">Opdracht</span> Sensor data [Trump-mode](/klimaat/sensor) (1/2)
+1. <span class="label label-primary">Opdracht</span> Verwerk sensor-data van een  [autorit](/klimaat/dataverwerken)
 
-#### Dag 2: Vrij rondlopen op het bord [deel 2]
+#### Dag 2: Bijdrage leveren aan de klimaatdiscussie
 
-1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler [Trump-mode](/monopoly/vrijrondlopen) (2/2)
-
-#### Dag 3: Startgeld
-
-1. <span class="label label-primary">Opdracht</span> Effect van [startgeld](/monopoly/startgeld) in het spel
-
-#### Dag 4: Tweede speler toevoegen en zoeken naar evenwicht
-
-1. <span class="label label-primary">Opdracht</span> Voeg tweede speler toe en herstel het [evenwicht](/monopoly/tweespelers).
+1. <span class="label label-primary">Opdracht</span>Graven in de [KNMI temperatuur-data](/bigdata/klimaatdiscussie) van de 20ste eeuw.
