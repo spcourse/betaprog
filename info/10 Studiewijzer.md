@@ -1,3 +1,14 @@
+<style>
+h1
+{
+	border-bottom: 0;
+}
+ul.nav
+{
+	margin-left: 0;
+}
+</style>
+
 # Inleiding Wetenschappelijk Programmeren<br><small>Versie 1.0</small>
 
 <div>
