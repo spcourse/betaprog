@@ -114,52 +114,12 @@ Deze cursus is zelf ook gepubliceerd onder een creative commons-licentie en mag 
 </div>
 <div role="tabpanel" class="tab-pane" id="vragen">
 
+### Ik wil graag meer lesmateriaal of verder leren, waar moet ik zijn?
+
+Kijk eens naar ![deze lijst met Python-resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/assignments/MIT6_0001F16_additional.pdf) bij MIT!
 
 </div>
 
-<div role="tabpanel" class="tab-pane" id="resources">
-
-If you're having trouble with a particular concept or simply want to have access to more information, try one of the following links.
-
-## Documentatie
-
-- [Official Python 2 Documentation]() - "official"/technical explanation of what a particular function/operator does, examples of correct syntax, what the various libraries are, etc.
-
-## Boeken/tutorials
-
-- Dive Into Python - another survey of Python syntax, datatypes, etc.
-- Think Python by Allen Downey - a good general overview of the Python language. Includes exercises.
-- The Official Python Tutorial - self-explanatory
-- Learn Python the Hard Way - (note: for Python 2) another free online text
-- Reserved Keywords in Python - don't use these as variable names
-- PEP 8 - Style Guide for Python Code - learn what is good and bad style in Python
-- CheckIO - learn Python by exploring a game world
-- Invent with Python - develop your Python skills by making games or hacking ciphers
-- Codecademy - (note: for Python 2) learn Python by building web apps and manipulating data; interactive
-tutorial sequence
-- Python Tutor - interactive tutorial sequence of exercises
-
-## Debuggen
-
-- Python Tutor - an excellent way to actually visualize how the interpreter actually reads and executes your code
-- DiffChecker - compares two sets of text and shows you which lines are different
-- Debugging in Python - steps you can take to try to debug your program
-
-## Q&A
-
-- Stack Overflow - a large Q&A forum for programming concepts (not just Python). Try searching here before you post on the edX forum, and you may find that someone has already answered your question.
-
-## Oefenen
-
-- Python Challenge - a series of puzzles you can try to test your Python abilities
-- Project Euler - additional programming challenges you can try once your Python knowledge becomes
-stronger; problems are sorted by increasing difficulty
-- Coding Bat - problems you can solve within an online interpreter
-- Codewars - improve your skills by training on real code challenges
-
-From the course [6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) at MIT.
-
-</div>
 
 
 </div>
