@@ -1,4 +1,4 @@
- Animaties
+# Animaties
 
 Hoewel een grafiek heel handig kan zijn om een simulatie te visualiseren is het
 soms inzichtelijker een animatie te maken. Python biedt je de mogelijkheid om
@@ -8,7 +8,7 @@ lijn (en punt) volgens $$f(x)=sin(x)$$ over het scherm laten bewegen. We bouwen
 de functie op in 3 stappen waarbij we telkens 1 element toevoegen. Met behulp
 van deze functionaliteit kun je een groot scala aan animaties maken.
 
-## Een bewegend punt
+## Een bewegend stipje 
 
 Als je een punt tekent (één $$x$$-waarde en één $$y$$-waarde) waarvan je $$x$$
 en $$y$$ steeds verandert dan lijkt het of het punt over het scherm beweegt. In
@@ -73,7 +73,7 @@ Zoals je ziet is de code maar drie regels veranderd ten opzichte van voorbeeld
 
 ![](AnimationExampleSin2.gif)
 
-## Een stip, een lijn en tekst op het scherm
+## Een stip, een lijn en tekst
 
 Je kan de stip en de lijn ook tegelijk tekenen en op het scherm ook informatie
 weergeven over de $$(x,y)$$ positie van het punt op het scherm.
