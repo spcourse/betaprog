@@ -115,7 +115,7 @@ Deze cursus is zelf ook gepubliceerd onder een creative commons-licentie en mag 
 
 ### Ik wil graag meer lesmateriaal of verder leren, waar moet ik zijn?
 
-Kijk eens naar ![deze lijst met Python-resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/assignments/MIT6_0001F16_additional.pdf) bij MIT!
+Kijk eens naar [deze lijst met Python-resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/assignments/MIT6_0001F16_additional.pdf) bij MIT!
 
 </div>
 
