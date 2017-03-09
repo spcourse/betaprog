@@ -1,8 +1,10 @@
-# Algoriten
+# Algoritmen
 
 In deze module gaan we aan de slag met enkele algoritmen. De opdrachten zijn vrij algemeen van aard en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!
 
+<div style="width: 30%">
 ![embed](https://www.youtube.com/embed/m5Yt-2r6fCg)
+</div>
 
 #### Dag 1: aan de slag
 
