@@ -2,23 +2,14 @@
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
-<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Modules</a></li>
+<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Meer info</a></li>
+<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Aanmelden</a></li>
 </ul>
 
 <!-- Tab panes -->
 <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="home">
-# Ha
-</div>
-<div role="tabpanel" class="tab-pane" id="profile">...</div>
-<div role="tabpanel" class="tab-pane" id="messages">...</div>
-<div role="tabpanel" class="tab-pane" id="settings">...</div>
-</div>
-
-</div>
 
 # Inleiding Wetenschappelijk Programmeren<br><small>Studiehandleiding</small>
 
@@ -51,6 +42,11 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 - Keuze 1: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
 - Keuze 2: conclusies trekken met behulp van [<strong>Statistiek</strong>](/statistiek/inhoud)
 
+</div>
+<div role="tabpanel" class="tab-pane" id="profile">
+
+# Meer informatie
+
 ## Begeleiding
 
 Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen; maar tijdens studiejaar 2016/2017 kun je op twee manieren hulp krijgen:
@@ -81,4 +77,16 @@ Om dit vak te halen verwachten we dat je alle stof zorgvuldig doorneemt, alle bi
 Martijn Stegeman (examinator)  
 Ivo van Vulpen  
 Jelle van Assema
+
+
+</div>
+<div role="tabpanel" class="tab-pane" id="messages">
+
+# Aanmelden
+
+</div>
+</div>
+
+</div>
+
 
