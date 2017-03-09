@@ -8,14 +8,12 @@ In deze module gaan we bestuderen hoe we problemen in deklassieke mechanica aan 
 
 #### Dag 2: Vallende appels en parachutespringen
 
-1. <span class="label label-primary">Opdracht</span> Maak animatie van 25 [konijnen](/prooipredator/konijnen) in een bos
+1. <span class="label label-primary">Opdracht</span> Bestudeer [beweging](/beweging/vallendeobjecten) vallende objecten
 
-#### Dag 3: Voeg (hongerige) vossen in het bos
+#### Dag 3: De ultieme freefall
 
-1. <span class="label label-primary">Opdracht</span> Voeg [vossen](/prooipredator/vossen) toe in de simulatie
+1. <span class="label label-primary">Opdracht</span> Wat gebeurt er als je door de aarde heenvalt ? De ultieme [freefall](/beweging/ultiemefreefall)
 
-2. <span class="label label-primary">Opdracht</span> De vossen krijgen [honger](/prooipredator/vossenetenkonijnen)
+#### Dag 4: Angry birds
 
-#### Dag 4: De konijnen planten zich voort - wie wint er
-
-1. <span class="label label-primary">Opdracht</span> Laat de konijnen zich ook voortplanten en zoek uit of de konijnen of de vossen [winnen](/prooipredator/konijnenreproduceren).
+1. <span class="label label-primary">Opdracht</span> Besef hoe makkelijk je miljonair had kunnen worden door [Angrybirds](/beweging/angrybirds) zelf te programmeren.
