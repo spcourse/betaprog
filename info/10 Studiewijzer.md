@@ -40,12 +40,12 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 ####  Module 2
 
-- Keuze 1: <strong>Integreer</strong> zonder moeite de meest exotische functies (beschikbaar: half maart)
-- Keuze 2: ga op zoek naar het juiste <strong>DNA</strong> (beschikbaar: eind maart)
+- Keuze 1: [<strong>Integreer</strong>](/integreren/inhoud) zonder moeite de meest exotische functies
+- Keuze 2: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
 ####  Module 3
 
-- Keuze 1: bestudeer de natuurkundige regels van <strong>beweging</strong> (beschikbaar: eind maart)
+- Keuze 1: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
 - Keuze 2: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud)
 - Keuze 3: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
 

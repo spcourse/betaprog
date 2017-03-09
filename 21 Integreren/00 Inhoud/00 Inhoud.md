@@ -5,10 +5,10 @@ div.embed
 }
 </style>
 
-# Getaltheorie
+# Integreren
 
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
+![embed](https://www.youtube.com/embed/qjkDktQJXSQ)
 </div>
 
 In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
