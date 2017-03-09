@@ -1,3 +1,7 @@
+# Inleiding Wetenschappelijk Programmeren
+
+*Versie: Lente 2017*
+
 <div>
 
 <!-- Nav tabs -->
@@ -7,13 +11,10 @@
 <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Aanmelden</a></li>
 </ul>
 
+
 <!-- Tab panes -->
 <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="home">
-
-# Inleiding Wetenschappelijk Programmeren<br><small>Studiehandleiding</small>
-
-*Versie: Lente 2017*
 
 ![Python](python-logo.png){:.inline}  
 
