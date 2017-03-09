@@ -16,13 +16,11 @@ met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en 
 
 Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
-#### Dag 1: aan de slag
+#### Dag 1: nulpunten
 
-1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
+1. Leer over [functies](/python/functies) in Python
 
-2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
-
-3. <span class="label label-primary">Opdracht</span> Bereken automatisch de [som](/getaltheorie/som) van een groot aantal getallen.
+3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom.
 
 #### Dag 2: priemgetallen
 
@@ -32,13 +30,13 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen).
 
-#### Dag 3: het vermoeden van Goldbach
+#### Dag 3: Riemann
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
 2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
 
-#### Dag 4: grafieken
+#### Dag 4: Monte Carlo
 
 1. Leer over het gebruiken van [modules](/python/modules) in Python.
 
