@@ -1,11 +1,11 @@
 <style>
 h1
 {
-	border-bottom: 0;
+	border-bottom: 0 ! important;
 }
 ul.nav
 {
-	margin-left: 0;
+	margin-left: 0 ! important;
 }
 </style>
 
