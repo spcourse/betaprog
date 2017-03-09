@@ -13,6 +13,8 @@ div.embed
 
 In deze module gaan we aan de slag met enkele algoritmen. De opdrachten zijn vrij algemeen van aard en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!
 
+<p></p>{:style="margin-top:1em;"}
+
 #### Dag 1: aan de slag
 
 1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
