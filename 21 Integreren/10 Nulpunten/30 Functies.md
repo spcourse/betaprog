@@ -2,7 +2,7 @@
 
 ## tl;dr
 
-Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=ax^2+bx+c$$ en de grafiek van de functie plot.
+Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10$$ en de grafiek van de functie plot.
 
 	# python nulpunten.py
 	De nulpunten zijn -4.32 en 2.32
@@ -17,8 +17,27 @@ Schrijf in een bestand `functies.py` een programma dat een functie van de vorm $
 
 Roep als test de functie aan met de waarden $$a = 1$$, $$b = 2$$ en $$c = -10$$. Die polynoom heeft namelijk twee nulpunten.
 
-> Let op dat je dus één Python-bestand maakt (`functies.py`) met daarin alleen de code voor deze opdracht. Zoals gezegd moet daar één functie in staan (`nulpunten`) en daarnaast wat testcode. Bij uitvoeren (runnen) van dit programma moet de grafiek verschijnen en moeten de nulpunten van de gegeven functie naar het scherm geprint worden.
+## Specificatie
+
+- Schrijf een functie `nulpunten(a, b, c)` die de nulpunten van de polynoom $$f(x)=ax^2+bx+c$$ berekent.
+
+- De functie nulpunten kan teruggeven:
+
+	- een lege lijst `[]` als er geen nulpunten zijn
+	- een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
+
+## Hoe te beginnen
+
+1. Maak een bestand `nulpunten.py` aan.
+
+2. Schrijf hierin een functie `nulpunten(a, b, c)`.
+
+3. Voeg onder de functie-definitie een test-aanroep toe:
+
+		nulpunten(1, 2, -10)
+
+
+
+## Hints
 
 Breid je functie nu uit zodat je functie ook raad weet met polynomen die helemaal geen nulpunten hebben. In dat geval moet je nog steeds de functie op het scherm printen, maar moet er op het scherm netjes verschijnen dat deze polynoom geen nulpunten heeft.
-
-Extra: als je nog tijd over hebt kan je misschien de figuur 'mooi' te maken. Probeer bijvoorbeeld de polynoom zelf en de nulpunten duidelijk weer te geven op het scherm zoals in de figuur hieronder.
