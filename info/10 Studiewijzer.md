@@ -90,6 +90,13 @@ Martijn Stegeman (examinator)
 Ivo van Vulpen  
 Jelle van Assema
 
+Deze cursus bevat materiaal uit de volgende creative commons-cursussen:
+
+- 'Canelake, Sarina. 6.189 A Gentle Introduction to Programming Using Python, January IAP 2011. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+
+- 'Grimson, Eric, and John Guttag. 6.00 Introduction to Computer Science and Programming,Fall 2008. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+
+
 
 </div>
 <div role="tabpanel" class="tab-pane" id="vragen">
