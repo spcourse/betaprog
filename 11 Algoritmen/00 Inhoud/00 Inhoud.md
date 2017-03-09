@@ -1,5 +1,5 @@
 <style>
-section.embed
+div.embed
 {
 	margin:0 ! important;
 }
@@ -7,7 +7,7 @@ section.embed
 
 # Algoritmen
 
-<div style="width: 30%; float:right;">
+<div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://www.youtube.com/embed/m5Yt-2r6fCg)
 </div>
 
