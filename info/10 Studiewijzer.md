@@ -15,15 +15,17 @@ ul.nav
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
-<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Modules</a></li>
-<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Meer info</a></li>
-<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Aanmelden</a></li>
+<li role="presentation" class="active"><a href="#modules" aria-controls="modules" role="tab" data-toggle="tab">Modules</a></li>
+<li role="presentation"><a href="#studiewijzer" aria-controls="studiewijzer" role="tab" data-toggle="tab">Meer info</a></li>
+<li role="presentation"><a href="#vragen" aria-controls="vragen" role="tab" data-toggle="tab">Vragen</a></li>
+<li role="presentation"><a href="#resources" aria-controls="resources" role="tab" data-toggle="tab">Resources</a></li>
+<li role="presentation"><a href="#aanmelden" aria-controls="aanmelden" role="tab" data-toggle="tab">Aanmelden</a></li>
 </ul>
 
 
 <!-- Tab panes -->
 <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="home">
+<div role="tabpanel" class="tab-pane active" id="modules">
 
 ![Python](python-logo.png){:.inline}  
 
@@ -55,7 +57,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 - Keuze 2: conclusies trekken met behulp van [<strong>Statistiek</strong>](/statistiek/inhoud)
 
 </div>
-<div role="tabpanel" class="tab-pane" id="profile">
+<div role="tabpanel" class="tab-pane" id="studiewijzer">
 
 ## Begeleiding
 
@@ -88,13 +90,70 @@ Martijn Stegeman (examinator)
 Ivo van Vulpen  
 Jelle van Assema
 
+Deze cursus bevat materiaal uit de volgende creative commons-cursussen:
+
+- 'Canelake, Sarina. 6.189 A Gentle Introduction to Programming Using Python, January IAP 2011. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+
+- 'Grimson, Eric, and John Guttag. 6.00 Introduction to Computer Science and Programming,Fall 2008. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+
+
 
 </div>
-<div role="tabpanel" class="tab-pane" id="messages">
+<div role="tabpanel" class="tab-pane" id="vragen">
+
+
+</div>
+
+<div role="tabpanel" class="tab-pane" id="resources">
+
+If you're having trouble with a particular concept or simply want to have access to more information, try one of the following links.
+
+## Documentatie
+
+- [Official Python 2 Documentation]() - "official"/technical explanation of what a particular function/operator does, examples of correct syntax, what the various libraries are, etc.
+
+## Boeken/tutorials
+
+- Dive Into Python - another survey of Python syntax, datatypes, etc.
+- Think Python by Allen Downey - a good general overview of the Python language. Includes exercises.
+- The Official Python Tutorial - self-explanatory
+- Learn Python the Hard Way - (note: for Python 2) another free online text
+- Reserved Keywords in Python - don't use these as variable names
+- PEP 8 - Style Guide for Python Code - learn what is good and bad style in Python
+- CheckIO - learn Python by exploring a game world
+- Invent with Python - develop your Python skills by making games or hacking ciphers
+- Codecademy - (note: for Python 2) learn Python by building web apps and manipulating data; interactive
+tutorial sequence
+- Python Tutor - interactive tutorial sequence of exercises
+
+## Debuggen
+
+- Python Tutor - an excellent way to actually visualize how the interpreter actually reads and executes your code
+- DiffChecker - compares two sets of text and shows you which lines are different
+- Debugging in Python - steps you can take to try to debug your program
+
+## Q&A
+
+- Stack Overflow - a large Q&A forum for programming concepts (not just Python). Try searching here before you post on the edX forum, and you may find that someone has already answered your question.
+
+## Oefenen
+
+- Python Challenge - a series of puzzles you can try to test your Python abilities
+- Project Euler - additional programming challenges you can try once your Python knowledge becomes
+stronger; problems are sorted by increasing difficulty
+- Coding Bat - problems you can solve within an online interpreter
+- Codewars - improve your skills by training on real code challenges
+
+From the course [6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) at MIT.
+
+</div>
+
+<div role="tabpanel" class="tab-pane" id="aanmelden">
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </div>
+
 </div>
 
 </div>

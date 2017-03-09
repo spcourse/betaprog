@@ -1,6 +1,6 @@
 # Statistiek
 
-In deze module leren we een model fitten aan de data en conclusies trekken.
+In deze module leren we een model fitten aan de data en conclusies trekken. De module werkt toe naar het beantwoorden van een enkele vraag die gesteld kan worden aan de hand van de data van een enkele (fictief) onderzoek. In de verschillende onderdelen van deze module worden steeds nieuwe statistiek en Python concepten ge&iuml;ntroduceerd zodat we uiteindelijk de grote vraag kunnen beantwoorden: observeren we nou wel of niet een correlatie in onze data?
 
 #### Dag 1: De normaalverdeling en steekproeven 
 
