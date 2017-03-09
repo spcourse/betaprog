@@ -103,7 +103,7 @@ Jelle van Assema (opdrachten en ontwerp)
 Maarten Inja (DNA-opdracht)  
 Huub Rutjes (films)
 
-Deze cursus bevat materiaal uit de volgende creative commons-materialen:
+Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commons-bronnen:
 
 - 6.189 A Gentle Introduction to Programming Using Python van Sarina Canelake <http://ocw.mit.edu>
 
