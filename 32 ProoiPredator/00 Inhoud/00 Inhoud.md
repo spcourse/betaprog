@@ -4,7 +4,7 @@ In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in e
 
 #### Dag 1: Animaties in Python
 
-todo
+Leer hoe je [animaties](/python/animations) maakt in Python
 
 #### Dag 2: Konijnen in een bos
 
