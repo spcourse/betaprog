@@ -31,6 +31,8 @@ Welkom bij deze cursus programmeren! Komende tijd gaan we werken met de programm
 
 De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we ideeën uitdrukken in Python, en daarna ga je aan de slag met verschillende toepassingen. Voor elke module kun je kiezen uit twee opties. Doe wat je leuk lijkt!
 
+<p style="margin-top:1.5em;"></p>
+
 ####  Module 1
 
 - Keuze 1: zet je eerste stappen en spring op de pyramide met [<strong>Algoritmen</strong>](/algoritmen/inhoud)
@@ -54,8 +56,6 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 </div>
 <div role="tabpanel" class="tab-pane" id="profile">
-
-# Meer informatie
 
 ## Begeleiding
 
@@ -92,7 +92,7 @@ Jelle van Assema
 </div>
 <div role="tabpanel" class="tab-pane" id="messages">
 
-# Aanmelden
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </div>
 </div>
