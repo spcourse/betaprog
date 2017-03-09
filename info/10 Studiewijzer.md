@@ -57,8 +57,6 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 
 # Meer informatie
 
-## Begeleiding
-
 Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen; maar tijdens studiejaar 2016/2017 kun je op twee manieren hulp krijgen:
 
 - Stel een vraag via <help@mprog.nl>. Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug.
