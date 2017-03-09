@@ -1,3 +1,10 @@
+<style>
+div.embed
+{
+	margin:0 ! important;
+}
+</style>
+
 # Getaltheorie
 
 <div style="width: 40%; float:right; margin-left: 2em;">
