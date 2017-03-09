@@ -55,7 +55,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 </div>
 <div role="tabpanel" class="tab-pane" id="profile">
 
-# Meer informatie
+## Begeleiding
 
 Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen; maar tijdens studiejaar 2016/2017 kun je op twee manieren hulp krijgen:
 
