@@ -1,12 +1,12 @@
-# prooi-predator
+# beweging
 
-In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in een afgesloten bos leven simuleren. Een klassiek prooi-predator model met verschillende elementen en een animatie.
+In deze module gaan we bestuderen hoe we problemen in deklassieke mechanica aan kunnen pakken die (soms) vrij lastig zijn met pen en papier.
 
 #### Dag 1: Animaties in Python
 
-1. Leer hoe je [animaties](/python/animations) maakt in Python
+1. Leer eerst hoe je [animaties](/python/animations) maakt in Python
 
-#### Dag 2: Konijnen in een bos
+#### Dag 2: Vallende appels en parachutespringen
 
 1. <span class="label label-primary">Opdracht</span> Maak animatie van 25 [konijnen](/prooipredator/konijnen) in een bos
 
