@@ -32,8 +32,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 3: Riemann
 
-2. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/getaltheorie/riemann).
+2. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
 #### Dag 4: Monte Carlo
 
-3. <span class="label label-primary">Opdracht</span> Gebruik random waarden in de  [Monte Carlo](/getaltheorie/grafieken)-methode.
+3. <span class="label label-primary">Opdracht</span> Gebruik random waarden in de  [Monte Carlo](/integreren/monte-carlo)-methode.
