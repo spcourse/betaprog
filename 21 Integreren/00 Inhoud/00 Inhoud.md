@@ -22,24 +22,18 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom.
 
-#### Dag 2: priemgetallen
+#### Dag 2: random
 
-1. Leer meer over [algoritmen](/python/algoritmen).
+1. Leer over het gebruik van  [random getallen](/python/random).
 
-2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
+3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant.
 
-3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen).
+3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie.
 
 #### Dag 3: Riemann
 
-1. Sla je data op in een [lijst](/python/lijsten).
-
-2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
+2. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/getaltheorie/riemann).
 
 #### Dag 4: Monte Carlo
 
-1. Leer over het gebruiken van [modules](/python/modules) in Python.
-
-2. Zoek op hoe je data kunt [plotten](/python/plot).
-
-3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken).
+3. <span class="label label-primary">Opdracht</span> Gebruik random waarden in de  [Monte Carlo](/getaltheorie/grafieken)-methode.
