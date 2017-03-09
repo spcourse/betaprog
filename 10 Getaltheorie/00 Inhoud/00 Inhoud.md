@@ -22,7 +22,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
 
-3. <span class="label label-primary">Opdracht</span> Bereken automatisch de [som](/getaltheorie/som) van een groot aantal getallen.
+3. <span class="label label-primary">Opdracht</span> Bepaal of een getal  [deler](/getaltheorie/deler) is van een ander getal.
 
 #### Dag 2: priemgetallen
 
