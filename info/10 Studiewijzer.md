@@ -1,6 +1,4 @@
-# Inleiding Wetenschappelijk Programmeren
-
-*Versie: Lente 2017*
+# Inleiding Wetenschappelijk Programmeren<br><small>Versie 1.0</small>
 
 <div>
 
