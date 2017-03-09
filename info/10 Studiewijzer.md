@@ -18,7 +18,6 @@ ul.nav
 <li role="presentation" class="active"><a href="#modules" aria-controls="modules" role="tab" data-toggle="tab">Modules</a></li>
 <li role="presentation"><a href="#studiewijzer" aria-controls="studiewijzer" role="tab" data-toggle="tab">Meer info</a></li>
 <li role="presentation"><a href="#vragen" aria-controls="vragen" role="tab" data-toggle="tab">Vragen</a></li>
-<li role="presentation"><a href="#resources" aria-controls="resources" role="tab" data-toggle="tab">Resources</a></li>
 </ul>
 
 
