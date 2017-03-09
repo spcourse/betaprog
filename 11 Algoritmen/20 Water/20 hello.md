@@ -32,7 +32,7 @@ Ben je tevreden? Test je programma dan met `checkpy`. Daarmee kun je in deze cur
 
 Het is hierbij wel belangrijk dat wanneer je dit commando uitvoert je je in de map bevindt waar jouw opdracht `hello.py` zich bevindt. Als je nu alleen maar *happy* smileys ziet dan slagen de tests, en kun je verder met de volgende opdracht. Slagen ze niet, dan is het tijd om te *debuggen*.
 
-Zie je de volgende error? **"No such file or directory:"** Check dan of je je wel in de juiste map (directory) bevindt. Was dit niet het probleem? Kijk dan nog eens goed naar je code, staat er bijvoorbeeld geen extra spatie ergens? Elke letter telt! Kom je er niet uit, tik even een assistent aan.
+Zie je de volgende error? **"No such file or directory:"** Check dan of je je wel in de juiste map (directory) bevindt. Was dit niet het probleem? Kijk dan nog eens goed naar je code, staat er bijvoorbeeld geen extra spatie ergens? Elke letter telt! Kom je er niet uit, stuur een mail!
 
 Ben je straks klaar met alle opdrachten van de week? Dan kun je al je bestanden in één keer testen door het volgende commando uit te voeren:
 

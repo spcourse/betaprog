@@ -1,3 +1,20 @@
+# Installeren
+
+Python is zelf een programma, en moet je dus installeren. Je kan er binnen deze cursus voor kiezen om in een online omgeving te werken, zodat je van elke computer die met het internet is verbonden kan programmeren. Of in een offline omgeving, dan installeer je Python en een editor om code in te schrijven op jouw eigen computer, en kun je dus ook in de trein programmeren! De keuze is aan jou. Hier vind je de installatie instructies voor de [online optie (CS50 IDE)]() en de [offline optie (Anaconda/Visual Studio Code)]().
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Installeren
 
 Python is zelf een programma, en moet dus waarschijnlijk nog geïnstalleerd worden op je computer. Wij gebruiken bij deze cursus standaard de *Canopy*-distributie; een pakket met Python en een heleboel handige functies om te hergebruiken. Canopy is gratis voor gebruik in het onderwijs.
