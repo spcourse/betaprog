@@ -92,7 +92,7 @@ Jelle van Assema
 </div>
 <div role="tabpanel" class="tab-pane" id="messages">
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </div>
 </div>
