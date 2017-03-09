@@ -32,9 +32,11 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen).
 
-#### Dag 3: het vermoeden van Goldbach
+#### Dag 3: resultaten uit de getaltheorie
 
 1. Sla je data op in een [lijst](/python/lijsten).
+
+2. <span class="label label-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks).
 
 2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
 
