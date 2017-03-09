@@ -19,7 +19,6 @@ ul.nav
 <li role="presentation"><a href="#studiewijzer" aria-controls="studiewijzer" role="tab" data-toggle="tab">Meer info</a></li>
 <li role="presentation"><a href="#vragen" aria-controls="vragen" role="tab" data-toggle="tab">Vragen</a></li>
 <li role="presentation"><a href="#resources" aria-controls="resources" role="tab" data-toggle="tab">Resources</a></li>
-<li role="presentation"><a href="#aanmelden" aria-controls="aanmelden" role="tab" data-toggle="tab">Aanmelden</a></li>
 </ul>
 
 
@@ -59,13 +58,31 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 </div>
 <div role="tabpanel" class="tab-pane" id="studiewijzer">
 
+## Aanmelden
+
+[Vul dit formulier in](https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform) om je aan te melden. We nemen daarna contact op om de officiële inschrijving te regelen:
+
+- UvA-studenten kunnen de cursus volgen als vak voor 3 studiepunten (AVV/NAV)
+- Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA
+- Anderen kunnen de cursus volgen voor €300 (semester 2 2017)
+
+Bij een officiële inschrijving is het mogelijk om begeleiding te krijgen (zie onder) en na halen van het tentamen een certificaat of studiepunten te ontvangen.
+
+Het is natuurlijk ook mogelijk om niet in te schrijven maar de cursus te gebruiken en de opdrachten te doen! Meld je dan alsjeblieft alsnog aan via het formulier.
+
 ## Begeleiding
 
-Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen; maar tijdens studiejaar 2016/2017 kun je op twee manieren hulp krijgen:
+Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen; tijdens studiejaar 2016/2017 kun je op drie manieren hulp krijgen:
 
-- Stel een vraag via <help@mprog.nl>. Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug.
+- Stel een vraag via <help@mprog.nl> (of druk op de blauwe reddingsboei rechtsonder in het scherm). Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
 
-- Kom langs bij een practium van de Minor Programmeren. Je kunt elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
+- Het team achter de cursus zit voor je klaar bij het inloopspreekuur op woensdagen van 14-15 uur. Je bent van harte welkom in kantoor C3.204 op Science Park 904.
+
+- Kom langs bij een practium van de Minor Programmeren. Je kunt t/m mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
+
+## Tentamen
+
+Voor verkrijgen van studiepunten of een certificaat is het nodig om het tentamen te halen. Dit tentamen wordt tweemaal aangeboden in de maand juni 2017 (nadere data volgen).
 
 ## Leerdoelen
 
@@ -78,25 +95,25 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 Deze dingen kun je alleen maar leren door veel te oefenen met programmeren. Daarom zitten er veel opdrachten in de cursus waar je zelf aan de slag moet. Daarbij is het niet gek als je nog even niet precies weet hoe alles werkt, maar toch de problemen probeert op te lossen.
 
-## Verwachtingen
-
-Om dit vak te halen verwachten we dat je alle stof zorgvuldig doorneemt, alle bijbehorende opdrachten maakt, en aan het eind van het semester deelneemt aan het tentamen. Voor dit vak krijg je geen cijfers, maar werk je toe naar het tentamen. Haal je het tentamen, dan heb je het vak afgerond!
-
-
-
 ## Colofon
 
-Martijn Stegeman (examinator)  
-Ivo van Vulpen  
-Jelle van Assema
+Martijn Stegeman (opdrachten en ontwerp)  
+Ivo van Vulpen (opdrachten en ontwerp)  
+Jelle van Assema (opdrachten en ontwerp)  
+Maarten Inja (DNA-opdracht)  
+Huub Rutjes (films)
 
-Deze cursus bevat materiaal uit de volgende creative commons-cursussen:
+Deze cursus bevat materiaal uit de volgende creative commons-materialen:
 
-- 'Canelake, Sarina. 6.189 A Gentle Introduction to Programming Using Python, January IAP 2011. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+- 6.189 A Gentle Introduction to Programming Using Python van Sarina Canelake <http://ocw.mit.edu>
 
-- 'Grimson, Eric, and John Guttag. 6.00 Introduction to Computer Science and Programming,Fall 2008. (Massachusetts Institute of Technology: MIT OpenCourseWare), http://ocw.mit.edu (Accessed 25 Dec, 2012). License: Creative Commons BY-NC-SA'
+- 6.00 Introduction to Computer Science and Programming, Fall 2008 van Eric Grimson en John Guttag <http://ocw.mit.edu>
 
+- CS50 Introduction to Computer Science and Programming van David Malan <http://cs50.tv/>
 
+- 6.0001 Introduction to Computer Science and Programming in Python van Ana Bell, Eric Grimson en John Guttag <http://ocw.mit.edu>
+
+Deze cursus is zelf ook gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden; zie de link onderaan de pagina.
 
 </div>
 <div role="tabpanel" class="tab-pane" id="vragen">
@@ -148,11 +165,6 @@ From the course [6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-
 
 </div>
 
-<div role="tabpanel" class="tab-pane" id="aanmelden">
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-</div>
 
 </div>
 
