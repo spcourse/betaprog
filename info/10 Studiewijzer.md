@@ -66,9 +66,7 @@ De cursus bestaat uit vier modules. In de eerste twee leer je veel over hoe we i
 - Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA
 - Anderen kunnen de cursus volgen voor €300 (semester 2 2017)
 
-Bij een officiële inschrijving is het mogelijk om begeleiding te krijgen (zie onder) en na halen van het tentamen een certificaat of studiepunten te ontvangen.
-
-Het is natuurlijk ook mogelijk om niet in te schrijven maar de cursus te gebruiken en de opdrachten te doen! Meld je dan alsjeblieft alsnog aan via het formulier.
+Bij een officiële inschrijving is het mogelijk om begeleiding te krijgen (zie onder) en na halen van het tentamen een certificaat of studiepunten te ontvangen. Het is natuurlijk ook mogelijk om niet in te schrijven maar de cursus te gebruiken en de opdrachten te doen! Meld je dan alsjeblieft alsnog aan via het formulier.
 
 ## Begeleiding
 
@@ -76,7 +74,7 @@ Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te hel
 
 - Stel een vraag via <help@mprog.nl> (of druk op de blauwe reddingsboei rechtsonder in het scherm). Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
 
-- Het team achter de cursus zit voor je klaar bij het inloopspreekuur op woensdagen van 14-15 uur. Je bent van harte welkom in kantoor C3.204 op Science Park 904.
+- Het team achter de cursus zit voor je klaar bij het **inloopspreekuur** op woensdagen van 14-15 uur. Je bent van harte welkom in kantoor C3.204 op Science Park 904.
 
 - Kom langs bij een practium van de Minor Programmeren. Je kunt t/m mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
 
