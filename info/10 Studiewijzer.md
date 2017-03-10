@@ -106,11 +106,8 @@ Huub Rutjes (films)
 Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commons-bronnen:
 
 - 6.189 A Gentle Introduction to Programming Using Python van Sarina Canelake <http://ocw.mit.edu>
-
 - 6.00 Introduction to Computer Science and Programming, Fall 2008 van Eric Grimson en John Guttag <http://ocw.mit.edu>
-
 - CS50 Introduction to Computer Science I van David Malan <http://cs50.tv/>
-
 - 6.0001 Introduction to Computer Science and Programming in Python van Ana Bell, Eric Grimson en John Guttag <http://ocw.mit.edu>
 
 Deze cursus is zelf ook gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden; zie de link onderaan de pagina.
