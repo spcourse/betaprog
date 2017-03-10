@@ -1,7 +1,5 @@
 # Hello
 
-## tl;dr
-
 Implementeer een programma dat een simpele begroeting uitprint als volgt:
 
 	Hello, world!

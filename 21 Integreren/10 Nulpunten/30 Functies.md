@@ -1,7 +1,5 @@
 # Nulpunten
 
-## tl;dr
-
 Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10$$ en de grafiek van de functie plot.
 
 	# python nulpunten.py

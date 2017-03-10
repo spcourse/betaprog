@@ -1,7 +1,5 @@
 # Riemann
 
-## tl;dr
-
 Schrijf een functie die middels de Riemannsom de integraal berekent van een willekeurige wiskundige functie.
 
 	voorbeelduitvoer

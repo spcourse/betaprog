@@ -1,7 +1,5 @@
 # Goldbach
 
-## tl;dr
-
 Implementeer een programma dat het vermoeden van Goldbach onderzoekt voor de 
 
 	# python goldbach.py

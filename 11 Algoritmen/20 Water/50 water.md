@@ -1,7 +1,5 @@
 # Water
 
-## tl;dr
-
 Implementeer een programma dat aan een gebruiker diens waterverbruik rapporteert, door het aantal minuten douchen om te rekenen naar flesjes drinkwater.
 
 	Hoeveel minuten douche je? 1

@@ -1,7 +1,5 @@
 # Monte Carlo
 
-## tl;dr
-
 Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van een willekeurige wiskundige functie.
 
 ## Achtergrond

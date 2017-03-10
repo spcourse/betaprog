@@ -1,7 +1,5 @@
 # Pyramide
 
-## tl;dr
-
 Implementeer een programma dat een halve piramide uitprint van een door de gebruiker gegeven hoogte.
 
 	Hoe hoog moet de pyramide zijn? 5

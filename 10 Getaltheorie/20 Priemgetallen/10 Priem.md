@@ -1,7 +1,5 @@
 # Het duizendste priemgetal #
 
-## tl;dr
-
 Implementeer een programma dat op verzoek het n-de priemgetal genereert.
 
 	Naar welk priemgetal bent u op zoek? 1000

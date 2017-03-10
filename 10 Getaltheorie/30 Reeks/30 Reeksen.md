@@ -1,7 +1,5 @@
 # Reeks
 
-## tl;dr
-
 Implementeer een programma dat de *langste aaneengesloten reeks niet-priemgetallen* bepaalt:
 
 	# python reeks.py
