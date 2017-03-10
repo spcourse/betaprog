@@ -27,7 +27,7 @@ ul.nav
 
 ![Python](python-logo.png){:.inline}  
 
-Welkom bij deze cursus programmeren! Komende tijd gaan we werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen. Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen programmaatjes gaat schrijven om je te helpen tijdens je studie, in het onderzoek of buiten de universiteit. De cursus bestaat uit vier modules en voor elke module kun je kiezen uit meerdere opties. Doe wat je leuk lijkt!
+Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen. Hieronder kun je direct aan de slag door bij elke modules één van de opties te kiezen. Wil je meer weten? Ga naar "meer info".
 
 <p style="margin-top:1.5em;"></p>
 
@@ -59,6 +59,8 @@ Welkom bij deze cursus programmeren! Komende tijd gaan we werken met de programm
 
 </div>
 <div role="tabpanel" class="tab-pane" id="studiewijzer">
+
+Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen programmaatjes gaat schrijven om je te helpen tijdens je studie, in het onderzoek of buiten de universiteit. De cursus bestaat uit vier modules en voor elke module kun je kiezen uit meerdere opties. Doe wat je leuk lijkt!
 
 ## Aanmelden
 
