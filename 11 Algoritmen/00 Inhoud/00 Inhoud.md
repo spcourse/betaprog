@@ -19,13 +19,17 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Dag 1: aan de slag
 
-1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
+Vandaag installeer je Python en oefen je vooral veel met de basiselementen waarmee je algoritmen kunt schrijven. We sluiten af met een korte oefening met het maken van een eigen programma.
 
-2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
+1. Installeer [Python](/python/installatie).
+
+2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python.
 
 3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/algoritmen/water).
 
 #### Dag 2: pyramide
+
+Vandaag breid je je kennis over algoritmen uit.
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 
