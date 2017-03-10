@@ -8,13 +8,13 @@ div.embed
 # Integreren
 
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
+![embed](https://www.youtube.com/embed/dPkO2F-0g6c)
 </div>
 
 In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
 met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
 
-Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
+Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.fnwi.uva.nl/a.l.watts/) is assistant professor in de astrofysica bij de UvA en vertelt over haar ervaring met programmeren bij het onderzoek.
 
 #### Dag 1: nulpunten
 

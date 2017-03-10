@@ -1,19 +1,24 @@
+<style>
+div.embed
+{
+	margin:0 ! important;
+}
+</style>
+
 # Statistiek
 
-In deze module leren we een model fitten aan de data en conclusies trekken. De module werkt toe naar het beantwoorden van een enkele vraag die gesteld kan worden aan de hand van de data van een enkele (fictief) onderzoek. In de verschillende onderdelen van deze module worden steeds nieuwe statistiek en Python concepten ge&iuml;ntroduceerd zodat we uiteindelijk de grote vraag kunnen beantwoorden: observeren we nou wel of niet een correlatie in onze data?
+<div style="width: 40%; float:right; margin-left: 2em;">
+![embed](https://www.youtube.com/embed/Vwy-lvbqtCc)
+</div>
 
-#### Dag 1: De normaalverdeling en steekproeven 
+In deze module gaan we aan de slag met statistiek. Het ligt voor de hand dat de computer goed gebruikt kan worden om uit grote hoeveelheden data interessante informatie te halen. Maar we kunnen bijvoorbeeld ook hypotheses testen: observeren we nou wel of niet een correlatie in onze data?
 
-1. <span class="label label-primary">Opdracht</span> bestuderen van de [lengte](/statistiek/normaalverdeling) Deense vrouwen
+Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://www.tue.nl/en/university/departments/industrial-engineering-innovation-sciences/the-department/staff/detail/ep/e/d/ep-uid/20091001/) werkt als universitair docent bij de TU/e en vertelt over de combinatie van statistiek en programmeren.
 
-#### Dag 2: Model fitten aan de data (zelf)
+- **Dag 1** De normaalverdeling en steekproeven. <span class="label label-primary">Opdracht</span> bestuderen van de [lengte](/statistiek/normaalverdeling) Deense vrouwen
 
-1. <span class="label label-primary">Opdracht</span> Fit zelf een simpel [model](/statistiek/fittenzelf) aan de data
+- **Dag 2** Model fitten aan de data (zelf) <span class="label label-primary">Opdracht</span> Fit zelf een simpel [model](/statistiek/fittenzelf) aan de data
 
-#### Dag 3: Model fitten aan de data (Python)
+- **Dag 3** Model fitten aan de data (Python) <span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten en speel bankier
 
-1. <span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten en speel bankier
-
-#### Dag 4: Hypotheses testen
-
-1. <span class="label label-primary">Opdracht</span> Genereer nep-data sets en leer [hypotheses](/statistiek/hypothesetesten) testen.
+- **Dag 4** Hypotheses testen <span class="label label-primary">Opdracht</span> Genereer nep-data sets en leer [hypotheses](/statistiek/hypothesetesten) testen.
