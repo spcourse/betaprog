@@ -1,7 +1,5 @@
 # Deler
 
-## tl;dr
-
 Implementeer een programma dat aan een gebruiker twee getallen vraagt, en terug rapporteert of het eerste getal deelbaar is door de ander.
 
 	Wat is het eerste getal? 16
