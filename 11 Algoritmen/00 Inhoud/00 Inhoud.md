@@ -29,7 +29,7 @@ Vandaag installeer je Python en oefen je vooral veel met de basiselementen waarm
 
 #### Dag 2: pyramide
 
-Vandaag breid je je kennis over algoritmen uit.
+Vandaag breid je je kennis over Python uit en schrijf je je eerste echte algoritme.
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 

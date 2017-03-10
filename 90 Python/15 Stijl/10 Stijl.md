@@ -7,3 +7,9 @@ In module 1 hebben we al kort een aantal richtlijnen genoemd voor het gebruiken 
 We verwachten dat je in je gehele inzending van deze week probeert een goede stijl aan te houden. Dat is voor een deel voorkeur, maar voor een groot deel ook gewoon een kwestie van je houden aan de richtlijnen.
 
 Mocht je er het uiterste uit willen halen, zoek dan gerust eens op internet naar *code style python* of iets dergelijks. Maar normaliter is er ook genoeg te oefenen aan de hand van de feedback die je op je opdrachten ontvangt in combinatie met de [stijlgids](/extra/stijlgids).
+
+## Tabs en spaties
+
+Tabs of spaties gebruiken voor indentatie is een keuze, maar Python raakt snel in de war als je de twee door elkaar gebruikt. We houden daarom in deze cursus vier spaties per indentatiestap aan.
+
+![embed](https://www.youtube.com/embed/SsoOG6ZeyUI)
