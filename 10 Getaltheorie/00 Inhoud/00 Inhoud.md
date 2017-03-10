@@ -18,9 +18,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 1: aan de slag
 
-1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
+1. [Installeer](/python/installatie) Python.
 
-2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
+2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python.
 
 3. <span class="label label-primary">Opdracht</span> Bepaal of een getal  [deler](/getaltheorie/deler) is van een ander getal.
 

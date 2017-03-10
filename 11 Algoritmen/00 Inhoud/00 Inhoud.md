@@ -21,7 +21,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 Vandaag installeer je Python en oefen je vooral veel met de basiselementen waarmee je algoritmen kunt schrijven. We sluiten af met een korte oefening met het maken van een eigen programma.
 
-1. Installeer [Python](/python/installatie).
+1. [Installeer](/python/installatie) Python.
 
 2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python.
 
