@@ -19,5 +19,3 @@ Continu nieuwe namen introduceren voor elke berekening is soms niet wat je wilt.
 	print income
 
 (Hier is de `-=` operator op regel drie simpelweg een verkorting voor `a = a - ...`.)
-
-Wil je meer weten over de formules die je in Python kunt maken? Kijk dan in [hoofdstuk 2](http://greenteapress.com/thinkpython/html/thinkpython003.html) van het boek *Think Python*. (Het zou weleens kunnen dat je dit nodig hebt voor een opdracht!)
