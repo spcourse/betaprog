@@ -16,3 +16,28 @@ Continu nieuwe namen introduceren voor elke berekening is soms niet wat je wilt.
 	income = 170
 	income = income - 10
 	print income
+
+
+## Types
+
+Een **waarde** is een van de basale onderdelen in een programma. In de voorbeelden hierboven heb je bijvoorbeeld al reeksen letters en ook cijfers gezien. Zulke waarden hebben een bepaald **type**:
+
+| voorbeeld             | type  |                                                    |  
+| --------------------- | ----- | -------------------------------------------------- |  
+| `'Hello, World!'` | str   | een reeks letters: een string                      |  
+| `17`                | int   | een geheel getal: een integer                      |  
+| `3.2`               | float | een kommagetal: een floating point number          |  
+| `'3.2'`             | str   | wederom een string, want er staan aanhalingstekens |  
+
+Je kunt waarden ook **converteren**. Gebruik `int()` om een waarde naar een integer om te zetten. Tenminste, als het kan, want anders wordt er geklaagd:
+
+| conversie        | resultaat                                      |  
+| ---------------- | ---------------------------------------------- |  
+| `print int('32')`        | `32`                                           |  
+| `print int('Hello')`     | `ValueError: invalid literal for int(): Hello` |  
+| `print int(3.99999)`     | `3` (let op! er gaat informatie verloren)      |  
+| `print int(-2.3)`        | `-2`                                           |  
+| `print float(32)`        | `32.0`                                         |  
+| `print float('3.14159')` | `3.14159`                                      |  
+| `print str(32)`          | `'32'`                                         |  
+| `print str(3.14159)`     | `'3.14159'`                                    |  
