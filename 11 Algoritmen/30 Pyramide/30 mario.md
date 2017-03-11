@@ -50,7 +50,11 @@ Is bovenstaande een beetje teveel om in één keer te maken? Doe het dan in stap
 
 * Pas dan het programma aan zodat het geen foutieve invoer meer accepteert, zoals in de specificatie staat.
 
-* Zorg dan dat het programma een aantal hekjes kan printen.
+* Zorg dan dat het programma een aantal hekjes kan printen op één regel.
+
+* Zorg dan dat je een vierkant kunt printen: meerdere hekjes op een regel, en meerdere van zulke regels.
+
+* Nu is het tijd om de pyramide af te maken!
 
 ## Testen
 
