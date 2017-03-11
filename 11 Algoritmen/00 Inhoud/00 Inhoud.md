@@ -11,7 +11,7 @@ div.embed
 ![embed](https://www.youtube.com/embed/m5Yt-2r6fCg)
 </div>
 
-In deze module gaan we aan de slag met enkele algoritmen. De opdrachten zijn vrij algemeen van aard en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!
+In deze module gaan we aan de slag met enkele algoritmen. De opdrachten laten typische algoritmen zien en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!
 
 Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data Scientist bij het Erasmus MC en vertelt over zijn ervaring met programmeren en dataverwerking in dit ziekenhuis.
 
@@ -19,7 +19,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Dag 1: aan de slag
 
-Vandaag installeer je Python en oefen je vooral veel met de basiselementen waarmee je algoritmen kunt schrijven. We sluiten af met een korte oefening met het maken van een eigen programma.
+Vandaag installeer je Python en oefen je vooral veel met de basiselementen. We sluiten af met het maken van een interactief programma dat een automatische berekening kan doen.
 
 1. [Installeer](/python/installatie) Python.
 
