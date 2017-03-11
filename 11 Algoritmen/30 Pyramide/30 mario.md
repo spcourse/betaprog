@@ -22,7 +22,7 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 ## Specificatie
 
-* Schrijf in een bestand genaamd `pyramide.py` een programma dat de halve pyramide van Mario nabouwt door middel van hekjes (`#`).
+* Schrijf in een bestand genaamd `pyramide.py` een programma dat de halve pyramide van Mario nabouwt door middel van hekjes (`#`) en spaties.
 
 * Vraag, om het wat interessanter te maken, eerst aan de gebruiker de gewenste **hoogte** van de halve piramide. Dit moet een positief getal zijn, niet groter dan 23.
 
@@ -40,7 +40,7 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 * Denk goed na over welke loopstructuur (`for` en `while`) je wilt gebruiken.
 
-* Met `print` kun je niet zomaar losse hekjes `#` printen. Gebruik daarom de functie `sys.stdout.write('#')`. Om die te kunnen gebruiken, zet je helemaal bovenin je programma de opdracht `import sys`. Meer uitleg volgt later!
+* Met `print` kun je niet zomaar losse hekjes of spaties printen. Gebruik daarom de functie `sys.stdout.write('#')` of `sys.stdout.write(' ')` . Om die te kunnen gebruiken, zet je helemaal bovenin je programma de opdracht `import sys`. Meer uitleg volgt later!
 
 ## Stappen
 
