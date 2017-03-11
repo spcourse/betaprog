@@ -8,12 +8,12 @@ of
 
 	# uitvoer
 
-Met zo'n hekje (`#`) laat je zien dat het geen *instructie* betreft, maar een stukje tekst waar de computer niets mee hoeft te doen.
+Met zo'n hekje (`#`) laat je zien dat het geen instructie betreft, maar een stukje tekst waar de computer niets mee hoeft te doen.
 
-Het is gebruikelijk om een regeltje commentaar te zetten *boven* het stuk code waar het naar verwijst. Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een bestand duidelijk te vermelden waar het voor dient. Nu is ben je bezig met de oefeningen, dus denk aan het volgende:
+Het is gebruikelijk om een regeltje commentaar te zetten *boven* het stuk code waar het naar verwijst. Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een bestand duidelijk te vermelden waar het voor dient. Voor **module1.py** kun je denken aan het volgende:
 
 	# Oefeningen met Python module 1
 	# M. Stegeman
 	# 24-8-2016
 
-Voeg nu commentaar toe aan je bestand **module1.py** om duidelijk te maken wat de verschillende onderdelen doen. Laat even zien aan een assistent of je medestudenten. Je kunt namelijk op veel manieren commentaar in je code zetten, en het is goed om te weten wat wel/niet duidelijk is voor andere mensen.
+Voeg nu commentaar toe aan je bestand om duidelijk te maken wat de verschillende onderdelen doen. Maak bijvoorbeeld duidelijk wat de oefeningen zijn die je hierboven hebt overgenomen.
