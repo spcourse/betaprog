@@ -32,7 +32,7 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 * Als de hoogte bekend is, genereer dan met behulp van één of meer loops de halve pyramide.
 
-* Let goed op dat er geen spatie staat tussen de linker onderhoek van je pyramide en de linkerrand van je scherm staat!
+* Let goed op dat er geen spatie staat tussen de linker onderhoek van je pyramide en de linkerrand van je scherm!
 
 ## Hints
 
