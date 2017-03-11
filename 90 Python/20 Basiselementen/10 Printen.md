@@ -16,9 +16,10 @@ Maak tekstbestand **module1.py** en zet er de volgende regels in:
 
 Start nu het programma. Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens: het geheel dat we uitprinten noemen we een *string*.
 
+## Expressies (berekeningen)
+
 Voeg vervolgens ook nog de volgende regels toe:
 
-    print 1
     print 1
     print 1 + 1
     print 1 + 1 + 1
@@ -30,6 +31,23 @@ Voeg vervolgens ook nog de volgende regels toe:
 Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt er geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens, en dan wordt het precies zo naar het scherm geprint. Net als hierboven bij de tekstjes. Dat is dus een *string* en geen formule die berekend kan worden.
 
 > Krijg je een *foutmelding* als je je programma uitvoert? Dan is de kans groot dat je een tikfout hebt gemaakt waardoor Python niet meer begrijpt wat de bedoeling is. Kijk goed waar je de fout hebt gemaakt en probeer deze op te lossen. Kom je er niet uit, vraag dan vooral om hulp. Foutmeldingen leren begrijpen is een belangrijk onderdeel van deze cursus. Dat is ook waarom we heel graag willen dat je tijdens het oefenen fouten maakt!
+
+## Operators
+
+Hieronder vind je een lijstje van operators die je kunt gebruiken om formules samen te stellen.
+
+| operator | uitleg                    |  
+| -------- | ------------------------- |  
+| `1 + 2`  | optellen                  |  
+| `2 - 1`  | aftrekken                 |  
+| `1 * 2`  | vermenigvuldigen          |  
+| `2 / 1`  | delen                     |  
+| `2 % 1`  | modulus (rest bij deling) |  
+| `2 ** 1` | machtsverheffen           |  
+
+Let op: als je twee gehele getallen deelt met de `/`-operator, zal er altijd een geheel getal uitkomen. Dan is `3/2` dus niet `1.5`, maar `1`.
+
+## Nette uitvoer
 
 Nu gaan we berekeningen en tekst combineren:
 

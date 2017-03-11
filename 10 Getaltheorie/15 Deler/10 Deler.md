@@ -1,6 +1,6 @@
 # Deler
 
-Implementeer een programma dat aan een gebruiker twee getallen vraagt, en terug rapporteert of het eerste getal deelbaar is door de ander.
+Implementeer een programma dat aan een gebruiker twee getallen vraagt, en rapporteert of het eerste getal deelbaar is door het tweede.
 
 	Wat is het eerste getal? 16
 	Wat is het tweede getal? 4
