@@ -46,17 +46,3 @@ Hieronder vind je een lijstje van operators die je kunt gebruiken om formules sa
 | `2 ** 1` | machtsverheffen           |  
 
 Let op: als je twee gehele getallen deelt met de `/`-operator, zal er altijd een geheel getal uitkomen. Dan is `3/2` dus niet `1.5`, maar `1`.
-
-## Nette uitvoer
-
-Nu gaan we berekeningen en tekst combineren:
-
-    print "Het 1e getal van Fibonacci is %d" % 1
-    print "Het 2e getal van Fibonacci is %d" % 1
-    print "Het 3e getal van Fibonacci is %d" % (1 + 1)
-    print "Het 4e getal van Fibonacci is %d" % (1 + 2)
-    print "Het 5e getal van Fibonacci is %d" % (2 + 3)
-
-Als je dit programma uitvoert, dan zie je dat precies waar `%d` stond, nu de uitkomst van de berekening is geplaatst.
-
-We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook, zoals in de laatste voorbeelden, de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn. Experimenteer er nog maar even mee. Mocht je iets tegenkomen dat je niet begrijpt, vraag dan gerust wat het betekent.
