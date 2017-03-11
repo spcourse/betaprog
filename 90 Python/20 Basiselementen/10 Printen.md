@@ -2,7 +2,7 @@
 
 Als je een programma hebt geschreven kun je het uitvoeren (*runnen*). De computer loopt dan stap voor stap door je programma en voert de instructies uit die op elke regel staan.
 
-Maak tekstbestand **module1.py** en zet er de volgende regels in:
+Maak tekstbestand **module1.py** (weet je nog hoe?) en zet er de volgende regels in:
 
     print "Hallo, wereld!"
     print "Hee, hallo daar."
@@ -14,7 +14,11 @@ Maak tekstbestand **module1.py** en zet er de volgende regels in:
 
 > Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een foutmelding krijgt!
 
-Start nu het programma. Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens: het geheel dat we uitprinten noemen we een *string*.
+Start nu het programma.
+
+	python module1.py
+
+Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens: het geheel dat we uitprinten noemen we een *string*.
 
 ## Expressies (berekeningen)
 
