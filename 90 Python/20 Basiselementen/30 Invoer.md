@@ -1,6 +1,6 @@
 # Invoer door een gebruiker
 
-Behalve printen naar een gebruiker van jouw programma, kun je ook om invoer van een gebruiker vragen. Zo kun je **interactieve programma's** schrijven die op basis van zulke invoer berekeningen doen. In Python zijn er verschillende functies om om invoer te vragen. Eén daarvan is `raw_input()`, en deze gebruik je zoals hieronder:
+Behalve printen naar een gebruiker van jouw programma, kun je ook om invoer van een gebruiker vragen. Zo kun je **interactieve programma's** schrijven die op basis van gebruikersinvoer berekeningen doen. In Python zijn er verschillende functies om om invoer te vragen. Eén daarvan is `raw_input()`, en deze gebruik je zoals hieronder:
 
 	voornaam = raw_input("Geef je voornaam: ")
 	print "Hallo,", voornaam
