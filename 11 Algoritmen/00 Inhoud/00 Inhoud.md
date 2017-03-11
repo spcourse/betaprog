@@ -19,7 +19,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Dag 1: aan de slag
 
-Vandaag installeer je Python en oefen je vooral veel met de basiselementen. We sluiten af met het maken van een interactief programma dat een automatische berekening kan doen.
+Vandaag installeer je Python en oefen je met de basiselementen. We sluiten af met het maken van een interactief programma dat een automatische berekening kan doen.
 
 1. [Installeer](/python/installatie) Python.
 

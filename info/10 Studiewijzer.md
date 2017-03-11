@@ -111,6 +111,7 @@ Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commo
 - 6.00 Introduction to Computer Science and Programming, Fall 2008 van Eric Grimson en John Guttag <http://ocw.mit.edu>
 - CS50 Introduction to Computer Science I van David Malan <http://cs50.tv/>
 - 6.0001 Introduction to Computer Science and Programming in Python van Ana Bell, Eric Grimson en John Guttag <http://ocw.mit.edu>
+- Think Python van Allen B. Downey <http://greenteapress.com/wp/think-python/>
 
 Deze cursus is zelf ook gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden; zie de link onderaan de pagina.
 
