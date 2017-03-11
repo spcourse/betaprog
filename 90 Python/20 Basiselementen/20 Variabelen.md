@@ -9,13 +9,10 @@ Om resultaten van berekeningen te kunnen gebruiken in andere berekeningen, moete
 	profit = income - expense
 	print profit
 
-Het is hierbij belangrijk om te letten op de *volgorde* van de regels code. Python interpreteert jouw code van boven naar beneden. Zou je de laatste regel als eerste neerzetten, dan krijg je een `NameError`. Want de naam `profit` is nog niet bekend (*defined*), die wordt pas bekend gemaakt op regel 3.
+Het is hierbij belangrijk om te letten op de **volgorde** van de regels code. Python interpreteert jouw code van boven naar beneden. Zou je de laatste regel als eerste neerzetten, dan krijg je een `NameError`. Want de naam `profit` is nog niet bekend (*defined*), die wordt pas bekend gemaakt op regel 3.
 
-Continu nieuwe namen introduceren voor elke berekening is soms niet wat je wilt. In Python kan je ook oude, al gebruikte namen toekennen aan nieuwe waarden. Bijvoorbeeld:
+Continu nieuwe namen introduceren voor elke berekening is soms niet wat je wilt. In Python kun je voor een nieuwe waarde ook een oude, al gebruikte naam toekennen:
 
 	income = 170
 	income = income - 10
-	income -= 30
 	print income
-
-(Hier is de `-=` operator op regel drie simpelweg een verkorting voor `a = a - ...`.)

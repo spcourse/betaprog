@@ -20,7 +20,7 @@ Start nu het programma:
 
 Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens. Zo'n reeks noemen we een **string**.
 
-## Expressies (berekeningen)
+## Berekeningen
 
 Voeg vervolgens ook nog de volgende regels toe:
 
@@ -32,9 +32,9 @@ Voeg vervolgens ook nog de volgende regels toe:
     print 5 + 8 + 8 - 8
     print "5 + 8 + 8 - 8"
 
-Je kunt dus ook rekenen. Het resultaat wordt eerst uitgerekend, en dan pas wordt er geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens, en dan wordt het precies zo naar het scherm geprint. Net als hierboven bij de tekstjes. Dat is dus een *string* en geen formule die berekend kan worden.
+Je kunt dus ook rekenen. Het *resultaat* van de berekening wordt naar het scherm geprint. Behalve die laatste dan: daar staat de formule (*expressie*) tussen aanhalingstekens. Net als hierboven bij de tekstjes. Dat is dus een string en geen formule die berekend kan worden.
 
-> Krijg je een *foutmelding* als je je programma uitvoert? Dan is de kans groot dat je een tikfout hebt gemaakt waardoor Python niet meer begrijpt wat de bedoeling is. Kijk goed waar je de fout hebt gemaakt en probeer deze op te lossen. Kom je er niet uit, vraag dan vooral om hulp. Foutmeldingen leren begrijpen is een belangrijk onderdeel van deze cursus. Dat is ook waarom we heel graag willen dat je tijdens het oefenen fouten maakt!
+> Krijg je een foutmelding als je je programma uitvoert? Dan is de kans groot dat je een tikfout hebt gemaakt waardoor Python niet meer begrijpt wat de bedoeling is. Kijk goed waar je de fout hebt gemaakt en probeer deze op te lossen. Kom je er niet uit, vraag dan vooral om hulp. Foutmeldingen leren begrijpen is een belangrijk onderdeel van deze cursus. Dat is ook waarom we heel graag willen dat je tijdens het oefenen fouten maakt!
 
 ## Operators
 
