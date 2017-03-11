@@ -11,7 +11,7 @@ div.embed
 ![embed](https://www.youtube.com/embed/m5Yt-2r6fCg)
 </div>
 
-In deze module gaan we aan de slag met enkele algoritmen. De opdrachten laten typische algoritmen zien en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!
+In deze module gaan we aan de slag met een paar alledaagse programma's en met het maken van grafieken. De opdrachten laten typische algoritmen zien en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!
 
 Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data Scientist bij het Erasmus MC en vertelt over zijn ervaring met programmeren en dataverwerking in dit ziekenhuis.
 
