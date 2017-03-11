@@ -40,7 +40,14 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 * Denk goed na over welke loopstructuur (`for` en `while`) je wilt gebruiken.
 
-* Met `print` kun je niet zomaar losse hekjes of spaties printen. Gebruik daarom de functie `sys.stdout.write('#')` of `sys.stdout.write(' ')` . Om die te kunnen gebruiken, zet je helemaal bovenin je programma de opdracht `import sys`. Meer uitleg volgt later!
+* Met `print` kun je niet zomaar losse hekjes of spaties printen. Gebruik daarom de functie `sys.stdout.write()`:
+
+		import sys
+		
+		sys.stdout.write(' ')    # deze regel print een spatie
+		sys.stdout.write('#')    # deze regel print een hekje
+		sys.stdout.write('#')    # deze regel print een hekje
+		sys.stdout.write('\n')   # deze regel print een enter, gaat naar volgende regel
 
 ## Stappen
 
