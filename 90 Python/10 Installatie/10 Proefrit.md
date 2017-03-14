@@ -16,6 +16,8 @@ Krijg je de volgende melding? Klik dan op **Don't show again**. We hebben de ext
 
 ![](visualplugin.png)
 
+<br><br>
+
 <b>Nu zijn we klaar om echte code te gaan schrijven:</b>
 
 Zet in de file `hello.py` nu de volgende regel code: 
