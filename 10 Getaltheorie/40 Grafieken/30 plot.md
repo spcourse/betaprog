@@ -14,6 +14,8 @@ Schrijf een programma dat de volgende grafiek laat zien en dat bovendien het "mi
 
 ## Hints
 
+* Vul eerst twee lijsten met de juiste x- en y-waarden en doe daarna de plot.
+
 * Kijk goed naar [de voorbeelden](/python/plot).
 
 * Bij het gebruiken van libraries/bibliotheken is het heel nuttig om Google te gebruiken. Wil je weten hoe je iets voor elkaar speelt met pyplot? Google maar! Tip: gebruik het woord "example" om naar voorbeelden te zoeken.
