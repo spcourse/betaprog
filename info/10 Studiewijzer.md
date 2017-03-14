@@ -34,7 +34,7 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 ####  Module 1
 
-- optie 1:  pyramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
+- optie [<strong>algoritmen</strong>](/algoritmen/inhoud):  pyramides tekenen en beklimmen met behulp van 
 
 - optie 2:  duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
 
