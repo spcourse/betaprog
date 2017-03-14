@@ -34,9 +34,9 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 ####  Module 1
 
-- Keuze 1: zet je eerste stappen en spring op de pyramide met [<strong>Algoritmen</strong>](/algoritmen/inhoud)
+- Keuze 1: zet je eerste stappen en spring op de pyramide met [<strong>algoritmen</strong>](/algoritmen/inhoud)
 
-- Keuze 2: duik in de wereld van [<strong>Getaltheorie</strong>](/getaltheorie/inhoud)
+- Keuze 2: duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
 
 ####  Module 2
 
