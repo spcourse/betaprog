@@ -67,7 +67,7 @@ Natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieken i
 
 > Tip: de formule $$x^3$$ kunnen we mooi afdrukken bij de grafiek omdat we in pyplot *LaTeX* mogen gebruiken. Helaas kan dat alleen in plotjes!
 
-## Stap 3: hoge resolutie grafieken
+## Stap 3: hogeresolutie-grafieken
 
 In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes 
 zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen en in lijsten opslaan. Als we bijvoorbeeld de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
