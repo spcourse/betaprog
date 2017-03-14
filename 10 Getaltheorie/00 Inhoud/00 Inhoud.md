@@ -28,8 +28,6 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 
-2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
-
 3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen).
 
 #### Dag 3: resultaten uit de getaltheorie
@@ -38,7 +36,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 2. <span class="label label-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks).
 
-2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
+3. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
+
+4. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
 
 #### Dag 4: grafieken
 
