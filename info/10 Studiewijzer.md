@@ -40,7 +40,7 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 ####  Module 2
 
-- Keuze 1: Bereken [<strong>integralen</strong>](/integreren/inhoud) van ingewikkelde functies en vormen
+- Keuze 1: bereken numeriek de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
 
 - Keuze 2: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
@@ -48,7 +48,7 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 - Keuze 1: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
 
-- Keuze 2: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud)
+- Keuze 2: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
 
 - Keuze 3: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
 
