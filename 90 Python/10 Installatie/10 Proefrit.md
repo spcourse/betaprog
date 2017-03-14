@@ -30,7 +30,7 @@ Sla het bestand `hello.py` op. En nu het moment van de waarheid: druk op de toet
 
 In de Mac-versie heeft het eerste gedeelte van de regel een iets andere vorm, namelijk `bash-3.2$`, maar dat is niet belangrijk. 
 
-Dit is de zogenaamde **terminal**, een plek om commando's uit te voeren. Bijvoorbeeld om Python programma's uit te voeren zoals wij zullen gaan doen. Laten we dat dan meteen maar gaan doen met het door ons net gecreeerde Python programma `hello.py`. Voer dan ook het volgende commando in op de terminal-regel:
+Dit is de zogenaamde **terminal**, een plek om commando's uit te voeren. Bijvoorbeeld om Python programma's uit te voeren zoals wij zullen gaan doen. Laten we dat dan meteen maar gaan doen met het door ons net gecreëerde Python programma `hello.py`. Voer dan ook het volgende commando in op de terminal-regel:
 
 	python hello.py
 
