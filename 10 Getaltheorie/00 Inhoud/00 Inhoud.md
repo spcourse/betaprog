@@ -22,7 +22,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python.
 
-3. <span class="label label-primary">Opdracht</span> Bepaal of een getal  [deler](/getaltheorie/deler) is van een ander getal.
+3. <span class="label label-primary">Opdracht</span> Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder).
 
 #### Dag 2: priemgetallen
 
