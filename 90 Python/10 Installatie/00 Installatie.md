@@ -1,6 +1,6 @@
 # Installeren
 
-Python is zelf een programma, en moet je dus installeren op je eigen computer. Hieronder vind je de instructies. Mislukt de installatie? Gebruik dan een [online versie van Python](/python/ide).
+Python is zelf een programma, en moet je dus installeren op je eigen computer. Hieronder vind je de instructies. Zit je vast? Stuur direct een [mail](mailto:inleiding@mprog.nl). Mislukt de installatie? Gebruik dan een [online versie van Python](/python/ide).
 
 ## Om te beginnen
 
