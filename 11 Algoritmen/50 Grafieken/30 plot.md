@@ -1,5 +1,7 @@
 # Plot
 
+Schrijf een programma dat de volgende grafiek laat zien en dat bovendien het "minimum" print.
+
 ![](plotje4.png)
 
 ## Specificatie
@@ -8,7 +10,7 @@
 
 * Zorg dat het minimum in de grafiek wordt aangegeven door middel van een rode stip.
 
-* Laat je programma uitprinten, in de terminal, waar dit minimum zich bevindt.
+* Gebruik `print` om het minimum ook als tekst te printen.
 
 ## Hints
 
@@ -28,6 +30,6 @@
 
 ## Testen
 
-Testen is voor deze opdracht wat lastiger, want checkpy kan niet beoordelen hoe je grafiek er uit ziet. Of deze grafiek correct is moet je dus zelf nagaan. Checkpy kan wel testen of je überhaupt een grafiek maakt, en of de gevonden minpunten kloppen.
+Testen is voor deze opdracht wat lastiger, want checkpy kan niet beoordelen of je grafiek er goed uitziet. Of die correct is moet je dus zelf nagaan door goed met het voorbeeld te vergelijken. Checkpy kan wel testen of je überhaupt een grafiek maakt, en of het gevonden minpunt kloppen.
 
     checkpy plot
