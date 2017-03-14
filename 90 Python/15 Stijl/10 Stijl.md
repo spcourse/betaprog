@@ -1,12 +1,8 @@
 # Stijl
 
-Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook voor een ander met wie je samenwerkt, of (we noemen maar iets) degene die je werk nakijkt.
+Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook voor een ander met wie je samenwerkt. Eerder hebben we al kort een aantal richtlijnen genoemd voor het gebruiken van **commentaar** bij stukjes code. Maar er zijn meer aspecten, die benoemd worden in de [stijlgids](/extra/stijlgids).
 
-In module 1 hebben we al kort een aantal richtlijnen genoemd voor het gebruiken van *commentaar* bij stukjes code. In deze module introduceren we een *stijlgids*, waarin meer van dat soort richtlijnen gespecificeerd staan. De [stijlgids](/extra/stijlgids) staat op een aparte pagina.
-
-We verwachten dat je in je gehele inzending van deze week probeert een goede stijl aan te houden. Dat is voor een deel voorkeur, maar voor een groot deel ook gewoon een kwestie van je houden aan de richtlijnen.
-
-Mocht je er het uiterste uit willen halen, zoek dan gerust eens op internet naar *code style python*. Maar verlies het doel van leren programmeren niet uit het oog!
+Het is belangrijk tijdens het programmeren regelmatig de stijl even aandacht te geven. Mocht je er het uiterste uit willen halen, zoek dan gerust eens op internet naar *code style python*. Maar verlies het doel van leren programmeren niet uit het oog!
 
 ## Tabs en spaties
 
