@@ -14,11 +14,13 @@ Maak via deze sidebar een nieuw bestand aan met de knop ![](visualnewfilebutton.
 
 	print "Hello, World!"
 
-Sla het bestand `hello.py` op. En nu het moment van de waarheid: druk op de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`**. Dan zie je het volgende scherm verschijnen:
+Sla het bestand `hello.py` op. En nu het moment van de waarheid: druk op de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`**. Dan zie je het volgende verschijnen in de onderste helft van je Visual Studio scherm:
 
 ![visualterminal](visualterminal.png){:style="max-width:50%"}
 
-Dit is de **terminal**, een plek om commando's uit te voeren. Wij zullen de terminal gebruiken om Python aan te roepen. Laten we dat meteen doen. Voer het volgende commando in:
+Let op: in het voorbeeld hierboven zie je expliciet in welke directory je staat, maar dat hoeft niet altijd zo te zijn.
+
+Dit is de zogenaamde **terminal**, een plek om commando's uit te voeren. Bijvoorbeeld om Python programma's uit te voeren zoals wij zullen gaan doen. Laten we dat dan meteen maar gaan doen met het door ons net gecreeerde Python programma `hello.py`. Voer dan ook het volgende commando in op de terminal-regel:
 
 	python hello.py
 
