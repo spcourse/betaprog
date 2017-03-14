@@ -40,7 +40,7 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 ####  Module 2
 
-- Keuze 1: bereken numeriek de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
+- Keuze 1: bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
 
 - Keuze 2: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
@@ -56,7 +56,7 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 - Keuze 1: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
 
-- Keuze 2: conclusies trekken met behulp van [<strong>Statistiek</strong>](/statistiek/inhoud)
+- Keuze 2: conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
 
 </div>
 
