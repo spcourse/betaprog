@@ -22,7 +22,7 @@ Krijg je de volgende melding? Klik dan op **Don't show again**. We hebben de ext
 
 Zet in de file `hello.py` nu de volgende regel code: 
 
-	print "Hello, World!"
+	print "Hello, world!"
 
 Sla het bestand `hello.py` op. En nu het moment van de waarheid: druk op de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`**. Dan zie je het volgende verschijnen in de onderste helft van je Visual Studio scherm:
 
