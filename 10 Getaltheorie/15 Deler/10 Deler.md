@@ -1,20 +1,18 @@
-# Deler
+# Rekenwonder
 
-Implementeer een programma dat aan een gebruiker twee getallen vraagt, en rapporteert of het eerste getal deelbaar is door het tweede.
+Implementeer een programma dat aan een gebruiker twee getallen vraagt en het product van de getallen uitprint.
 
 	Wat is het eerste getal? 16
 	Wat is het tweede getal? 4
-	deelbaar!
+	64
 
 	Wat is het eerste getal? 27
 	Wat is het tweede getal? 5
-	niet deelbaar!
+	135
 
 ## Specificatie
 
-* Schrijf in een nieuwe file genaamd `deler.py` een programma dat de gebruiker vraagt om twee gehele getallen. Print vervolgens als het eerste getal deelbaar is door het tweede het bericht `deelbaar!`, en zo niet dan print je `niet deelbaar!`. 
-
-* Om het simpel te houden, mag je aannemen dat de gebruiker altijd braaf een positief getal invoert. Je hoeft dus geen foutafhandeling te implementeren voor het geval de gebruiker dat niet doet.
+Schrijf in een nieuwe file genaamd `rekenwonder.py` een programma dat de gebruiker vraagt om twee gehele getallen, waarna het product van de getallen met `print` wordt doorgegeven aan de gebruiker.
 
 ## Hints
 
@@ -22,12 +20,10 @@ Implementeer een programma dat aan een gebruiker twee getallen vraagt, en rappor
 
 * Maak gebruik van de `input`-functie. Deze functie wacht input tot de gebruiker van jouw programma iets invult en geeft het resultaat daarvan terug.
 
-* Achterhaal uit bovenstaande opdracht en uit de voorbeelden de formule die we nodig hebben om de berekening te doen. Dan is het belangrijkste deel van het werk gedaan.
-
 ## Testen
 
-Loop eerst je eigen programma na, werkt deze voor alle normale invoer? Vul bijvoorbeeld eens het voorbeeld van de tl;dr in. Lijkt alles te werken, dan is het tijd om `checkpy` erbij te pakken. Testen gaat net zo als bij `hello`, alleen roep je nu de test voor `deler` aan. Zo dus:
+Loop eerst je eigen programma na, werkt deze voor alle normale invoer? Vul bijvoorbeeld eens het voorbeeld hier bovenaan in. Lijkt alles te werken, dan is het tijd om `checkpy` erbij te pakken. Testen gaat net zo als bij `hello`, alleen roep je nu de test voor `rekenwonder` aan. Zo dus:
 
-	checkpy deler
+	checkpy rekenwonder
 
 Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Stuur een mail of kom langs!
