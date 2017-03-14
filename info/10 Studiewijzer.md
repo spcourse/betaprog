@@ -34,29 +34,29 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 ####  Module 1
 
-- optie 1: &nbsp; pyramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
+- optie: &nbsp; pyramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
 
-- optie 2: &nbsp; duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
+- optie: &nbsp; duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
 
 ####  Module 2
 
-- optie 1:  &nbsp; bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
+- optie:  &nbsp; bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
 
-- optie 2:  &nbsp; ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
+- optie:  &nbsp; ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
 ####  Module 3
 
-- optie 1:  &nbsp; bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
+- optie:  &nbsp; bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
 
-- optie 2:  &nbsp; bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
+- optie:  &nbsp; bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
 
-- optie 3:  &nbsp; simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
+- optie:  &nbsp; simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
 
 ####  Module 4
 
-- optie 1:  &nbsp; analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
+- optie:  &nbsp; analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
 
-- optie 2:  &nbsp; conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
+- optie:  &nbsp; conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
 
 </div>
 
