@@ -30,12 +30,12 @@ In feite verander je dus op regel 2 van dit voorbeeld het `income` door er 10 va
 
 Er zijn verschillende soorten waardes in Python; we noemen dat een **type**. In de tabel zie je drie belangrijke types:
 
-| voorbeeld         | type  |                                                    |  
-| ----------------- | ----- | -------------------------------------------------- |  
-| `'Hello, World!'` | str   | een reeks letters: een string                      |  
-| `'3.2'`           | str   | wederom een string, want er staan aanhalingstekens |  
-| `17`              | int   | een geheel getal: een integer                      |  
-| `3.2`             | float | een kommagetal: een floating point number          |  
+| voorbeeld         | type  |                                                          |  
+| ----------------- | ----- | -------------------------------------------------------- |  
+| `'Hello, World!'` | str   | een reeks letters: een **string**                        |  
+| `'3.2'`           | str   | wederom een string, want er staan aanhalingstekens       |  
+| `17`              | int   | een geheel getal: een **integer**                        |  
+| `3.2`             | float | een kommagetal: een **float**, een floating point number |  
 
 Je kunt waarden ook **converteren** van het ene naar het andere type. Gebruik bijvoorbeeld `int()` om een waarde naar een integer om te zetten. Tenminste, als het kan, want anders wordt er geklaagd:
 
