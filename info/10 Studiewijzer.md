@@ -70,7 +70,7 @@ Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te hel
 
 - Het team achter de cursus zit voor je klaar bij het **inloopspreekuur** op woensdagen van 14-15 uur. Je bent van harte welkom in kantoor C3.204 op Science Park 904.
 
-- Kom langs bij een **practium** van de Minor Programmeren. Je kunt tot eind mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
+- Kom langs bij een **practicum** van de Minor Programmeren. Je kunt tot eind mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
 
 
 </div>
