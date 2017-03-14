@@ -40,23 +40,23 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 ####  Module 2
 
-- optie 1:  bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
+- optie 1:  &nbsp; bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
 
-- optie 2:  ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
+- optie 2:  &nbsp; ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
 ####  Module 3
 
-- optie 1:  bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
+- optie 1:  &nbsp; bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
 
-- optie 2:  bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
+- optie 2:  &nbsp; bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
 
-- optie 3:  simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
+- optie 3:  &nbsp; simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
 
 ####  Module 4
 
-- optie 1:  analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
+- optie 1:  &nbsp; analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
 
-- optie 2:  conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
+- optie 2:  &nbsp; conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
 
 </div>
 
