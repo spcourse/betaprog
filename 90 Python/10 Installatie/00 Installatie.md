@@ -8,29 +8,28 @@ Je hebt twee programma's nodig op je computer:
 
 1. **Anaconda**, een versie van Python die makkelijk te installeren is. Er zitten ook een boel *packages* bij, waarin extra functionaliteit zit voor grafieken, statistiek en nog allerlei andere dingen.
 
-2. **Visual Studio Code**, een *editor* om code in te schrijven. Dit is in feite een soort tekstverwerker, maar dan speciaal bedoeld voor programmacode.
+2. **Visual Studio Code**, een *editor* om code in te schrijven. Dit is in feite een soort tekstverwerker, maar dan speciaal bedoeld voor programmacode. Deze geeft bijvoorbeeld verschillende woorden verschillende kleurtjes, zodat je een goed overzicht houdt van je programmacode.
 
-## Anaconda
+## Stap 1: Anaconda
 
-Anaconda is een wetenschappelijke distributie die veel handige functionaliteit meelevert, zo zijn er modules voor het tekenen van grafieken en allerlei wiskundige berekeningen. Het nadeel hiervan is dat de installatie vrij groot is, grofweg 400MB. Het kan dus even duren voordat je deze hebt gedownload! De download link vind je [hier](https://www.continuum.io/downloads). Let erop dat je als je een Mac hebt je de versie voor de Mac download, en draait jouw computer op Windows dat je dan de Windows versie download. **Belangrijk**: Wij werken in deze cursus met Python 2.7, download dus de 2.7 versie van Anaconda!
+Dit pakket kunt je downloaden op de website van [Continuum](https://www.continuum.io/downloads). Kies daar voor de "**Graphical Installer**" van **Python-versie 2.7**. De download is meer dan 400MB. Het kan dus even duren voordat het klaar is! En nog een keer voor de zekerheid: wij werken in deze cursus met Python 2.7, dus download de juiste versie van Anaconda!
 
-Zodra de download klaar is, moet je het gedownloade bestand uitvoeren. Volg simpelweg de installatie instructies, als het goed is hoef je hier niks aan te veranderen. Maak je geen zorgen, je installeert geen leuke sidebars voor jouw browser. 
+Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies; als het goed is hoef je hier niks aan te veranderen.
 
-
-## Visual Studio Code
-
-Behalve een installatie van Python, in de vorm van Anaconda, heb je ook een editor nodig om code in te schrijven. Code is op zich niks meer dan tekst. Daarom kan je in de meest basale teksteditor al programmeren. Toch is het handig om een editor te hebben die jou wat ondersteuning biedt, zoals belangrijke keywoorden uitlichten en spellingcorrectie. Daarom vragen we je Visual Studio Code te installeren. [Hier](https://code.visualstudio.com/) vind je de downloadlink. 
-
-Ook hier geldt, zodra je het bestand hebt gedownload moet je deze nog uitvoeren en installeren. Als het goed is hoef je niks aan te passen aan de installatie.
+*Bug*: in de Mac-versie wordt gevraagd om Anaconda te installeren voor "me only". Deze is echter niet correct geselecteerd, en er staat een foutmelding onder dit scherm. Klik nogmaals op "Install for me only" om verder te gaan met de installatie.
 
 
-## Proefrit
+## Stap 2: Visual Studio Code
 
-Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Voordat we beginnen, maak ergens op jouw computer een map aan genaamd `socode`. Dan heb je een plek om in te werken. Maak vervolgens binnen `socode` een map aan genaamd `week1`.  
+Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualstudio.com/). Ook hier geldt dat je het bestand nog moet uitvoeren en installeren. Wederom hoef je niks aan te passen aan de installatie-opties.
+
+# Proefrit
+
+Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Voordat we beginnen, maak ergens op jouw computer (bijvoorbeeld de *Desktop*) een map aan genaamd `programmeren`[^1]. Dan heb je een plek om in te werken. Maak vervolgens binnen `programmeren` een map aan genaamd `week1`.  
 
 Open nu Visual Studio Code. Zodra je dit hebt gedaan zie je het volgende scherm:
 
-![visualstudio](visualstudio.png)
+![visualstudio](visualstudio.png){:.inline}
 
 Klik linksboven op het dropdown menu **file** en kies dan onder Windows voor **Open Folder...** en onder Mac voor **Open...**. Open vervolgens de `week1` map die je hebt aangemaakt. Dan zie je de volgende sidebar verschijnen:
 
@@ -66,3 +65,5 @@ Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende comman
 	checkpy hello
 
 Kleurt alles groen en zie je enkel vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
+
+[^1]: Weet je niet zo goed hoe je mappen moet maken? Kijk eens bij [Apple](https://support.apple.com/en-us/HT201732) voor Mac OS of bij [Dummies.com](http://www.dummies.com/computers/operating-systems/windows-10/how-to-create-a-new-folder-in-windows-10/) voor Windows.
