@@ -34,7 +34,7 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 * Let goed op dat er geen spatie staat tussen de linker onderhoek van je pyramide en de linkerrand van je scherm!
 
-## Hints
+## Tips
 
 * Tel goed hoe veel spaties en hekjes er op elke regel moeten staan.
 
@@ -44,17 +44,17 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 Is bovenstaande een beetje teveel om in één keer te maken? Doe het dan in stappen, zoals programmeurs meestal doen:
 
-* Pak eerst de invoer aan. Zorg dat een gebruiker een getal kan invoeren en print deze dan weer uit.
+1. Pak eerst de invoer aan. Zorg dat een gebruiker een getal kan invoeren en print deze dan weer uit.
 
-* Pas dan het programma aan zodat het geen foutieve invoer meer accepteert, zoals in de specificatie staat.
+2. Pas dan het programma aan zodat het geen foutieve invoer meer accepteert, zoals in de specificatie staat.
 
-* Zorg dat je op dit moment een variabele `hoogte` hebt met daarin de door de gebruiker aangegeven hoogte.
+3. Zorg dat je op dit moment een variabele `hoogte` hebt met daarin de door de gebruiker aangegeven hoogte.
 
-* Zorg dan dat het programma een aantal (`hoogte`) hekjes kan printen op één regel.
+4. Zorg dan dat het programma een aantal (`hoogte`) hekjes kan printen op één regel.
 
-* Zorg dan dat je een vierkant kunt printen: meerdere (`hoogte`) hekjes op een regel, en meerdere (`hoogte`) van zulke regels.
+5. Zorg dan dat je een vierkant kunt printen: meerdere (`hoogte`) hekjes op een regel, en meerdere (`hoogte`) van zulke regels.
 
-* Nu is het tijd om de pyramide af te maken!
+6. Nu is het tijd om de pyramide af te maken!
 
 ## Testen
 
