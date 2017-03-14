@@ -3,16 +3,16 @@
 Implementeer een programma dat een halve piramide uitprint van een door de gebruiker gegeven hoogte.
 
 	Hoe hoog moet de pyramide zijn? 5
-	    ##
-	   ###
-	  ####
-	 #####
-	######
+	        # #
+	      # # #
+	    # # # #
+	  # # # # #
+	# # # # # #
 
 	Hoe hoog moet de pyramide zijn? 3
-	  ##
-	 ###
-	####
+	    # #
+	  # # #
+	# # # #
 
 ## Het idee
 
@@ -30,7 +30,7 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 * Je mag wél aannemen dat de gebruiker braaf gehele getallen (integers) invult. We houden dus geen rekening met bijvoorbeeld kommagetallen.
 
-* Als de hoogte bekend is, genereer dan met behulp van één of meer loops de halve pyramide.
+* Als de hoogte bekend is, genereer dan met behulp van `print` en één of meer loops de halve pyramide.
 
 * Let goed op dat er geen spatie staat tussen de linker onderhoek van je pyramide en de linkerrand van je scherm!
 
@@ -40,15 +40,6 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 * Denk goed na over welke loopstructuur (`for` en `while`) je wilt gebruiken.
 
-* Met `print` kun je niet zomaar losse hekjes of spaties printen. Gebruik daarom de functie `sys.stdout.write()`:
-
-		import sys
-		
-		sys.stdout.write(' ')    # deze regel print een spatie
-		sys.stdout.write('#')    # deze regel print een hekje
-		sys.stdout.write('#')    # deze regel print een hekje
-		sys.stdout.write('\n')   # deze regel print een enter, gaat naar volgende regel
-
 ## Stappen
 
 Is bovenstaande een beetje teveel om in één keer te maken? Doe het dan in stappen, zoals programmeurs meestal doen:
@@ -57,9 +48,11 @@ Is bovenstaande een beetje teveel om in één keer te maken? Doe het dan in stap
 
 * Pas dan het programma aan zodat het geen foutieve invoer meer accepteert, zoals in de specificatie staat.
 
-* Zorg dan dat het programma een aantal hekjes kan printen op één regel.
+* Zorg dat je op dit moment een variabele `hoogte` hebt met daarin de door de gebruiker aangegeven hoogte.
 
-* Zorg dan dat je een vierkant kunt printen: meerdere hekjes op een regel, en meerdere van zulke regels.
+* Zorg dan dat het programma een aantal (`hoogte`) hekjes kan printen op één regel.
+
+* Zorg dan dat je een vierkant kunt printen: meerdere (`hoogte`) hekjes op een regel, en meerdere (`hoogte`) van zulke regels.
 
 * Nu is het tijd om de pyramide af te maken!
 
