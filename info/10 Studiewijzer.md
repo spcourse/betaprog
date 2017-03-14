@@ -40,7 +40,7 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 ####  Module 2
 
-- Keuze 1: [<strong>Integreer</strong>](/integreren/inhoud) zonder moeite de meest exotische functies
+- Keuze 1: Bereken [<strong>integralen</strong>](/integreren/inhoud) van ingewikkelde functies en vormen
 
 - Keuze 2: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
