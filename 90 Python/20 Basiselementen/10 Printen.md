@@ -20,6 +20,14 @@ Start nu het programma:
 
 Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens. Zo'n reeks noemen we een **string**.
 
+We kunnen ook meerdere waarden op één regel printen. Standaard voegt het `print`-commando een **ENTER** toe aan de tekst, zodat de volgende `print` op een nieuwe regel doorgaat. Je kunt ook zorgen dat deze **ENTER** weggelaten wordt:
+
+	print "De temperatuur is",
+	print 8,
+	print "graden"
+
+Daarmee wordt de hele boodschap keurig op één regel geprint. Probeer vooral uit!
+
 ## Berekeningen
 
 Voeg vervolgens ook nog de volgende regels toe:
