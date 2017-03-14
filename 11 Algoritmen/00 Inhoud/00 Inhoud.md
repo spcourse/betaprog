@@ -33,17 +33,17 @@ Vandaag breid je je kennis over Python uit en schrijf je je eerste echte algorit
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 
-2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
-
 3. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/algoritmen/pyramide).
 
 #### Dag 3: "greedy" algoritmen
 
-1. Sla je data op in een [lijst](/python/lijsten).
+2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
 2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme.
 
 #### Dag 4: grafieken
+
+1. Sla je data op in een [lijst](/python/lijsten).
 
 1. Leer over het gebruiken van [modules](/python/modules) in Python.
 
