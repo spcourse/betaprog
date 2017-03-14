@@ -33,9 +33,9 @@ Behalve `if`, kent Python ook de `if-else` constructie. Deze ziet er als volgt u
 	else:
 	    print "balance is negative"
 
-Hiermee hebben we een manier om één stuk code uit te voeren mocht de conditie `True` blijken, en een ander mocht het `False` zijn.
+Hiermee hebben we een manier om één stuk code uit te voeren als de conditie `True` blijkt, en een ander stuk bij `False`.
 
-Niet elk probleem is binair, en dan wil je wel eens meer opties. Dan is `elif` een uitkomst. `elif` is een samenvoegsel van `else` en `if`. Je kan `elif` als volgt gebruiken:
+Niet elk probleem is binair. Dan is `elif` een uitkomst. `elif` is een samenvoegsel van `else` en `if`. Je kan `elif` als volgt gebruiken:
 
 	balance = 100
 
