@@ -65,9 +65,9 @@ Je kunt verschillende voorwaarden combineren. Als je wilt weten of een getal zic
     x_min = 3
     x_max = 39	
 	if x > x_min and x < x_max:
-	    print "het getal %d bevindt zich tussen %d en %d" % (x, x_min, x_max)
+	    print "het getal", x, "bevindt zich tussen", x_min, "en", x_max
 
-**Tip:** de constructie: if 3 < x < 39 werkt niet. Je moet net als in het bovenstaande voorbeeld door logisch combineren van losse (enkelvoudige) voorwaardes de stroom van je programma vormgeven.
+**Tip:** de constructie `if 3 < x < 39` werkt niet. Je moet net als in het bovenstaande voorbeeld door logisch combineren van losse (enkelvoudige) voorwaardes de stroom van je programma vormgeven.
 
 Hier zijn de drie operators om voorwaarden te combineren:
 
