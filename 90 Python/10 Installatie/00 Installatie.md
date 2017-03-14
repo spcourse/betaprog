@@ -29,11 +29,11 @@ Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan 
 
 Open nu Visual Studio Code. Zodra je dit hebt gedaan zie je het volgende scherm:
 
-![visualstudio](visualstudio.png){:.inline}
+![visualstudio](visualstudio.png){:style="max-width:50%"}
 
 Klik linksboven op het dropdown menu **file** en kies dan onder Windows voor **Open Folder...** en onder Mac voor **Open...**. Open vervolgens de `week1` map die je hebt aangemaakt. Dan zie je de volgende sidebar verschijnen:
 
-![visualnewfile](visualnewfile.png)
+![visualnewfile](visualnewfile.png){:style="max-width:50%"}
 
 Maak via deze sidebar een nieuw bestand aan genaamd `hello.py`. Zet hierin de volgende regel code: 
 
@@ -41,7 +41,7 @@ Maak via deze sidebar een nieuw bestand aan genaamd `hello.py`. Zet hierin de vo
 
  Sla het bestand `hello.py` op. En nu, voor het moment van de waarheid, druk je op de volgende toets combinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`**. Dan zie je het volgende scherm verschijnen:
 
-![visualterminal](visualterminal.png)
+![visualterminal](visualterminal.png){:style="max-width:50%"}
 
 Dit is de terminal, een plek om commando's in uit te voeren. Wij zullen dit voornamelijk gebruiken om Python aan te roepen, en Python code uit te voeren. Laten we dat meteen doen, voer het volgende commando in:
 
