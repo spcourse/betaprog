@@ -14,7 +14,7 @@ Maak tekstbestand **module1.py** (weet je nog hoe?) en zet er de volgende regels
 
 > Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een foutmelding krijgt!
 
-Start nu het programma:
+Start nu het programma door in de Terminal in te geven:
 
 	python module1.py
 
