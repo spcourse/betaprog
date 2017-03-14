@@ -19,34 +19,30 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Dag 1: aan de slag
 
-Vandaag installeer je Python en oefen je met de basiselementen. We sluiten af met het maken van een interactief programma dat een automatische berekening kan doen.
-
 1. [Installeer](/python/installatie) Python.
 
 2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python.
 
 3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/algoritmen/water).
 
-#### Dag 2: pyramide
-
-Vandaag breid je je kennis over Python uit en schrijf je je eerste echte algoritme.
+#### Dag 2: een eerste algoritme
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 
-3. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/algoritmen/pyramide).
+2. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/algoritmen/pyramide).
 
-#### Dag 3: "greedy" algoritmen
+#### Dag 3: een serieuzer algoritme
 
-2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
+1. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
 2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme.
 
-#### Dag 4: grafieken
+#### Dag 4: werken met grafieken
 
 1. Sla je data op in een [lijst](/python/lijsten).
 
-1. Leer over het gebruiken van [modules](/python/modules) in Python.
+2. Leer over het gebruiken van [modules](/python/modules) in Python.
 
-2. Zoek op hoe je data kunt [plotten](/python/plot).
+3. Zoek op hoe je data kunt [plotten](/python/plot).
 
-3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken).
+4. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken).
