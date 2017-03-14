@@ -16,6 +16,7 @@ ul.nav
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
 <li role="presentation" class="active"><a href="#modules" aria-controls="modules" role="tab" data-toggle="tab">Modules</a></li>
+<li role="presentation" class="active"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help!</a></li>
 <li role="presentation"><a href="#studiewijzer" aria-controls="studiewijzer" role="tab" data-toggle="tab">Meer info</a></li>
 <li role="presentation"><a href="#vragen" aria-controls="vragen" role="tab" data-toggle="tab">Vragen</a></li>
 </ul>
@@ -58,7 +59,25 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 - Keuze 2: conclusies trekken met behulp van [<strong>Statistiek</strong>](/statistiek/inhoud)
 
 </div>
+
+<div role="tabpanel" class="tab-pane" id="help">
+
+## Hulp nodig?
+
+Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen. Dit zijn de mogelijkheden:
+
+- **Mail je vraag** via <help@mprog.nl> (of druk op de blauwe reddingsboei rechtsonder in het scherm). Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
+
+- Het team achter de cursus zit voor je klaar bij het **inloopspreekuur** op woensdagen van 14-15 uur. Je bent van harte welkom in kantoor C3.204 op Science Park 904.
+
+- Kom langs bij een **practium** van de Minor Programmeren. Je kunt tot eind mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
+
+
+</div>
+
 <div role="tabpanel" class="tab-pane" id="studiewijzer">
+
+## Studiewijzer
 
 Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen programmaatjes gaat schrijven om je te helpen tijdens je studie, in het onderzoek of buiten de universiteit. De cursus bestaat uit vier modules en voor elke module kun je kiezen uit meerdere opties. Doe wat je leuk lijkt!
 
@@ -71,16 +90,6 @@ Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen 
 - Anderen kunnen de cursus volgen voor €300 (semester 2 2017)
 
 Bij een officiële inschrijving is het mogelijk om begeleiding te krijgen (zie onder) en na halen van het tentamen een certificaat of studiepunten te ontvangen. Het is natuurlijk ook mogelijk om niet in te schrijven maar de cursus te gebruiken en de opdrachten te doen! Meld je dan alsjeblieft alsnog aan via het formulier.
-
-## Begeleiding
-
-Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen; tijdens studiejaar 2016/2017 kun je op drie manieren hulp krijgen:
-
-- Stel een vraag via <help@mprog.nl> (of druk op de blauwe reddingsboei rechtsonder in het scherm). Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
-
-- Het team achter de cursus zit voor je klaar bij het **inloopspreekuur** op woensdagen van 14-15 uur. Je bent van harte welkom in kantoor C3.204 op Science Park 904.
-
-- Kom langs bij een practium van de Minor Programmeren. Je kunt t/m mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
 
 ## Tentamen
 
