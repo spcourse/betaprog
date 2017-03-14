@@ -31,11 +31,11 @@ Open nu Visual Studio Code. Zodra je dit hebt gedaan zie je het volgende scherm:
 
 ![visualstudio](visualstudio.png){:style="max-width:50%"}
 
-Klik linksboven op het dropdown menu **file** en kies dan onder Windows voor **Open Folder...** en onder Mac voor **Open...**. Open vervolgens de `week1` map die je hebt aangemaakt. Dan zie je de volgende sidebar verschijnen:
+Klik linksboven op het dropdown menu **file** en kies dan onder Windows voor **Open Folder...** en onder Mac voor **Open...**. Open vervolgens de `week1`-map die je hebt aangemaakt. Dan zie je de volgende sidebar verschijnen:
 
 ![visualnewfile](visualnewfile.png){:style="max-width:50%"}
 
-Maak via deze sidebar een nieuw bestand aan genaamd `hello.py`. Zet hierin de volgende regel code: 
+Maak via deze sidebar een nieuw bestand aan met de knop ![](visualnewfilebutton.png). Noem het bestand `hello.py`. Zet hierin de volgende regel code: 
 
 	print "Hello, World!"
 
