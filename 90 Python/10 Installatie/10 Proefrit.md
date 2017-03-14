@@ -6,7 +6,7 @@ Open nu Visual Studio Code. Zodra je dit hebt gedaan zie je het volgende scherm:
 
 ![visualstudio](visualstudio.png){:style="max-width:50%"}
 
-Klik linksboven op het dropdown menu **file** en kies dan onder Windows voor **Open Folder...** en onder Mac voor **Open...**. Open vervolgens de `week1`-map die je hebt aangemaakt. Dan zie je de volgende sidebar verschijnen als je met de muis op `week1` gaat staan:
+Klik linksboven op je beeldscherm (dus niet in het Visual Studio window) in de menubalk op **File** en kies dan onder Windows voor **Open Folder...** en onder Mac voor **Open...**. Open vervolgens de `week1`-map die je hebt aangemaakt. Je ziet dan de volgende sidebar verschijnen. De icoontjes die naast `week1` staan verschijnen alleen als je met de muis in de sidebar staat:
 
 ![visualnewfile](visualnewfile.png){:style="max-width:50%"}
 
