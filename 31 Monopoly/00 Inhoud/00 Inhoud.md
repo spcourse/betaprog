@@ -2,7 +2,7 @@
 
 In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Speltheorie in de praktijk.
 
-#### Dag 1 + dag 2: vrij rondlopen op het bord
+#### Dag 1 en Dag 2: vrij rondlopen op het bord
 
 1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrijrondlopen)
 
