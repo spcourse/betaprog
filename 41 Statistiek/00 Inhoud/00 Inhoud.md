@@ -15,22 +15,22 @@ In deze module gaan we aan de slag met statistiek. Het ligt voor de hand dat de 
 
 Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://www.tue.nl/en/university/departments/industrial-engineering-innovation-sciences/the-department/staff/detail/ep/e/d/ep-uid/20091001/) werkt als universitair docent bij de TU/e en vertelt over de combinatie van statistiek en programmeren.
 
-- **Dag 1** De normaalverdeling en steekproeven
+#### Dag 1: De normaalverdeling en steekproeven
 
-	<span class="label label-primary">Opdracht</span> bestudeer de [lengte](/statistiek/normaalverdeling) van Deense vrouwen
+1. 	<span class="label label-primary">Opdracht</span> bestudeer de [lengte](/statistiek/normaalverdeling) van Deense vrouwen
 
-	<span class="label label-primary">Opdracht</span> eigenschappen van [steekproeven](/statistiek/steekproeven)
+2.	<span class="label label-primary">Opdracht</span> eigenschappen van [steekproeven](/statistiek/steekproeven)
 
-- **Dag 2** Model fitten aan de data (zelf)
+#### Dag 2: Model fitten aan de data (zelf)
 
-	<span class="label label-primary">Opdracht</span> Fit zelf een simpel [model](/statistiek/fittenzelf) aan de data
+1. <span class="label label-primary">Opdracht</span> Fit zelf een simpel [model](/statistiek/fittenzelf) aan de data
 
-- **Dag 3** Model fitten aan de data (Python)
+#### Dag 3: Model fitten aan de data (Python)
 
-	<span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten
+1. <span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten
 	
-	<span class="label label-primary">Opdracht</span> Breid je voor op leven als [Quant](/statistiek/quant) in the City. Bankieren
+2. <span class="label label-primary">Opdracht</span> Breid je voor op leven als [Quant](/statistiek/quant) in the City. Bankieren
 	
-- **Dag 4** Hypotheses testen
+#### Dag 4: Hypotheses testen
 
-	<span class="label label-primary">Opdracht</span> Genereer fictieve data-sets en leer [hypotheses testen](/statistiek/hypothesetesten)
+1.	<span class="label label-primary">Opdracht</span> Genereer fictieve data-sets en leer [hypotheses testen](/statistiek/hypothesetesten)
