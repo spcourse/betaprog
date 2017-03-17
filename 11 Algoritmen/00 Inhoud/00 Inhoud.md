@@ -29,7 +29,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 1. Leer meer over [algoritmen](/python/algoritmen).
 
-2. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [pyramide](/algoritmen/pyramide).
+2. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [piramide](/algoritmen/piramide).
 
 #### Dag 3: een serieuzer algoritme
 
