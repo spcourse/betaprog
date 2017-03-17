@@ -37,29 +37,29 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 **Module 1**, kies uit:
 
-- optie: piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
+- <strong>optie</strong>: piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
 
-- optie: duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
+- <strong>optie</strong>: duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
 
 **Module 2**, kies uit:
 
-- optie: bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
+- <strong>optie</strong>: bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
 
-- optie: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
+- <strong>optie</strong>: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
 **Module 3**, kies uit:
 
-- optie: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
+- <strong>optie</strong>: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
 
-- optie: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
+- <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
 
-- optie: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
+- <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
 
 **Module 4**, kies uit:
 
-- optie: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
+- <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
 
-- optie: conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
+- <strong>optie</strong>: conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
 
 </div>
 
