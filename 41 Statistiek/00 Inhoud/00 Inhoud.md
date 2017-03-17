@@ -29,4 +29,4 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 
 - **Dag 4** Hypotheses testen
 
-	<span class="label label-primary">Opdracht</span> Genereer nep-data sets en leer [hypotheses](/statistiek/hypothesetesten) testen.
+	<span class="label label-primary">Opdracht</span> Genereer nep-data sets en leer [hypotheses](/statistiek/hypothesetesten) testen

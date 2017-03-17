@@ -53,7 +53,7 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 - <strong>optie</strong>: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
 
-- <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud).
+- <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud)
 
 - <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
 

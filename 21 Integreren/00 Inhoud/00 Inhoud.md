@@ -20,15 +20,15 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.
 
 1. Leer over [functies](/python/functies) in Python
 
-3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom.
+3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
 #### Dag 2: random
 
 1. Leer over het gebruik van  [random getallen](/python/random).
 
-3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant.
+3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
-3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie.
+3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
 #### Dag 3: Riemann
 
@@ -36,4 +36,4 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.
 
 #### Dag 4: Monte Carlo
 
-<span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode.
+<span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
