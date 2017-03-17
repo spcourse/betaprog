@@ -27,7 +27,7 @@ ul.nav
 
 ![Python](python-logo.png){:.inline}  
 
-Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen. Hieronder kun je direct aan de slag door bij elke modules één van de opties te kiezen. Wil je meer weten? Ga naar "meer info".
+Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen. Hieronder kun je direct aan de slag door bij elke module één van de opties te kiezen. Wil je meer weten? Ga naar "meer info".
 
 <p style="margin-top:1.5em;"></p>
 
