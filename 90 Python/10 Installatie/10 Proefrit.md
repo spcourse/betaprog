@@ -1,6 +1,6 @@
 # Proefrit
 
-Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Voordat we beginnen, maak ergens op jouw computer (bijvoorbeeld de *Desktop*) een map aan genaamd `programmeren`[^1]. Dan heb je een plek om in te werken. Maak vervolgens binnen `programmeren` een map aan genaamd `week1`.  
+Nu je zowel Anaconda als Visual Studio Code hebt geïnstalleerd, kunnen we gaan kijken of alles werkt. Voordat we beginnen, maak ergens op jouw computer (bijvoorbeeld de *Desktop*) een map aan genaamd `programmeren`. (Weet je niet zo goed hoe je mappen moet maken? Kijk eens bij [Apple](https://support.apple.com/en-us/HT201732) voor Mac OS of bij [Dummies.com](http://www.dummies.com/computers/operating-systems/windows-10/how-to-create-a-new-folder-in-windows-10/) voor Windows.) Dan heb je een plek om in te werken. Maak vervolgens binnen `programmeren` een map aan genaamd `week1`.  
 
 Open nu Visual Studio Code. Zodra je dit hebt gedaan zie je het volgende scherm:
 
@@ -16,21 +16,21 @@ Krijg je de volgende melding? Klik dan op **Don't show again**. We hebben de ext
 
 ![](visualplugin.png)
 
-<br>
-
-####<b>Nu zijn we klaar om echte code te gaan schrijven:</b>
+## Een stukje code schrijven
 
 Zet in de file `hello.py` nu de volgende regel code: 
 
 	print "Hello, world!"
 
-Sla het bestand `hello.py` op. En nu het moment van de waarheid: druk op de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`**. Dan zie je het volgende verschijnen in de onderste helft van je Visual Studio scherm:
+Sla het bestand `hello.py` op. En dan het moment van de waarheid: druk op de toetscombinatie **ctrl**+**\`**. Dat is dus tegelijkertijd de **ctrl** en **\`** (deze toets vind je meestal naast de 1 of naast de Z op je toetsenbord).
 
-![visualterminal](visualterminal.png){:style="max-width:50%"}
+Dan zie je een extra onderdeel verschijnen in je Visual Studio-scherm:
 
-In de Mac-versie heeft het eerste gedeelte van de regel een iets andere vorm, namelijk `bash-3.2$`, maar dat is niet belangrijk. 
+![visualterminal](visualterminal.png){:style="max-width:80%"}
 
-Dit is de zogenaamde **terminal**, een plek om commando's uit te voeren. Bijvoorbeeld om Python programma's uit te voeren zoals wij zullen gaan doen. Laten we dat dan meteen maar gaan doen met het door ons net gecreëerde Python programma `hello.py`. Voer dan ook het volgende commando in op de terminal-regel:
+Dit onderdeel heet de **terminal** en is de plek waar we Python en jouw programma's kunnen opstarten. Door ons met een lijntje aangegeven is de **prompt** (vraag) waar we een opdracht kunnen intikken. De prompt ziet er wat ingewikkeld uit, maar dat kunnen we negeren.
+
+Laten we het meteen maar eens uitproberen met ons programma `hello.py`. Voer het volgende commando in achter de prompt:
 
 	python hello.py
 
@@ -52,5 +52,3 @@ Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende comman
 	checkpy hello
 
 Kleurt alles groen en zie je enkel vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
-
-[^1]: Weet je niet zo goed hoe je mappen moet maken? Kijk eens bij [Apple](https://support.apple.com/en-us/HT201732) voor Mac OS of bij [Dummies.com](http://www.dummies.com/computers/operating-systems/windows-10/how-to-create-a-new-folder-in-windows-10/) voor Windows.
