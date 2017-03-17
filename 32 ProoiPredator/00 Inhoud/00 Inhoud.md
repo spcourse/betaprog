@@ -18,7 +18,7 @@ In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in e
 
 1. <span class="label label-primary">Opdracht</span> Voeg (vegetarische) [vossen](/prooipredator/vossen) toe in de simulatie
 
-2. <span class="label label-primary">Opdracht</span> De vossen krijgen toch zin in [konijnenvlees](/prooipredator/vossenetenkonijnen)
+2. <span class="label label-primary">Opdracht</span> De vossen krijgen toch zin in vlees. Pech voor de  [konijnen](/prooipredator/vossenetenkonijnen)
 
 #### Dag 4: De konijnen planten zich voort - wie wint er
 
