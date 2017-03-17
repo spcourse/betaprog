@@ -22,7 +22,7 @@ Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelkli
 
 De installatie kan een tijdje duren.
 
-![](wait2.gif)
+![](wait2.gif){:style="max-width:25%"}
 
 ## Stap 2: Visual Studio Code
 
