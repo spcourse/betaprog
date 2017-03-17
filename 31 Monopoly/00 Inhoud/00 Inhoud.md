@@ -4,7 +4,7 @@ In deze module gaan we het spel Monopoly simuleren. Met de hand is dit ondoenlij
 
 #### Dag 1 + dag 2: vrij rondlopen op het bord
 
-1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler [Donald Trump-mode](/monopoly/vrijrondlopen)
+1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrijrondlopen)
 
 #### Dag 3: Startgeld
 
