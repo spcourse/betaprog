@@ -16,5 +16,5 @@ aangegeven.
 
 Schrijf een programma **spiraal.py** waarin de stip geanimeerd wordt zoals hierboven beschreven. Details voor de animatie:
 
-   - $$\alpha$$ varieert van $$0$$ tot $$20$$ in stappen van $$0.1$$
-   - $$R$$ hangt af van $$\alpha$$, nl: $$R=10-0.5\alpha$$
+- hoek $$\alpha$$ varieert van $$0$$ tot $$20$$ radialen in stappen van $$0.1$$
+- straal $$R$$ hangt af van $$\alpha$$, namelijk $$R=10-0.5\alpha$$
