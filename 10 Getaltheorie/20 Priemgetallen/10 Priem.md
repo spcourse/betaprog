@@ -33,7 +33,8 @@ Een belangrijk deel van de omschrijving hierboven is dat het om priemgetallen ga
 
 Schrijf dus eerst een programma dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele `number`, waarin we het getal zetten dat onderzocht moet worden:
 
-    number = input("Voer een getal in: ")
+    number = raw_input("Voer een getal in: ")
+    number = int(number)
     # TODO: hier komt jouw code
 
 Als de gebruiker het getal 37 invult, moet aan het eind van het programma geprint worden:
@@ -60,7 +61,7 @@ Klopt je antwoord? Check het op internet!
 
 We gaan nu terug naar de opdracht: op zoek naar het n-de priemgetal. We geven een voorzetje voor de strategie van het programma:
 
-- Je kunt nu niet meer met een `for`-loop simpelweg tot `n` loopen. Want we willen het `n`-de priemgetal; we willen niet weten of `n` een priemgetal is (zie je het verschil met stap 2?). Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je gevonden hebt. Gebruik hiervoor een variabele.
+- Je kunt nu niet meer met een `for`-loop simpelweg tot `n` loopen. Want we willen het `n`-de priemgetal; we willen niet weten of `n` een priemgetal is (zie je het verschil met stap 2?). Je moet dus in je programma gaan bijhouden *hoeveel* priemgetallen je al gevonden hebt. Gebruik hiervoor een variabele.
 
 - Begin klein. Zorg dat je programma eerst de priemgetallen tot 10 kan vinden. Dat is klein genoeg om te zien of het programma precies doet wat de bedoeling is, en kun al snel ontdekken wat er mis gaat.
 
