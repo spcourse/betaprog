@@ -4,7 +4,11 @@ In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in e
 
 #### Dag 1: Animaties in Python
 
-1. Leer hoe je [animaties](/python/animations) maakt in Python
+1. Leer hoe je [animaties](/python/animaties) maakt in Python
+
+2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
+
+3. <span class="label label-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
 #### Dag 2: Konijnen in een bos
 
