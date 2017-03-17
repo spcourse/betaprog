@@ -12,9 +12,9 @@ Om te kunnen programmeren op je eigen computer heb je twee verschillende program
 
 ## Stap 1: Anaconda
 
-![Kies de "Graphical installer" van Python 2.7](download.png){:.inline}{:style="max-width:35%"}
-
 Dit pakket kunt je downloaden op de website van [Continuum](https://www.continuum.io/downloads). Kies daar voor de "**Graphical Installer**" van **Python-versie 2.7**. De download is meer dan 400MB. Het kan dus even duren voordat het klaar is! Je hoeft trouwens je mailadres niet op te geven, ook zonder mag je Anaconda gewoon gebruiken.
+
+![Kies de "Graphical installer" van Python 2.7](download.png){:style="max-width:35%"}
 
 Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor "Install for me only"; als het goed is hoef je verder niks te veranderen.
 
