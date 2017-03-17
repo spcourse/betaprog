@@ -16,8 +16,8 @@ ul.nav
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
 <li role="presentation" class="active"><a href="#modules" aria-controls="modules" role="tab" data-toggle="tab">Modules</a></li>
-<li role="presentation"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help!</a></li>
 <li role="presentation"><a href="#studiewijzer" aria-controls="studiewijzer" role="tab" data-toggle="tab">Meer info</a></li>
+<li role="presentation"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help!</a></li>
 </ul>
 
 
@@ -27,7 +27,7 @@ ul.nav
 
 ![Python](python-logo.png){:.inline}  
 
-Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen.
+Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen. De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren!
 
 De cursus bestaat uit vier modules, waarin je steeds meer leert over programmeren. Je kunt voor elke module kiezen uit opgaven rondom verschillende wetenschapsgebieden (zorg dat je voor elke module één van de opties doorlopen hebt!).
 
@@ -76,6 +76,10 @@ Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te hel
 - Kom langs bij een **practicum** van de Minor Programmeren. Je kunt tot eind mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
 
 ## Veelgestelde vragen
+
+**Ik heb nog geen Python, hoe moet dat?**
+
+Tijdens de eerste module leggen we helemaal uit hoe je Python op je eigen computer kunt installeren!
 
 **Ik heb me nog niet aangemeld, mag ik alvast beginnen?**
 
