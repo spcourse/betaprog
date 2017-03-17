@@ -19,6 +19,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 
 	<span class="label label-primary">Opdracht</span> bestudeer de [lengte](/statistiek/normaalverdeling) van Deense vrouwen
 
+	<span class="label label-primary">Opdracht</span> eigenschappen van [steekproeven](/statistiek/steekproeven)
+
 - **Dag 2** Model fitten aan de data (zelf)
 
 	<span class="label label-primary">Opdracht</span> Fit zelf een simpel [model](/statistiek/fittenzelf) aan de data
