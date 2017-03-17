@@ -12,13 +12,13 @@ In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in e
 
 #### Dag 2: Konijnen in een bos
 
-1. <span class="label label-primary">Opdracht</span> Maak animatie van 25 [konijnen](/prooipredator/konijnen) in een bos
+1. <span class="label label-primary">Opdracht</span> Maak een animatie van 25 [konijnen](/prooipredator/konijnen) in een bos
 
 #### Dag 3: Voeg (hongerige) vossen in het bos
 
-1. <span class="label label-primary">Opdracht</span> Voeg [vossen](/prooipredator/vossen) toe in de simulatie
+1. <span class="label label-primary">Opdracht</span> Voeg (vegetarische) [vossen](/prooipredator/vossen) toe in de simulatie
 
-2. <span class="label label-primary">Opdracht</span> De vossen krijgen [honger](/prooipredator/vossenetenkonijnen)
+2. <span class="label label-primary">Opdracht</span> De vossen krijgen toch zin in [konijnenvlees](/prooipredator/vossenetenkonijnen)
 
 #### Dag 4: De konijnen planten zich voort - wie wint er
 
