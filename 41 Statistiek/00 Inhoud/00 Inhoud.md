@@ -26,6 +26,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 - **Dag 3** Model fitten aan de data (Python)
 
 	<span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten
+	
 	<span class="label label-primary">Opdracht</span> Breid je voor op leven als [quant](/statistiek/quant) in the City
 	
 - **Dag 4** Hypotheses testen
