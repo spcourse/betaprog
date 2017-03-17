@@ -15,7 +15,7 @@ In deze module gaan we aan de slag met statistiek. Het ligt voor de hand dat de 
 
 Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://www.tue.nl/en/university/departments/industrial-engineering-innovation-sciences/the-department/staff/detail/ep/e/d/ep-uid/20091001/) werkt als universitair docent bij de TU/e en vertelt over de combinatie van statistiek en programmeren.
 
-- **Dag 1** De normaalverdeling en steekproeven.
+- **Dag 1** De normaalverdeling en steekproeven
 
 	<span class="label label-primary">Opdracht</span> bestuderen van de [lengte](/statistiek/normaalverdeling) Deense vrouwen
 
@@ -25,8 +25,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 
 - **Dag 3** Model fitten aan de data (Python)
 
-	<span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten en speel bankier
-
+	<span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten
+	<span class="label label-primary">Opdracht</span> Breid je voor op leven als [quant](/statistiek/quant) in the City
+	
 - **Dag 4** Hypotheses testen
 
 	<span class="label label-primary">Opdracht</span> Genereer nep-data sets en leer [hypotheses](/statistiek/hypothesetesten) testen
