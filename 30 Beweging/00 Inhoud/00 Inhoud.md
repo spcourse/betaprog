@@ -1,18 +1,28 @@
 # Beweging
 
 In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunnen beschrijven en visualiseren op het scherm met behulp van een animatie.
-																																																																																																																																				
-#### Dag 1: Animaties in Python
 
-1. Leer eerst hoe je [animaties](/python/animations) maakt in Python
+#### Dag 1: Beweging door zwaartekracht
 
-#### Dag 2: Vallende appels en parachutespringen
+1. <span class="label label-primary">Opdracht</span> Bestudeer de beweging van een vallende [appel](/beweging/appel)
 
-1. <span class="label label-primary">Opdracht</span> Bestudeer de [beweging](/beweging/vallendeobjecten) van vallende objecten met en zonder wrijving
+2. Leer over het gebruiken van [meerdere grafieken](/python/meerdere-grafieken)
 
-#### Dag 3: De ultieme freefall
+3. <span class="label label-primary">Opdracht</span> Bestudeer de beweging van een [basejumper](/beweging/basejump)
 
-1. <span class="label label-primary">Opdracht</span> Wat gebeurt er als je door de aarde heenvalt ? De ultieme [freefall](/beweging/ultiemefreefall)
+#### Dag 2: De ultieme freefall
+
+1. Leer over het [debuggen](/python/debuggen) van simulaties
+
+2. <span class="label label-primary">Opdracht</span> Wat gebeurt er als je [door de aarde heen valt](/beweging/freefall)?
+
+#### Dag 3: Animaties in Python
+
+1. Leer hoe je [animaties](/python/animaties) maakt in Python
+
+2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
+
+3. <span class="label label-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
 #### Dag 4: Angry birds
 
