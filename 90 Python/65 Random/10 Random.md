@@ -25,9 +25,9 @@ Voorbeeld: tien random getallen tussen 0 en 2
        y = 2*x
        print y
 
-## Opdracht: Een rij van 10 random getallen tussen a en b
+## Een rij van 10 random getallen tussen a en b
 
-Schrijf een functie `MijnRandomGetal()` die een getal genereert tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen. Het moet zo werken als hieronder.
+Schrijf nu als oefening een functie `MijnRandomGetal()` die een getal genereert tussen *a* en *b* waarbij je de waardes van a en b zelf kan kiezen. Het moet zo werken als hieronder.
 
     import random 
 
@@ -43,4 +43,3 @@ Schrijf een functie `MijnRandomGetal()` die een getal genereert tussen *a* en *b
        print x
 
 Bekijk goed het voorbeeld hierboven waarbij we een random getal tussen 0 en 2 maakten en probeer eerst uit te vinden hoe je een random getal tussen de -1 en +1 zou kunnen maken. Daarna kan je dat abstract programmeren naar een algemene *a* en *b* als begin en eindwaardes van het interval waarbinnen je random getallen wilt gebruiken.
-
