@@ -18,7 +18,6 @@ ul.nav
 <li role="presentation" class="active"><a href="#modules" aria-controls="modules" role="tab" data-toggle="tab">Modules</a></li>
 <li role="presentation"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help!</a></li>
 <li role="presentation"><a href="#studiewijzer" aria-controls="studiewijzer" role="tab" data-toggle="tab">Meer info</a></li>
-<li role="presentation"><a href="#vragen" aria-controls="vragen" role="tab" data-toggle="tab">Vragen</a></li>
 </ul>
 
 
@@ -72,6 +71,17 @@ Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te hel
 
 - Kom langs bij een **practicum** van de Minor Programmeren. Je kunt tot eind mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
 
+## Veelgestelde vragen
+
+**Ik heb me nog niet aangemeld, mag ik alvast beginnen?**
+
+Zeker! Voel je vrij om de cursus online te doen. Wil je graag hulp hebben met programmeren? Dan moet je je wel aanmelden!
+
+**Ik wil graag meer lesmateriaal of verder leren, waar moet ik zijn?**
+
+Kijk eens naar [deze lijst met Python-resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/assignments/MIT6_0001F16_additional.pdf) bij MIT!
+
+
 
 </div>
 
@@ -123,13 +133,6 @@ Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commo
 - Think Python van Allen B. Downey <http://greenteapress.com/wp/think-python/>
 
 Deze cursus is zelf ook gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden; zie de link onderaan de pagina.
-
-</div>
-<div role="tabpanel" class="tab-pane" id="vragen">
-
-### Ik wil graag meer lesmateriaal of verder leren, waar moet ik zijn?
-
-Kijk eens naar [deze lijst met Python-resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/assignments/MIT6_0001F16_additional.pdf) bij MIT!
 
 </div>
 
