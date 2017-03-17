@@ -24,7 +24,7 @@ Ten slotte kun je een oude naam ook een nieuwe waarde geven:
 	income = income - 10
 	print income
 
-In feite verander je dus op regel 2 van dit voorbeeld het `income` door er 10 van af te trekken. Dat resultaat is dan ook zichtbaar als je het programma uitvoert.
+In feite verander je dus op regel 2 van dit voorbeeld `income` door er 10 van af te trekken. Dat resultaat is dan ook zichtbaar als je het programma uitvoert.
 
 ## Types
 
@@ -49,3 +49,5 @@ Je kunt waarden ook **converteren** van het ene naar het andere type. Gebruik bi
 | `print float('3.14159')` | `3.14159`                                                      |  
 | `print str(32)`          | `'32'`                                                         |  
 | `print str(3.14159)`     | `'3.14159'`                                                    |  
+
+Is het trouwens opgevallen dat kommagetallen op z'n Amerikaans worden geschreven? Met een punt dus! Dit is in vrijwel alle programmeertalen het geval.

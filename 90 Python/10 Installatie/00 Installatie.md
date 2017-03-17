@@ -1,6 +1,6 @@
 # Installeren
 
-Python is zelf een programma, en moet je dus installeren op je eigen computer. Hieronder vind je de instructies. Zit je vast? Stuur gerust een [mailtje](mailto:inleiding@mprog.nl) en we helpen je verder. Er is ook een [online versie van Python](/python/ide).
+Python is zelf een programma, en moet je dus installeren op je eigen computer. Hieronder vind je de instructies. Zit je vast? Stuur gerust een [mailtje](mailto:inleiding@mprog.nl) en we helpen je verder.
 
 ## Om te beginnen
 
@@ -26,4 +26,4 @@ De installatie kan een tijdje duren.
 
 ## Stap 2: Visual Studio Code
 
-Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualstudio.com/). Ook hier geldt dat je het bestand nog moet uitvoeren en installeren. Wederom hoef je niks aan te passen aan de installatie-opties.
+Dit pakket kun je downloaden op de website van [Microsoft](https://code.visualstudio.com/). Ook hier geldt dat je het bestand nog moet uitvoeren en installeren. Je hoeft niks aan te passen aan de installatie-opties. Heb je een Mac? Dan wordt het programma in je Downloads-map gezet. Je kunt het vanuit daar gewoon opstarten.

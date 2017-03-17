@@ -52,27 +52,31 @@ Natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieken i
     x_squared = [0,1,4,9,16,25]
 	x_cubed   = [0,1,8,27,64,125]
 	
-    # let op: grafiek met twee datasets!
+    # let op: grafiek met twee datasets: x_squared en x_cubed
 	plt.plot(x_values, x_squared, 'go', x_values, x_cubed, 'r-')
 	
-	plt.xlabel('de x-ax is klein')
+	# voeg labels toe aan de assen
+	plt.xlabel('de x-as is klein')
 	plt.ylabel('de y-as ix groot', fontsize = 25)
     
+	# voeg losse tekst toe in de grafiek
 	plt.text(1.00,100., "mijn eerste plotje", color = 'blue', fontsize = 20)
+	
+	# voeg losse tekst toe met LaTeX
 	plt.text(4.00,100., "$x^3$", color = 'red', fontsize = 20)
     
 	plt.show()
 
 ![](plotje2.png)
 
-> Tip: de formule $$x^3$$ kunnen we mooi afdrukken bij de grafiek omdat we in pyplot *LaTeX* mogen gebruiken. Helaas kan dat alleen in plotjes!
+> Tip: de formule $$x^3$$ kunnen we mooi afdrukken bij de grafiek. De formule `x^3` is geschreven in de taal $$\LaTeX$$. Helaas kan dat alleen in plotjes!
 
 ## Stap 3: hogeresolutie-grafieken
 
 In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes 
 zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen en in lijsten opslaan. Als we bijvoorbeeld de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
 
-    import numpy as np               # numpy mdule: nodig voor arange-functie
+    import numpy as np               # numpy module: nodig voor arange-functie
     import math                      # math module: nodig voor sin()-functie
     import matplotlib.pyplot as plt  # pyplot module: nodig voor plotten
 

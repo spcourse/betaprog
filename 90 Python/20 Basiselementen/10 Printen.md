@@ -18,7 +18,7 @@ Start nu het programma door in de Terminal in te geven:
 
 	python module1.py
 
-Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens. Zo'n reeks noemen we een **string**.
+Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens (enkele of dubbele). Zo'n reeks noemen we een **string**.
 
 We kunnen ook meerdere waarden op één regel printen. Standaard voegt het `print`-commando een **ENTER** toe aan de tekst, zodat de volgende `print` op een nieuwe regel doorgaat. Je kunt ook zorgen dat deze **ENTER** weggelaten wordt:
 

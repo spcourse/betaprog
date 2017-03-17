@@ -38,7 +38,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
 
-4. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
+4. <span class="label label-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
 
 #### Dag 4: grafieken
 

@@ -66,7 +66,7 @@ Dit stukje code rekent heel specifiek de som van de even getallen van 1 tot en m
            som = som + getal
 	print "de som van de even getallen van 1 tot en met 20 is %d" % (som)
 
-Stel dat we het programma nu gaan aanpassen om de even getallen van 1 tot en met 88 op te tellen, dan moeten we het programma op *twee* plekken aanpassen. Kopieer bovenstaande code maar eens en pas deze aan zodat deze tot 88 telt en zinvolle uitvoer geeft. Bij een klein stukje code gaat zo'n aanpassing nog wel, maar bij een groter probleem merk bepaalde informatie vaak in de code voorkomt en zorgvuldig aangepast moet worden. Grote kans op fouten!
+Stel dat we het programma nu gaan aanpassen om de even getallen van 1 tot en met 88 op te tellen, dan moeten we het programma op *twee* plekken aanpassen. Kopieer bovenstaande code maar eens en pas deze aan zodat deze tot 88 telt en zinvolle uitvoer geeft. Bij een klein stukje code gaat zo'n aanpassing nog wel, maar bij een groter probleem merk je dat bepaalde informatie vaak in de code voorkomt en zorgvuldig aangepast moet worden. Grote kans op fouten!
 
 Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code zo universeel mogelijk maakt. Het onderstaande stukje code rekent de som uit van de even getallen van 1 tot en met `max_getal`. Die variabele hoef je dus alleen in het begin van je code een waarde te geven (20, 138613 of in dit geval 88) en verder zie je dat getal nergens terug komen. De informatie wordt via de variabele `max_getal` doorgegeven naar alle plekken waar deze nodig is.
 

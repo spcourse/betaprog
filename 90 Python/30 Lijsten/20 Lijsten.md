@@ -4,7 +4,7 @@ Lijsten in Python zijn handig om data te groeperen en vervolgens als geheel te v
 
 Een lijstje met namen van docenten kun je zo bewaren:
 
-	docenten = ["Martijn", "Ivo", "David", "Florian", "Olmo", "Dominique", "Maarten"]
+	docenten = ["Martijn", "Ivo", "Jelle", "Maarten", "Huub", "Marianne"]
 
 Elk element in deze lijst is een *string*, maar zo'n lijst kan ook getallen of zelfs andere lijsten bevatten. Ook door elkaar heen. Elk element heeft een *positie*; daarmee kun je een element uit een lijst opvragen:
 
@@ -59,4 +59,5 @@ Naast het direct loopen over de elementen in een lijst kan het soms handig zijn 
 	metingen_science_park = [12.7, 18.8, 24.9, 14.5, 19.0]
     metingen_science_park.append(20.5)
     for positie in range(0, len(metingen_science_park)):
-	    print "de meting was %f graden" % metingen_science_park[positie]
+	    print positie, 
+	    print "de meting was", metingen_science_park[positie], "graden"

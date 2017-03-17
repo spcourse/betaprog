@@ -27,7 +27,7 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 * Ga er vanuit dat de gebruiker een getal als geheel getal (integer), of als kommagetal invult (nou ja, een puntgetal, want het werkt op z'n Amerikaans). Het getal achter de komma staat in dat laatste geval voor centen. Dus `3.21` betekent 3 dollar en 21 cent.
 
-* [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law), laat het de gebruiker dan opnieuw proberen.
+* [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law), zorg dan dat er opnieuw geprobeerd kan worden.
 
 ## Hints
 

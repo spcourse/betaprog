@@ -18,11 +18,17 @@ Schrijf in een nieuwe file genaamd `rekenwonder.py` een programma dat de gebruik
 
 * Dit programma voldoet aan het cliché van een standaard computerprogramma: het heeft *invoer*, *berekeningen*, en *uitvoer*. Probeer die drie onderdelen ook terug te laten komen in je code!
 
-* Maak gebruik van de `input`-functie. Deze functie wacht input tot de gebruiker van jouw programma iets invult en geeft het resultaat daarvan terug.
+* Gebruik `int()` om de invoer van de gebruiker om te zetten van een string naar een integer, zodat je de berekening kunt uitvoeren.
+
+* Maak gebruik van de `raw_input`-functie. Deze functie wacht input tot de gebruiker van jouw programma iets invult en geeft het resultaat daarvan terug.
 
 ## Testen
 
-Loop eerst je eigen programma na, werkt deze voor alle normale invoer? Vul bijvoorbeeld eens het voorbeeld hier bovenaan in. Lijkt alles te werken, dan is het tijd om `checkpy` erbij te pakken. Testen gaat net zo als bij `hello`, alleen roep je nu de test voor `rekenwonder` aan. Zo dus:
+Loop eerst je eigen programma na, werkt deze voor alle normale invoer? Start het met:
+
+	python rekenwonder.py
+
+Vul bijvoorbeeld eens het voorbeeld hier bovenaan in. Lijkt alles te werken, dan is het tijd om `checkpy` erbij te pakken. Testen gaat net zo als bij `hello`, alleen roep je nu de test voor `rekenwonder` aan. Zo dus:
 
 	checkpy rekenwonder
 

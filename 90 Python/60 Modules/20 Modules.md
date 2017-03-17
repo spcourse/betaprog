@@ -1,6 +1,6 @@
 # Functies uit modules
 
-Je hebt in de vorige opgaven al diverse ingebouwde opdrachten gezien die horen bij Python: `input` en `print` zijn twee voorbeelden. Er zijn nog heel veel andere *functies* bijgeleverd, maar die zijn niet standaard beschikbaar.
+Je hebt in de vorige opgaven al diverse ingebouwde opdrachten gezien die horen bij Python: `raw_input` en `print` zijn twee voorbeelden. Er zijn nog heel veel andere *functies* bijgeleverd, maar die zijn niet standaard beschikbaar.
 
 Voor het uitrekenen van de sinus van een getal is de functie `sin` beschikbaar. Maar als je nu meteen in Python `sin(1.0)` opvraagt, dan verschijnt er een foutmelding:
 

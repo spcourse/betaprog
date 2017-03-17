@@ -7,7 +7,8 @@ Om online te kunnen programmeren maken wij gebruik van een online integrated dev
 Om toegang te krijgen tot de ontwikkelomgeving vragen we je de volgende stappen af te werken:
 
 1. Registreer bij edX op [https://courses.edx.org/register](https://courses.edx.org/register). Je hoeft je niet aan te melden voor een cursus.
-2. Login met jouw net aangemaakte account op [https://cs50.io/](https://cs50.io/).
+2. Bevestig je account via de link in je e-mail.
+3. Login met jouw net aangemaakte account op [https://cs50.io/](https://cs50.io/).
 
 Na wat berichten over het opzetten van je workspace, zie je nu dit scherm in jouw browser:
 
@@ -21,7 +22,7 @@ Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan na
 
 Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**. 
 
-Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uitvoeren. Voer maar eens het volgende commando uit:
+Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uitvoeren. Tik maar eens het volgende commando in achter de `$`:
 
     ls
 

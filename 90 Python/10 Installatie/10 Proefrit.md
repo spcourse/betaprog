@@ -10,7 +10,7 @@ Klik linksboven op je beeldscherm (dus niet in het Visual Studio window) in de m
 
 ![visualnewfile](visualnewfile.png){:style="max-width:50%"}
 
-Maak via deze sidebar een nieuw bestand aan met de knop ![](visualnewfilebutton.png). Je kunt dan meteen de naam van het bestand ingeven. Noem het bestand `hello.py` (vergeet niet om heel precies `.py` aan het einde van de naam te zetten!).
+Maak via deze sidebar een nieuw bestand aan met de knop ![](visualnewfilebutton.png). Je kunt dan meteen de naam van het bestand ingeven. Noem het bestand `hello.py` (vergeet niet om heel precies `.py` aan het einde van de naam te zetten!). Druk op **ENTER** om de naam te bevestigen.
 
 Krijg je de volgende melding? Klik dan op **Don't show again**. We hebben de extra hulp niet nodig tijdens deze cursus.
 

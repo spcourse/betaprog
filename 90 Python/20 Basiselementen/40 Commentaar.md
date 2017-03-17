@@ -18,4 +18,4 @@ Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een
 	# M. Stegeman
 	# 24-8-2016
 
-Voeg nu commentaar toe aan je bestand om duidelijk te maken wat de verschillende onderdelen doen. Maak bijvoorbeeld duidelijk welke de verschillende oefeningen zijn die je eerder hebt overgenomen.
+Voeg nu commentaar toe aan je bestand. Maak steeds met een regeltje commentaar duidelijk wat de verschillende onderdelen van je bestand doen.

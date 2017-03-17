@@ -1,28 +1,28 @@
-# Pyramide
+# Piramide
 
 Implementeer een programma dat een halve piramide uitprint van een door de gebruiker gegeven hoogte.
 
-	Hoe hoog moet de pyramide zijn? 5
+	Hoe hoog moet de piramide zijn? 5
 	        # #
 	      # # #
 	    # # # #
 	  # # # # #
 	# # # # # #
 
-	Hoe hoog moet de pyramide zijn? 3
+	Hoe hoog moet de piramide zijn? 3
 	    # #
 	  # # #
 	# # # #
 
 ## Het idee
 
-Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyramide van blokken beklimmen voordat hij mag springen naar een vlaggenpost. Dit ziet er zo uit:
+Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve piramide van blokken beklimmen voordat hij mag springen naar een vlaggenpost. Dit ziet er zo uit:
 
 ![](mario.png)
 
 ## Specificatie
 
-* Schrijf in een bestand genaamd `pyramide.py` een programma dat de halve pyramide van Mario nabouwt door middel van hekjes (`#`) en spaties.
+* Schrijf in een bestand genaamd `piramide.py` een programma dat de halve piramide van Mario nabouwt door middel van hekjes (`#`) en spaties.
 
 * Vraag, om het wat interessanter te maken, eerst aan de gebruiker de gewenste **hoogte** van de halve piramide. Dit moet een positief getal zijn, niet groter dan 23.
 
@@ -30,9 +30,9 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 * Je mag wél aannemen dat de gebruiker braaf gehele getallen (integers) invult. We houden dus geen rekening met bijvoorbeeld kommagetallen.
 
-* Als de hoogte bekend is, genereer dan met behulp van `print` en één of meer loops de halve pyramide.
+* Als de hoogte bekend is, genereer dan met behulp van `print` en één of meer loops de halve piramide.
 
-* Let goed op dat er geen spatie staat tussen de linker onderhoek van je pyramide en de linkerrand van je scherm!
+* Let goed op dat er geen spatie staat tussen de linker onderhoek van je piramide en de linkerrand van je scherm!
 
 ## Tips
 
@@ -54,10 +54,12 @@ Is bovenstaande een beetje teveel om in één keer te maken? Doe het dan in stap
 
 5. Zorg dan dat je een vierkant kunt printen: meerdere (`hoogte`) hekjes op een regel, en meerdere (`hoogte`) van zulke regels.
 
-6. Nu is het tijd om de pyramide af te maken!
+7. Maak nu een halve piramide door op elke regel het juiste aantal hekjes te printen.
+
+6. Nu is het tijd om de uitvoer tot in de puntjes gelijk te maken aan de voorbeelden!
 
 ## Testen
 
 Loop weer eerst je eigen programma na. Wat gebeurt er als je 0 voor hoogte invult? Kan je programma alle foute input afhandelen? Test dan je programma door middel van checkpy met:
 
-	checkpy pyramide
+	checkpy piramide

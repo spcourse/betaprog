@@ -8,9 +8,9 @@ Schrijf een programma dat de volgende grafiek laat zien en dat bovendien het "mi
 
 * Maak een file `plot.py` en schrijf daarin een programma dat de grafiek van de functie $$f(x) = x^x$$ tussen x = 0 en x = 1.5 in stapjes van 0.01 plot. Gebruik hiervoor een blauwe lijn.
 
-* Zorg dat het minimum in de grafiek wordt aangegeven door middel van een rode stip.
+* Zorg dat het minimum in de grafiek wordt aangegeven door middel van een rode stip en een tekstje.
 
-* Gebruik `print` om het minimum ook als tekst te printen.
+* Gebruik `print` om het minimum ook nog als tekst naar de terminal te printen.
 
 ## Hints
 
@@ -29,6 +29,8 @@ Schrijf een programma dat de volgende grafiek laat zien en dat bovendien het "mi
 		import matplotlib
 		matplotlib.use('Agg')
 		import matplotlib.pyplot as plt
+
+* Vergeet trouwens niet dat `^` in Python zelf géén machtsverheffen is. Je moet voor het berekenen van een macht de operator `**` gebruiken.
 
 ## Testen
 
