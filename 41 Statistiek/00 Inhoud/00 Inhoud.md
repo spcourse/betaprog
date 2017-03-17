@@ -17,7 +17,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 
 - **Dag 1** De normaalverdeling en steekproeven
 
-	<span class="label label-primary">Opdracht</span> bestuderen van de [lengte](/statistiek/normaalverdeling) Deense vrouwen
+	<span class="label label-primary">Opdracht</span> bestudeer de [lengte](/statistiek/normaalverdeling) van Deense vrouwen
 
 - **Dag 2** Model fitten aan de data (zelf)
 
@@ -27,8 +27,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 
 	<span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten
 	
-	<span class="label label-primary">Opdracht</span> Breid je voor op leven als [quant](/statistiek/quant) in the City
+	<span class="label label-primary">Opdracht</span> Breid je voor op leven als [Quant](/statistiek/quant) in the City. Bankieren
 	
 - **Dag 4** Hypotheses testen
 
-	<span class="label label-primary">Opdracht</span> Genereer nep-data sets en leer [hypotheses](/statistiek/hypothesetesten) testen
+	<span class="label label-primary">Opdracht</span> Genereer fictieve data-sets en leer [hypotheses testen](/statistiek/hypothesetesten)
