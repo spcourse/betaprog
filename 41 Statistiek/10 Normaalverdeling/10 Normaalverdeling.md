@@ -80,20 +80,3 @@ dit percentage lange vrouwen met 2 decimalen nauwkeurigheid.
 
 {: .language-python}
     Het percentage lange vrouwen (langer dan 184 cm) is X.XX procent
-
-## Opdracht 2: hoe representatief is een steekproef
-
-In de echte wereld kunnen we vaak helaas niet alles weten. We kunnen niet van elke vrouw in Nederland 
-precies achterhalen hoe lang ze is, net zoals Maurice de Hond niet van elke Nederlander weet 
-op welke politieke partij hij of zij zal stemmen. We kunnen wel met behulp van steekproeven 
-proberen een idee te krijgen van de hele populatie: we bepalen de lengtes van een groep 
-vrouwen of de politieke voorkeuren van een groep Nederlanders en maken daarmee een schatting 
-van de eigenschappen van de volledige populatie. 
-
-We gaan in deze opdracht onderzoeken hoeveel nauwkeuriger de schatting van het 'echte' gemiddelde 
-is bij een toenemend aantal mensen in de steekproef door met behulp van de computer nep-steekproeven 
-te nemen. We selecteren dus random waardes uit de oorspronkelijke 'echte' distributie. Door van 
-elk van deze steekproeven de gemiddelde lengte te bekijken kunnen we bekijken hoe vaak zo'n 
-steekproef in de buurt zit van de echte waarde en hoe dit percentage afhangt van het aantal mensen 
-in de steekproef zelf.
-
