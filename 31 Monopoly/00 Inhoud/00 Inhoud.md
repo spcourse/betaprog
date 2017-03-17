@@ -8,7 +8,7 @@ In deze module gaan we het spel Monopoly simuleren. Met de hand is dit ondoenlij
 
 #### Dag 3: Startgeld
 
-1. <span class="label label-primary">Opdracht</span> Effect van [startgeld](/monopoly/startgeld) in het spel
+1. <span class="label label-primary">Opdracht</span> Effect van een eindige hoeveelheid [startgeld](/monopoly/startgeld) in het spel
 
 #### Dag 4: Tweede speler toevoegen en zoeken naar evenwicht
 
