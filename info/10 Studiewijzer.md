@@ -31,13 +31,13 @@ Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmee
 
 De cursus bestaat uit vier modules, waarin je steeds meer leert over programmeren. Je kunt voor elke module kiezen uit opgaven rondom verschillende wetenschapsgebieden (zorg dat je voor elke module één van de opties doorlopen hebt!).
 
-De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan de slag door bij elke module één van de opties te kiezen. Wil je meer weten over de cursus? Ga naar "meer info".
+De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan de slag door bij elke module één van de opties te kiezen. Wil je meer weten over de cursus? Ga naar "meer info" hierboven.
 
 <p style="margin-top:1.5em;"></p>
 
 ####  Module 1
 
-- optie: &nbsp; pyramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
+- optie: &nbsp; piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
 
 - optie: &nbsp; duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
 
