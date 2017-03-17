@@ -35,11 +35,11 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 <p style="margin-top:1.5em;"></p>
 
-####  Module 1
+**Module 1**, kies uit:
 
-- optie: &nbsp; piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
+- piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
 
-- optie: &nbsp; duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
+- duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
 
 ####  Module 2
 
