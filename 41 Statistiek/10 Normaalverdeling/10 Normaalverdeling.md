@@ -1,4 +1,4 @@
-10 Normaalverdeling.md# Statistiek #
+# Statistiek #
 
 Als er een onderdeel is dat studenten van verschillende opleidingen verbindt is het wel de 
 vrees voor (het gebrek aan kennis over) statistiek. En toch is het in elke wetenschappelijke 
