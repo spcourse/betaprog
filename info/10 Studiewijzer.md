@@ -27,9 +27,11 @@ ul.nav
 
 ![Python](python-logo.png){:.inline}  
 
-Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen. De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren!
+Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen.
 
-De cursus bestaat uit vier modules, waarin je steeds meer leert over programmeren. Je kunt voor elke module kiezen uit opgaven rondom verschillende wetenschapsgebieden (zorg dat je voor elke module één van de opties doorlopen hebt!).
+De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren! Trouwens: het is ook heel leuk om de cursus met z'n tweeën te doen, dan kun je discussiëren over hoe je de problemen aanpakt.
+
+De cursus bestaat uit vier modules, waarin je steeds meer leert over programmeren, maar vooral hoe je complexe problemen gestructureerd kunt aanpakken. Je kunt voor elke module kiezen uit opgaven rondom verschillende wetenschapsgebieden (zorg dat je voor elke module één van de opties doorlopen hebt!).
 
 De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan de slag door bij elke module één van de opties te kiezen. Wil je meer weten over de cursus? Ga naar "meer info" hierboven.
 
