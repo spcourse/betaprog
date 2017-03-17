@@ -43,9 +43,9 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 ####  Module 2
 
-- optie:  &nbsp; bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
+optie:  &nbsp; bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
 
-- optie:  &nbsp; ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
+optie:  &nbsp; ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
 ####  Module 3
 
