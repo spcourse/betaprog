@@ -25,7 +25,7 @@ ul.nav
 <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="modules">
 
-![Python](soc.png){:.inline}{:style="max-width:25%"}  
+![Python](soc.png){:.inline}{:style="max-width:30%"}  
 
 Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit verschillende vakgebieden op te lossen.
 
