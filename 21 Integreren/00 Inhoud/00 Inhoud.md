@@ -32,8 +32,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.
 
 #### Dag 3: Riemann
 
-<span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
+1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
 #### Dag 4: Monte Carlo
 
-<span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode

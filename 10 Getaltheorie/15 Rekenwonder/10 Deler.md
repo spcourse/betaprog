@@ -24,7 +24,7 @@ Schrijf in een nieuwe file genaamd `rekenwonder.py` een programma dat de gebruik
 
 ## Testen
 
-Loop eerst je eigen programma na, werkt deze voor alle normale invoer? Start het met:
+Loop eerst je eigen programma na: werkt dit voor alle normale invoer? Start het programma door het volgende in te tikken in de terminal:
 
 	python rekenwonder.py
 

@@ -1,12 +1,15 @@
 # Plot
 
-Schrijf een programma dat de volgende grafiek laat zien en dat bovendien het "minimum" print.
+Schrijf een programma dat de volgende grafiek laat zien en dat bovendien de coördinaten van het "minimum" print.
+
+	# python plot.py
+	(0.37, 0.69)
 
 ![](plotje4.png)
 
 ## Specificatie
 
-* Maak een file `plot.py` en schrijf daarin een programma dat de grafiek van de functie $$f(x) = x^x$$ tussen x = 0 en x = 1.5 in stapjes van 0.01 plot. Gebruik hiervoor een blauwe lijn.
+* Maak een file `plot.py` en schrijf daarin een programma dat de grafiek van de functie $$f(x) = x^x$$ tussen $$x=0$$ en $$x=1.5$$ in stapjes van $$0.01$$ plot. Gebruik hiervoor een blauwe lijn.
 
 * Zorg dat het minimum in de grafiek wordt aangegeven door middel van een rode stip en een tekstje.
 
