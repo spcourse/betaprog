@@ -1,9 +1,6 @@
 # Plot
 
-Schrijf een programma dat de volgende grafiek laat zien en dat bovendien de coördinaten van het "minimum" print.
-
-	# python plot.py
-	(0.37, 0.69)
+Schrijf een programma dat de volgende grafiek laat zien.
 
 ![](plotje4.png)
 
