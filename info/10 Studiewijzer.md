@@ -93,7 +93,7 @@ Kijk eens naar [deze lijst met Python-resources](https://ocw.mit.edu/courses/ele
 
 **Mag ik de cursus hergebruiken voor mijn eigen lessen?**
 
-Ja! Dat is dus precies de bedoeling! Alle bronteksten en andere materialen staan op <https://github.com/uva/betaprog>.
+Ja! Dat is dus precies de bedoeling! Alle bronteksten en andere materialen staan op <https://github.com/uva/betaprog>. Hou ook deze pagina in de gaten: we zullen nog een docentenhandleiding publiceren.
 
 
 </div>
