@@ -138,6 +138,7 @@ Deze cursus is gemaakt door Martijn Stegeman en Ivo van Vulpen (opdrachten en on
 - Marianne de Heer Kloots (revisie en testen)  
 - Maarten Inja (DNA-opdracht)  
 - Huub Rutjes (films)
+- Luca Verhees (artwork semester of code)
 
 Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commons-bronnen:
 
