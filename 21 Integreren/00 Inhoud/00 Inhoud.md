@@ -37,3 +37,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.
 #### Dag 4: Monte Carlo
 
 2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+
+#### Evaluatie
+
+Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
+
+

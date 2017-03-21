@@ -46,3 +46,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 3. Zoek op hoe je data kunt [plotten](/python/plot)
 
 4. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
+
+#### Evaluatie
+
+Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+
+

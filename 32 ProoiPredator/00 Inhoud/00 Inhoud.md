@@ -23,3 +23,7 @@ In deze module gaan we de populatiedynamica van 25 konijnen en 2 vossen die in e
 #### Dag 4: De konijnen planten zich voort - wie wint er
 
 1. <span class="label label-primary">Opdracht</span> Laat de konijnen zich ook voortplanten en zoek uit of de konijnen of de vossen [winnen](/prooipredator/konijnenreproduceren)
+
+#### Evaluatie
+
+Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.

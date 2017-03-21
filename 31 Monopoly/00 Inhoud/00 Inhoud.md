@@ -13,3 +13,7 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 #### Dag 4: Tweede speler toevoegen en zoeken naar evenwicht
 
 1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/tweespelers)
+
+#### Evaluatie
+
+Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.

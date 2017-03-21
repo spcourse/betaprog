@@ -27,3 +27,7 @@ In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunne
 #### Dag 4: Angry birds
 
 1. <span class="label label-primary">Opdracht</span> Besef hoe makkelijk je miljonair had kunnen worden door [Angrybirds](/beweging/angrybirds) zelf te programmeren
+
+#### Evaluatie
+
+Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/bMEPwmQeLxMZ13qE2){:target="_blank"} in.

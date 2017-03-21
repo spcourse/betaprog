@@ -34,3 +34,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 #### Dag 4: Hypotheses testen
 
 1.	<span class="label label-primary">Opdracht</span> Genereer fictieve data-sets en leer [hypotheses testen](/statistiek/hypothesetesten)
+
+#### Evaluatie
+
+Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/XP9ccEjH8A3V7q4O2){:target="_blank"} in.
