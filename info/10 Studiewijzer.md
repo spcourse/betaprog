@@ -95,6 +95,10 @@ Kijk eens naar [deze lijst met Python-resources](https://ocw.mit.edu/courses/ele
 
 Ja! Dat is dus precies de bedoeling! Alle bronteksten en andere materialen staan op <https://github.com/uva/betaprog>. Hou ook deze pagina in de gaten: we zullen nog een docentenhandleiding publiceren.
 
+**Kan ik een opdracht bijdragen aan de cursus?**
+
+Heel graag! Neem zeker contact op met de auteurs via <mailto:inleiding@mprog.nl> :-)
+
 
 </div>
 
@@ -132,7 +136,7 @@ Deze dingen kun je alleen maar leren door veel te oefenen met programmeren. Daar
 
 ## Colofon
 
-Deze cursus is gemaakt door Martijn Stegeman en Ivo van Vulpen (opdrachten en ontwerp). We hebben veel hulp gehad van studenten en assistenten die de cursus hebben uitgeprobeerd of eigen ideeën bijgedragen. Speciale dank gaat naar:
+Deze cursus is gemaakt door Martijn Stegeman (<mailto:martijn@stgm.nl>) en Ivo van Vulpen (<mailto:ivo.van.vulpen@nikhef.nl>) (opdrachten en ontwerp). We hebben veel hulp gehad van studenten en assistenten die de cursus hebben uitgeprobeerd of eigen ideeën bijgedragen. Speciale dank gaat naar:
 
 - Jelle van Assema (opdrachten en checkpy)  
 - Marianne de Heer Kloots (revisie en testen)  
