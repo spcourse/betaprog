@@ -103,7 +103,7 @@ Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen 
 
 ## Aanmelden
 
-[Vul dit formulier in](https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform) om je aan te melden. We nemen daarna contact op om de officiële inschrijving te regelen:
+[Vul dit formulier in](https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform){:target="_blank"} om je aan te melden. We nemen daarna contact op om de officiële inschrijving te regelen:
 
 - UvA-studenten kunnen de cursus volgen als vak voor 3 studiepunten (AVV/NAV)
 - Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA

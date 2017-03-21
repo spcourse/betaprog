@@ -30,13 +30,13 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.
 
 3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
-#### Dag 3: Riemann
-
-1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
-
-#### Dag 4: Monte Carlo
+#### Dag 3: Monte Carlo
 
 2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+
+#### Dag 4: Riemann
+
+1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
 #### Evaluatie
 
