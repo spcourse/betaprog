@@ -61,7 +61,7 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 - <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/bigdata/inhoud)
 
-- <strong>optie</strong>: conclusies trekken met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
+- <strong>optie</strong>: trek harde en minder harde conclusies met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
 
 </div>
 
