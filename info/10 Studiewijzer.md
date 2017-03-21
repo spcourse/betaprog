@@ -128,11 +128,12 @@ Deze dingen kun je alleen maar leren door veel te oefenen met programmeren. Daar
 
 ## Colofon
 
-Martijn Stegeman (opdrachten en ontwerp)  
-Ivo van Vulpen (opdrachten en ontwerp)  
-Jelle van Assema (opdrachten en ontwerp)  
-Maarten Inja (DNA-opdracht)  
-Huub Rutjes (films)
+Deze cursus is gemaakt door Martijn Stegeman en Ivo van Vulpen (opdrachten en ontwerp). We hebben veel hulp gehad van studenten en assistenten die de cursus uitgeprobeerd hebben of eigen ideeën bijgedragen. Speciale dank gaat naar:
+
+- Jelle van Assema (opdrachten en checkpy)  
+- Marianne de Heer Kloots (revisie en testen)  
+- Maarten Inja (DNA-opdracht)  
+- Huub Rutjes (films)
 
 Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commons-bronnen:
 
@@ -142,7 +143,7 @@ Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commo
 - 6.0001 Introduction to Computer Science and Programming in Python van Ana Bell, Eric Grimson en John Guttag <http://ocw.mit.edu>
 - Think Python van Allen B. Downey <http://greenteapress.com/wp/think-python/>
 
-Deze cursus is zelf ook gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden; zie de link onderaan de pagina.
+Voor alle materialen op deze website berust het auteursrecht bij Martijn Stegeman en Ivo van Vulpen. De cursus is in huidige vorm gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden; zie de link onderaan de pagina.
 
 </div>
 
