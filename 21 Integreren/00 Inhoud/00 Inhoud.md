@@ -14,7 +14,7 @@ div.embed
 In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
 met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
 
-Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.fnwi.uva.nl/a.l.watts/) is assistant professor in de astrofysica bij de UvA en vertelt over haar ervaring met programmeren bij het onderzoek.
+Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.fnwi.uva.nl/a.l.watts/) is associate professor in de astrofysica bij de UvA en vertelt over haar ervaring met programmeren bij het onderzoek.
 
 #### Dag 1: nulpunten
 
