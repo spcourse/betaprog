@@ -140,7 +140,7 @@ Deze cursus is gemaakt door Martijn Stegeman en Ivo van Vulpen (opdrachten en on
 - Huub Rutjes (films)
 - Luca Verhees (artwork semester of code)
 
-Materiaal in deze cursus is gedeeltelijk ontleend uit de volgende creative commons-bronnen:
+Materiaal in deze cursus is gedeeltelijk ontleend aan de volgende creative commons-bronnen:
 
 - 6.189 A Gentle Introduction to Programming Using Python van Sarina Canelake <http://ocw.mit.edu>
 - 6.00 Introduction to Computer Science and Programming, Fall 2008 van Eric Grimson en John Guttag <http://ocw.mit.edu>
