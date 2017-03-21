@@ -9,7 +9,7 @@ ul.nav
 }
 </style>
 
-# Inleiding Wetenschappelijk Programmeren<br><small>Versie 1.0</small>
+# Inleiding Wetenschappelijk Programmeren<br><small>Universiteit van Amsterdam / FNWI / Versie 1.0</small>
 
 <div>
 
