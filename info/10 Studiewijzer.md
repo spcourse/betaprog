@@ -91,6 +91,9 @@ Zeker! Voel je vrij om de cursus online te doen. Wil je graag hulp hebben met pr
 
 Kijk eens naar [deze lijst met Python-resources](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/assignments/MIT6_0001F16_additional.pdf) bij MIT!
 
+**Mag ik de cursus hergebruiken voor mijn eigen lessen?**
+
+Ja! Dat is dus precies de bedoeling! Alle bronteksten en andere materialen staan op <https://github.com/uva/betaprog>.
 
 
 </div>
@@ -103,13 +106,14 @@ Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen 
 
 ## Aanmelden
 
-[Vul dit formulier in](https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform){:target="_blank"} om je aan te melden. We nemen daarna contact op om de officiële inschrijving te regelen:
+Het is niet verplicht om je aan te melden als je de cursus wil bekijken, hergebruiken of gewoon volgen. We vragen je om dit toch te doen, zodat we een beeld hebben van de geïnteresseerden: 
+[**vul dit formulier in**](https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform){:target="_blank"}.
 
-- UvA-studenten kunnen de cursus volgen als vak voor 3 studiepunten (AVV/NAV)
-- Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA
+We bieden de cursus ook aan als UvA-vak, zodat je bij ons hulp kunt krijgen en een certificaat of studiepunten ontvangen. Wil je dat? Vul dan ook bovenstaand formulier in. We helpen je vervolgens met de officiële inschrijving:
+
+- UvA-studenten kunnen de cursus volgen als normaal vak voor 3 studiepunten (AVV/NAV)
+- Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA (we regelen dit voor je)
 - Anderen kunnen de cursus volgen voor €300 (semester 2 2017)
-
-Bij een officiële inschrijving is het mogelijk om begeleiding te krijgen (zie onder) en na halen van het tentamen een certificaat of studiepunten te ontvangen. Het is natuurlijk ook mogelijk om niet in te schrijven maar de cursus te gebruiken en de opdrachten te doen! Meld je dan alsjeblieft alsnog aan via het formulier.
 
 ## Tentamen
 
@@ -128,7 +132,7 @@ Deze dingen kun je alleen maar leren door veel te oefenen met programmeren. Daar
 
 ## Colofon
 
-Deze cursus is gemaakt door Martijn Stegeman en Ivo van Vulpen (opdrachten en ontwerp). We hebben veel hulp gehad van studenten en assistenten die de cursus uitgeprobeerd hebben of eigen ideeën bijgedragen. Speciale dank gaat naar:
+Deze cursus is gemaakt door Martijn Stegeman en Ivo van Vulpen (opdrachten en ontwerp). We hebben veel hulp gehad van studenten en assistenten die de cursus hebben uitgeprobeerd of eigen ideeën bijgedragen. Speciale dank gaat naar:
 
 - Jelle van Assema (opdrachten en checkpy)  
 - Marianne de Heer Kloots (revisie en testen)  
