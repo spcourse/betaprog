@@ -11,8 +11,7 @@ div.embed
 ![embed](https://www.youtube.com/embed/qjkDktQJXSQ)
 </div>
 
-In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
-met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
+In deze module gaan we werken met *strings*. Bij het programmeren is een string een reeks tekens uit een alfabet. Dit heeft een mooie analogie in het werken met DNA, dat door biologen vaak beschreven wordt als reeksen tekens uit een alfabet van vier letters.
 
 Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
