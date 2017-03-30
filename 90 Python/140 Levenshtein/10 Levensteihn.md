@@ -24,16 +24,9 @@ toevoegen.
 
 ---
 
-We gaan een functie schrijven om de Levenshteinafstand te berekenen:
-`Levenshteinafstand(a, b)`. Net als bij de fuzzy matching, delen we het
-probleem op in kleinere stukken.
-
 De afstand om van een lege string tot een een willekeurige string te komen is
-simpelweg de lengte van de string. Dus
-
-	Levenshteinafstand("", "pindakaas")
-
-geeft 9, want je moet vier keer een letter toevoegen om de lege string naar het
+simpelweg de lengte van de string. Dus de Levenshtein afstand van `""` tot `"pindakaas"` is 9,
+ want je moet vier keer een letter toevoegen om de lege string naar het
 woord "pindakaas" om te zetten.
 
 Laten we vervolgens uitzoeken wat het verschil is tussen twee woorden,
@@ -172,5 +165,4 @@ En helemaal op het einde:
 | u | 5 | 4 | 5 | 6 | 5 | 4 | 5 |
 | r | 6 | 5 | 6 | 7 | 6 | 5 | 4 |
 
-De goedkoopste manier om van mineur naar majeur te komen is vier en dat lees je
-af rechts onderin.
+De goedkoopste manier om van mineur naar majeur te komen is vier en dat lees je rechts onderin af.

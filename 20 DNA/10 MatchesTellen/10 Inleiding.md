@@ -1,4 +1,4 @@
-# Module 2: DNA-matching
+# DNA-matching
 
 Een bekend probleem in biologie is het begrijpen van de structuur van
 DNA-moleculen en de rol die specifieke patronen in die structuur spelen. De

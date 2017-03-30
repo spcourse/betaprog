@@ -13,41 +13,34 @@ div.embed
 
 In deze module gaan we werken met *strings*. Bij het programmeren is een string een reeks tekens uit een alfabet. Dit heeft een mooie analogie in het werken met DNA, dat door biologen vaak beschreven wordt als reeksen tekens uit een alfabet van vier letters.
 
-Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
+Kijk om te beginnen eens naar het filmpje hiernaast.
 
-#### Dag 1: aan de slag
+#### Dag 1: vind en tel matches
 
-1. Zorg dat je [Python](/python/installatie) tot je beschikking hebt.
+1. Leer over [functies](/python/functies) in Python
 
-2. En dan meteen aan de slag met de [basiselementen](/python/basiselementen) van Python!
+2. Ga verder dan enkel getallen, en leer over [strings](/python/strings)
 
-3. <span class="label label-primary">Opdracht</span> Bereken automatisch de [som](/getaltheorie/som) van een groot aantal getallen.
+3. Verdiep je in de [find](/python/find) functie.
 
-#### Dag 2: priemgetallen
+4. <span class="label label-primary">Opdracht</span> Tel hoe vaak een stukje DNA matched in [matches tellen](/DNA/MatchesTellen).
 
-1. Leer meer over [algoritmen](/python/algoritmen).
+5. <span class="label label-primary">Opdracht</span> Vind alle plekken waar een stukje DNA matched in [matches vinden](/DNA/MatchesVinden).
 
-2. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven.
+#### Dag 2: fuzzy matches
 
-3. <span class="label label-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen).
+1. <span class="label label-primary">Opdracht</span> Splits een DNA streng op alle mogelijke manieren in [splitsen](/DNA/Splitsen).
 
-#### Dag 3: het vermoeden van Goldbach
+2. <span class="label label-primary">Opdracht</span> Vind alle fuzzy matches binnen een stuk DNA in [fuzzy matches](/DNA/Fuzzy).
 
-1. Sla je data op in een [lijst](/python/lijsten).
+#### Dag 3 & 4: Levenshtein
 
-2. <span class="label label-primary">Opdracht</span> Vind een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach).
+1. Open een nieuwe dimensie, en leer meer over [2 dimensionale lijsten](/python/2Dlijsten).
 
-#### Dag 4: grafieken
+2. Leer over de [Levenshtein afstand](/python/levenshtein).
 
-1. Leer over het gebruiken van [modules](/python/modules) in Python.
-
-2. Zoek op hoe je data kunt [plotten](/python/plot).
-
-3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken).
-
+3. <span class="label label-primary">Opdracht</span> Duik diep in de algoritmes, en vind uit hoe veel DNA op elkaar lijkt met [Levenshtein](/DNA/Levenshtein).
 
 #### Evaluatie
 
 Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
-
-

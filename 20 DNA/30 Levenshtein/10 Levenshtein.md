@@ -1,9 +1,20 @@
-# opdracht 5: `Levenshtein_distance`
+# Levenshtein
 
-Maak een nieuw bestand met de naam `levenshtein.py` met daarin een functie
-`levenshtein_distance()` die twee strings als invoer krijgt en de
-Levenshteinafstand berekent en teruggeeft. Er zijn een paar stappen om zover te
-komen.
+Maak een nieuw bestand aan genaamd `levenshtein.py`.
+Maak een functie `levenshtein_distance()` die twee strings als invoer krijgt en de
+Levenshteinafstand berekent en teruggeeft.
+
+	>> levenshtein_distance("majeur", "mineur")
+	4
+
+## Specificatie
+
+Schrijf zelf een functie `levenshtein_distance` die twee strings als argumenten accepteert. 
+Vervolgens de levenshtein afstand tussen de strings uitrekent, en deze afstand `return`-ed.
+
+## Hints
+
+Er zijn een paar stappen om zover te komen.
 
 1. Zorg eerst dat de invoer-strings klaar zijn om het algoritme mee uit te
 voeren. Om ze mooi op de tabel te laten passen, is het handig om een spatie aan
@@ -27,7 +38,7 @@ van invoerwoord `a` en `m` als lengte voor invoerwoord `b`. De formule is dan:
 kunt hiervoor een dubbele `for`-loop gebruiken. De eerste telt de kolommen, de
 tweede telt de rijen. Dit levert je een stel coördinaten op die door de hele
 tabel heenlopen. Vervolgens moet je de drie waardes berekenen zoals eerder
-omschreven. De kleinste van de waardes die je berekent zet je steeds in de tabel.
+omschreven in de Levenshtein uitleg. De kleinste van de waardes die je berekent zet je steeds in de tabel.
 
 	    Voor de duidelijkheid:
 
@@ -37,4 +48,6 @@ omschreven. De kleinste van de waardes die je berekent zet je steeds in de tabel
 
 5. Uiteindelijk return je dan de waarde van de tabel die rechts onderin staat.
 
-Je kunt deze functie testen met `checkpy Levenshtein.py`.
+## Testen
+
+	checkpy levenshtein
