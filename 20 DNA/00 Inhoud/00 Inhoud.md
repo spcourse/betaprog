@@ -21,6 +21,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.u
 
 2. Verdiep je in het manipuleren van [strings](/python/strings)
 
+3. <span class="label label-primary">Opdracht</span> Bepaal de [initialen](/dna/initials) van elke willekeurige naam.
+
 #### Dag 2: een precieze match
 
 3. <span class="label label-primary">Opdracht</span> Tel hoe vaak een stukje DNA precies [matcht](/dna/matches-tellen).
