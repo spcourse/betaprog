@@ -2,8 +2,6 @@
 
 Schrijf een functie die middels de Riemannsom de integraal berekent van een willekeurige wiskundige functie.
 
-	voorbeelduitvoer
-
 ## Achtergrond
 
 Een van de manieren om een integraal te evalueren is door het te schrijven als de som van kleine rechthoekjes, de Riemannsom.
