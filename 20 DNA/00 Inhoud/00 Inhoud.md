@@ -29,7 +29,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.u
 
 #### Dag 3: kleine afwijkingen
 
-1. <span class="label label-primary">Opdracht</span> [Splits](/dna/splitsen) een stuk DNA op alle mogelijke manieren.
+1. Lees over [/dna/fuzzy-matching](fuzzy matching), waarmee ook bij kleine verschillen matches tussen strings gevonden kunnen worden.
+
+2. <span class="label label-primary">Opdracht</span> [Splits](/dna/splitsen) een stuk DNA op alle mogelijke manieren.
 
 #### Dag 4: fuzzy matches
 
@@ -41,7 +43,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.u
 
 2. Leer over de [Levenshtein-afstand](/python/levenshtein).
 
-3. <span class="label label-primary">Opdracht</span> Duik diep in de wereld van algoritmes, en vind uit hoe veel DNA op elkaar lijkt met [Levenshtein](/dna/levenshtein).
+3. Duik diep in de wereld van algoritmes, en vind uit hoe veel DNA op elkaar lijkt met [Levenshtein](/dna/levenshtein-afstand).
+
+4. <span class="label label-primary">Opdracht</span> Implementeer je eigen algoritme voor [Levenshtein](/dna/levenshtein).
 
 #### Evaluatie
 
