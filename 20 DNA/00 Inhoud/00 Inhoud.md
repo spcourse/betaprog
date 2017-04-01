@@ -29,7 +29,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.u
 
 #### Dag 3: kleine afwijkingen
 
-1. Lees over [/dna/fuzzy-matching](fuzzy matching), waarmee ook bij kleine verschillen matches tussen strings gevonden kunnen worden.
+1. Lees over [fuzzy matching](/dna/fuzzy-matching), waarmee ook bij kleine verschillen matches tussen strings gevonden kunnen worden.
 
 2. <span class="label label-primary">Opdracht</span> [Splits](/dna/splitsen) een stuk DNA op alle mogelijke manieren.
 
