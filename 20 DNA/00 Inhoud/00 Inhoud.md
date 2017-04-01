@@ -41,7 +41,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.u
 
 1. Open een nieuwe dimensie, en leer meer over [2 dimensionale lijsten](/python/2dlijsten).
 
-2. Leer over de [Levenshtein-afstand](/python/levenshtein).
+2. Leer over de [Levenshtein-afstand](/dna/levenshtein).
 
 3. Duik diep in de wereld van algoritmes, en vind uit hoe veel DNA op elkaar lijkt met [Levenshtein](/dna/levenshtein-afstand).
 
