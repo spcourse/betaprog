@@ -1,9 +1,6 @@
 # Naalden splitsen
 
-Maak een bestand aan genaamd `fuzzymatches.py`.
-
-Maak een functie `split_needle` die, gegeven een string, alle mogelijke
-substrings genereert met één missend karakter.
+Schrijf een functie die, gegeven een string, alle mogelijke substrings met één missend karakter  genereert.
 
     >>> result = split_needle("abcd"):
     >>> print result
@@ -12,6 +9,8 @@ substrings genereert met één missend karakter.
     [('', 'bcde'), ('a', 'cde'), ('ab', 'de'), ('abc', 'e'), ('abcd', '')]
 
 ## Specificatie
+
+Maak een bestand aan genaamd `fuzzymatches.py`.
 
 Schrijf zelf een functie `split_needle` die één argument accepteert:
 

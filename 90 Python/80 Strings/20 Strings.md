@@ -9,9 +9,9 @@ te indexeren:
 
 	>>> woonplaats = "Amsterdam"
 	>>> print woonplaats[0]
-	'A'
+	A
 	>>> print woonplaats[1]
-	'm'
+	m
 
 Dit werkt dus net als bij een list!
 

@@ -1,8 +1,6 @@
 # Matches vinden
 
-Maak een nieuw bestand aan met de naam `findmatches.py`.
-
-Maak een functie `exact_matches` die de *indices* van de matches van de `needle` in `haystack` geeft.
+Maak een functie die de *indices* van alle matches van een `needle` in een `haystack` oplevert.
 
     >>> result = exact_matches("atgacatgcacaagtatgcat", "atgc")
     >>> print result
@@ -10,21 +8,19 @@ Maak een functie `exact_matches` die de *indices* van de matches van de `needle`
 
 ## Specificatie
 
-Schrijf zelf een functie `exact_matches` die twee argumenten aanneemt:
-
-- `haystack`, dat is de string waarin we zoeken
-- `needle`, dat is de string die we zoeken
-
-De functie moet alle indices van waar de needle zich bevindt (matched) in de haystack `return`en in een lijst.
+- Maak een nieuw bestand aan met de naam `findmatches.py`.
+- Definieer zelf een functie `exact_matches` die twee argumenten aanneemt:
+	- `haystack`, dat is de string waarin we zoeken
+	- `needle`, dat is de string die we zoeken
+- De functie moet alle relevante indices verzamelen in een lijst en deze `return`en.
 
 ## Hints
 
-* Deze opdracht lijkt op `count_exact_matches` alleen ga je nu
-  niet tellen maar moet je de indices aan een lijst toevoegen.
-* Maak gebruik van de `append()` methode van een lijst.
+* Deze opdracht lijkt op `count_exact_matches`. Je gaat alleen niet tellen maar de indices opsommen.
+* Maak gebruik van de `append()` methode van een lijst (weet je nog?).
 
 ## Testen
 
-Je kan testen of deze functie correct gemaakt is door checkpy te draaien:
+Test je functie met `checkpy`!
 
     checkpy findmatches
