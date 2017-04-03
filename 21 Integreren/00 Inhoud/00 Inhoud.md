@@ -11,8 +11,7 @@ div.embed
 ![embed](https://www.youtube.com/embed/dPkO2F-0g6c)
 </div>
 
-In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
-met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
+In deze module gaan we werken met *functies* en *random getallen*. Met deze onderdelen van Python kunnen we methoden implementeren die de integraal kunnen bepalen van zo'n beetje elke functie! Je hoeft niet geen calculus te hebben gedaan om deze module te volgen, maar enig gevoel bij wiskundige functies is wel belangrijk.
 
 Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.fnwi.uva.nl/a.l.watts/) is associate professor in de astrofysica bij de UvA en vertelt over haar ervaring met programmeren bij het onderzoek.
 
