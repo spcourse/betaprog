@@ -15,6 +15,8 @@ In deze module gaan we werken met *strings*. Bij het programmeren is een string 
 
 Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/k/o/i.t.koevoets/i.t.koevoets.html) is promovendus bij de UvA en bestudeert de ontwikkeling van wortels bij planten. Daar komt meer dataverwerking bij kijken dan verwacht!
 
+**Let op: checkpy is nog niet beschikbaar voor deze module!**
+
 #### Dag 1: voorbereiding
 
 1. Leer over [functies](/python/functies)
