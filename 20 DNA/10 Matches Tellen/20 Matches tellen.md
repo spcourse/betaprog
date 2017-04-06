@@ -12,7 +12,7 @@ Maak een functie die het *aantal* keer telt dat een `needle` in een `haystack` v
 - Definieer zelf een functie `count_exact_matches` met twee parameters:
 	- `haystack`, dat is de string waarin we zoeken
 	- `needle`, dat is de string die we zoeken
-- De functie moet het aantal keer tellen dat de `needle` in de `haystack` voorkomt en dat als integer returnen.
+- De functie moet een waarde `return`en: het aantal keer dat de `needle` in de `haystack` voorkomt
 
 ## Hints
 

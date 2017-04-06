@@ -1,10 +1,8 @@
 # Fuzzy matching
 
-Bij zoeken naar overeenkomstig DNA is het nuttig om *bijna-matches* te vinden.
-Bijvoorbeeld als er maar 1 letter verschil is tussen de `needle` en een deel
-van de `haystack`. Zoiets noemen we ook *fuzzy* matching.
+Bij zoeken in strings is het nuttig om *bijna-matches* te vinden. Bij DNA doen we dat ook vaak, omdat de nucleotiden niet altijd goed gemeten kunnen worden; een deel van de informatie is dus net niet helemaal correct. We making dan gebruik van *fuzzy* matching.
 
-We kijken weer naar de voorbeeldstring, `atgacatgcacaagtatgcat` en de needle
+We kijken weer naar de voorbeeldstring `atgacatgcacaagtatgcat` en de needle
 `atgc`. Als er één letter verschil mag zijn, vinden we op index 0 al direct een
 match. We kunnen namelijk de laatste C van de `needle` in een A veranderen om
 een fuzzy match te vinden!
@@ -13,7 +11,7 @@ We beschrijven nu een algoritme dat precies dit soort matches zoekt. We hergebru
 
 1. Omdat er steeds één letter uitgezonderd kan worden van de match, gaan we de needle opbreken in twee delen (*substrings*). Vanaf het begin tot het uitgezonderde karakter wordt deel `a`, en erna wordt deel `b`. Bijvoorbeeld:
 
-	"needle" geeft "nee" en "le" (als we "d" uitzonderen)
+	"balk" geeft "ba" en "k" (als we de letter "l" uitzonderen)
 
 2. Dan gaan we op zoek naar de plekken waarop er exacte matches zijn van `a` in de haystack en waar de exacte matches zijn van `b` in de haystack (bijvoorbeeld door middel van de eerder gemaakte functie `exact_matches`).
 
