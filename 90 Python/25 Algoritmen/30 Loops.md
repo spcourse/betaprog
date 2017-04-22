@@ -86,3 +86,20 @@ Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen va
        ...
 
 Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven; of neem de code over en zet er een `print` in om het gedrag te bestuderen.
+
+## Nog een loop: `while`
+
+In de vorige hoofdstukken hebben we gewerkt met `for`-loops. Die zijn heel handig als je weet hoe veel stappen er genomen moeten worden.
+
+Maar wat nou als we niet weten waar het verhaal eindigt? Hieronder zie je een voorbeeld waarbij we de loop af willen breken zodra de som van de getallen *tot 
+dan toe* groter is dan 50. Probeer onderstaande code te runnen zodat je ziet wat er precies gebeurt.
+
+    som = 0
+	getal = 0
+    while som <= 50:
+	    getal = getal + 1
+        som = som + getal
+        print "%d  som = %d" % (getal, som)
+    print "Ik stopte omdat de som meer dan 50 is"
+
+De opdracht met `while` kun je hier lezen als "zolang som kleiner is of gelijk aan 50". Elke keer dat we weer bovenaan de loop zijn aangekomen, wordt die voorwaarde gecontroleerd, en als daar niet meer aan wordt voldaan, dan stopt de loop.
