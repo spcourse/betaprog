@@ -51,13 +51,13 @@ Een functie die in de komende opdrachten erg van pas komt is `find`. Je kunt de 
 
 Lees het eerst even door! Dan gaan we er nu stap voor stap doorheen, laten we bovenaan beginnen met:
 
-	find(s, sub [,start [,end]]) -> in
+	string.find(s, sub [,start [,end]]) -> in
 
 Dat betekent dat er twee *verplichte* argumenten zijn. `s` (waar je in zoekt),
 en `sub` (waar je naar op zoek bent). Vanaf nu noemen we `s` de `haystack` en
 `sub` de `needle`. We zoeken naar een naald in een hooiberg. We kunnen dit uitproberen:
 
-    find("atgacatgcacaagtatgcat","atgc")
+    string.find("atgacatgcacaagtatgcat","atgc")
 
 Het resultaat van deze opdracht is de index van het **eerste** voorkomen van de
 string `atgc`. Probeer ook eens wat andere zoekopdrachten uit. Merk op, dat als
@@ -70,7 +70,7 @@ dat deze argumenten optioneel zijn door het gebruik van de brackets `[` en `]`.
 Als je goed naar het zojuist gegeven voorbeeld kijkt zie je dat `atgc` *twee*
 keer voorkomt: één keer op index vijf en één keer op index 15. Om de tweede te vinden kunnen we de optionele argumenten gebruiken. Het eerste argument is `start`, wat aangeeft vanaf welke index `find()` zal zoeken. Door te starten met zoeken ná de index van de eerste match, kun je de tweede match vinden:
 
-    find("atgacatgcacaagtatgcat", "atgc", 6)
+    string.find("atgacatgcacaagtatgcat", "atgc", 6)
 
 (Waarom 6? Tel het even na!)
 
