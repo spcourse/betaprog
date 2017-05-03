@@ -1,6 +1,6 @@
 # Goldbach
 
-Implementeer een programma dat het vermoeden van Goldbach onderzoekt voor de even getallen tot 1000.
+Schrijf een programma dat laat zien dat het vermoeden van Goldbach inderdaad correct is voor de even getallen tot en met 1000.
 
 	# python goldbach.py
 	16 = ...
@@ -15,7 +15,7 @@ Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wisk
 
 *"Elk even getal groter dan 2 kan geschreven worden als de som van twee priemgetallen."*
 
-Een priemgetal mag hierbij twee keer gebruikt worden. Hoewel dit inderdaad klopt voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen bewijs voor de stelling. We gaan ons steentje bijdragen. 
+Een priemgetal mag hierbij ook twee keer gebruikt worden (6=3+3). Hoewel dit inderdaad blijkt te kloppen voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen analytisch bewijs voor de stelling. Omdat je niet tot oneindig kan tellen met een computer zal je zo nooit het bewijs kunnen geven. Je zou wel het vermoeden kunnen ontkrachten door een enkel tegenvoorbeeld te geven van een even getal dat niet te schrijven is als de som van twee priemgetallen. We gaan ons steentje bijdragen in de zoektocht.
 
 ## Specificatie
 
