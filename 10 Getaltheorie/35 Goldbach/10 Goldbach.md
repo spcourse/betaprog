@@ -43,6 +43,9 @@ Nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoed
 		    if x in priemlijst:
 		        print "Ja, het getal %d komt voor in mijn priemlijst" % x
 
+  Deze hint geven we natuurlijk niet zomaar. Er is voor deze opdracht een 'elegante' oplossing te bedenken waarin deze 
+  constructie gebruikt wordt. Je kan het ook op een minder elegante (brute-force) manier oplossen natuurlijk.
+
 ## Testen
 
 Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is.
