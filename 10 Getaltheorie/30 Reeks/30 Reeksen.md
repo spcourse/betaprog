@@ -18,17 +18,17 @@ De opdracht luidt om de langste reeks te vinden onder het getal 10.0000.
 
 We gaan nu verder werken met eerdere ideeën, en voorbeelden uit de getaltheorie bestuderen. Dit zijn problemen die handig met de computer uit te voeren zijn, omdat ze hele grote hoeveelheden klein rekenwerk vereisen. Aan ons de taak om op een efficiënte manier te noteren hoe de computer dit gaat aanpakken: programmeren dus.
 
-Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoorbeeld de eerste tien priemgetallen op papier en bekijk steeds de onderlinge afstand: tussen 2 en 3 is het verschil maar 1, terwijl het verschil tussen 13 en 17 vier is (wat dus betekent dat er 3 opeenvolgende getallen tussen zitten die niet-priem zijn, nl 14,15 en 16).
+Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoorbeeld de eerste tien priemgetallen op papier en bekijk steeds de onderlinge afstand: tussen 2 en 3 is het verschil maar één, terwijl het verschil tussen 13 en 17 vier is (wat dus betekent dat er 3 opeenvolgende getallen tussen zitten die niet-priem zijn, namelijk 14, 15 en 16).
 
 ## Specificatie
 
 - Bepaal altijd met pen en papier je strategie en ga dus niet gelijk tikken. De 5-10 minuten die je hieraan besteedt verdien je dik terug tijdens het omzetten naar programmacode.
 
-- Maak een programma genaamd `reeks.py` en zorg dat het volgens bovenstaand voorbeeld de juiste informatie uitprint. Gebruik je bestaande priem-zoek programma als basis  en pas het zodanig aan dat het programma eerst een *lijst* priemgetallen genereert die kleiner zijn dan het getal 10.000. Omdat je het eindgetal wete kan je nu beter een `for-loop` gebruiken dan een `while-loop`
+- Maak een programma genaamd `reeks.py` en zorg dat het volgens bovenstaand voorbeeld de juiste informatie uitprint. Gebruik je bestaande priem-zoek programma als basis  en pas het zodanig aan dat het programma eerst een *lijst* priemgetallen genereert die kleiner zijn dan het getal 10.000. Omdat je in dit geval het eindgetal kent kan je nu beter een `for-loop` gebruiken dan een `while-loop`
 
-- Stap (loop) vervolgens door de lijst heen en bepaal telkens hoe lang de reeks niet-priemgetallen is tussen het huidige en het vorige priemgetal. Houd bij wat de langste reeks is.
+- Stap (loop) vervolgens door de lijst priemgetallen heen en bepaal telkens hoe lang de reeks niet-priemgetallen is tussen het huidige en het vorige priemgetal. Houd bij wat de langste reeks is.
 
-- Zorg dat je output er netjes uitziet en dat we als gebruiker iets aan de informatie hebben: print eerst de twee priemgetallen waartussen de reeks ingeklemd zit en dan op de volgende regel de lengte van de reeks!
+- Zorg dat je output er netjes uitziet en dat we als gebruiker iets aan de informatie hebben: print eerst de twee niet-priemgetallen die het begin en eind van de reeks vormen en dan op de volgende regel de lengte van de reeks!
 
 ## Testen
 
