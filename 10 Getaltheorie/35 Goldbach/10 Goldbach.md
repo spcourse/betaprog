@@ -19,7 +19,7 @@ Een priemgetal mag hierbij ook twee keer gebruikt worden (6=3+3). Hoewel dit ver
 
 ## Specificatie
 
-Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inderdaad te schrijven zijn als de som van twee priemgetallen. Concreet: laat voor elk even getal ook expliciet zien dat het te schrijven is als de som van twee priemgetallen, zoals in het voorbeeld hierboven.
+Laat met een programma **goldbach.py** zien dat alle even getallen tot 1000 inderdaad te schrijven zijn als de som van twee priemgetallen. Concreet: laat voor elk even getal ook *expliciet* zien (op het scherm) dat het te schrijven is als de som van twee priemgetallen, zoals in het voorbeeld hierboven.
 
 Nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoeden van Goldbach voldoet. Zorg dat jouw programma zo'n ontdekking duidelijk op het scherm aangeeft. Bingo!
 
