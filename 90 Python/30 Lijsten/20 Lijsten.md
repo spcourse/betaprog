@@ -29,7 +29,7 @@ In plaats van de lijst printen kunnen we ook de individuele elementen van de lij
     print "Het eerste element van de lijst is", metingen_science_park[0]
     print "Het aantal elementen in de lijst is", len(metingen_science_park)
 
-Elementen vervangen doe je net zoals met variabelen door middel van `=`. Zo wordt op de regel: `docenten[2] = "Marianne"` de string `"Anne"` vervangen door `"Marianne"`.
+Elementen vervangen doe je net zoals met variabelen door middel van `=`. Zo wordt op de regel: `docenten[2] = "Marianne"` de string `"Jelle"` vervangen door `"Marianne"`.
 
 ## Loopen met een lijst
 
