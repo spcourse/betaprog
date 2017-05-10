@@ -6,7 +6,7 @@ We hebben in de vorige opdracht bestudeerd hoe (snel) het aantal konijnen afneem
 Het systeem is vrij instabiel en je zal zien dat na 1000 seconden of de konijnen winnen (konijnen zitten tegen het maxmimum aantal aan) of de vossen winnen (alle konijnen zijn opgegeten). De vraag die we in deze opdracht gaan beantwoorden is de volgende: 'hoe vaak winnen de konijnen en hoe vaak winnen de vossen?' Aan het eind van deze opdracht moet op het scherm verschijnen:
 
 {: .language-python}   
-     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 200:     
+     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nvos=2 (v=2), Nsimulaties = 200:     
      In XX.X procent van de gevallen winnen de konijnen
 
 We gaan deze vraag in stapjes beantwoorden. Voeg in de functie `prooipredator()` twee nieuwe functies toe: `reproduceren_konijnen()` en `overbevolking()` die deze fenomenen beschrijven. Tijdens het implementeren van beide nieuwe functies doen we dit steeds voor een enkele simulatie. Het is handig om in deze eerste stappen van de opdracht de visualisatie weer 'aan' te zetten.
@@ -15,9 +15,9 @@ We gaan deze vraag in stapjes beantwoorden. Voeg in de functie `prooipredator()`
 
 <br>
 
-#### Deelopdracht 4a: reproducerende muizen
+#### Deelopdracht 4a: reproducerende konijnen
 
-Het eerste aspect dat we in gaan voeren is het vermogen van de muizen om zich voort te planten. Maak een nieuwe functie `reproduceren_konijnen()` die wordt aangeroepen na de bestaande functies (het verplaatsen van de konijnen, het verplaatsen van de wolven en het opeten van de konijnen door de wolven) en die steeds kijkt of er konijnen dicht bij elkaar zitten. Als dat het geval is moet het programma de nieuwe jongen konijnen op een random plek in het bos neerzetten.
+Het eerste aspect dat we in gaan voeren is het vermogen van de konijnen om zich voort te planten. Maak een nieuwe functie `reproduceren_konijnen()` die wordt aangeroepen na de bestaande functies (het verplaatsen van de konijnen, het verplaatsen van de vossen en het opeten van de konijnen door de vossen) en die steeds kijkt of er konijnen dicht bij elkaar zitten. Als dat het geval is moet het programma de nieuwe jongen konijnen op een random plek in het bos neerzetten.
 
 Ga hierbij als volgt te werk:
 
@@ -63,7 +63,7 @@ We zijn nu in staat de originele vraag in deze opdracht te beantwoorden: wat is 
 Bereken na alle simulaties gerund te hebben de gevraagde fractie en print de winstkansen voor de konijnen als volgt op het scherm:
 
 {: .language-python}   
-     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 200:     
+     Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nvos=2 (v=2), Nsimulaties = 200:     
      In x.x procent van de gevallen winnen de konijnen
 
 

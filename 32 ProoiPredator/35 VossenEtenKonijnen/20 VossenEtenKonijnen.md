@@ -67,20 +67,20 @@ Pas de functie `gemiddelde_halfwaardetijd()` aan zodat die niet 1 keer, maar een
 
 Op het scherm moet na de laatste simulatie het volgende verschijnen:
 {: .language-python}   
-    Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nwolf=2 (v=2), Nsimulaties = 500:
+    Een gesimuleerde wereld met: Nkonijn=25 (v=1), Nvos=2 (v=2), Nsimulaties = 500:
     Gemiddelde halfwaardetijd konijnen = x.xx seconde
 
 <br>
 
 #### Deelopdracht (3d): Strategie konijnen: helpt het om onze snelheid aan te passen?
 
-We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie voor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood en moeten iets bedenken. Discussiepunt onder de konijnen is nu of ze juist beter heel hard kunnen gaan lopen of juist stil moeten gaan zitten en hopen dat de wolven ze niet vinden. Aan ons om de optimale strategie te bepalen voor de konijnen.
+We hebben in de vorige opdracht gekeken wat de gemiddelde halfwaardetijd is van de konijnenpopulatie voor een specifieke snelheid van de konijnen. De konijnen willen natuurlijk niet dood en moeten iets bedenken. Discussiepunt onder de konijnen is nu of ze juist beter heel hard kunnen gaan lopen of juist stil moeten gaan zitten en hopen dat de vossen ze niet vinden. Aan ons om de optimale strategie te bepalen voor de konijnen.
 
 Om deze vraag te beantwoorden gaan we de functie `gemiddelde_halfwaardetijd()` laten werken met verschillende waardes van de snelheid voor de konijnen. Je mag in deze opdracht de snelheid van de konijnen `snelheid_konijn` in de functie `prooipredator()` steeds met de hand veranderen en ook de antwoorden zelf opschrijven. Probeer verschillende snelheden voor de konijnen: snelheden van 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 en 5.0 meter per seconde en maak uiteindelijk een grafiek van de gemiddelde halfwaardetijd als functie van de snelheid van de konijnen. Welke trend zie je en is het nou handiger voor de konijnen om juist langzamer of sneller te bewegen?
 
 Print de waardes die je hebt gevonden ook op het scherm:
 {: .language-python}   
-     Een gesimuleerde wereld met: Nkonijn=25, Nwolf=2 (v=2), Nsimulaties = 500:     
+     Een gesimuleerde wereld met: Nkonijn=25, Nvos=2 (v=2), Nsimulaties = 500:     
      snelheid konijnen = 0.0 m/s -> gemiddelde halfwaardetijd = XXX.X seconde
      snelheid konijnen = 0.5 m/s -> gemiddelde halfwaardetijd = XXX.X seconde
      snelheid konijnen = 1.0 m/s -> gemiddelde halfwaardetijd = XXX.X seconde

@@ -17,7 +17,7 @@ Laat de vossen starten op posities (70,70) en (80,80) en laat bij de start vos 1
 
 <br>
 
-#### Deelopdracht (2b): specifiek wandelgedrag van wolven
+#### Deelopdracht (2b): specifiek wandelgedrag van vossen
 
 ![](konijnenenvossen.gif){:.inline}{: style="width:30%"}
 
