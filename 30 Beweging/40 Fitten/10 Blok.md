@@ -122,3 +122,8 @@ Schrijf een functie `fit()` in een bestand **fit.py** die het bovenstaande resul
 3. Print op een losse regel de bijbehorende onzekerheid $$\Delta_c$$.
 
 Beantwoord voor jezelf de vraag: hoe verandert het resultaat als de fout op elk van de metingen 2x zo groot wordt?
+
+
+## Testen
+
+   checkpy fit
