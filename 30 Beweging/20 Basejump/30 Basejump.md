@@ -33,3 +33,7 @@ De base jumper is eerst in vrije val, maar op 100 meter van het oppervlak moet d
 - Hoeveel langer (seconden) heeft de base-jumper om te genieten van de vrije val dankzij de luchtweerstand?
 
 Zoals altijd heb je ook hier mensen die het [randje opzoeken](https://en.wikipedia.org/wiki/Speed_skydiving). Omdat hij zijn sprong maakte in een gebied waar de luchtdruk enorm laag was is het record met 1342 km/uur veilig in handen van Felix Baumgartner.
+
+## Testen
+
+	checkpy basejump
