@@ -32,11 +32,11 @@ Zorg dat de volgende resultaten geprint worden door je programma:
 3. Na hoeveel seconden heeft de appel een snelheid van 100 km/uur bereikt? Is
     een vallende appel daarmee sneller dan Bugatti Veyron (2.46 seconden) of niet?
 
-De uitvoer moet heel precies zijn en alleen de gevraagde waarden bevatten. Bijvoorbeeld zo:
+De uitvoer moet heel precies zijn en alleen de gevraagde waarden bevatten elk op een aparte regel in dezelfde volgorde als hierboven. Bijvoorbeeld zo:
 
-	000 s
-	000.0 km/uur
-	0.00 s
+	000 s tot de appel de grond raakt
+	000.0 km/uur is de snelheid waarmee de appel de grond raakt
+	0.00 s duurt het tot de appel de grond raakt
 
 ## Tips
 
@@ -44,3 +44,8 @@ De uitvoer moet heel precies zijn en alleen de gevraagde waarden bevatten. Bijvo
 - Let goed op het teken van de krachten en snelheden. je begint bij positieve $$x$$ en beweegt dan naar $$x=0$$ toe.
 - In dit voorbeeld kan je de antwoorden ook zelf uitrekenen met behulp van pen en papier.
 - Bereken alles eerst in m/s en reken dan voor punt 2 de snelheid om naar km/uur.
+
+
+## Testen
+
+	checkpy appel
