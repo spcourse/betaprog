@@ -37,3 +37,8 @@ Hoewel dit een ingewikkeld probleem lijkt was het toch mogelijk geweest deze opg
   - De kracht zelf neemt af met $$1/r^2$$ omdat de kracht nou eenmaal omgekeerd evenredig afneemt met het kwadraat van de afstand. Er geldt dus: $$F\propto r^{-2}$$
   
 Uiteindelijk zal de kracht op een deeltje dat steeds verder uit het centrum beweegt lineair afnemen met de afstand. Dat is precies dezelfde situatie als een klassieke veer waarvoor de we bewegingsvergelijking wel kennen: de [wet van Hooke](https://nl.wikipedia.org/wiki/Wet_van_Hooke).
+
+
+## Testen
+
+	checkpy tunnel
