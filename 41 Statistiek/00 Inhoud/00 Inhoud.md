@@ -29,7 +29,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Daniël Lakens](https://ww
 
 1. <span class="label label-primary">Opdracht</span> Leer [fitten](/statistiek/fittenpython) in Python complexer model fitten
 	
-2. <span class="label label-primary">Opdracht</span> Breid je voor op leven als [Quant](/statistiek/quant) in the City. Bankieren!
+2. <span class="label label-primary">Opdracht</span> Bereid je voor op leven als [Quant](/statistiek/quant) in the City. Bankieren!
 	
 #### Dag 4: Hypotheses testen
 
