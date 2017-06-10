@@ -123,6 +123,8 @@ We bieden de cursus ook aan als UvA-vak, zodat je bij ons hulp kunt krijgen en e
 
 Voor verkrijgen van studiepunten of een certificaat is het nodig om het tentamen te halen. Dit tentamen wordt tweemaal aangeboden in de maand juni 2017 (nadere data volgen).
 
+![Link naar het voorbeeldtentamen](proeftentamen.pdf). Een vraag als "lastig lezen" zal niet worden getoetst in het definitieve tentamen, omdat "code style" niet uitgebreid behandeld is in de cursus.
+
 ## Leerdoelen
 
 Wat willen we dat je kunt aan het einde van deze cursus?
