@@ -6,7 +6,12 @@ Open nu Visual Studio Code. Zodra je dit hebt gedaan zie je het volgende scherm:
 
 ![visualstudio](visualstudio.png){:style="max-width:50%"}
 
-Klik linksboven op je beeldscherm (dus niet in het Visual Studio window) in de menubalk op **File** en kies dan onder Windows voor **Open Folder...** en onder Mac voor **Open...**. Open vervolgens de `week1`-map die je hebt aangemaakt. Je ziet dan de volgende sidebar verschijnen. De icoontjes die naast `week1` staan verschijnen alleen als je met de muis in de sidebar staat:
+Klik in de menubalk op **File** en kies dan:
+
+- Windows: **Open Folder...**
+- Mac: **Open...**
+
+Kies vervolgens de `week1`-map die je hebt aangemaakt. Je ziet dan de volgende *sidebar* verschijnen. De icoontjes die naast `week1` staan verschijnen alleen als je met de muis in de sidebar staat:
 
 ![visualnewfile](visualnewfile.png){:style="max-width:50%"}
 
@@ -51,4 +56,4 @@ Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende comman
 
 	checkpy hello
 
-Kleurt alles groen en zie je enkel vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
+Kleurt alles groen en zie je alleen maar vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
