@@ -1,6 +1,19 @@
+<style>
+div.embed
+{
+	margin:0 ! important;
+}
+</style>
+
 # Beweging
 
+<div style="width: 40%; float:right; margin-left: 2em;">
+![embed](https://player.vimeo.com/video/235028783)
+</div>
+
 In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunnen beschrijven en visualiseren op het scherm met behulp van een animatie.
+
+Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.fnwi.uva.nl/a.l.watts/) is associate professor in de astrofysica bij de UvA en vertelt over haar ervaring met programmeren bij het onderzoek.
 
 #### Dag 1: Beweging door zwaartekracht
 

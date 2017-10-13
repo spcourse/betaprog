@@ -8,12 +8,12 @@ div.embed
 # Integreren
 
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/dPkO2F-0g6c)
+![embed](https://player.vimeo.com/video/235030111)
 </div>
 
 In deze module gaan we werken met *functies* en *random getallen*. Met deze onderdelen van Python kunnen we methoden implementeren die de integraal kunnen bepalen van zo'n beetje elke functie! Je hoeft geen calculus te hebben gedaan om deze module te volgen, maar enig gevoel bij wiskundige functies is wel belangrijk.
 
-Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.fnwi.uva.nl/a.l.watts/) is associate professor in de astrofysica bij de UvA en vertelt over haar ervaring met programmeren bij het onderzoek.
+Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
 #### Dag 1: nulpunten
 

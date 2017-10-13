@@ -1,4 +1,15 @@
+<style>
+div.embed
+{
+	margin:0 ! important;
+}
+</style>
+
 # Monopoly
+
+<div style="width: 40%; float:right; margin-left: 2em;">
+![embed](https://player.vimeo.com/video/233508920)
+</div>
 
 In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Speltheorie in de praktijk.
 

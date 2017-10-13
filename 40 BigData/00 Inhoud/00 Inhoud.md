@@ -1,4 +1,15 @@
+<style>
+div.embed
+{
+	margin:0 ! important;
+}
+</style>
+
 # Big data
+
+<div style="width: 40%; float:right; margin-left: 2em;">
+![embed](https://player.vimeo.com/video/236110830)
+</div>
 
 In deze module gaan we leren hoe we informatie uit een grote data-set halen. 
 

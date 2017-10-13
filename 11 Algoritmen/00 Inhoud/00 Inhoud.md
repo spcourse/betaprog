@@ -8,7 +8,7 @@ div.embed
 # Algoritmen
 
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/m5Yt-2r6fCg)
+![embed](https://player.vimeo.com/video/235029301)
 </div>
 
 In deze module gaan we aan de slag met een paar alledaagse programma's en met het maken van grafieken. De opdrachten laten typische algoritmen zien en prikkelen maar een klein beetje je wiskundig inzicht. Goed te doen voor beta's, alfa's en gamma's!

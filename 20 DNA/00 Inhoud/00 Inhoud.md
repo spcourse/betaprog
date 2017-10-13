@@ -8,12 +8,11 @@ div.embed
 # DNA
 
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/qjkDktQJXSQ)
+![embed](https://player.vimeo.com/video/233508920)
 </div>
 
 In deze module gaan we werken met *strings*. Bij het programmeren is een string een reeks tekens uit een alfabet. Dit heeft een mooie analogie in het werken met DNA, dat door biologen vaak beschreven wordt als reeksen tekens uit een alfabet van vier letters.
 
-Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/k/o/i.t.koevoets/i.t.koevoets.html) is promovendus bij de UvA en bestudeert de ontwikkeling van wortels bij planten. Daar komt meer dataverwerking bij kijken dan verwacht!
 
 **Let op: checkpy is nog niet beschikbaar voor deze module!**
 

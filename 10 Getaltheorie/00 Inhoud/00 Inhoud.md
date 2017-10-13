@@ -8,13 +8,11 @@ div.embed
 # Getaltheorie
 
 <div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://www.youtube.com/embed/ckBjNYTY5jo)
+![embed](https://player.vimeo.com/video/235229540)
 </div>
 
 In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
 met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
-
-Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
 #### Dag 1: aan de slag
 
