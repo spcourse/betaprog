@@ -14,6 +14,8 @@ div.embed
 In deze module gaan we op een aantal manieren ideeën uit de getaltheorie testen
 met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en de computer neemt dit fijn uit handen. Wiskundige intuïtie vereist!
 
+Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunissen](http://www.dutchdatadesign.nl) maakt datavisualisaties voor onder andere de [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/). Ze vertelt kort over haar ervaring met programmeren en visualisaties maken.
+
 #### Dag 1: aan de slag
 
 1. [Installeer](/python/installatie) Python
