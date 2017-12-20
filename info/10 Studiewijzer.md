@@ -117,7 +117,7 @@ We bieden de cursus ook aan als UvA-vak, zodat je bij ons hulp kunt krijgen en e
 
 - UvA-studenten kunnen de cursus volgen als normaal vak voor 3 studiepunten (AVV/NAV)
 - Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA (we regelen dit voor je)
-- Anderen kunnen de cursus volgen voor €300 (semester 2 2017)
+- Anderen kunnen de cursus volgen voor €600 (studiejaar 2017-2018)
 
 ## Tentamen
 
