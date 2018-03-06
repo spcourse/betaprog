@@ -1,4 +1,4 @@
-# Module 2: numeriek integreren
+# Numeriek integreren
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235030111)
