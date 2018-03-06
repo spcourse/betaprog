@@ -1,4 +1,4 @@
-# Inleiding Wetenschappelijk Programmeren<br><small>Universiteit van Amsterdam / FNWI / Versie 1.0</small>
+# Inleiding Wetenschappelijk Programmeren<br><small>Universiteit van Amsterdam / FNWI / Versie 2.0</small>
 
 <div>
 
@@ -15,6 +15,8 @@
 <div role="tabpanel" class="tab-pane active" id="modules">
 
 ![Python](soc.png){:.inline}{:style="max-width:30%"}  
+
+**Let op: deze versie van de cursus is momenteel in bewerking. Een deel van de opgaven is omgezet naar Python 3, andere opgaven zijn nog in Python 2.**
 
 Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit de verschillende bètawetenschappen op te lossen.
 
