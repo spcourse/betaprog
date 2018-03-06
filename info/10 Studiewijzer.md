@@ -1,14 +1,3 @@
-<style>
-h1
-{
-	border-bottom: 0 ! important;
-}
-ul.nav
-{
-	margin-left: 0 ! important;
-}
-</style>
-
 # Inleiding Wetenschappelijk Programmeren<br><small>Universiteit van Amsterdam / FNWI / Versie 1.0</small>
 
 <div>
