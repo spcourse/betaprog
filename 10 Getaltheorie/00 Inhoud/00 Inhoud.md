@@ -29,7 +29,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 2. <span class="label label-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
 
-3. Begrijp hoe je ["mooie code"](/python/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
+3. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
 
 4. <span class="label label-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
@@ -37,12 +37,10 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 1. Leer over het gebruiken van [modules](/python/modules) in Python
 
-2. Zoek op hoe je data kunt [plotten](/python/plot)
+2. Zoek op hoe je data kunt [plotten](/technieken/plot)
 
 3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 
-#### Inleveren en evaluatie
+#### Evaluatie
 
-1. Ga naar [deze pagina](/getaltheorie/inleveren) om je programma's in te leveren.
-
-2. Vul daarna de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"} in.

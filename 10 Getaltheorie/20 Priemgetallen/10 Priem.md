@@ -31,7 +31,7 @@ Een belangrijk deel van de omschrijving hierboven is dat het om priemgetallen ga
 
 Schrijf dus eerst een programma dat van een bepaald getal onderzoekt of het een priemgetal is of niet. Aan het eind van het programma moet duidelijk op het scherm geprint worden of het getal een priemgetal is of niet. Het begint met een variabele `number`, waarin we het getal zetten dat onderzocht moet worden:
 
-    number = raw_input("Voer een getal in: ")
+    number = input("Voer een getal in: ")
     number = int(number)
     # TODO: hier komt jouw code
 
