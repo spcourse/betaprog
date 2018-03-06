@@ -34,4 +34,4 @@ Probeer dan de voorbeelden bovenaan de opgave uit. Lijkt alles te werken, dan is
 
 	checkpy rekenwonder
 
-Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Vraag je assistent!
+Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Vraag om hulp!
