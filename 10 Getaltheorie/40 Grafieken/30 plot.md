@@ -1,6 +1,6 @@
 # Plot
 
-Schrijf een programma dat de volgende grafiek laat zien.
+Schrijf een programma dat de volgende grafiek laat zien:
 
 ![](plotje4.png)
 
@@ -28,6 +28,12 @@ Schrijf een programma dat de volgende grafiek laat zien.
 
 		import matplotlib
 		matplotlib.use('Agg')
+		import matplotlib.pyplot as plt
+
+* Gebruik je Windows en krijg je een foutmelding bij het plotten? Probeer dan dit:
+
+		import matplotlib
+		matplotlib.use('tkagg')
 		import matplotlib.pyplot as plt
 
 * Vergeet trouwens niet dat `^` in Python zelf géén machtsverheffen is. Je moet voor het berekenen van een macht de operator `**` gebruiken.

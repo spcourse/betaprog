@@ -4,25 +4,25 @@ Een **waarde** is een van de basale onderdelen in een programma. In de voorbeeld
 
 Om resultaten van berekeningen te kunnen gebruiken in andere berekeningen, moeten we deze tijdelijk op zien te slaan. Als oplossing laat Python je namen toekennen aan waardes. Deze naam-waarde combinaties noemen we **variabelen**. Door middel van de `=` operator kunnen we een naam toekennen aan een waarde, en deze vervolgens ergens anders gebruiken. Hier is bijvoorbeeld een programma waar drie keer een `=` wordt gebruikt om een naam aan een waarde te koppelen:
 
-	income = 230
-	expense = 170
-	profit = income - expense
-	print profit
+    income = 230
+    expense = 170
+    profit = income - expense
+    print(profit)
 
 Op de derde regel wordt de nieuwe naam `profit` zelfs gekoppeld aan het resultaat van een berekening. Een berekening op basis van eerder gedefinieerde namen. Het is hierbij belangrijk om te letten op de **volgorde** van de regels code. Python interpreteert jouw code van boven naar beneden. Als je de laatste regel als eerste zou neerzetten, dan ziet het er zo uit:
 
-	print profit
-	income = 230
-	expense = 170
-	profit = income - expense
+    print(profit)
+    income = 230
+    expense = 170
+    profit = income - expense
 
 Nu krijg je een `NameError` zodra je het programma uitvoert. Want de naam `profit` is nog niet bekend (*defined*) op regel 1; die wordt pas bekend gemaakt op regel 4.
 
 Ten slotte kun je een oude naam ook een nieuwe waarde geven:
 
-	income = 170
-	income = income - 10
-	print income
+    income = 170
+    income = income - 10
+    print(income)
 
 In feite verander je dus op regel 2 van dit voorbeeld `income` door er 10 van af te trekken. Dat resultaat is dan ook zichtbaar als je het programma uitvoert.
 
@@ -39,15 +39,15 @@ Er zijn verschillende soorten waardes in Python; we noemen dat een **type**. In 
 
 Je kunt waarden ook **converteren** van het ene naar het andere type. Gebruik bijvoorbeeld `int()` om een waarde naar een integer om te zetten. Tenminste, als het kan, want anders wordt er geklaagd:
 
-| conversie                | resultaat                                                      |  
-| ------------------------ | -------------------------------------------------------------- |  
-| `print int('32')`        | `32`                                                           |  
-| `print int('Hello')`     | `ValueError: invalid literal for int(): Hello`                 |  
-| `print int(3.99999)`     | `3` (let op! geen error, maar er gaat wel informatie verloren) |  
-| `print int(-2.3)`        | `-2`                                                           |  
-| `print float(32)`        | `32.0`                                                         |  
-| `print float('3.14159')` | `3.14159`                                                      |  
-| `print str(32)`          | `'32'`                                                         |  
-| `print str(3.14159)`     | `'3.14159'`                                                    |  
+| conversie                 | resultaat                                                      |  
+| ------------------------- | -------------------------------------------------------------- |  
+| `print(int('32'))`        | `32`                                                           |  
+| `print(int('Hello'))`     | `ValueError: invalid literal for int(): Hello`                 |  
+| `print(int(3.99999))`     | `3` (let op! geen error, maar er gaat wel informatie verloren) |  
+| `print(int(-2.3))`        | `-2`                                                           |  
+| `print(float(32))`        | `32.0`                                                         |  
+| `print(float('3.14159'))` | `3.14159`                                                      |  
+| `print(str(32))`          | `'32'`                                                         |  
+| `print(str(3.14159))`     | `'3.14159'`                                                    |  
 
 Is het trouwens opgevallen dat kommagetallen op z'n Amerikaans worden geschreven? Met een punt dus! Dit is in vrijwel alle programmeertalen het geval.

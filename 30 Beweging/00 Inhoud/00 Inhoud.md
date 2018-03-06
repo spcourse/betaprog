@@ -1,19 +1,6 @@
-<style>
-div.embed
-{
-	margin:0 ! important;
-}
-</style>
-
-# Beweging
-
-<div style="width: 40%; float:right; margin-left: 2em;">
-![embed](https://player.vimeo.com/video/235028783)
-</div>
+# Module 3: simuleren - beweging 
 
 In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunnen beschrijven en visualiseren op het scherm met behulp van een animatie.
-
-Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.fnwi.uva.nl/a.l.watts/) is associate professor in de astrofysica bij de UvA en vertelt over haar ervaring met programmeren bij het onderzoek.
 
 #### Dag 1: Beweging door zwaartekracht
 
@@ -33,13 +20,13 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Anna Watts](https://staff.
 
 1. Leer hoe je [animaties](/python/animaties) maakt in Python
 
-2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
+2. <span class="label label-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
 
 3. <span class="label label-primary">Opdracht</span> Laat zien hoe een [dronken student](/beweging/student) beweegt
 
-#### Dag 4: Angry birds
+#### Dag 4: Fitten
 
-1. <span class="label label-primary">Opdracht</span> Besef hoe makkelijk je miljonair had kunnen worden door [Angrybirds](/beweging/angrybirds) zelf te programmeren
+1. <span class="label label-primary">Opdracht</span> Vindt de regelmaat in je data met [Fitten](/beweging/fitten)
 
 #### Evaluatie
 

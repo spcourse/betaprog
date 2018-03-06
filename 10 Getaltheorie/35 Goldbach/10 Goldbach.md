@@ -1,6 +1,6 @@
 # Goldbach
 
-Schrijf een programma dat laat zien dat het vermoeden van Goldbach inderdaad correct is voor de even getallen tot en met 1000.
+Schrijf een programma dat laat zien dat het vermoeden van Goldbach correct is voor de even getallen tot en met 1000.
 
 	# python goldbach.py
 	16 = ...

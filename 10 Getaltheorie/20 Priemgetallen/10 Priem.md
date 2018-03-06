@@ -1,6 +1,6 @@
-# Het duizendste priemgetal #
+# Het duizendste priemgetal
 
-Implementeer een programma dat op verzoek het n-de priemgetal genereert.
+Implementeer een programma dat op verzoek het $$n$$-de priemgetal genereert.
 
 	Naar welk priemgetal bent u op zoek? 1000
 	7919
@@ -11,23 +11,21 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 ## Specificatie
 
-- Schrijf in een bestand genaamd `priemgetal.py` een programma dat een priemgetal met de gewenste rangorde bepaalt.
+- Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn.
 
-- Vraag de gebruiker om de rangorde van het priemgetal in te voeren. Dit moet een geheel getal zijn, groter dan 2.
-
-- Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult.
+- Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult. Omdat je niet weet hoe vaak dat zal zijn, moet het een `while`-loop worden!
 
 - Zodra de rangorde bekend is, bereken het juiste priemgetal en rapporteer dit terug aan de gebruiker.
 
-- Zorg dat het programma niets anders uitvoert dan dit getal!
+- Zorg dat het programma niets anders uitvoert dan dit getal, zoals in het voorbeeld bovenaan de opdracht!
 
-## Hints
+## Probleemanalyse
 
-- Bovenstaande opdracht bestaat uit een aantal onderdelen die bij elkaar moeten komen. Volg de stappen hieronder om je programma op te bouwen.
+Neem vóór je gaat programmeren eerst een paar minuten om met **pen en papier** te schetsen hoe je zelf het probleem aan zou pakken, hoe je het probleem kunt opdelen in overzichtelijke stappen. De specificatie hierboven geeft al wat hints daarvoor!
 
-- Als je wilt controleren of je programma goed werkt kun je je gevonden lijst priemgetallen hier controleren met een lijst bekende priemgetallen <http://primes.utm.edu/lists/small/1000.txt>
+Bij deze opdracht nemen we je aan de hand door een aantal stappen te geven om te doorlopen tijdens het ontwikkelen van de juiste oplossing.
 
-## Stap 1
+## Stap 1: priem-check
 
 Een belangrijk deel van de omschrijving hierboven is dat het om priemgetallen gaat. Wat is een priemgetal? Dat moeten we in Python zien uit te drukken.
 
@@ -47,7 +45,7 @@ Bij een niet-priemgetal, zoals 36, moet geprint worden:
 
 Begin zo simpel mogelijk. Gebruik een `for`-loop en `%` (modulo) om te bepalen hoeveel getallen een deler zijn van `x`. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet. Print je conclusie uiteindelijk op het scherm, zoals in het voorbeeld hierboven.
 
-## Stap 2
+## Stap 2: check een hele lijst
 
 We gaan een stap verder. We kunnen bovenstaand stukje code nu hergebruiken en voor *elk* getal onder de 100 bepalen of het een priemgetal is of niet.
 
@@ -57,7 +55,7 @@ Schrijf dus bovenstaande procedure en maak deze goed werkend. Vervolgens willen 
 
 Klopt je antwoord? Check het op internet!
 
-## Stap 3
+## Stap 3: het zoveelste priemgetal
 
 We gaan nu terug naar de opdracht: op zoek naar het n-de priemgetal. We geven een voorzetje voor de strategie van het programma:
 
@@ -69,20 +67,30 @@ We gaan nu terug naar de opdracht: op zoek naar het n-de priemgetal. We geven ee
 
 > Misschien is het raar of vervelend om een programma in te tikken, waarna je ontdekt dat het niet goed werkt. Dat is het lot van de programmeur: het is gewoon heel moeilijk om een precies algoritme te formuleren en dan helemaal correct om te zetten naar programmacode. Soms ben je een uitzondering vergeten, maar net zo goed heb je ergens een tikfout gemaakt. Bedenk dan dat de beste programmeurs op deze manier werken!
 
-## Stap 4
+## Stap 4: werkt het echt?
 
 Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is.
 
-Nu ben je klaar om te testen:
+Dan ben je klaar om te testen:
 
 	checkpy priemgetal
 
-## Wiskundetips
+## Stap 5: kleine optimalisaties
 
-Hoewel het in deze opgave niet echt gaat om de snelheid van het programma is in deze specifieke opgave veel tijd te winnen door slim gebruik te maken van een aantal elementen uit de wiskunde. Maar let op! Doe dit pas als je zeker weet dat je programma hierboven *correct* is. Je kunt dan optimalisaties toepassen en snel vergelijken of je niet een *bug* in je code hebt geïntroduceerd. Dat zou jammer zijn voor een beetje tijdswinst!
+We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen (gecontroleerd door `checkpy`). Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. 
 
-- Behalve 2 zijn *even* getallen nooit een priemgetal.
+- Behalve 2 zijn *even* getallen nooit een priemgetal (dit vraagt slechts een hele kleine aanpassing van je code).
 
-- Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is.
+- Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is. Daarvoor kun je `break` gebruiken (dit vraagt een kleine aanpassing).
 
-- Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom.
+- Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom (dit vraagt waarschijnlijk een flinke aanpassing van je code).
+
+## Hints
+
+- Je kunt dit programma schrijven met alleen de Python-onderdelen die je tot nu toe hebt geleerd!
+
+## Testen
+
+Test voor de zekerheid nog een keer of je programma werkt volgens `checkpy`:
+
+	checkpy priemgetal

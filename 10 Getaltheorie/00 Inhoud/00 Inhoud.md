@@ -1,11 +1,4 @@
-<style>
-div.embed
-{
-	margin:0 ! important;
-}
-</style>
-
-# Getaltheorie
+# Module 1: getaltheorie
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235229540)
@@ -36,7 +29,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 2. <span class="label label-primary">Opdracht</span> Ga op zoek naar de [langste reeks niet-priemgetallen](/getaltheorie/reeks)
 
-3. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven
+3. Begrijp hoe je ["mooie code"](/python/stijlgids) kunt schrijven --- en vanaf nu verwachten we ook dat je deze ideeën toepast in je eigen code!
 
 4. <span class="label label-primary">Opdracht</span> Vind (g)een tegenbewijs voor het vermoeden van [Goldbach](/getaltheorie/goldbach)
 
@@ -48,7 +41,8 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 3. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/getaltheorie/grafieken)
 
-#### Evaluatie
+#### Inleveren en evaluatie
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+1. Ga naar [deze pagina](/getaltheorie/inleveren) om je programma's in te leveren.
 
+2. Vul daarna de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.

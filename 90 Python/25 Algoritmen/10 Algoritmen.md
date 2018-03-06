@@ -4,7 +4,7 @@ Computers laten pas echt zien wat ze kunnen als de oplossing van een probleem ni
 
 ![embed](https://www.youtube.com/embed/6hfOvs8pY1k)
 
-In het hoofdstuk [basiselementen](/python/basiselementen) heb je een aantal **instructies** ( **statements**) geleerd waar Python mee om kan gaan:
+In het hoofdstuk [basiselementen](/python/basiselementen) heb je een aantal **instructies** (**statements**) geleerd waar Python mee om kan gaan:
 
 - de `print`-instructie, om boodschappen aan de gebruiker door te geven
 - de `input`-instructie, om informatie van de gebruiker op te vragen

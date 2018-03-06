@@ -8,6 +8,8 @@ Schrijf een programma dat de volgende grafiek laat zien.
 
 * Maak een file `plot.py` en schrijf daarin een programma dat de grafiek van de functie $$f(x) = x^x$$ tussen $$x=0$$ en $$x=1.5$$ in stapjes van $$0.01$$ plot. Gebruik hiervoor een blauwe lijn.
 
+* Het minimum van de functie moet je uitrekenen. Omdat je een lijst hebt met x-waarden en een lijst met y-waarden kun je dit redelijk makkelijk doen via een `for`-loop.
+
 * Zorg dat het minimum in de grafiek wordt aangegeven door middel van een rode stip en een tekstje.
 
 * Gebruik `print` om het minimum ook nog als tekst naar de terminal te printen.
@@ -16,7 +18,7 @@ Schrijf een programma dat de volgende grafiek laat zien.
 
 * Vul eerst twee lijsten met de juiste x- en y-waarden en doe daarna de plot.
 
-* Kijk goed naar [de voorbeelden](/python/plot).
+* Kijk goed naar [de voorbeelden](/technieken/plot).
 
 * Bij het gebruiken van libraries/bibliotheken is het heel nuttig om Google te gebruiken. Wil je weten hoe je iets voor elkaar speelt met pyplot? Google maar! Tip: gebruik het woord "example" om naar voorbeelden te zoeken.
 
