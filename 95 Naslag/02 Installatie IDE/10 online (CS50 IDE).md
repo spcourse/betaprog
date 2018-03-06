@@ -1,15 +1,19 @@
 # Online programmeren
 
-Om online te kunnen programmeren maken wij gebruik van een online integrated development environment (IDE), de CS50 IDE. Om toegang te krijgen tot deze omgeving moet je wat stappen afwerken. Hierna kan je gelijk aan de slag!
+Om online te kunnen programmeren maken wij gebruik van een online integrated development environment, de CS50 IDE. Om toegang te krijgen tot deze omgeving moet je wat stappen door. Daarna kun je gelijk aan de slag!
 
 ## Aanmaken van de CS50 IDE
 
-Om toegang te krijgen tot de ontwikkelomgeving vragen we je de volgende stappen af te werken:
+Om toegang te krijgen tot de ontwikkelomgeving kun je het volgende doen:
 
 1. Registreer bij edX op [https://courses.edx.org/register](https://courses.edx.org/register). Je hoeft je niet aan te melden voor een cursus.
+
 2. Bevestig je account via de link in je e-mail.
+
 3. Login met jouw net aangemaakte account op [https://cs50.io/](https://cs50.io/).
-4. Er wordt je gevraagd een nieuwe workspace aan te maken. Vul hiervoor de volgende gegevens in:
+
+4. Er wordt je wellicht gevraagd een nieuwe workspace aan te maken. Vul hiervoor de volgende gegevens in:
+
     - Workspace name: ide50
     - Description: CS50 IDE
     - Template: Harvard's CS50 (*belangrijk*)
@@ -18,9 +22,9 @@ Na het aanmaken van de workspace, zie je dit scherm in jouw browser:
 
 ![cs50](cs50.png)
 
-We noemen dit een geïntegreerde ontwikkelomgeving (integrated development environment, IDE), omdat je in deze omgeving alles vindt wat je nodig hebt om programma's te ontwikkelen: een overzicht van je bestanden, een tekst-editor om programma-code in te tikken, en een plek om je programma's uit te proberen.
+We noemen dit een geïntegreerde ontwikkelomgeving, omdat je hier alles vindt wat je nodig hebt om programma's te ontwikkelen: een overzicht van je bestanden, een tekst-editor om programma-code in te tikken, en een plek om je programma's uit te proberen.
 
-Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan naar het dropdown menu **view** -> **night mode**. Voel je ook vrij om nog een beetje te speuren door de dropdown menu's. Het is okee als je nog niet begrijpt wat alles betekent. Mocht je je binnenkort wat meer thuisvoelen omdat je wat meer programmeerskills hebt opgedaan, of je bent gewoon nieuwsgierig, zet dan gerust eens **view** -> **Less Comfortable** uit voor extra opties.
+Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan naar het dropdown menu **view** -> **night mode**. Voel je ook vrij om nog een beetje te speuren door de dropdown menu's. Het is okee als je nog niet begrijpt wat alles betekent.
 
 ## Proefrit
 

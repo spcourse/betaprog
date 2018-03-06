@@ -12,7 +12,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Dag 1: aan de slag
 
-1. [Installeer](/python/ide) Python
+1. [Installeer](/naslag/installatie) Python
 
 2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
 
