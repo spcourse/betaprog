@@ -12,9 +12,9 @@ Zit je vast? Stuur gerust een [mailtje](mailto:inleiding@mprog.nl) en we helpen 
 
 ### Stap 1: Anaconda
 
-Dit pakket kunt je downloaden op de website van [Continuum](https://www.continuum.io/downloads). Kies daar voor de "**Graphical Installer**" van **Python-versie 2.7**. De download is meer dan 400MB. Het kan dus even duren voordat het klaar is! Je hoeft trouwens je mailadres niet op te geven, ook zonder mag je Anaconda gewoon gebruiken.
+Dit pakket kunt je downloaden op de [website](https://www.anaconda.com/download/). Kies daar voor de "**Graphical Installer**" van **Python-versie 3.6**. De download is meer dan 500MB. Het kan dus even duren voordat het klaar is! Je hoeft trouwens je mailadres niet op te geven, ook zonder mag je Anaconda gewoon gebruiken.
 
-![Kies de "Graphical installer" van Python 2.7](download.png){:style="max-width:35%"}
+![Kies de "Graphical installer" van Python 3.6](download.png){:style="max-width:35%"}
 
 Zodra de download klaar is, moet je het gedownloade bestand uitvoeren (dubbelklik?). Volg dan de installatieinstructies en kies waar nodig voor "Install for me only"; als het goed is hoef je verder niks te veranderen.
 
