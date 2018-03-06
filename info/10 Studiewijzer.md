@@ -44,13 +44,13 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 - <strong>optie</strong>: bestudeer de natuurkundige regels van [<strong>beweging</strong>](/beweging/inhoud)
 
-- <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud)
+- <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud) <span class="label label-primary">Python 3</span>
 
 - <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooi-predator/inhoud) model
 
 **Module 4**, kies uit:
 
-- <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/big-data/inhoud)
+- <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/big-data/inhoud) <span class="label label-primary">Python 3</span>
 
 - <strong>optie</strong>: trek harde en minder harde conclusies met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
 
