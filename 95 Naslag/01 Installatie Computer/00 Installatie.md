@@ -65,13 +65,15 @@ Dan zie je een extra onderdeel verschijnen in je Visual Studio-scherm:
 
 ![visualterminal](visualterminal.png){:style="max-width:80%"}
 
-Dit onderdeel heet de **terminal** en is de plek waar we Python en jouw programma's kunnen opstarten. Door ons met een lijntje aangegeven is de **prompt** (vraag) waar we een opdracht kunnen intikken. De prompt ziet er wat ingewikkeld uit, maar dat kunnen we negeren.
+Dit onderdeel heet de **terminal** en is de plek waar we Python en jouw programma's kunnen opstarten. Door ons met een lijntje aangegeven is de **prompt** (vraag) waar we een opdracht kunnen intikken. De prompt ziet er wat ingewikkeld uit (en soms ziet deze er ook anders uit dan hierboven), maar dat kunnen we negeren.
 
 Laten we het meteen maar eens uitproberen met ons programma `hello.py`. Voer het volgende commando in achter de prompt:
 
 	python hello.py
 
 Druk op **ENTER** om de opdracht te starten. En inderdaad, jouw eerste (werkende) programma!
+
+> Tip: krijg je de foutmelding `The term 'python' is not recognized as the name of...` dan is Python niet goed geinstalleerd. Check de installatie-instructies en vergeet niet de opmerking over het vinkje van het PATH! Je kunt Anaconda ook deïnstalleren en dan de installatie opnieuw starten.
 
 
 ### checkpy
