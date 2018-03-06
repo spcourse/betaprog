@@ -30,13 +30,13 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 **Module 1**, kies uit:
 
-- <strong>optie</strong>: piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud)
+- <strong>optie</strong>: piramides tekenen en beklimmen met behulp van [<strong>algoritmen</strong>](/algoritmen/inhoud) <span class="label label-primary">Python 3</span>
 
-- <strong>optie</strong>: duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud)
+- <strong>optie</strong>: duik in de wereld van [<strong>getaltheorie</strong>](/getaltheorie/inhoud) <span class="label label-primary">Python 3</span>
 
 **Module 2**, kies uit:
 
-- <strong>optie</strong>: bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies
+- <strong>optie</strong>: bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies <span class="label label-primary">Python 3</span>
 
 - <strong>optie</strong>: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
 
@@ -46,7 +46,7 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 - <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud)
 
-- <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooipredator/inhoud) model
+- <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooi-predator/inhoud) model
 
 **Module 4**, kies uit:
 
