@@ -34,14 +34,14 @@ Nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoed
 		priemlijst = [2,3,5,7,11]
 		x = 7
 		if x in priemlijst:
-		    print "Ja, het getal %d komt voor in mijn priemlijst" % x
+		    print ("Ja, het getal {} komt voor in mijn priemlijst".format(x))
 
   En als je voor elk van de getallen 1 tot en met 40 wilt bekijken of ze in de lijst staan gebruik je dus:
 
 		priemlijst = [2,3,5,7,11]
 		for x in range(1,41):
 		    if x in priemlijst:
-		        print "Ja, het getal %d komt voor in mijn priemlijst" % x
+		        print ("Ja, het getal {} komt voor in mijn priemlijst".format(x))
 
   Deze hint geven we natuurlijk niet zomaar. Er is voor deze opdracht een 'elegante' oplossing te bedenken waarin deze 
   constructie gebruikt wordt. Je kan het ook op een minder elegante (brute-force) manier oplossen natuurlijk.

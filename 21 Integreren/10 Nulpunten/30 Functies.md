@@ -19,6 +19,8 @@ Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10
     - een lege lijst `[]` als er geen nulpunten zijn
     - een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
 
+- Plot in alle gevallen de functie, en geef de nulpunten uit de berekening duidelijk aan in de grafiek.
+
 ## Hints
 
 - Bereken de nulpunten met behulp van de $$abc$$-formule.

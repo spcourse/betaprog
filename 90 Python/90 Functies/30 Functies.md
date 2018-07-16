@@ -2,6 +2,9 @@
 
 Een *functie* is een stukje code waar je een naam aan geeft, zodat het hergebruikt kan worden. Een functie die je eerder al gebruikt hebt is `len()`, om de lengte van een lijst op te vragen. En denk aan de functies `arange()`, `plot()`, enzovoort.
 
+Je kunt ook zelf functies definiëren. Als je bijvoorbeeld een stuk code hebt geschreven om data mooi te plotten, wil je niet telkens opnieuw de hele
+code kopiëren als je nieuwe data hebt.
+
 ![embed](https://player.vimeo.com/video/241704136)
 
 (In het filmpje gebruiken we `print` zonder haakjes `()`. Omdat de cursus in Python 3 werkt, moet je nu wél haakjes toevoegen als je iets wil printen.)
