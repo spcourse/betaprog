@@ -20,9 +20,11 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. Leer over het gebruik van [random getallen](/technieken/random)
 
-2. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
+2. <span class="label label-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
 
-3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
+3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
+
+4. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
 #### Dag 3: Riemann
 

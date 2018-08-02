@@ -8,8 +8,6 @@ Het is handig om je resultaten te visualiseren in een grafiek of zelfs een filmp
 
 We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,5)$$ en de y-waardes $$(0,1,4,9,16,25)$$ hebben. In dit geval is het precies de functie $$x^2$$, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
 
-    import matplotlib
-    matplotlib.use('agg')
     import matplotlib.pyplot
 
     # de coordinaten per punt
@@ -18,7 +16,7 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,
 
     # plot punten (y tegen x) met groene rondjes
     matplotlib.pyplot.plot(x_coords, y_coords, 'go')
-    matplotlib.pyplot.savefig('plot.png')
+    matplotlib.pyplot.show()
 
 We kiezen voor groene rondjes als 'markers', waarmee elk punt in de grafiek wordt weergegeven: dat is wat `'go'` betekent. Met het laatste commando wordt de plot opgeslagen als een bestand `plot.png`. Deze vind je na uitvoeren van het programma als los bestand bij je code.
 
@@ -28,9 +26,6 @@ We kiezen voor groene rondjes als 'markers', waarmee elk punt in de grafiek word
 
 Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In het geval van `matplotlib.pyplot` kun je dan de plot-opdrachten een stuk korter opschrijven:
 
-    import matplotlib
-    matplotlib.use('agg')
-
     # gebruik de afkorting 'plt'
     import matplotlib.pyplot as plt
 
@@ -39,14 +34,12 @@ Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In h
     y_coords = [0,1,4,9,16,25]
 
     plt.plot(x_coords, y_coords, 'go')
-    plt.savefig('plot.png')
+    plt.show()
 
 ## Meerdere grafieken en bijschriften
 
 We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een lijngrafiek en we voegen aslabels toe en een los tekstje:
 
-    import matplotlib
-    matplotlib.use('agg')
     import matplotlib.pyplot as plt
 
     x_values  = [0,1,2,3,4,5]
@@ -66,7 +59,7 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
     # voeg losse tekst toe met LaTeX
     plt.text(4.00,100., "$x^3$", color = 'red', fontsize = 20)
 
-    plt.savefig('plot.png')
+    plt.show()
 
 ![](plotje2.png)
 
@@ -77,8 +70,6 @@ We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een li
 Hierboven hebben we een klein aantal punten gekozen waarbij je de waardes
 zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere grafiek te krijgen kun je de computer gewoon een heleboel y-waardes laten berekenen. Als we bijvoorbeeld de functie $$sin(x)$$ willen plotten in stapjes van $$0.01$$ tussen $$0$$ en $$2\pi$$ dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
 
-    import matplotlib
-    matplotlib.use('agg')
     import numpy as np
     import math
     import matplotlib.pyplot as plt
@@ -100,7 +91,7 @@ zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere
     plt.xlabel('x', fontsize = 20)
     plt.ylabel('sin(x)', fontsize = 20)
     plt.text(4.00, 0.50, "f(x) = sin(x)", color = 'black', fontsize = 20)
-    plt.savefig('plot.png')
+    plt.show()
 
 ![](plotje3.png)
 
@@ -116,8 +107,6 @@ Dit is de code die daarbij hoort:
 
     import math
     import numpy as np
-    import matplotlib
-    matplotlib.use('Agg')
     import matplotlib.pyplot as plt
 
     l_x    = []
@@ -141,4 +130,4 @@ Dit is de code die daarbij hoort:
     plt.plot(l_x, l_x2, 'g-')
 
     # teken beide grafieken op het scherm
-    plt.savefig("naam.png")
+    plt.show()

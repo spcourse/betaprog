@@ -55,29 +55,29 @@ In het voorbeeld hierboven testen we voor elk van de getallen of het een even ge
 
 > Let op dit detail: we gebruiken `==` om te kijken of twee getallen aan elkaar gelijk zijn. Het antwoord daarop is 'waar' of 'niet waar'. Een veelvoorkomende fout is dat hier een enkele `=` gebruikt wordt. Bestudeer dus goed het verschil tussen die twee operatoren.
 
-## Variabelen nuttig gebruiken
-
-Dit stukje code rekent heel specifiek de som van de even getallen van 1 tot en met 20 uit.
-
-    som = 0
-    for getal in range(1, 21):
-        if getal % 2 == 0:
-            print("Yes! {} is een even getal".format(getal))
-            som = som + getal
-    print("de som van de even getallen van 1 tot en met 20 is {}".format(som))
-
-Stel dat we het programma nu gaan aanpassen om de even getallen van 1 tot en met 88 op te tellen, dan moeten we het programma op *twee* plekken aanpassen. Kopieer bovenstaande code maar eens en pas deze aan zodat deze tot 88 telt en zinvolle uitvoer geeft. Bij een klein stukje code gaat zo'n aanpassing nog wel, maar bij een groter probleem merk je dat bepaalde informatie vaak in de code voorkomt en zorgvuldig aangepast moet worden. Grote kans op fouten!
-
-Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code zo universeel mogelijk maakt. Het onderstaande stukje code rekent de som uit van de even getallen van 1 tot en met `max_getal`. Die variabele hoef je dus alleen in het begin van je code een waarde te geven (20, 138613 of in dit geval 88) en verder zie je dat getal nergens terug komen. De informatie wordt via de variabele `max_getal` doorgegeven naar alle plekken waar deze nodig is.
-
-    som = 0
-    max_getal = 88
-    for getal in range(1, max_getal+1):
-        if getal % 2 == 0:
-            print("Yes! {} is een even getal".format(getal))
-            som = som + getal
-    print("de som van de even getallen van 1 tot en met {} is {}".format(max_getal, som))
-
+% ## Variabelen nuttig gebruiken
+% 
+% Dit stukje code rekent heel specifiek de som van de even getallen van 1 tot en met 20 uit.
+% 
+%     som = 0
+%     for getal in range(1, 21):
+%         if getal % 2 == 0:
+%             print("Yes! {} is een even getal".format(getal))
+%             som = som + getal
+%     print("de som van de even getallen van 1 tot en met 20 is {}".format(som))
+%
+% Stel dat we het programma nu gaan aanpassen om de even getallen van 1 tot en met 88 op te tellen, dan moeten we het programma op *twee* plekken aanpassen. Kopieer bovenstaande code maar eens en pas deze aan zodat deze tot 88 telt en zinvolle uitvoer geeft. Bij een klein stukje code gaat zo'n aanpassing nog wel, maar bij een groter probleem merk je dat bepaalde informatie vaak in de code voorkomt en zorgvuldig aangepast moet worden. Grote kans op fouten!
+% 
+% Zorg daarom dat je, nadat je het specifieke probleem hebt opgelost, je code zo universeel mogelijk maakt. Het onderstaande stukje code rekent de som uit van de even getallen van 1 tot en met `max_getal`. Die variabele hoef je dus alleen in het begin van je code een waarde te geven (20, 138613 of in dit geval 88) en verder zie je dat getal nergens terug komen. De informatie wordt via de variabele `max_getal` doorgegeven naar alle plekken waar deze nodig is.
+% 
+%     som = 0
+%     max_getal = 88
+%     for getal in range(1, max_getal+1):
+%         if getal % 2 == 0:
+%             print("Yes! {} is een even getal".format(getal))
+%             som = som + getal
+%     print("de som van de even getallen van 1 tot en met {} is {}".format(max_getal, som))
+%
 ## Stapgrootte van een loop
 
 Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen van begin tot einde, en neemt niet stappen van 1, maar van de grootte die jij hebt ingesteld. Dit ziet er zo uit:
@@ -88,6 +88,8 @@ Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen va
 Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk even na welke stappen gemaakt zouden worden bij de loop hierboven; of neem de code over en zet er een `print` in om het gedrag te bestuderen.
 
 ## Nog een loop: `while`
+
+![embed](https://player.vimeo.com/video/241703358)
 
 In de vorige hoofdstukken hebben we gewerkt met `for`-loops. Die zijn heel handig als je weet hoe veel stappen er genomen moeten worden.
 

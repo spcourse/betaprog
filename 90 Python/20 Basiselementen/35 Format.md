@@ -18,3 +18,4 @@ Dit kan vooral handig zijn voor het printen van meerdere variabelen:
     print("Het is {} graden en de luchtdruk is {} bar.".format(temperature, pressure))
 
 In dit geval zijn er twee placeholders, `{}`, die door `format` worden ingevuld.
+

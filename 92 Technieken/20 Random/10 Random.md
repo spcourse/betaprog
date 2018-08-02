@@ -17,14 +17,14 @@ Elke keer dat je de functie aanroept zal het een nieuw getal opleveren. Tien ran
 
 ## Bouwen met bouwstenen
 
-Zodra je een bouwsteen hebt, kun je met behulp van logica en wiskundige manipulaties hier zelf andere objecten van bouwen. Als je weet dat de functie `random.random()` een getal tussen 0 en 1 produceert dan kun je een transformatie verzinnen waardoor we een getal tussen bijvoorbeeld 1 en 3 krijgen.
+Zodra je een bouwsteen hebt, kun je met behulp van logica en wiskundige manipulaties hier zelf andere objecten van bouwen. Als je weet dat de functie `random.random()` een getal tussen 0 en 1 produceert dan kun je een transformatie verzinnen waardoor we een getal tussen bijvoorbeeld 0 en 3 krijgen.
 
-Voorbeeld: tien random getallen tussen 1 en 3
+Voorbeeld: tien random getallen tussen 0 en 3
 
     import random
     for i in range(10):
         r = random.random()
-        y = 2*r+1
+        y = 2*r
         print(y)
 
 ## Een eigen functie
