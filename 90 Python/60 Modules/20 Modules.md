@@ -2,8 +2,6 @@
 
 Je hebt in de vorige opgaven al diverse ingebouwde opdrachten gezien die horen bij Python: `raw_input` en `print` zijn twee voorbeelden. Er zijn nog heel veel andere *functies* bijgeleverd, maar die zijn niet standaard beschikbaar.
 
-![embed](https://player.vimeo.com/video/241704161)
-
 Voor het uitrekenen van de sinus van een getal is de functie `sin` beschikbaar. Maar als je nu meteen in Python `sin(1.0)` opvraagt, dan verschijnt er een foutmelding:
 
     Traceback (most recent call last):
@@ -14,7 +12,7 @@ Het gaat om de laatste regel van die foutmelding. Deze is in zo normaal mogelijk
 
 Om gebruik te maken van de `sin`-functie moet je zorgen dat de `math`-bibliotheek en alle functies daarin beschikbaar komen in jouw programma:
 
-    import math         # importeer de wiskunde bibliotheek
+    import math         # importeer de wiskunde-bibliotheek
 
     x = 0.5
     print(math.sin(x))

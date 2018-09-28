@@ -1,6 +1,6 @@
 # Monte Carlo
 
-Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van een willekeurige wiskundige functie.
+Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van een willekeurige wiskundige functie  met gespecificeerde integratiegrenzen. Zorgt dat zowel de functie zelf als de gegooide punten (zowel de 'goede' als de 'foute') op het scherm weergegeven worden.
 
 ## Specificatie
 
@@ -17,6 +17,8 @@ Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van
 	- `y2` de tweede y waarde
 
 - De functie `montecarlo()` moet de oppervlakte onder de grafiek teruggeven als resultaat.
+
+- De functie `montecarlo()` moet de functie plotten en de punten *in* het integratiegebied (de 'goede' punten) in groen en de 'foute' punten in rood tekenen.
 
 
 ## Tests
@@ -49,6 +51,10 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 - Bij 'negatieve' integratieregio's kun je de gebieden splitsen.
 
 - In onderzoekstoepassingen wordt voor maximalisatie van de efficientie de rechthoek zo gekozen dat hij de integraal zo nauw mogelijk omsluit.
+
+- Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
+
+- Denk goed na over hoe je omgaat met het deel van het integratiegebied dat onder de y-as valt.
 
 ## Testen
 

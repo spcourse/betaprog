@@ -12,7 +12,7 @@ of
 
 Met zo'n hekje (`#`) laat je zien dat het geen instructie betreft, maar een stukje tekst waar de computer niets mee hoeft te doen. Het is gebruikelijk om een regeltje commentaar te zetten *boven* het stuk code waar het naar verwijst.
 
-Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een bestand duidelijk te vermelden waar het voor dient. Voor **module1.py** kun je denken aan het volgende:
+Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een bestand duidelijk te vermelden waar het voor dient. Voor **oefening.py** kun je denken aan het volgende:
 
     # Oefeningen met Python module 1
     # M. Stegeman

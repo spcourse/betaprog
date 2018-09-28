@@ -24,7 +24,7 @@ Voorbeeld: tien random getallen tussen 0 en 3
     import random
     for i in range(10):
         r = random.random()
-        y = 2*r
+        y = 3*r
         print(y)
 
 ## Een eigen functie

@@ -2,16 +2,9 @@
 
 In de voorgaande programma's schreven we scriptjes die regel voor regel van boven naar beneden werden uitgevoerd. Een soort stapsgewijze handleiding. Programma's worden interessanter als we *uitzonderingen* willen beschrijven.
 
-Tot nu toe konden we bijvoorbeeld geen programma schrijven dat slechts geld van je bankrekening afschrijft als er ook iets opstaat (stufi-dag). Hiervoor hebben we een **conditional** nodig. In Python kun je gebruik maken van het `if`-statement. Dit ziet er in een voorbeeld als volgt uit:
+![embed](https://player.vimeo.com/video/287244672)
 
-    1  balance = 100
-    2  expense = 30
-    3  
-    4  # pay expenses only if balance allows it
-    5  if balance - expense > 0:
-    6      balance = balance - expense
-    7  
-    8  print("Remaining balance:", balance)
+## Details
 
 Een `if`-statement in Python kent de volgende structuur:
 
@@ -21,30 +14,6 @@ Een `if`-statement in Python kent de volgende structuur:
 Een **voorwaarde (condition)** kent uiteindelijk maar twee mogelijke opties. In Python zijn dit `True` en `False` (dit noemen we "boolean" waardes, naar [George Boole](https://en.wikipedia.org/wiki/Boolean_algebra#Values)). In de code hierboven is deze boolean het resultaat de expressie `balance - expense > 0`. Hier wordt gebruik gemaakt van de vergelijkingsoperator `>`. Deze operator vergelijkt twee waarden, in dit geval de uitkomst van `balance - expense` en `0`, en produceert een boolean. Afhankelijk van de uitkomst, dat kan dus zijn `True` of `False`, wordt de code die bij de `if`-statement hoort uitgevoerd.
 
 De `:` op regel 5 hierboven laat zien dat bij de `if` een **codeblok** hoort. Dat is dus precies het deel van de code dat slechts wordt uitgevoerd als aan de voorwaarde is voldaan. Zo'n blok bestaat vaak uit meerdere regels code, en om duidelijk te maken welke regels dat zijn, gebruik je **indentatie**. Dat is een aantal spaties of tabs van de kantlijn af. In de code hierboven hebben we vier spaties gebruikt om aan te geven dat regel 6 bij het `if`-statement hoort. Omdat regel 8 weer meer naar links staat, is die regel niet meer afhankelijk van de uitkomst van de conditie op regel 5. Die regel wordt dus *onvoorwaardelijk* uitgevoerd.
-
-## Uitzonderingen stapelen
-
-Behalve `if`, kent Python ook de `if-else` constructie. Deze ziet er als volgt uit:
-
-    balance = 100
-
-    if balance >= 0:
-        print("balance is positive")
-    else:
-        print("balance is negative")
-
-Hiermee hebben we een manier om één stuk code uit te voeren als de conditie `True` blijkt, en een ander stuk bij `False`.
-
-Niet elk probleem is binair. Dan is `elif` een uitkomst. `elif` is een samenvoegsel van `else` en `if`. Je kan `elif` als volgt gebruiken:
-
-    balance = 100
-
-    if balance >= 1000:
-        print("I'm rich!")
-    elif balance >= 0:
-        print("At least I'm not broke.")
-    else:
-        print("Nope")
 
 ## Meer operatoren
 

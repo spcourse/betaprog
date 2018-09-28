@@ -11,7 +11,7 @@ Zoals gezegd is een computer geweldig in het snel uitvoeren van een heleboel "do
 
 ## Specificatie
 
-- Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn.
+- Vraag de gebruiker om de rangorde van het priemgetal (het hoeveelste) in te voeren. Dit moet natuurlijk een geheel en positief getal zijn. Je programma hoeft niet te controleren of de input wel een geheel en positief getal is, maar moet werken voor alle gehele positieve getallen als input.
 
 - Als de gebruiker een rangorde invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de rangorde. Net zo lang tot de gebruiker een geldige rangorde invult. Omdat je niet weet hoe vaak dat zal zijn, moet het een `while`-loop worden!
 
@@ -81,7 +81,7 @@ We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* p
 
 - Behalve 2 zijn *even* getallen nooit een priemgetal (dit vraagt slechts een hele kleine aanpassing van je code).
 
-- Als je een deler vindt hoef je niet verder te zoeken omdat je dan weet dat het geen priemgetal is. Daarvoor kun je `break` gebruiken (dit vraagt een kleine aanpassing).
+- Als je een deler vindt hoef je niet verder te zoeken omdat je dan gelijk weet dat het geen priemgetal is. 
 
 - Als je wilt bepalen of 137 een priemgetal is, welke kandidaat-delers bekijk je dan voordat je zeker weet dat het een priemgetal is? Doe dit op pen en papier. Delen door 2 en alle oneven getallen tot het getal is een beetje teveel van het goede. Een wiskundige deelt bijvoorbeeld alleen door 2, 3, 5, 7, 11. Bedenk waarom (dit vraagt waarschijnlijk een flinke aanpassing van je code).
 

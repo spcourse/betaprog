@@ -2,7 +2,7 @@
 
 Als je een programma hebt geschreven kun je het uitvoeren (*runnen*). De computer loopt dan stap voor stap door je programma en voert de instructies uit die op elke regel staan.
 
-Maak tekstbestand **module1.py** (weet je nog hoe?) en zet er de volgende regels in:
+Maak tekstbestand **oefening.py** (weet je nog hoe?) en zet er de volgende regels in:
 
     print("Hallo, wereld!")
     print("Hee, hallo daar.")
@@ -12,11 +12,11 @@ Maak tekstbestand **module1.py** (weet je nog hoe?) en zet er de volgende regels
     print("Ivo's computer doet het vandaag niet.")
     print('Hij zei: "Hallo."')
 
-> Oefenen doe je in deze cursus door elk voorbeeld letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een foutmelding krijgt!
+> Oefenen doe je in deze cursus door de voorbeelden letterlijk over te tikken. Gebruik niet de *copy-paste* functie, want dan maak je geen fouten en dan leer je veel minder. Tik dus alle voorbeelden over en verbeter ze als je een foutmelding krijgt!
 
 Start nu het programma door in de Terminal in te geven:
 
-    python module1.py
+    python oefening.py
 
 Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens (enkele of dubbele). Zo'n reeks noemen we een **string**.
 
@@ -61,4 +61,4 @@ Hieronder vind je een lijstje van operators die je kunt gebruiken om formules sa
 | `2 % 1`  | modulus (rest bij deling) |  
 | `2 ** 1` | machtsverheffen           |  
 
-Let op: als je twee gehele getallen deelt met de `/`-operator, zal er altijd een geheel getal uitkomen. Dan is `3/2` dus niet `1.5`, maar `1`. Dat is waarom de `%`-operator er mooi bijpast; die geeft de "rest".
+Let op: als je twee gehele getallen deelt met de `/`-operator, zal er altijd een geheel getal uitkomen. Dan is `3/2` dus niet `1.5`, maar `1`. Dat is waarom de `%`-operator er mooi bijpast; die geeft de "rest", ofwel wat overblijft.

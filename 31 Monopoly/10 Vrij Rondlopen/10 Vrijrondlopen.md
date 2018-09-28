@@ -8,13 +8,8 @@ Schrijf een programma dat een vereenvoudigde versie van het spel Monopoly simule
 
 ## Achtergrond
 
-We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, er is geen concurrentie.
-
-Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
-waarna alle straten zijn verkocht. Schrijf in een bestand
-`monopoly_opdracht1.py` een functie `simuleer_groot_aantal_potjes_Monopoly()`.
-Defineer *buiten alle functies* een variabele `aantal_potjes` die aangeeft
-hoeveel potjes er gesimuleerd moeten worden: in ons geval 10000.
+We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-Mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
+waarna alle straten zijn verkocht.
 
 Om je te helpen deze opdracht te maken is het handig de volgende tussenstappen te doorlopen.
 
@@ -160,7 +155,7 @@ In je code moet het dus als volgt werken:
 
 We hebben met de functie `simuleer_potje_Monopoly()` nu de mogelijkheid om een enkel potje Monopoly te simuleren. Als je dit een paar keer doet zul je zien dat het aantal worpen dat je nodig hebt om alle straten in je bezit te krijgen sterk varieert omdat je aan het eind van het spel natuurlijk maar net op dat laatste overgebleven vakje terecht moet komen. Het doel van deze opdracht is om uit te zoeken hoeveel worpen de speler *gemiddeld* nodig zou hebben om alle velden in zijn bezit te krijgen. Om deze vraag te beantwoorden zullen we een groot aantal potjes moeten simuleren.
 
-Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly()` die een groot aantal potjes kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen:
+Schrijf een functie `simuleer_groot_aantal_potjes_Monopoly(aantal_potjes)` die een groot aantal potjes kan simuleren door steeds de functie `simuleer_potje_Monopoly()` aan te roepen:
 
     for potje in range(0, aantal_potjes):
         aantal_worpen = simuleer_potje_Monopoly()
@@ -181,7 +176,7 @@ Tip: als je een groot aantal potjes simuleert is het handig als het programma la
 
 ## En dan: de uitkomst teruggeven
 
-Zorg tot slot dat de functie `simuleer_groot_aantal_potjes_Monopoly()` nu het gemiddeld aantal worpen teruggeeft dat nodig was om alle straten in je bezit te krijgen.
+Zorg tot slot dat de functie `simuleer_groot_aantal_potjes_Monopoly()` nu het gemiddeld aantal worpen teruggeeft dat nodig was om alle straten in je bezit te krijgen (via `return`).
 
 ## Testen
 

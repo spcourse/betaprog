@@ -1,6 +1,6 @@
 # Riemann
 
-Schrijf een functie die middels de Riemannsom de integraal berekent van een willekeurige wiskundige functie.
+Schrijf een functie die met behulp van een Riemann-som de integraal berekent van een willekeurige wiskundige functie met gespecificeerde integratiegrenzen. De wiskundige functie moet ook op het scherm weergeven worden.
 
 ## Specificatie
 
@@ -15,7 +15,10 @@ Schrijf een functie die middels de Riemannsom de integraal berekent van een will
 	- `b` het einde van het gebied
 	- `n` hoeveel rechthoeken we gebruiken om de integraal te bepalen.
 
-- De functie `riemann()` moet de oppervlakte onder de grafiek teruggeven als resultaat.
+- De functie `riemann()` moet de juiste waarde van de integraal teruggeven als resultaat.
+
+- De functie `riemann()` moet de wiskundige functie op het scherm laten zien.
+
 
 ## Tests
 
@@ -45,6 +48,9 @@ Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer 
 - Let op: als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 - Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Je kunt in je `riemann()`-functie een stukje code opnemen om de grafiek te plotten.
+
+- Test je functie altijd eerst op een integraal waarvan je de uitkomst kent. Dit is het geval voor een aantal van de functies die hierboven staan weergegeven. Pas als jouw functie die integralen goed uitrekent kan je met vertrouwen de onbekende nieuwe integraal aanpakken.
+
 
 ## Debuggen
 

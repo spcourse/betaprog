@@ -1,4 +1,4 @@
-# Numeriek integreren
+# Module 2: numeriek integreren
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235030111)
@@ -10,38 +10,36 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 1: nulpunten
 
-1. Leer over [goed ontworpen programma's](/naslag/designgids)
+1. Leer over [functies](/python/functies) in Python
 
-2. Leer over [functies](/python/functies) in Python
+3. <span class="badge badge-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
-3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
-
-#### Dag 2: random
-
-1. Leer over het gebruik van [random getallen](/technieken/random)
-
-2. <span class="label label-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
-
-3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
-
-4. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
-
-#### Dag 3: Riemann
+#### Dag 2: Riemann
 
 1. Leer over de [Riemannsom](/technieken/riemannsom)
 
-2. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
+1. <span class="badge badge-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
+
+#### Dag 3: random
+
+1. Leer over het gebruik van  [random getallen](/technieken/random).
+
+2. <span class="badge badge-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
+
+3. <span class="badge badge-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
+
+3. <span class="badge badge-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
 #### Dag 4: Monte Carlo
 
-1. Leer over de [Monte Carlo](/technieken/monte-carlo)-techniek
+1. Leer over de [Monte-Carlotechniek](/technieken/monte-carlo)
 
-2. <span class="label label-primary">Opdracht</span> Gebruik random waarden om te integreren met de [Monte Carlo](/integreren/monte-carlo)-methode
+2. <span class="badge badge-primary">Opdracht:</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
 
-3. <span class="label label-primary">Opdracht</span> Pas Monte Carlo toe op een [Kinder-ei](/integreren/ei)
+3. <span class="badge badge-primary">Opdracht:</span> Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
 
-#### Inleveren en evaluatie
+#### Evaluatie
 
-1. Ga naar [deze pagina](/integreren/submit) om je programma's in te leveren.
+Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
 
-2. Vul daarna de [evaluatie](https://goo.gl/forms/vp6PApzx9a2dXtCI2){:target="_blank"} in.
+

@@ -16,7 +16,7 @@ Schrijf een programma dat de volgende grafiek laat zien:
 
 * Vul eerst twee lijsten met de juiste x- en y-waarden en doe daarna de plot.
 
-* Kijk goed naar [de voorbeelden](/python/plot).
+* Kijk goed naar [de voorbeelden](/technieken/plot).
 
 * Bij het gebruiken van libraries/bibliotheken is het heel nuttig om Google te gebruiken. Wil je weten hoe je iets voor elkaar speelt met pyplot? Google maar! Tip: gebruik het woord "example" om naar voorbeelden te zoeken.
 
@@ -38,7 +38,7 @@ Schrijf een programma dat de volgende grafiek laat zien:
 
 * Vergeet trouwens niet dat `^` in Python zelf géén machtsverheffen is. Je moet voor het berekenen van een macht de operator `**` gebruiken.
 
-* Krijg je het plotten niet werkend? Stuur ons een mail!
+* Krijg je het plotten niet werkend? Vraag om hulp!
 
 ## Testen
 
