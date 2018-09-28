@@ -1,7 +1,4 @@
-course:
-    title: Inleiding Wetenschappelijk Programmeren
-    short: Programmeren
-    submit: IWP2017S
-    mail: inleiding@mprog.nl
-
+name: Inleiding Wetenschappelijk Programmeren
+short_name: Wetenschappelijk Programmeren
+language: nl
 license: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Dit werk valt onder een <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal-licentie</a>.
