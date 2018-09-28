@@ -49,6 +49,33 @@ Dit is een online cursus waarbij je het vooral zelf moet doen, dus hulp is beper
 
 - **Mail je vraag** via <help@mprog.nl>. Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
 
+## Aanmelden
+
+We bieden de cursus aan als UvA-vak, zodat je bij ons hulp kunt krijgen en een certificaat of studiepunten ontvangen. Wil je dat? Stuur ons een e-mail. We helpen je vervolgens met de officiële inschrijving:
+
+- UvA-studenten kunnen de cursus volgen als normaal vak voor 3 studiepunten (AVV/NAV)
+- Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA (we regelen dit voor je)
+- Anderen kunnen de cursus volgen voor €600 (studiejaar 2018-2019)
+
+## Tentamen
+
+Voor verkrijgen van studiepunten of een certificaat is het nodig om het tentamen te halen. In studiejaar 2018-2019 worden twee tentamens aangeboden: 21 januari om 9 uur en 17 juni om 9 uur. Te zijner tijd moet je je aanmelden voor deze tentamens. Iedereen die officieel ingeschreven is, krijgt een maand van te voren een uitnodiging om zich aan te melden.
+
+## Boek
+
+Oefenen voor het tentamen gaat via het Basisboek Programmeren. Dit is een uitgave die dit jaar nieuw is. Je kunt exemplaren afhalen in lokaal A1.20 van de Minor Programmeren. Meestal is daar wel iemand aanwezig om je aan het boek te helpen.
+
+## Leerdoelen
+
+Wat willen we dat je kunt aan het einde van deze cursus?
+
+- Je kunt een omschrijving van een programma omzetten naar werkende code.
+- Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma’s.
+- Je kunt code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen.
+- Je kunt bepaalde programmeerfouten opsporen en verbeteren.
+
+Deze dingen kun je alleen maar leren door veel te oefenen met programmeren. Daarom zitten er veel opdrachten in de cursus waar je zelf aan de slag moet. Daarbij is het niet gek als je nog even niet precies weet hoe alles werkt, maar toch de problemen probeert op te lossen.
+
 ## Veelgestelde vragen
 
 **Ik heb nog geen Python, hoe moet dat?**
@@ -70,32 +97,6 @@ Ja! Dat is dus precies de bedoeling! Alle bronteksten en andere materialen staan
 **Kan ik een opdracht bijdragen aan de cursus?**
 
 Heel graag! Neem zeker contact op met de auteurs via <mailto:inleiding@mprog.nl> :-)
-
-
-## Aanmelden
-
-We bieden de cursus aan als UvA-vak, zodat je bij ons hulp kunt krijgen en een certificaat of studiepunten ontvangen. Wil je dat? Vul dan ook bovenstaand formulier in. We helpen je vervolgens met de officiële inschrijving:
-
-- UvA-studenten kunnen de cursus volgen als normaal vak voor 3 studiepunten (AVV/NAV)
-- Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA (we regelen dit voor je)
-- Anderen kunnen de cursus volgen voor €600 (studiejaar 2018-2019)
-
-## Tentamen
-
-Voor verkrijgen van studiepunten of een certificaat is het nodig om het tentamen te halen. In studiejaar 2018-2019 worden twee tentamens aangeboden: 21 januari om 9 uur en 17 juni om 9 uur. Te zijner tijd moet je je aanmelden voor deze tentamens.
-
-Oefenen voor het tentamen gaat via het Basisboek Programmeren. Dit is een uitgave die dit jaar nieuw is. Je kunt exemplaren afhalen in lokaal A1.20 van de Minor Programmeren. Meestal is daar wel iemand aanwezig om je aan het boek te helpen.
-
-## Leerdoelen
-
-Wat willen we dat je kunt aan het einde van deze cursus?
-
-- Je kunt een omschrijving van een programma omzetten naar werkende code.
-- Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma’s.
-- Je kunt code overzichtelijk en beter leesbaar maken door een consistente stijl toe te passen.
-- Je kunt bepaalde programmeerfouten opsporen en verbeteren.
-
-Deze dingen kun je alleen maar leren door veel te oefenen met programmeren. Daarom zitten er veel opdrachten in de cursus waar je zelf aan de slag moet. Daarbij is het niet gek als je nog even niet precies weet hoe alles werkt, maar toch de problemen probeert op te lossen.
 
 ## Colofon
 
