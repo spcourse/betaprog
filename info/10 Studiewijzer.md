@@ -1,22 +1,9 @@
-# Inleiding Wetenschappelijk Programmeren<br><small>Universiteit van Amsterdam / FNWI / Versie 2.0</small>
+# Inleiding Wetenschappelijk Programmeren
 
-<div>
+Universiteit van Amsterdam / FNWI / Versie 3.0 beta
 
-<!-- Nav tabs -->
-<ul class="nav nav-tabs" role="tablist">
-<li role="presentation" class="active"><a href="#modules" aria-controls="modules" role="tab" data-toggle="tab">Modules</a></li>
-<li role="presentation"><a href="#studiewijzer" aria-controls="studiewijzer" role="tab" data-toggle="tab">Meer info</a></li>
-<li role="presentation"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help!</a></li>
-</ul>
-
-
-<!-- Tab panes -->
-<div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="modules">
 
 ![Python](soc.png){:.inline}{:style="max-width:30%"}  
-
-**Let op: deze versie van de cursus is momenteel in bewerking. Een deel van de opgaven is omgezet naar Python 3, andere opgaven zijn nog in Python 2.**
 
 Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit de verschillende bètawetenschappen op te lossen.
 
@@ -24,9 +11,9 @@ De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met progr
 
 De cursus bestaat uit vier modules, waarin je steeds meer leert over programmeren, maar vooral hoe je complexe problemen gestructureerd kunt aanpakken. Je kunt voor elke module kiezen uit opgaven rondom verschillende wetenschapsgebieden (zorg dat je voor elke module één van de opties doorlopen hebt!).
 
-De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan de slag door bij elke module één van de opties te kiezen. Wil je meer weten over de cursus? Ga naar "meer info" hierboven.
+De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan de slag door bij elke module één van de opties te kiezen.
 
-<p style="margin-top:1.5em;"></p>
+## Modules
 
 **Module 1**, kies uit:
 
@@ -38,7 +25,7 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 - <strong>optie</strong>: bepaal de [<strong>integraal</strong>](/integreren/inhoud) van ingewikkelde functies <span class="label label-primary">Python 3</span>
 
-- <strong>optie</strong>: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud)
+<!-- - <strong>optie</strong>: ga op zoek naar het juiste [<strong>DNA</strong>](/dna/inhoud) -->
 
 **Module 3**, kies uit:
 
@@ -46,35 +33,31 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 - <strong>optie</strong>: bereken je voordeel bij [<strong>Monopoly</strong>](/monopoly/inhoud) <span class="label label-primary">Python 3</span>
 
-- <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooi-predator/inhoud) model
+<!-- - <strong>optie</strong>: simuleer populatiedynamica in klassiek [<strong>prooi-predator</strong>](/prooi-predator/inhoud) model -->
 
 **Module 4**, kies uit:
 
 - <strong>optie</strong>: analyseer alle KNMI temperatuur-metingen van de 20ste eeuw: [<strong>Big Data!</strong>](/big-data/inhoud) <span class="label label-primary">Python 3</span>
 
-- <strong>optie</strong>: trek harde en minder harde conclusies met behulp van [<strong>statistiek</strong>](/statistiek/inhoud)
-
-</div>
-
-<div role="tabpanel" class="tab-pane" id="help">
+<!-- - <strong>optie</strong>: trek harde en minder harde conclusies met behulp van [<strong>statistiek</strong>](/statistiek/inhoud) -->
 
 ## Hulp nodig?
 
 Dit is een online cursus, dus we proberen je zoveel mogelijk via internet te helpen. Dit zijn de mogelijkheden:
 
-- **Mail je vraag** via <help@mprog.nl> (of druk op de blauwe reddingsboei rechtsonder in het scherm). Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
+- Kom langs bij een **practicum** van de Minor Programmeren. Je kunt elke maandag en donderdag terecht in lokaal A1.16, van 15 tot 17 uur.
 
-- Kom langs bij een **practicum** van de Minor Programmeren. Je kunt tot eind mei elke dinsdag t/m donderdag terecht in lokaal A1.16, van 15 tot 19 uur.
+- **Mail je vraag** via <help@mprog.nl> (of druk op de blauwe reddingsboei rechtsonder in het scherm). Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
 
 ## Veelgestelde vragen
 
 **Ik heb nog geen Python, hoe moet dat?**
 
-Tijdens de eerste module leggen we helemaal uit hoe je Python op je eigen computer kunt installeren!
+Tijdens de eerste module leggen we helemaal uit hoe je Python kunt installeren!
 
 **Ik heb me nog niet aangemeld, mag ik alvast beginnen?**
 
-Zeker! Voel je vrij om de cursus online te doen. Wil je graag hulp hebben met programmeren? Dan moet je je wel aanmelden!
+Zeker! Voel je vrij om de cursus online te doen. Wil je graag hulp hebben met programmeren of wil je het tentamen doen? Dan moet je je wel officieel aanmelden!
 
 **Ik wil graag meer lesmateriaal of verder leren, waar moet ik zijn?**
 
@@ -89,30 +72,19 @@ Ja! Dat is dus precies de bedoeling! Alle bronteksten en andere materialen staan
 Heel graag! Neem zeker contact op met de auteurs via <mailto:inleiding@mprog.nl> :-)
 
 
-</div>
-
-<div role="tabpanel" class="tab-pane" id="studiewijzer">
-
-## Studiewijzer
-
-Het doel is dat je na de cursus zelf verder kunt leren, en waar nodig, je eigen programmaatjes gaat schrijven om je te helpen tijdens je studie, in het onderzoek of buiten de universiteit. De cursus bestaat uit vier modules en voor elke module kun je kiezen uit meerdere opties. Doe wat je leuk lijkt!
-
 ## Aanmelden
 
-Het is niet verplicht om je aan te melden als je de cursus wil bekijken, hergebruiken of gewoon volgen. We vragen je om dit toch te doen, zodat we een beeld hebben van de geïnteresseerden: 
-[**vul dit formulier in**](https://docs.google.com/forms/d/e/1FAIpQLSeQ7bMoMXKDO49h2RVElfVX8PjwYJNtD4J6ArC0iAeLKuTIEw/viewform){:target="_blank"}.
-
-We bieden de cursus ook aan als UvA-vak, zodat je bij ons hulp kunt krijgen en een certificaat of studiepunten ontvangen. Wil je dat? Vul dan ook bovenstaand formulier in. We helpen je vervolgens met de officiële inschrijving:
+We bieden de cursus aan als UvA-vak, zodat je bij ons hulp kunt krijgen en een certificaat of studiepunten ontvangen. Wil je dat? Vul dan ook bovenstaand formulier in. We helpen je vervolgens met de officiële inschrijving:
 
 - UvA-studenten kunnen de cursus volgen als normaal vak voor 3 studiepunten (AVV/NAV)
 - Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA (we regelen dit voor je)
-- Anderen kunnen de cursus volgen voor €600 (studiejaar 2017-2018)
+- Anderen kunnen de cursus volgen voor €600 (studiejaar 2018-2019)
 
 ## Tentamen
 
-Voor verkrijgen van studiepunten of een certificaat is het nodig om het tentamen te halen. Het tentamen vindt plaats op 18 juni om 13:00 uur. [Schrijf je wel even in!](https://calendly.com/stgm/tentamen-inleiding/06-18-2018) 
+Voor verkrijgen van studiepunten of een certificaat is het nodig om het tentamen te halen. In studiejaar 2018-2019 worden twee tentamens aangeboden: 21 januari om 9 uur en 17 juni om 9 uur. Te zijner tijd moet je je aanmelden voor deze tentamens.
 
-[Link naar het voorbeeldtentamen](proeftentamen.pdf). Een vraag als "lastig lezen" zal niet worden getoetst in het definitieve tentamen, omdat "code style" niet uitgebreid behandeld is in de cursus.
+Oefenen voor het tentamen gaat via het Basisboek Programmeren. Dit is een uitgave die dit jaar nieuw is. Je kunt exemplaren afhalen in lokaal A1.20 van de Minor Programmeren. Meestal is daar wel iemand aanwezig om je aan het boek te helpen.
 
 ## Leerdoelen
 
@@ -144,13 +116,3 @@ Materiaal in deze cursus is gedeeltelijk ontleend aan de volgende creative commo
 - Think Python van Allen B. Downey <http://greenteapress.com/wp/think-python/>
 
 Voor alle materialen op deze website berust het auteursrecht bij Martijn Stegeman en Ivo van Vulpen. De cursus is in huidige vorm gepubliceerd onder een creative commons-licentie en mag op allerlei manieren hergebruikt worden; zie de link onderaan de pagina.
-
-</div>
-
-
-
-</div>
-
-</div>
-
-
