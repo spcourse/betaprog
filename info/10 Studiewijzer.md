@@ -47,7 +47,7 @@ Dit is een online cursus waarbij je het vooral zelf moet doen, dus hulp is beper
 
 - Kom langs bij een **practicum** van de Minor Programmeren. Je kunt elke maandag en donderdag terecht in lokaal A1.16, van 15 tot 17 uur.
 
-- **Mail je vraag** via <help@mprog.nl>. Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
+- **Mail je vraag** via <inleiding@mprog.nl>. Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
 
 ## Aanmelden
 

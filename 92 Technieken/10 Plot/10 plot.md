@@ -18,7 +18,23 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,
     matplotlib.pyplot.plot(x_coords, y_coords, 'go')
     matplotlib.pyplot.show()
 
-We kiezen voor groene rondjes als 'markers', waarmee elk punt in de grafiek wordt weergegeven: dat is wat `'go'` betekent. Met het laatste commando wordt de plot opgeslagen als een bestand `plot.png`. Deze vind je na uitvoeren van het programma als los bestand bij je code.
+Gebruik je de online-omgeving (cs50.io)? Gebruik dan het volgende alternatieve programma:
+
+    import matplotlib
+    matplotlib.use('agg')
+    import matplotlib.pyplot
+
+    # de coordinaten per punt
+    x_coords = [0,1,2,3,4,5]
+    y_coords = [0,1,4,9,16,25]
+
+    # plot punten (y tegen x) met groene rondjes
+    matplotlib.pyplot.plot(x_coords, y_coords, 'go')
+    matplotlib.pyplot.savefig("test.png")
+
+(In dat geval wordt de grafiek niet direct op het scherm getoond, maar opgeslagen in een plaatje genaamd `test.png`. Als je dit plaatje dubbelklikt wordt de grafiek alsnog getoond. Gebruik je de online-omgeving? Vervang dan steeds het commando `plot()` door het commando `savefig(naam)`!)
+
+Wat betreft de opmaak van de grafiek kiezen we voor groene rondjes als 'markers', waarmee elk punt in de grafiek wordt weergegeven: dat is wat `'go'` betekent.
 
 ![](plotje1.png)
 
