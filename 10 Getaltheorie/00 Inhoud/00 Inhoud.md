@@ -11,7 +11,7 @@ Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunisse
 
 ##### Dag 1: aan de slag
 
-1. [Installeer](/naslag/installatie-computer) Python
+1. [Installeer](/naslag/installatie) Python
 
 2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
 
