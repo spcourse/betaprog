@@ -18,7 +18,7 @@ In deze module gaan we bestuderen hoe we de beweging van vallende objecten kunne
 
 #### Dag 3: Animaties in Python
 
-1. Leer hoe je [animaties](/python/animaties) maakt in Python
+1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
 2. <span class="badge badge-primary">Opdracht</span> De [spiraliserende stip](/beweging/stip)
 

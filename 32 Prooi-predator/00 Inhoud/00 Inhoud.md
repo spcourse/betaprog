@@ -10,7 +10,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.u
 
 #### Dag 1: Animaties in Python
 
-1. Leer hoe je [animaties](/python/animaties) maakt in Python
+1. Leer hoe je [animaties](/technieken/animaties) maakt in Python
 
 2. <span class="label label-primary">Opdracht</span> De [spriraliserende stip](/beweging/stip)
 
