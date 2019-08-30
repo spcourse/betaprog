@@ -7,6 +7,8 @@ Universiteit van Amsterdam / FNWI / Versie 3.0 beta
 
 Welkom bij deze cursus programmeren! Komende tijd ga je werken met de programmeertaal Python, om te leren wetenschappelijke problemen uit de verschillende bètawetenschappen op te lossen.
 
+We willen graag weten wie deze cursus online volgt! [Vul dit formulier in en maak ons blij!](https://forms.gle/3pKehE7iZwSRtbVc9)
+
 De cursus is bedoeld voor mensen die nog helemaal geen ervaring hebben met programmeren. Trouwens: het is ook heel leuk om de cursus met z'n tweeën te doen, dan kun je discussiëren over hoe je de problemen aanpakt.
 
 De cursus bestaat uit vier modules, waarin je steeds meer leert over programmeren, maar vooral hoe je complexe problemen gestructureerd kunt aanpakken. Je kunt voor elke module kiezen uit opgaven rondom verschillende wetenschapsgebieden (zorg dat je voor elke module één van de opties doorlopen hebt!).
@@ -51,19 +53,7 @@ Dit is een online cursus waarbij je het vooral zelf moet doen, dus hulp is beper
 
 ## Aanmelden
 
-We bieden de cursus aan als UvA-vak, zodat je bij ons hulp kunt krijgen en een certificaat of studiepunten ontvangen. Wil je dat? Stuur ons een e-mail. We helpen je vervolgens met de officiële inschrijving:
-
-- UvA-studenten kunnen de cursus volgen als normaal vak voor 3 studiepunten (AVV/NAV)
-- Medewerkers in dienst kunnen de cursus volgen op kosten van de UvA (we regelen dit voor je)
-- Anderen kunnen de cursus volgen voor €600 (studiejaar 2018-2019)
-
-## Tentamen
-
-Voor verkrijgen van studiepunten of een certificaat is het nodig om het tentamen te halen. In studiejaar 2018-2019 worden twee tentamens aangeboden: 21 januari om 9 uur en 17 juni om 9 uur. Te zijner tijd moet je je aanmelden voor deze tentamens. Iedereen die officieel ingeschreven is, krijgt een maand van te voren een uitnodiging om zich aan te melden.
-
-## Boek
-
-Oefenen voor het tentamen gaat via het Basisboek Programmeren. Dit is een uitgave die dit jaar nieuw is. Je kunt exemplaren afhalen in lokaal A1.20 van de Minor Programmeren. Meestal is daar wel iemand aanwezig om je aan het boek te helpen.
+Als je deze cursus officieel bij de UvA wil volgen, dan moet je naar de vernieuwde [Engelstalige versie](https://sp1.mprog.nl/)!
 
 ## Leerdoelen
 
