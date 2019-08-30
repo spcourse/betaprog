@@ -45,11 +45,7 @@ De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan d
 
 ## Hulp nodig?
 
-Dit is een online cursus waarbij je het vooral zelf moet doen, dus hulp is beperkt beschikbaar. Dit zijn de mogelijkheden:
-
-- Kom langs bij een **practicum** van de Minor Programmeren. Je kunt elke maandag en donderdag terecht in lokaal A1.16, van 15 tot 17 uur.
-
-- **Mail je vraag** via <inleiding@mprog.nl>. Afhankelijk van de drukte komen we zo snel en uitgebreid mogelijk bij je terug. Heb je een vraag over je code, stuur dan een bestand mee en geef duidelijk aan wat je probleem is.
+Dit is een online cursus waarbij je het vooral zelf moet doen, dus hulp is beperkt beschikbaar. Als het nou bijvoorbeeld niet lukt om Python te installeren, stuur dan gerust een mail naar <help@mprog.nl> en we proberen je verder te helpen.
 
 ## Aanmelden
 
