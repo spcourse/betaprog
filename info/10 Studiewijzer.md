@@ -15,6 +15,8 @@ De cursus bestaat uit vier modules, waarin je steeds meer leert over programmere
 
 De modules zijn steeds opgedeeld in vier dagdelen. Hieronder kun je direct aan de slag door bij elke module één van de opties te kiezen.
 
+**Tip:** er is een [Engelstalige versie](https://sp1.mprog.nl/) van deze cursus beschikbaar. Op dit moment is die ook iets uitgebreider.
+
 ## Modules
 
 **Module 1**, kies uit:
